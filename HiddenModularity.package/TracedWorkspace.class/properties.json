@@ -1,0 +1,14 @@
+{
+	"category" : "HiddenModularity",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TracedWorkspace",
+	"pools" : [
+		 ],
+	"super" : "Workspace",
+	"type" : "normal" }
