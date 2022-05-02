@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "TracedWorkspace",
+	"name" : "HMTracedWorkspace",
 	"pools" : [
 		 ],
 	"super" : "Workspace",

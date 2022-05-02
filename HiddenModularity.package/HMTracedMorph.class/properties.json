@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "TracedMorph",
+	"name" : "HMTracedMorph",
 	"pools" : [
 		 ],
 	"super" : "Morph",
