@@ -1,0 +1,14 @@
+{
+	"category" : "HiddenModularity",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HMTraceParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

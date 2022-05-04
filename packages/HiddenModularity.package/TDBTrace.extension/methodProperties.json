@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"addSender:andReceiver:toGraph:" : "lp 5/1/2022 21:42",
-		"addSender:receiver:andAmount:toGraph:" : "lp 5/1/2022 21:46",
-		"messageGraph" : "lp 5/1/2022 21:54",
-		"messageRecord" : "lp 5/1/2022 21:18" } }

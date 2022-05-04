@@ -1,16 +1,16 @@
-*HiddenModularity
-messageGraph
+as yet unclassified
+messageGraphFrom: aTraceCursor startingAt: rootContext 
 
 	| childrenGraphs graph |
 
 	graph := Dictionary new.
 	childrenGraphs := OrderedCollection new.
 
-	self children
-		valuesDo: [:childTrace | 
+	(aTraceCursor childContextsFor: rootContext)
+		do: [:context | 
 			| childGraph |
-			
-			childGraph := childTrace messageGraph.
+
+			childGraph := self messageGraphFrom: aTraceCursor startingAt: context.
 			childGraph
 				keysAndValuesDo: [:cSender :cReceiverDict | cReceiverDict
 						keysAndValuesDo: [:cReceiver :cAmount | self
@@ -18,10 +18,10 @@ messageGraph
 								receiver: cReceiver
 								andAmount: cAmount
 								toGraph: graph]]].
-	
+
 	self
-		addSender: ((self contextAtTime: (self maxTimeIndex)) sender asString)
-		andReceiver: ((self contextAtTime: (self maxTimeIndex)) receiver asString)
+		addSender: rootContext sender asString
+		andReceiver: rootContext receiver asString
 		toGraph: graph.
 
 	^ graph
