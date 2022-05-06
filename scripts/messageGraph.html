@@ -160,12 +160,12 @@
                 y: 400,
                 vx: 0,
                 vy: 0,
-                radius: 25
+                radius: 20
             }
         }
 
         function ticked() {
-            var u = d3.select('svg')
+            var circles = d3.select('svg')
                 .selectAll('circle')
                 .data(nodes)
                 .join('circle')
@@ -179,6 +179,20 @@
                     return d.x
                 })
                 .attr("cy", function (d) {
+                    return d.y
+                })
+            
+            var labels = d3.select('svg')
+                .selectAll('text')
+                .data(nodes)
+                .join('text')
+                .text(function(d) {
+                    return d.label
+                })
+                .attr('x', function(d) {
+                    return d.x
+                })
+                .attr('y', function(d) {
                     return d.y
                 })
         }
