@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <title>Analysis of the massage graph</title>
+
+    <style>
+        .svg-container {
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            padding-bottom: 100%;
+            vertical-align: top;
+            overflow: hidden;
+        }
+
+        .svg-content {
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Analysis of the massage graph</h1>
+
+    <div id="container" class="svg-container"></div>
+
+    <script type="module">
+        import * as d3 from "https://cdn.skypack.dev/d3@7";
+        import { forceSimulation, forceLink, forceManyBody, forceCollide, forceCenter } from "https://cdn.skypack.dev/d3-force@3";
+
+        const data = {
+            "GrafPort(BitBlt)>>fillColor:": {
+                "DisplayScreen(1920x1023x32)": 1
+            },
+            "HMTracedMorph(Morph)>>wantsRoundedCorners": {
+                "a HMTracedMorph(1601889)": 1
+            },
+            "Point>>-": {
+                "0": 2
+            },
+            "SmallInteger(Number)>>adaptToPoint:andSend:": {
+                "0@22": 2,
+                "50@62": 2
+            },
+            "HMTracedMorph(Morph)>>valueOfProperty:ifAbsentPut:": {
+                "a MorphExtension (1397234) [other:  (borderStyle -> a BorderStyle)]": 1,
+                "a HMTracedMorph(1601889)": 1
+            },
+            "HMTracedMorph(Morph)>>fillStyle": {
+                "a HMTracedMorph(1601889)": 1
+            },
+            "Rectangle class>>origin:corner:": {
+                "nil corner: nil": 3
+            },
+            "IdentityDictionary>>scanFor:": {
+                "borderStyle": 1,
+                "cornerStyle": 1,
+                "fillStyle": 1
+            },
+            "FormCanvas>>frameAndFillRectangle:fillColor:borderWidth:borderColor:": {
+                "a GrafPort": 1,
+                "a FormCanvas on: DisplayScreen(1920x1023x32)": 1,
+                "nil corner: nil": 2,
+                "Color transparent": 1
+            },
+            "Point>>+": {
+                "0": 2
+            },
+            "GrafPort>>fillRect:offset:": {
+                "a GrafPort": 1,
+                "nil corner: nil": 4
+            },
+            "HMTracedMorph(Morph)>>valueOfProperty:ifAbsent:": {
+                "a MorphExtension (1397234) [other:  (borderStyle -> a BorderStyle)]": 2
+            },
+            "FormCanvas(Canvas)>>fillRectangle:color:": {
+                "Color": 1,
+                "a FormCanvas on: DisplayScreen(1920x1023x32)": 1
+            },
+            "Rectangle>>insetBy:": {
+                "0@22": 2,
+                "50@62": 2,
+                "Rectangle": 2
+            },
+            "FormCanvas>>setFillColor:": {
+                "Form": 1,
+                "a GrafPort": 3,
+                "a FormCanvas on: DisplayScreen(1920x1023x32)": 1
+            },
+            "HMTracedMorph(Morph)>>drawOn:": {
+                "a HMTracedMorph(1601889)": 3,
+                "a FormCanvas on: DisplayScreen(1920x1023x32)": 1
+            },
+            "DisplayScreen(Form)>>bitPatternFor:": {
+                "Color blue": 1,
+                "DisplayScreen(1920x1023x32)": 1
+            },
+            "MorphExtension>>valueOfProperty:ifAbsent:": {
+                "an IdentityDictionary(#borderStyle->a BorderStyle )": 2
+            },
+            "FormCanvas>>fillRectangle:fillStyle:": {
+                "Color blue": 1,
+                "a FormCanvas on: DisplayScreen(1920x1023x32)": 1
+            },
+            "[] in HMTracedMorph>>drawOn:": {
+                "a HMTracedMorph(1601889)": 1
+            },
+            "MorphExtension>>valueOfProperty:ifAbsentPut:": {
+                "a MorphExtension (1397234) [other:  (borderStyle -> a BorderStyle)]": 1,
+                "an IdentityDictionary(#borderStyle->a BorderStyle )": 1
+            },
+            "HMTracedMorph(Morph)>>borderStyle": {
+                "a HMTracedMorph(1601889)": 1
+            },
+            "GrafPort>>fillPattern:": {
+                "a GrafPort": 1
+            },
+            "Color(Object)>>isKindOf:": {
+                "Color": 1
+            },
+            "IdentityDictionary(Dictionary)>>at:ifAbsent:": {
+                "an IdentityDictionary(#borderStyle->a BorderStyle )": 3,
+                "a HMTracedMorph(1601889)": 2
+            },
+            "IdentityDictionary(Dictionary)>>at:ifAbsentPut:": {
+                "an IdentityDictionary(#borderStyle->a BorderStyle )": 1
+            },
+            "Rectangle>>translateBy:": {
+                "0@22": 1,
+                "Rectangle": 1,
+                "50@62": 1
+            },
+            "HMTracedMorph(Morph)>>cornerStyle": {
+                "a HMTracedMorph(1601889)": 1
+            },
+            "FormCanvas(Canvas)>>frameAndFillRectangle:fillStyle:borderStyle:": {
+                "0@22 corner: 50@62": 1,
+                "a FormCanvas on: DisplayScreen(1920x1023x32)": 1,
+                "a BorderStyle": 1
+            },
+            "[] in FullBlockClosure(BlockClosure)>>newProcess": {
+                "a HMTracedMorph(1601889)": 1
+            },
+            "FormCanvas>>depth": {
+                "DisplayScreen(1920x1023x32)": 1
+            }
+        };
+
+        function newNode(label) {
+            return {
+                label: label,
+                index: null,
+                x: 400,
+                y: 400,
+                vx: 0,
+                vy: 0,
+                radius: 25
+            }
+        }
+
+        function ticked() {
+            var u = d3.select('svg')
+                .selectAll('circle')
+                .data(nodes)
+                .join('circle')
+                .attr('r', function (d) {
+                    return d.radius
+                })
+                .style('fill', function (d) {
+                    return 'orange'
+                })
+                .attr('cx', function (d) {
+                    return d.x
+                })
+                .attr("cy", function (d) {
+                    return d.y
+                })
+        }
+
+        d3.select("div#container")
+            .append("svg")
+            .attr("preserveAspectRatio", "xMinYMin meet")
+            .attr("viewBox", "0 0 800 800")
+            .classed("svg-content", true);
+
+        // create nodes
+        const nodeMap = {};
+        Object.keys(data).forEach((caller) => {
+            nodeMap[caller] = newNode(caller)
+            Object.keys(data[caller]).forEach(callee => {
+                if (!nodeMap[callee]) {
+                    nodeMap[callee] = newNode(callee);
+                }
+            });
+        });
+        Object.keys(nodeMap).forEach((nodeName, index) => {
+            nodeMap[nodeName].index = index;
+        });
+
+        const nodes = [];
+        Object.keys(nodeMap).forEach(nodeName => {
+            nodes.push(nodeMap[nodeName])
+        });
+
+        // create links
+        const links = [];
+        Object.keys(data).forEach(caller => {
+            Object.keys(data[caller]).forEach(callee => {
+                links.push({
+                    source: nodeMap[caller].index,
+                    target: nodeMap[callee].index,
+                    strength: data[caller][callee] * 2
+                });
+            });
+        });
+
+        // start simulation
+        const simulation = forceSimulation(nodes)
+            .force("link", forceLink(links))
+            .force("charge", forceManyBody(-5))
+            .force("collision", forceCollide().radius(function (d) {
+                return d.radius;
+            }))
+            .on("tick", ticked);
+
+        // stop it after 5 seconds
+        setTimeout(function () {
+            simulation.stop();
+        }, 5000);
+
+    </script>
+</body>
+
+</html>
