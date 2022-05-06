@@ -6,20 +6,16 @@
     <title>Analysis of the massage graph</title>
 
     <style>
-        .svg-container {
-            display: inline-block;
-            position: relative;
-            width: 100%;
-            padding-bottom: 100%;
-            vertical-align: top;
-            overflow: hidden;
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+            width: 100%
         }
 
-        .svg-content {
-            display: inline-block;
-            position: absolute;
-            top: 0;
-            left: 0;
+        .svg-container {
+            height: 90%;
+            width: 100%;
         }
     </style>
 </head>
@@ -31,9 +27,11 @@
     <div id="container" class="svg-container"></div>
 
     <script type="module">
+
         import * as d3 from "https://cdn.skypack.dev/d3@7";
         import { forceSimulation, forceLink, forceManyBody, forceCollide, forceCenter } from "https://cdn.skypack.dev/d3-force@3";
 
+        // copied from assets/traceData/MorphDrawOn.json -> is easier for now than loading data from the file
         const data = {
             "GrafPort(BitBlt)>>fillColor:": {
                 "DisplayScreen(1920x1023x32)": 1
@@ -152,6 +150,19 @@
             }
         };
 
+        function randomColor() {
+            const maxColorVal = 0xFFFFFF
+            const randomColor = Math.random() * maxColorVal
+            return "#" + Math.floor(randomColor).toString(16);
+        }
+
+        function uniqueRandomColor(id, dict) {
+            var color = randomColor();
+            while (Object.values(dict).includes(color)) {
+                color = randomColor();
+            }
+            return color
+        }
         function newNode(label) {
             return {
                 label: label,
@@ -160,12 +171,13 @@
                 y: 400,
                 vx: 0,
                 vy: 0,
-                radius: 20
+                radius: 20,
+                category: label.match(/^.*>>/) ? label.match(/^.*>>/)[0] : 'default'
             }
         }
 
         function ticked() {
-            var circles = d3.select('svg')
+            d3.select('svg g')
                 .selectAll('circle')
                 .data(nodes)
                 .join('circle')
@@ -173,35 +185,42 @@
                     return d.radius
                 })
                 .style('fill', function (d) {
-                    return 'orange'
+                    return colors[d.category] ? colors[d.category] : colors.default
                 })
+                .style('stroke', "black")
                 .attr('cx', function (d) {
                     return d.x
                 })
                 .attr("cy", function (d) {
                     return d.y
                 })
-            
-            var labels = d3.select('svg')
+                .on('click', function (d) {
+                    console.log(d.target.__data__.label)
+                })
+
+            d3.select('svg g')
                 .selectAll('text')
                 .data(nodes)
                 .join('text')
-                .text(function(d) {
+                .text(function (d) {
                     return d.label
                 })
-                .attr('x', function(d) {
+                .attr('x', function (d) {
                     return d.x
                 })
-                .attr('y', function(d) {
+                .attr('y', function (d) {
                     return d.y
                 })
         }
 
-        d3.select("div#container")
+        var svg = d3.select(container)
             .append("svg")
-            .attr("preserveAspectRatio", "xMinYMin meet")
-            .attr("viewBox", "0 0 800 800")
-            .classed("svg-content", true);
+            .attr("width", "100%")
+            .attr("height", "100%")
+            .call(d3.zoom().on("zoom", function (event) {
+                svg.attr("transform", event.transform)
+            }))
+            .append("g")
 
         // create nodes
         const nodeMap = {};
@@ -222,6 +241,16 @@
             nodes.push(nodeMap[nodeName])
         });
 
+        // create color categories
+        var colors = {
+            default: 'white'
+        }
+        nodes.forEach(node => {
+            if (!colors[node.category]) {
+                colors[node.category] = uniqueRandomColor(node.category, colors)
+            }
+        })
+
         // create links
         const links = [];
         Object.keys(data).forEach(caller => {
@@ -234,7 +263,6 @@
             });
         });
 
-        // start simulation
         const simulation = forceSimulation(nodes)
             .force("link", forceLink(links))
             .force("charge", forceManyBody(-5))
@@ -243,7 +271,6 @@
             }))
             .on("tick", ticked);
 
-        // stop it after 5 seconds
         setTimeout(function () {
             simulation.stop();
         }, 5000);
