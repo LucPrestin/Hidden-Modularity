@@ -2,6 +2,8 @@
 
 This repo contains code snippes that were used to work towards the research goal below. For the gained insights and further information, have a look at the [wiki](https://github.com/LucPrestin/Hidden-Modularity/wiki).
 
+For the visualizations made with JavaScript, have a look at the [github pages entry](https://lucprestin.github.io/Hidden-Modularity/).
+
 ## Background
 
 Objects and the messages they send to each other are the basis of any object-oriented program. As the size of a program growths, the structure gets less and less comprehensible. The static structure like the inheritance tree or protocol definitions can only poorly, if at all, capture the dynamic behavior of a living object-oriented system. Which objects communicate with one another is hidden.
