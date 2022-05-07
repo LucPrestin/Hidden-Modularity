@@ -1,0 +1,14 @@
+{
+	"category" : "HiddenModularity",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HMTracedMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
