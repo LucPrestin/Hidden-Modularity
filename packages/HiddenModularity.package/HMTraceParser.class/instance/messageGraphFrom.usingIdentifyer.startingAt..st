@@ -1,16 +1,18 @@
 as yet unclassified
-messageGraphFrom: aTraceCursor startingAt: rootContext 
+messageGraphFrom: aTDBCursor usingIdentifyer: aSymbol startingAt: rootContext 
 
 	| childrenGraphs graph |
 
 	graph := Dictionary new.
 	childrenGraphs := OrderedCollection new.
 
-	(aTraceCursor childContextsFor: rootContext)
+	(aTDBCursor childContextsFor: rootContext)
 		do: [:context | 
 			| childGraph |
-
-			childGraph := self messageGraphFrom: aTraceCursor startingAt: context.
+			childGraph := self
+						messageGraphFrom: aTDBCursor
+						usingIdentifyer: aSymbol
+						startingAt: context.
 			childGraph
 				keysAndValuesDo: [:cSender :cReceiverDict | cReceiverDict
 						keysAndValuesDo: [:cReceiver :cAmount | self
@@ -18,10 +20,9 @@ messageGraphFrom: aTraceCursor startingAt: rootContext
 								receiver: cReceiver
 								andAmount: cAmount
 								toGraph: graph]]].
-
 	self
-		addSender: rootContext sender asString
-		andReceiver: rootContext receiver asString
+		addSender: (rootContext sender perform: aSymbol)
+		andReceiver: (rootContext receiver perform: aSymbol)
 		toGraph: graph.
 
 	^ graph
