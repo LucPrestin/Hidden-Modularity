@@ -31,7 +31,7 @@ function runSimulationWithData(data) {
         .force("collision", forceCollide().radius(function (d) {
             return d.radius;
         }))
-        .on("tick", () => ticked(colors));
+        .on("tick", () => ticked(nodes, colors));
 
     setTimeout(function () {
         simulation.stop();
@@ -99,7 +99,7 @@ function createLinks(nodeMap, data) {
     return links
 }
 
-function ticked(colors) {
+function ticked(nodes, colors) {
     d3.select('svg g')
         .selectAll('circle')
         .data(nodes)
