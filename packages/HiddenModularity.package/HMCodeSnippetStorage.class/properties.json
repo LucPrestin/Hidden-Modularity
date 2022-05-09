@@ -1,0 +1,14 @@
+{
+	"category" : "HiddenModularity",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HMCodeSnippetStorage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
