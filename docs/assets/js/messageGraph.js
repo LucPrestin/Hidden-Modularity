@@ -5,7 +5,7 @@ import { uniqueRandomColor } from "./utils.js"
 // ==================== interface ==================== //
 
 export async function runSimulationWithDataFromFile(filePath) {
-    const data = await (await fetch(filePath)).json
+    const data = await (await fetch(filePath)).json()
     runSimulationWithData(data)
 }
 
