@@ -1,6 +1,11 @@
 as yet unclassified
 messageGraphFrom: aTDBCursor usingIdentifyer: aSymbol
 	
-	^ self messageGraphFrom: aTDBCursor usingIdentifyer: aSymbol startingAt: aTDBCursor context
+	| contexts |
+
+	contexts := self collectContextsFrom: aTDBCursor.
 	
+	^ self constructGraphFromContexts: contexts usingIdentifyer: aSymbol
+
+
 	

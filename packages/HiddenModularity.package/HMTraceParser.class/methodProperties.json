@@ -8,8 +8,10 @@
 	"instance" : {
 		"addSender:andReceiver:toGraph:" : "lp 5/4/2022 20:09",
 		"addSender:receiver:andAmount:toGraph:" : "lp 5/4/2022 20:08",
+		"collectContextsFrom:" : "lp 5/9/2022 23:56",
+		"collectContextsFrom:startingAt:" : "lp 5/9/2022 23:55",
+		"constructGraphFromContexts:usingIdentifyer:" : "lp 5/10/2022 00:13",
 		"messageGraphFrom:" : "lp 5/9/2022 18:51",
-		"messageGraphFrom:usingIdentifyer:" : "lp 5/9/2022 18:38",
-		"messageGraphFrom:usingIdentifyer:startingAt:" : "lp 5/9/2022 18:40",
+		"messageGraphFrom:usingIdentifyer:" : "lp 5/10/2022 00:08",
 		"messageGraphWithoutTracingInfrastructureFrom:" : "lp 5/9/2022 18:52",
-		"messageGraphWithoutTracingInfrastructureFrom:usingIdentifyer:" : "lp 5/9/2022 18:56" } }
+		"messageGraphWithoutTracingInfrastructureFrom:usingIdentifyer:" : "lp 5/10/2022 00:10" } }

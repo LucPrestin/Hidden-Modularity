@@ -1,14 +1,17 @@
 as yet unclassified
 messageGraphWithoutTracingInfrastructureFrom: aTDBCursor usingIdentifyer: aSymbol
 
-	| context |
+	| rootContext contexts |
 	
-	context := aTDBCursor context.
+	rootContext := aTDBCursor context.
 	
 	"omit data on the creation of the tracing process"
-	context := (aTDBCursor childContextsFor: context) first.
+	rootContext := (aTDBCursor childContextsFor: rootContext) first.
 	
 	"omit data on the tracing block itself to only look at the block's execution"
-	context := (aTDBCursor childContextsFor: context) first.
-
-	^ self messageGraphFrom: aTDBCursor usingIdentifyer: aSymbol startingAt: context
+	rootContext := (aTDBCursor childContextsFor: rootContext) first.
+	
+	contexts := self collectContextsFrom: aTDBCursor startingAt: rootContext.
+	contexts add: rootContext.
+	
+	^ self constructGraphFromContexts: contexts usingIdentifyer: aSymbol
