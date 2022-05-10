@@ -1,4 +1,4 @@
 as yet unclassified
 traceNetworkAccess
 
-	[(WebClient httpGet: 'https://squeak.org') content] traceAndDebug
+	[(WebClient httpGet: 'https://google.com') content] traceAndDebug

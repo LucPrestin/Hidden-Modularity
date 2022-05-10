@@ -8,7 +8,7 @@ constructGraphFromContexts: contexts usingIdentifyer: aSymbol
 	 contexts do: [:context |
 		| senderKey receiverKey |
 		
-		senderKey := context sender perform: aSymbol.
+		senderKey := context sender receiver perform: aSymbol.
 		receiverKey := context receiver perform: aSymbol.
 		
 		graph at: senderKey ifAbsentPut: Dictionary new.
