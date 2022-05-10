@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <title>Visualization of Message Graphs using a Force Simulation</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+            width: 100%
+        }
+
+        .svg-container {
+            height: 90%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Visualization of Message Graphs using a Force Simulation</h1>
+
+    <label for="select-dataset-path">Choose a dataset:</label>
+    <select name="dataset" id="select-dataset">
+        <option value="" selected disabled>None</option>
+        <option value="/Hidden-Modularity/assets/traceData/messageGraphData/morphDrawOn/identityHash.json"><code>Morph>>drawOn:</code> using <code>#identityHash</code></option>
+        <option value="/Hidden-Modularity/assets/traceData/messageGraphData/morphDrawOn/asString.json"><code>Morph>>drawOn:</code> using <code>#asString</code></option>
+        <option value="/Hidden-Modularity/assets/traceData/messageGraphData/morphDrawOn/name.json"><code>Morph>>drawOn:</code> using <code>#name</code></option>
+    </select>
+    <button id="button-confirm-dataset">Confirm</button>
+
+    <div id="container" class="svg-container"></div>
+
+    <script type="module">
+        import { runSimulationWithDataFromFile } from "/Hidden-Modularity/assets/js/messageGraph.js";
+        import { removeChildren } from "/Hidden-Modularity/assets/js/utils.js";
+
+        const container = document.getElementById("container");
+        const select = document.getElementById("select-dataset");
+        const button = document.getElementById("button-confirm-dataset");
+
+        button.addEventListener("click", () => {
+            const dataPath = select.options[select.selectedIndex].value;
+            if(dataPath) {
+                removeChildren(container);
+                button.disabled = true;
+                select.disabled = true;
+                runSimulationWithDataFromFile(dataPath, () => {
+                    button.disabled = false;
+                    select.disabled = false;
+                });
+            } else {
+                alert('Please select a dataset first');
+            }
+        })
+    </script>
+</body>
+
+</html>

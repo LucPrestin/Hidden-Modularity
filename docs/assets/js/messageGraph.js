@@ -4,14 +4,14 @@ import { uniqueRandomColor } from "./utils.js"
 
 // ==================== interface ==================== //
 
-export async function runSimulationWithDataFromFile(filePath) {
-    const data = await (await fetch(filePath)).json()
-    runSimulationWithData(data)
+export async function runSimulationWithDataFromFile(filePath, onSimulationFinished = () => {}) {
+    const data = await (await fetch(filePath)).json();
+    runSimulationWithData(data, onSimulationFinished);
 }
 
 // ==================== helpers ==================== //
 
-function runSimulationWithData(data) {
+function runSimulationWithData(data, onSimulationFinished = () => {}) {
     var svg = d3.select(container)
         .append("svg")
         .attr("width", "100%")
@@ -35,6 +35,7 @@ function runSimulationWithData(data) {
 
     setTimeout(function () {
         simulation.stop();
+        onSimulationFinished();
     }, 5000);
 }
 
