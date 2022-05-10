@@ -21,7 +21,7 @@ messageGraphFrom: aTDBCursor usingIdentifyer: aSymbol startingAt: rootContext
 								andAmount: cAmount
 								toGraph: graph]]].
 	self
-		addSender: (rootContext sender perform: aSymbol)
+		addSender: (rootContext sender receiver perform: aSymbol)
 		andReceiver: (rootContext receiver perform: aSymbol)
 		toGraph: graph.
 
