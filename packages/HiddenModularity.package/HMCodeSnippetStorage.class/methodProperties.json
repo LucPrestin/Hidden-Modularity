@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"traceBrowserOpening" : "lp 5/15/2022 23:35",
 		"traceNetworkAccess" : "lp 5/10/2022 09:36" },
 	"instance" : {
 		 } }
