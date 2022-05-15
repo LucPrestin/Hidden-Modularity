@@ -12,10 +12,11 @@
 	"instance" : {
 		"addSender:andReceiver:toGraph:" : "lp 5/4/2022 20:09",
 		"addSender:receiver:andAmount:toGraph:" : "lp 5/4/2022 20:08",
+		"collectCommunicatorsFrom:usingIdentifyer:" : "lp 5/15/2022 23:21",
 		"collectContextsFrom:" : "lp 5/10/2022 17:18",
 		"collectContextsFrom:startingAt:" : "lp 5/9/2022 23:55",
-		"constructGraphFromContexts:usingIdentifyer:" : "lp 5/15/2022 23:13",
+		"constructGraphFromCommunicators:" : "lp 5/15/2022 23:22",
 		"messageGraphFrom:" : "lp 5/9/2022 18:51",
-		"messageGraphFrom:usingIdentifyer:" : "lp 5/15/2022 23:13",
+		"messageGraphFrom:usingIdentifyer:" : "lp 5/15/2022 23:27",
 		"messageGraphWithoutTracingInfrastructureFrom:" : "lp 5/9/2022 18:52",
-		"messageGraphWithoutTracingInfrastructureFrom:usingIdentifyer:" : "lp 5/15/2022 23:13" } }
+		"messageGraphWithoutTracingInfrastructureFrom:usingIdentifyer:" : "lp 5/15/2022 23:23" } }
