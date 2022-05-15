@@ -4,14 +4,12 @@ import { uniqueRandomColor } from "./utils.js"
 
 // ==================== interface ==================== //
 
-export async function runSimulationWithDataFromFile(filePath, onSimulationFinished = () => {}) {
+export async function runSimulationWithDataFromFile(filePath, onSimulationFinished = () => { }) {
     const data = await (await fetch(filePath)).json();
     runSimulationWithData(data, onSimulationFinished);
 }
 
-// ==================== helpers ==================== //
-
-function runSimulationWithData(data, onSimulationFinished = () => {}) {
+export function runSimulationWithData(data, onSimulationFinished = () => { }) {
     var svg = d3.select(container)
         .append("svg")
         .attr("width", "100%")
@@ -27,17 +25,19 @@ function runSimulationWithData(data, onSimulationFinished = () => {}) {
 
     const simulation = forceSimulation(nodes)
         .force("link", forceLink(links))
-        .force("charge", forceManyBody(-5))
+        .force("charge", forceManyBody(-0.5))
         .force("collision", forceCollide().radius(function (d) {
             return d.radius;
         }))
-        .on("tick", () => ticked(nodes, colors));
+        .on("tick", () => ticked(nodes, links, colors));
 
     setTimeout(function () {
         simulation.stop();
         onSimulationFinished();
     }, 5000);
 }
+
+// ==================== helpers ==================== //
 
 function createNodes(data) {
     const nodeMap = {};
@@ -100,7 +100,7 @@ function createLinks(nodeMap, data) {
     return links
 }
 
-function ticked(nodes, colors) {
+function ticked(nodes, links, colors) {
     d3.select('svg g')
         .selectAll('circle')
         .data(nodes)
@@ -135,4 +135,14 @@ function ticked(nodes, colors) {
         .attr('y', function (d) {
             return d.y
         })
+
+    d3.select('svg g')
+        .selectAll('path')
+        .data(links)
+        .join("path")
+        .attr("d", d3.link(d3.curveBasis)
+            .source(link => [link.source.x, link.source.y])
+            .target(link => [link.target.x, link.target.y]))
+        .attr("fill", "none")
+        .attr("stroke", "black")
 }
