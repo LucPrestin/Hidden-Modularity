@@ -1,5 +1,5 @@
 as yet unclassified
-constructGraphFromContexts: contexts usingIdentifyer: aSymbol
+constructGraphFromContexts: contexts usingIdentifyer: aBlock
 	
 	| graph |
 	
@@ -8,8 +8,8 @@ constructGraphFromContexts: contexts usingIdentifyer: aSymbol
 	 contexts do: [:context |
 		| senderKey receiverKey |
 		
-		senderKey := context sender receiver perform: aSymbol.
-		receiverKey := context receiver perform: aSymbol.
+		senderKey := aBlock value: context sender receiver.
+		receiverKey := aBlock value: context receiver.
 		
 		graph at: senderKey ifAbsentPut: Dictionary new.
 		(graph at: senderKey) at: receiverKey ifAbsentPut: 0.

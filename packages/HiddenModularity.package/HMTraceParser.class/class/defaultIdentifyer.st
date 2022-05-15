@@ -1,4 +1,4 @@
 as yet unclassified
 defaultIdentifyer
 
-	^ #name
+	^ [:communicator | communicator name]
