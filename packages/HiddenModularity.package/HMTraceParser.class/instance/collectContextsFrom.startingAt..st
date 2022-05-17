@@ -1,14 +1,14 @@
 as yet unclassified
-collectContextsFrom: aTDBCursor startingAt: aContext
+collectContextsFrom: aTDBCursor startingAt: aContextProxy
 
 	| childContexts contexts |
 	
 	contexts := OrderedCollection new.
-	childContexts := aTDBCursor childContextsFor: aContext.
+	childContexts := aTDBCursor childContextsFor: aContextProxy.
 	
-	childContexts do: [:cContext | 
-		contexts addAll: (self collectContextsFrom: aTDBCursor startingAt: cContext).
-		contexts add: cContext
+	childContexts do: [:cContextProxy | 
+		contexts addAll: (self collectContextsFrom: aTDBCursor startingAt: cContextProxy).
+		contexts add: {aContextProxy xxxtdbproxyObject . cContextProxy xxxtdbproxyObject}
 	].
 	
 	^ contexts

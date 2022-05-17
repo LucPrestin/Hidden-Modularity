@@ -2,4 +2,4 @@ as yet unclassified
 collectCommunicatorsFrom: contexts usingIdentifyer: aBlock 
 
 	^ contexts
-		collect: [:context | {aBlock value: context sender receiver. aBlock value: context receiver}]
+		collect: [:senderAndReceiver | {aBlock value: senderAndReceiver first receiver. aBlock value: senderAndReceiver second receiver}]
