@@ -13,19 +13,10 @@ collectVerticesFrom: communicators
 		
 		(vertices includesKey: senderId) ifFalse: [
 			senderInformation := self collectObjectInformationOf: contextPair first.
-			vertices at: senderId put: senderInformation.
-		].
+			vertices at: senderId put: senderInformation].
 	
 		(vertices includesKey: receiverId) ifFalse: [
 			receiverInformation := self collectObjectInformationOf: contextPair second.
-			vertices at: receiverId put: receiverInformation.
-		]
-	].
+			vertices at: receiverId put: receiverInformation]].
 
 	^ vertices
-
-	
-	
-
-
-	

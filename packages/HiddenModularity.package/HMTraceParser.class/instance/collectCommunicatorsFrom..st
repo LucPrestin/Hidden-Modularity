@@ -1,7 +1,7 @@
 as yet unclassified
 collectCommunicatorsFrom: contexts 
 
-	^ contexts	collect: [:contextPair | {
+	^ contexts collect: [:contextPair | {
 			contextPair first
 				ifNotNil: [contextPair first receiver]. 
 			contextPair second

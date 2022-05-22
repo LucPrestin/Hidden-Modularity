@@ -14,8 +14,7 @@ collectEdgesFrom: communicators
 		
 		edgeGraph at: senderId ifAbsentPut: Dictionary new.
 		(edgeGraph at: senderId) at: receiverId ifAbsentPut: 0.
-		(edgeGraph at: senderId) at: receiverId put: ((edgeGraph at: senderId) at: receiverId) + 1.
-	].
+		(edgeGraph at: senderId) at: receiverId put: ((edgeGraph at: senderId) at: receiverId) + 1].
 
 	edgeGraph keysAndValuesDo: [:senderId :receiverDict |
 		receiverDict keysAndValuesDo: [:receiverId :edgeWeight |
@@ -26,11 +25,6 @@ collectEdgesFrom: communicators
 			edge at: 'target' put: receiverId.
 			edge at: 'weight' put: edgeWeight.
 			
-			edgeArray add: edge.
-		 ]
-	].
+			edgeArray add: edge]].
 
 	^ edgeArray
-
-
-	

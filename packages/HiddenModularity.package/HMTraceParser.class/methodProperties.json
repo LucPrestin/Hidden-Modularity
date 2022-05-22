@@ -5,12 +5,12 @@
 		"messageGraphWithoutTracingInfrastructureFromCursor:" : "lp 5/22/2022 14:12",
 		"writeMessageGraphFromCursor:toFileNamed:" : "lp 5/22/2022 16:28" },
 	"instance" : {
-		"collectCommunicatorsFrom:" : "lp 5/22/2022 16:19",
-		"collectContextsFrom:" : "lp 5/17/2022 11:14",
+		"collectCommunicatorsFrom:" : "lp 5/22/2022 21:10",
+		"collectContextsFrom:" : "lp 5/22/2022 21:11",
 		"collectContextsFrom:startingAt:" : "lp 5/17/2022 11:16",
-		"collectEdgesFrom:" : "lp 5/22/2022 16:34",
+		"collectEdgesFrom:" : "lp 5/22/2022 21:12",
 		"collectObjectInformationOf:" : "lp 5/22/2022 16:33",
-		"collectVerticesFrom:" : "lp 5/22/2022 16:33",
-		"messageGraphFromContexts:" : "lp 5/22/2022 16:10",
-		"messageGraphFromCursor:" : "lp 5/22/2022 14:12",
+		"collectVerticesFrom:" : "lp 5/22/2022 21:13",
+		"messageGraphFromContexts:" : "lp 5/22/2022 21:13",
+		"messageGraphFromCursor:" : "lp 5/22/2022 21:14",
 		"messageGraphWithoutTracingInfrastructureFromCursor:" : "lp 5/22/2022 14:12" } }

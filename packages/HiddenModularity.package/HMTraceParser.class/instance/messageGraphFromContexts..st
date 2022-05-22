@@ -10,6 +10,3 @@ messageGraphFromContexts: contexts
 	graph at: 'edges' put: (self collectEdgesFrom: communicators).
 	
 	^ graph
-
-
-	
