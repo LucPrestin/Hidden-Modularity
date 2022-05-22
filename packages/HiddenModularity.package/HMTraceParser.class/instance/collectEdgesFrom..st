@@ -1,12 +1,12 @@
 as yet unclassified
-collectEdgesFrom: contexts
+collectEdgesFrom: communicators
 
 	| edgeGraph edgeArray |
 	
 	edgeGraph := Dictionary new.
 	edgeArray := OrderedCollection new.
 	
-	contexts do: [ :contextPair |
+	communicators do: [ :contextPair |
 		| senderId receiverId |
 		
 		senderId := contextPair first identityHash.

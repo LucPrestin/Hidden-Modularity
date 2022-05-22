@@ -10,7 +10,7 @@ collectObjectInformationOf: anObject
 	information at: 'category' put: anObject class category asString.
 	information
 		at: 'package'
-		put: (PackageOrganizer default packageOfSystemCategory: anObject class category).
+		put: (PackageOrganizer default packageOfSystemCategory: anObject class category) packageName.
 
 	anObject isCompiledMethod
 		ifTrue: [information at: 'methodReference' put: anObject methodReference asString.
