@@ -1,0 +1,4 @@
+as yet unclassified
+messageGraphWithoutTracingInfrastructureFromCursor: aTDBCursor
+
+	^ self default messageGraphWithoutTracingInfrastructureFromCursor: aTDBCursor

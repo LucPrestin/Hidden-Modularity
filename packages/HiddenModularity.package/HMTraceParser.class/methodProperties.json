@@ -1,20 +1,14 @@
 {
 	"class" : {
-		"collectContextsFrom:" : "lp 5/10/2022 18:47",
-		"collectContextsFrom:startingAt:" : "lp 5/10/2022 18:48",
 		"default" : "lp 5/10/2022 18:46",
-		"defaultIdentifyer" : "lp 5/15/2022 23:14",
-		"messageGraphFrom:" : "lp 5/10/2022 18:46",
-		"messageGraphFrom:usingIdentifyer:" : "lp 5/17/2022 11:10",
-		"messageGraphWithoutTracingInfrastructureFrom:" : "lp 5/10/2022 18:46",
-		"messageGraphWithoutTracingInfrastructureFrom:usingIdentifyer:" : "lp 5/17/2022 11:10",
-		"writeMessageLogFrom:toFileNamed:" : "lp 5/10/2022 19:03" },
+		"messageGraphFromCursor:" : "lp 5/22/2022 14:12",
+		"messageGraphWithoutTracingInfrastructureFromCursor:" : "lp 5/22/2022 14:12" },
 	"instance" : {
-		"collectCommunicatorsFrom:usingIdentifyer:" : "lp 5/17/2022 11:13",
 		"collectContextsFrom:" : "lp 5/17/2022 11:14",
 		"collectContextsFrom:startingAt:" : "lp 5/17/2022 11:16",
-		"constructGraphFromCommunicators:" : "lp 5/15/2022 23:22",
-		"messageGraphFrom:" : "lp 5/9/2022 18:51",
-		"messageGraphFrom:usingIdentifyer:" : "lp 5/15/2022 23:27",
-		"messageGraphWithoutTracingInfrastructureFrom:" : "lp 5/9/2022 18:52",
-		"messageGraphWithoutTracingInfrastructureFrom:usingIdentifyer:" : "lp 5/15/2022 23:23" } }
+		"collectEdgesFrom:" : "lp 5/22/2022 14:05",
+		"collectObjectInformationOf:" : "lp 5/22/2022 13:42",
+		"collectVerticesFrom:" : "lp 5/22/2022 14:06",
+		"messageGraphFromContexts:" : "lp 5/22/2022 14:08",
+		"messageGraphFromCursor:" : "lp 5/22/2022 14:12",
+		"messageGraphWithoutTracingInfrastructureFromCursor:" : "lp 5/22/2022 14:12" } }

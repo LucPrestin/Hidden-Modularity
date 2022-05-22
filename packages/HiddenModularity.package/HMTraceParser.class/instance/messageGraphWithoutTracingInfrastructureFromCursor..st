@@ -1,7 +1,7 @@
 as yet unclassified
-messageGraphWithoutTracingInfrastructureFrom: aTDBCursor usingIdentifyer: aBlock
+messageGraphWithoutTracingInfrastructureFromCursor: aTDBCursor
 
-	| rootContext contexts communicators |
+	| rootContext contexts |
 	
 	rootContext := aTDBCursor context.
 	
@@ -14,6 +14,4 @@ messageGraphWithoutTracingInfrastructureFrom: aTDBCursor usingIdentifyer: aBlock
 	contexts := self collectContextsFrom: aTDBCursor startingAt: rootContext.
 	contexts add: rootContext.
 	
-	communicators := self collectCommunicatorsFrom: contexts usingIdentifyer: aBlock.
-	
-	^ self constructGraphFromCommunicators: communicators
+	^ self messageGraphFromContexts: contexts
