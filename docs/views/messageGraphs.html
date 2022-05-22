@@ -51,7 +51,7 @@
 
     <br />
 
-    <button id="button-confirm-dataset">Confirm</button>
+    <button id="button-confirm">Confirm</button>
 
     <div id="container" class="svg-container"></div>
 
@@ -66,20 +66,20 @@
         const vertex_granularity_select = document.getElementById("select-vertex-granularity");
         const color_granularity_select = document.getElementById("select-color-granularity");
         const label_granularity_select = document.getElementById("select-label-granularity");
+        const granularity_selects = [vertex_granularity_select, color_granularity_select, label_granularity_select];
 
         const granularity_options = granularityOptions()
+        
+        const button = document.getElementById("button-confirm");
 
-        const granularity_selects = [vertex_granularity_select, color_granularity_select, label_granularity_select];
+        const ui_elements = [dataset_select, button, ...granularity_selects];
+
         granularity_selects.forEach(granularity_select => {
             Object.values(granularity_options).forEach(option => {
                 granularity_select.add(new Option(option.text, option.value, option.default_selected, option.selected), option.index)
                 granularity_select.options[option.index].disabled = option.disabled
             })
         })
-
-        const button = document.getElementById("button-confirm-dataset");
-
-        const ui_elements = [dataset_select, button, ...granularity_selects];
 
         vertex_granularity_select.addEventListener("change", () => {
             const selected_value = vertex_granularity_select.options[vertex_granularity_select.selectedIndex].value;
