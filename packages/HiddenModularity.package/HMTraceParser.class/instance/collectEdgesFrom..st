@@ -9,8 +9,8 @@ collectEdgesFrom: communicators
 	communicators do: [ :contextPair |
 		| senderId receiverId |
 		
-		senderId := contextPair first identityHash.
-		receiverId := contextPair second identityHash.
+		senderId := contextPair first identityHash asString.
+		receiverId := contextPair second identityHash asString.
 		
 		edgeGraph at: senderId ifAbsentPut: Dictionary new.
 		(edgeGraph at: senderId) at: receiverId ifAbsentPut: 0.

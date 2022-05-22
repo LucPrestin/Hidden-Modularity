@@ -8,8 +8,8 @@ collectVerticesFrom: communicators
 	communicators do: [:contextPair | 
 		| senderId senderInformation receiverId receiverInformation |
 		
-		senderId := contextPair first identityHash.
-		receiverId := contextPair second identityHash.
+		senderId := contextPair first identityHash asString.
+		receiverId := contextPair second identityHash asString.
 		
 		(vertices includesKey: senderId) ifFalse: [
 			senderInformation := self collectObjectInformationOf: contextPair first.

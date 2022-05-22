@@ -4,7 +4,7 @@ collectObjectInformationOf: anObject
 	| information |
 
 	information := Dictionary new.
-	information at: 'identityHash' put: anObject identityHash.
+	information at: 'identityHash' put: anObject identityHash asString.
 	information at: 'name' put: anObject name.
 	information at: 'class' put: anObject className.
 	information at: 'category' put: anObject class category asString.
