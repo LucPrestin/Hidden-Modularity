@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <title>Visualization of Message Graphs using a Force Simulation</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+            width: 100%
+        }
+
+        .svg-container {
+            height: 90%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Visualization of Message Graphs using a Force Simulation</h1>
+
+    <label for="select-dataset">Choose a dataset:</label>
+    <select name="dataset" id="select-dataset">
+        <option value="" selected disabled>None</option>
+        <option value="./assets/traceData/browserOpening.json">Opening a SystemBrowser</option>
+        <option value="./assets/traceData/explorerOpening.json">Opening an Explorer</option>
+        <option value="./assets/traceData/morphDrawOn.json">Drawing a Morph</option>
+        <option value="./assets/traceData/morphOpening.json">Opening a Morph</option>
+        <option value="./assets/traceData/networkAccess.json">Fetching a website</option>
+    </select>
+
+    <label for="select-granularity">Choose the displayed granularity:</label>
+    <select name="granularity" id="select-granularity">
+        <option value="" selected disabled>None</option>
+        <option value="identityHash">Object identity</option>
+        <option value="name">Object name</option>
+        <option value="class">Object class</option>
+        <option value="category">Object class category</option>
+        <option value="package">Object class package</option>
+        <option value="methodReference">Method reference (only for compiled methods)</option>
+        <option value="methodCategory">Method category (only for compiled methods)</option>
+    </select>
+    <button id="button-confirm-dataset">Confirm</button>
+
+    <div id="container" class="svg-container"></div>
+
+    <script type="module">
+        import { runSimulationWithDataFromFile } from "/Hidden-Modularity/assets/js/messageGraph.js";
+        import { removeChildren } from "/Hidden-Modularity/assets/js/utils.js";
+
+        const container = document.getElementById("container");
+        const dataset_select = document.getElementById("select-dataset");
+        const granularity_select = document.getElementById("select-granularity");
+        const button = document.getElementById("button-confirm-dataset");
+
+        button.addEventListener("click", () => {
+            const dataPath = dataset_select.options[dataset_select.selectedIndex].value;
+            const granularity = granularity_select.options[granularity_select.selectedIndex].value;
+
+            let errorMessage = "";
+
+            if (!dataPath) {
+                errorMessage += "Please select a dataset\n"
+            }
+            if (!granularity) {
+                errorMessage += "Please select a granularity\n"
+            }
+
+            if (errorMessage === "") {
+                removeChildren(container);
+                dataset_select.disabled = true;
+                granularity_select.disabled = true;
+                button.disabled = true;
+                runSimulationWithDataAndGranularity(data, granularity, () => {
+                    dataset_select.disabled = false;
+                    granularity_select.disabled = false;
+                    button.disabled = false;
+                });
+            } else {
+                alert(errorMessage);
+            }
+        })
+    </script>
+</body>
+
+</html>

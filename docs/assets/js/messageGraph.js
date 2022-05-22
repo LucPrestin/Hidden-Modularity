@@ -4,14 +4,12 @@ import { uniqueRandomColor } from "./utils.js"
 
 // ==================== interface ==================== //
 
-export async function runSimulationWithDataFromFile(filePath) {
-    const data = await (await fetch(filePath)).json()
-    runSimulationWithData(data)
+export async function runSimulationWithDataFromFileAndGranularity(filePath, granularity, onSimulationFinished = () => { }) {
+    const data = await (await fetch(filePath)).json();
+    runSimulationWithData(data, granularity, onSimulationFinished);
 }
 
-// ==================== helpers ==================== //
-
-function runSimulationWithData(data) {
+export function runSimulationWithDataAndGranularity(data, granularity, onSimulationFinished = () => { }) {
     var svg = d3.select(container)
         .append("svg")
         .attr("width", "100%")
@@ -21,32 +19,34 @@ function runSimulationWithData(data) {
         }))
         .append("g")
 
-    const { nodes, nodeMap } = createNodes(data);
-    const colors = createColorCategories(nodes);
-    const links = createLinks(nodeMap, data);
+    const { nodes, nodeMap } = createNodes(data, granularity);
+    const links = createLinks(nodeMap, data, granularity);
+    const averageLinkForce = links.reduce((sum, link) => sum + link.strength, 0) / links.length
 
     const simulation = forceSimulation(nodes)
         .force("link", forceLink(links))
-        .force("charge", forceManyBody(-5))
+        .force("charge", forceManyBody().strength(averageLinkForce * (-1)))
         .force("collision", forceCollide().radius(function (d) {
             return d.radius;
         }))
-        .on("tick", () => ticked(nodes, colors));
+        .on("tick", () => ticked(nodes, links));
 
     setTimeout(function () {
         simulation.stop();
+        onSimulationFinished();
     }, 5000);
 }
 
-function createNodes(data) {
+// ==================== helpers ==================== //
+
+function createNodes(data, granularity) {
     const nodeMap = {};
-    Object.keys(data).forEach((caller) => {
-        nodeMap[caller] = newNode(caller)
-        Object.keys(data[caller]).forEach(callee => {
-            if (!nodeMap[callee]) {
-                nodeMap[callee] = newNode(callee);
-            }
-        });
+    Object.values(data.vertices).forEach((vertex) => {
+        const id = vertex[granularity];
+
+        if (!nodeMap[id]) {
+            nodeMap[id] = newNode(id)
+        }
     });
     Object.keys(nodeMap).forEach((nodeName, index) => {
         nodeMap[nodeName].index = index;
@@ -68,38 +68,36 @@ function newNode(label) {
         y: 400,
         vx: 0,
         vy: 0,
-        radius: 20,
-        category: label.match(/^.*>>/) ? label.match(/^.*>>/)[0] : 'default'
+        radius: 50,
     }
 }
 
-function createColorCategories(nodes) {
-    var colors = {
-        default: 'white'
-    }
-    nodes.forEach(node => {
-        if (!colors[node.category]) {
-            colors[node.category] = uniqueRandomColor(node.category, colors)
-        }
+function createLinks(nodeMap, data, granularity) {
+    const edgeMap = {};
+    data.edges.forEach(edge => {
+        const sourceId = data.vertices[edge.source][granularity]
+        const targetId = data.vertices[edge.target][granularity]
+
+        if(!edgeMap[sourceId]) edgeMap[sourceId] = {}
+        if(!edgeMap[sourceId][targetId]) edgeMap[sourceId][targetId] = 0
+        edgeMap[sourceId][targetId] += edge.weight
     })
-    return colors
-}
 
-function createLinks(nodeMap, data) {
     const links = [];
-    Object.keys(data).forEach(caller => {
-        Object.keys(data[caller]).forEach(callee => {
+    Object.keys(edgeMap).forEach(sourceId => {
+        Object.keys(edgeMap[sourceId]).forEach(targetId => {
             links.push({
-                source: nodeMap[caller].index,
-                target: nodeMap[callee].index,
-                strength: data[caller][callee] * 2
-            });
-        });
-    });
+                source: nodeMap[sourceId].index,
+                target: nodeMap[targetId].index,
+                strength: edgeMap[sourceId][targetId]
+            })
+        })
+    })
+    
     return links
 }
 
-function ticked(nodes, colors) {
+function ticked(nodes, links) {
     d3.select('svg g')
         .selectAll('circle')
         .data(nodes)
@@ -107,9 +105,7 @@ function ticked(nodes, colors) {
         .attr('r', function (d) {
             return d.radius
         })
-        .style('fill', function (d) {
-            return colors[d.category] ? colors[d.category] : colors.default
-        })
+        .style('fill', 'white')
         .style('stroke', "black")
         .attr('cx', function (d) {
             return d.x
@@ -134,4 +130,14 @@ function ticked(nodes, colors) {
         .attr('y', function (d) {
             return d.y
         })
+
+    d3.select('svg g')
+        .selectAll('path')
+        .data(links)
+        .join("path")
+        .attr("d", d3.link(d3.curveBasis)
+            .source(link => [link.source.x, link.source.y])
+            .target(link => [link.target.x, link.target.y]))
+        .attr("fill", "none")
+        .attr("stroke", "black")
 }

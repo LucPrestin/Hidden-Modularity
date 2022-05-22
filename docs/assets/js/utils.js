@@ -11,3 +11,9 @@ export function uniqueRandomColor(id, dict) {
     }
     return color
 }
+
+export function removeChildren(widget) {
+    while (widget.firstChild) {
+        widget.removeChild(widget.lastChild);
+    }
+}
