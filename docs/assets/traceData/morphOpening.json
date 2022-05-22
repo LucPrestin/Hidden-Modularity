@@ -1,0 +1,1627 @@
+{
+    "vertices": {
+        "1038": {
+            "name": "Color",
+            "category": "Graphics-Primitives",
+            "class": "Color class",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "1038",
+            "methodCategory": "nil"
+        },
+        "1463171": {
+            "name": "a ByteSymbol",
+            "category": "Collections-Strings",
+            "class": "ByteSymbol",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "1463171",
+            "methodCategory": "nil"
+        },
+        "1529061": {
+            "name": "an Array",
+            "category": "Collections-Arrayed",
+            "class": "Array",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "1529061",
+            "methodCategory": "nil"
+        },
+        "356893": {
+            "name": "an IdentityDictionary",
+            "category": "Collections-Unordered",
+            "class": "IdentityDictionary",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "356893",
+            "methodCategory": "nil"
+        },
+        "2888707": {
+            "name": "0@22 corner: 1920@1023",
+            "category": "Graphics-Primitives",
+            "class": "Rectangle",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "2888707",
+            "methodCategory": "nil"
+        },
+        "278486": {
+            "name": "a MorphExtension (278486) [eventHandler = an EventHandler]  [other:  (References -> a WeakValueDictionary()) (layoutProperties -> (GridLayoutProperties new origin: (0@22); modulus: (17@17); yourself)) (clipSubmorphs -> true) (fillStyle -> an InfiniteForm) (commandKeySelectors -> an IdentityDictionary($+->MessageSend(#increaseFontSize -> Preferences) $-->MessageSend(#decreaseFontSize -> Preferences) $C->MessageSend(#findAChangeSorter: -> a PasteUpMorph(2434915) [world]) $F->MessageSend(#toggleFlapsSuppressed -> a MorphicProject (HomeProject) in a PasteUpMorph(2434915) [world]) $L->MessageSend(#findAFileList: -> a PasteUpMorph(2434915) [world]) $M->MessageSend(#toggleShowWorldMainDockingBar -> a PasteUpMorph(2434915) [world]) $N->MessageSend(#toggleClassicNavigatorIfAppropriate -> a PasteUpMorph(2434915) [world]) $O->MessageSend(#findAMonticelloBrowser -> a PasteUpMorph(2434915) [world]) $P->MessageSend(#findAPreferencesPanel: -> a PasteUpMorph(2434915) [world]) $R->MessageSend(#browseRecentSubmissions -> Utilities) $W->MessageSend(#findAMessageNamesWindow: -> a PasteUpMorph(2434915) [world]) $Z->MessageSend(#browseRecentLog -> ChangeList) $\\->MessageSend(#sendTopWindowToBack -> SystemWindow) $]->MessageSend(#saveSession -> Smalltalk) $_->MessageSend(#quitPrimitive -> Smalltalk) $b->MessageSend(#defaultOpenBrowser -> SystemBrowser) $k->MessageSend(#open -> Workspace) $m->MessageSend(#putUpNewMorphMenu -> a PasteUpMorph(2434915) [world]) $o->MessageSend(#activateObjectsTool -> a PasteUpMorph(2434915) [world]) $r->MessageSend(#restoreMorphicDisplay -> a PasteUpMorph(2434915) [world]) $t->MessageSend(#findATranscript: -> a PasteUpMorph(2434915) [world]) $w->MessageSend(#closeTopWindow -> SystemWindow) $z->MessageSend(#undoOrRedoCommand -> a PasteUpMorph(2434915) [world]) Character escape->MessageSend(#closeTopWindow -> SystemWindow) )) (dropEnabled -> true) (mouseCaptureFilters -> a WeakArray(a PasteUpMorph(2434915) [world])) (borderStyle -> a SimpleBorder) (optimumExtentFromAuthor -> 800@600) (lastKeystroke -> '''') (actionMap -> an IdentityDictionary(#aboutToLeaveWorld->WeakMessageSend(#removeModalWindow -> nil) )) (keyboardCaptureFilters -> a WeakArray(a PasteUpMorph(2434915) [world])) (dragEnabled -> true) (automaticPhraseExpansion -> true)]",
+            "category": "Morphic-Kernel",
+            "class": "MorphExtension",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "278486",
+            "methodCategory": "nil"
+        },
+        "3195587": {
+            "name": "an OrderedCollection",
+            "category": "Collections-Sequenceable",
+            "class": "OrderedCollection",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "3195587",
+            "methodCategory": "nil"
+        },
+        "457485": {
+            "name": "a MorphExtension (457485) [other:  (morphicLayerNumber -> 55) (hasDropShadow -> true) (shadowColor -> (Color black alpha: 0.008)) (shadowOffset -> 10@8 corner: 10@12) (layoutPolicy -> a TableLayout) (layoutProperties -> (TableLayoutProperties new hResizing: #shrinkWrap; vResizing: #shrinkWrap; cellPositioning: #topCenter; cellGap: 5; layoutInset: (30@30); listCentering: #center; yourself)) (borderStyle -> a SimpleBorder) (minWidth -> 150) (dropShadow -> Form(688x98x32))]",
+            "category": "Morphic-Kernel",
+            "class": "MorphExtension",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "457485",
+            "methodCategory": "nil"
+        },
+        "543493": {
+            "name": "[Morph new openInWorld]",
+            "category": "Kernel-Processes",
+            "class": "Process",
+            "package": "Kernel",
+            "methodReference": "nil",
+            "identityHash": "543493",
+            "methodCategory": "nil"
+        },
+        "3686693": {
+            "name": "0@22 corner: 1920@1023",
+            "category": "Graphics-Primitives",
+            "class": "Rectangle",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "3686693",
+            "methodCategory": "nil"
+        },
+        "763621": {
+            "name": "an IdentityDictionary",
+            "category": "Collections-Unordered",
+            "class": "IdentityDictionary",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "763621",
+            "methodCategory": "nil"
+        },
+        "51": {
+            "name": "Array",
+            "category": "Collections-Arrayed",
+            "class": "Array class",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "51",
+            "methodCategory": "nil"
+        },
+        "3368645": {
+            "name": "0@22 corner: 1920@1023",
+            "category": "Graphics-Primitives",
+            "class": "Rectangle",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "3368645",
+            "methodCategory": "nil"
+        },
+        "893963": {
+            "name": "a DamageRecorder",
+            "category": "Morphic-Support",
+            "class": "DamageRecorder",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "893963",
+            "methodCategory": "nil"
+        },
+        "3637193": {
+            "name": "a SimpleBorder",
+            "category": "Morphic-Borders",
+            "class": "SimpleBorder",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "3637193",
+            "methodCategory": "nil"
+        },
+        "3201779": {
+            "name": "0@22 corner: 50@62",
+            "category": "Graphics-Primitives",
+            "class": "Rectangle",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "3201779",
+            "methodCategory": "nil"
+        },
+        "1": {
+            "name": "nil",
+            "category": "Kernel-Objects",
+            "class": "UndefinedObject",
+            "package": "Kernel",
+            "methodReference": "nil",
+            "identityHash": "1",
+            "methodCategory": "nil"
+        },
+        "4060": {
+            "name": "Project",
+            "category": "System-Support",
+            "class": "Project class",
+            "package": "System",
+            "methodReference": "nil",
+            "identityHash": "4060",
+            "methodCategory": "nil"
+        },
+        "943555": {
+            "name": "0@0 corner: 50@40",
+            "category": "Graphics-Primitives",
+            "class": "Rectangle",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "943555",
+            "methodCategory": "nil"
+        },
+        "3300709": {
+            "name": "0@22",
+            "category": "Graphics-Primitives",
+            "class": "Point",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "3300709",
+            "methodCategory": "nil"
+        },
+        "1057": {
+            "name": "BorderStyle",
+            "category": "Morphic-Borders",
+            "class": "BorderStyle class",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "1057",
+            "methodCategory": "nil"
+        },
+        "580973": {
+            "name": "a ByteSymbol",
+            "category": "Collections-Strings",
+            "class": "ByteSymbol",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "580973",
+            "methodCategory": "nil"
+        },
+        "2644307": {
+            "name": "a Morph(2644307)",
+            "category": "Morphic-Kernel",
+            "class": "Morph",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "2644307",
+            "methodCategory": "nil"
+        },
+        "3825555": {
+            "name": "a WriteStream",
+            "category": "Collections-Streams",
+            "class": "WriteStream",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "3825555",
+            "methodCategory": "nil"
+        },
+        "3929327": {
+            "name": "a WorldState",
+            "category": "Morphic-Worlds",
+            "class": "WorldState",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "3929327",
+            "methodCategory": "nil"
+        },
+        "145155": {
+            "name": "a MethodDictionary",
+            "category": "Kernel-Methods",
+            "class": "MethodDictionary",
+            "package": "Kernel",
+            "methodReference": "nil",
+            "identityHash": "145155",
+            "methodCategory": "nil"
+        },
+        "3504327": {
+            "name": "a ByteSymbol",
+            "category": "Collections-Strings",
+            "class": "ByteSymbol",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "3504327",
+            "methodCategory": "nil"
+        },
+        "3397": {
+            "name": "DockingBarMorph",
+            "category": "Morphic-Menus-DockingBar",
+            "class": "DockingBarMorph class",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "3397",
+            "methodCategory": "nil"
+        },
+        "3487043": {
+            "name": "0@0 corner: 1920@1023",
+            "category": "Graphics-Primitives",
+            "class": "Rectangle",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "3487043",
+            "methodCategory": "nil"
+        },
+        "3443893": {
+            "name": "borderStyle",
+            "category": "Collections-Support",
+            "class": "Association",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "3443893",
+            "methodCategory": "nil"
+        },
+        "1860723": {
+            "name": "0@22 corner: 50@62",
+            "category": "Graphics-Primitives",
+            "class": "Rectangle",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "1860723",
+            "methodCategory": "nil"
+        },
+        "1385635": {
+            "name": "0@0",
+            "category": "Graphics-Primitives",
+            "class": "Point",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "1385635",
+            "methodCategory": "nil"
+        },
+        "3583": {
+            "name": "ExceptionSet",
+            "category": "Kernel-Exceptions",
+            "class": "ExceptionSet class",
+            "package": "Kernel",
+            "methodReference": "nil",
+            "identityHash": "3583",
+            "methodCategory": "nil"
+        },
+        "605417": {
+            "name": "a ByteSymbol",
+            "category": "Collections-Strings",
+            "class": "ByteSymbol",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "605417",
+            "methodCategory": "nil"
+        },
+        "52757": {
+            "name": "50@40",
+            "category": "Graphics-Primitives",
+            "class": "Point",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "52757",
+            "methodCategory": "nil"
+        },
+        "6": {
+            "name": "6",
+            "category": "Kernel-Numbers",
+            "class": "SmallInteger",
+            "package": "Kernel",
+            "methodReference": "nil",
+            "identityHash": "6",
+            "methodCategory": "nil"
+        },
+        "1334158": {
+            "name": "an IdentityDictionary",
+            "category": "Collections-Unordered",
+            "class": "IdentityDictionary",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "1334158",
+            "methodCategory": "nil"
+        },
+        "1431823": {
+            "name": "a SystemProgressMorph(1431823)",
+            "category": "Morphic-Widgets",
+            "class": "SystemProgressMorph",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "1431823",
+            "methodCategory": "nil"
+        },
+        "1591637": {
+            "name": "40745",
+            "category": "Kernel-Processes",
+            "class": "Process",
+            "package": "Kernel",
+            "methodReference": "nil",
+            "identityHash": "1591637",
+            "methodCategory": "nil"
+        },
+        "2343909": {
+            "name": "an ExceptionSet",
+            "category": "Kernel-Exceptions",
+            "class": "ExceptionSet",
+            "package": "Kernel",
+            "methodReference": "nil",
+            "identityHash": "2343909",
+            "methodCategory": "nil"
+        },
+        "54": {
+            "name": "Point",
+            "category": "Graphics-Primitives",
+            "class": "Point class",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "54",
+            "methodCategory": "nil"
+        },
+        "6739": {
+            "name": "HMCodeSnippetStorage",
+            "category": "HiddenModularity",
+            "class": "HMCodeSnippetStorage class",
+            "package": "HiddenModularity",
+            "methodReference": "nil",
+            "identityHash": "6739",
+            "methodCategory": "nil"
+        },
+        "2155537": {
+            "name": "a DockingBarMorph(2155537)",
+            "category": "Morphic-Menus-DockingBar",
+            "class": "DockingBarMorph",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "2155537",
+            "methodCategory": "nil"
+        },
+        "3954": {
+            "name": "Error",
+            "category": "Kernel-Exceptions-Kernel",
+            "class": "Error class",
+            "package": "Kernel",
+            "methodReference": "nil",
+            "identityHash": "3954",
+            "methodCategory": "nil"
+        },
+        "2958257": {
+            "name": "an IdentityDictionary",
+            "category": "Collections-Unordered",
+            "class": "IdentityDictionary",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "2958257",
+            "methodCategory": "nil"
+        },
+        "2063669": {
+            "name": "an Array",
+            "category": "Collections-Arrayed",
+            "class": "Array",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "2063669",
+            "methodCategory": "nil"
+        },
+        "3455619": {
+            "name": "50@62",
+            "category": "Graphics-Primitives",
+            "class": "Point",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "3455619",
+            "methodCategory": "nil"
+        },
+        "804818": {
+            "name": "a MorphExtension (804818) [other:  (morphicLayerNumber -> 100) (paneColor -> (Color r: 0.9 g: 0.9 b: 0.719)) (keyboardCaptureFilters -> a WeakArray(a PluggableSystemWindow<Workspace>(789493))) (shadowColor -> (Color black alpha: 0.008)) (allowPaneSplitters -> true) (shadowOffset -> 10@8 corner: 10@12) (layoutPolicy -> a ProportionalLayout) (allowGrips -> true) (layoutProperties -> (TableLayoutProperties new hResizing: #spaceFill; vResizing: #spaceFill; cellGap: 4; layoutInset: 4; yourself)) (borderStyle -> a SimpleBorder) (dropShadow -> Form(467x220x32))]",
+            "category": "Morphic-Kernel",
+            "class": "MorphExtension",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "804818",
+            "methodCategory": "nil"
+        },
+        "2133574": {
+            "name": "a MorphExtension (2133574) [sticky]  [other:  (layoutPolicy -> a TableLayout) (mainDockingBarTimeStamp -> a2d47b4c-9618-4744-848c-842ea4388f91) (dropEnabled -> true) (edgeToAdhereTo -> #top) (borderStyle -> a SimpleBorder) (layoutProperties -> (TableLayoutProperties new hResizing: #spaceFill; vResizing: #shrinkWrap; listDirection: #leftToRight; rubberBandCells: true; yourself))]",
+            "category": "Morphic-Kernel",
+            "class": "MorphExtension",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "2133574",
+            "methodCategory": "nil"
+        },
+        "789493": {
+            "name": "a PluggableSystemWindow<Workspace>(789493)",
+            "category": "ToolBuilder-Morphic",
+            "class": "PluggableSystemWindow",
+            "package": "ToolBuilder-Morphic",
+            "methodReference": "nil",
+            "identityHash": "789493",
+            "methodCategory": "nil"
+        },
+        "282789": {
+            "name": "0@22 corner: 50@62",
+            "category": "Graphics-Primitives",
+            "class": "Rectangle",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "282789",
+            "methodCategory": "nil"
+        },
+        "61045": {
+            "name": "[closure] in [] in Morph>>doLayoutSafely",
+            "category": "Kernel-Methods",
+            "class": "FullBlockClosure",
+            "package": "Kernel",
+            "methodReference": "nil",
+            "identityHash": "61045",
+            "methodCategory": "nil"
+        },
+        "3686403": {
+            "name": "an Array",
+            "category": "Collections-Arrayed",
+            "class": "Array",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "3686403",
+            "methodCategory": "nil"
+        },
+        "1074": {
+            "name": "Rectangle",
+            "category": "Graphics-Primitives",
+            "class": "Rectangle class",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "1074",
+            "methodCategory": "nil"
+        },
+        "1688755": {
+            "name": "[closure] in Morph>>doLayoutSafely",
+            "category": "Kernel-Methods",
+            "class": "FullBlockClosure",
+            "package": "Kernel",
+            "methodReference": "nil",
+            "identityHash": "1688755",
+            "methodCategory": "nil"
+        },
+        "1027": {
+            "name": "Association",
+            "category": "Collections-Support",
+            "class": "Association class",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "1027",
+            "methodCategory": "nil"
+        },
+        "3916213": {
+            "name": "an Array",
+            "category": "Collections-Arrayed",
+            "class": "Array",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "3916213",
+            "methodCategory": "nil"
+        },
+        "1151459": {
+            "name": "0@22",
+            "category": "Graphics-Primitives",
+            "class": "Point",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "1151459",
+            "methodCategory": "nil"
+        },
+        "1661915": {
+            "name": "a ByteSymbol",
+            "category": "Collections-Strings",
+            "class": "ByteSymbol",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "1661915",
+            "methodCategory": "nil"
+        },
+        "3837818": {
+            "name": "a ProcessorScheduler",
+            "category": "Kernel-Processes",
+            "class": "ProcessorScheduler",
+            "package": "Kernel",
+            "methodReference": "nil",
+            "identityHash": "3837818",
+            "methodCategory": "nil"
+        },
+        "210037": {
+            "name": "an Array",
+            "category": "Collections-Arrayed",
+            "class": "Array",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "210037",
+            "methodCategory": "nil"
+        },
+        "746309": {
+            "name": "an OrderedCollection",
+            "category": "Collections-Sequenceable",
+            "class": "OrderedCollection",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "746309",
+            "methodCategory": "nil"
+        },
+        "2573139": {
+            "name": "0@0",
+            "category": "Graphics-Primitives",
+            "class": "Point",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "2573139",
+            "methodCategory": "nil"
+        },
+        "1041": {
+            "name": "MorphExtension",
+            "category": "Morphic-Kernel",
+            "class": "MorphExtension class",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "1041",
+            "methodCategory": "nil"
+        },
+        "0": {
+            "name": "0",
+            "category": "Kernel-Numbers",
+            "class": "SmallInteger",
+            "package": "Kernel",
+            "methodReference": "nil",
+            "identityHash": "0",
+            "methodCategory": "nil"
+        },
+        "3827093": {
+            "name": "0@22 corner: 50@62",
+            "category": "Graphics-Primitives",
+            "class": "Rectangle",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "3827093",
+            "methodCategory": "nil"
+        },
+        "2081637": {
+            "name": "a WriteStream",
+            "category": "Collections-Streams",
+            "class": "WriteStream",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "2081637",
+            "methodCategory": "nil"
+        },
+        "187371": {
+            "name": "a ByteSymbol",
+            "category": "Collections-Strings",
+            "class": "ByteSymbol",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "187371",
+            "methodCategory": "nil"
+        },
+        "3135651": {
+            "name": "0@22 corner: 1920@1023",
+            "category": "Graphics-Primitives",
+            "class": "Rectangle",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "3135651",
+            "methodCategory": "nil"
+        },
+        "1033": {
+            "name": "OrderedCollection",
+            "category": "Collections-Sequenceable",
+            "class": "OrderedCollection class",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "1033",
+            "methodCategory": "nil"
+        },
+        "50117": {
+            "name": "0@22",
+            "category": "Graphics-Primitives",
+            "class": "Point",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "50117",
+            "methodCategory": "nil"
+        },
+        "3472933": {
+            "name": "1920@1023",
+            "category": "Graphics-Primitives",
+            "class": "Point",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "3472933",
+            "methodCategory": "nil"
+        },
+        "2172575": {
+            "name": "a ByteSymbol",
+            "category": "Collections-Strings",
+            "class": "ByteSymbol",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "2172575",
+            "methodCategory": "nil"
+        },
+        "3447": {
+            "name": "Morph",
+            "category": "Morphic-Kernel",
+            "class": "Morph class",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "3447",
+            "methodCategory": "nil"
+        },
+        "3504": {
+            "name": "WriteStream",
+            "category": "Collections-Streams",
+            "class": "WriteStream class",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "3504",
+            "methodCategory": "nil"
+        },
+        "1554723": {
+            "name": "a BorderStyle",
+            "category": "Morphic-Borders",
+            "class": "BorderStyle",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "1554723",
+            "methodCategory": "nil"
+        },
+        "3860037": {
+            "name": "0@0 corner: 1920@1023",
+            "category": "Graphics-Primitives",
+            "class": "Rectangle",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "3860037",
+            "methodCategory": "nil"
+        },
+        "1329017": {
+            "name": "an IdentityDictionary",
+            "category": "Collections-Unordered",
+            "class": "IdentityDictionary",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "1329017",
+            "methodCategory": "nil"
+        },
+        "2773523": {
+            "name": "0@22",
+            "category": "Graphics-Primitives",
+            "class": "Point",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "2773523",
+            "methodCategory": "nil"
+        },
+        "2434915": {
+            "name": "a PasteUpMorph(2434915) [world]",
+            "category": "Morphic-Worlds",
+            "class": "PasteUpMorph",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "2434915",
+            "methodCategory": "nil"
+        },
+        "546613": {
+            "name": "0@22 corner: 50@62",
+            "category": "Graphics-Primitives",
+            "class": "Rectangle",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "546613",
+            "methodCategory": "nil"
+        },
+        "802315": {
+            "name": "a ByteSymbol",
+            "category": "Collections-Strings",
+            "class": "ByteSymbol",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "802315",
+            "methodCategory": "nil"
+        },
+        "3566451": {
+            "name": "a Dictionary",
+            "category": "Collections-Unordered",
+            "class": "Dictionary",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "3566451",
+            "methodCategory": "nil"
+        },
+        "11099": {
+            "name": "ActiveWorldVariable",
+            "category": "Morphic-Worlds",
+            "class": "ActiveWorldVariable class",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "11099",
+            "methodCategory": "nil"
+        },
+        "3613019": {
+            "name": "an Array",
+            "category": "Collections-Arrayed",
+            "class": "Array",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "3613019",
+            "methodCategory": "nil"
+        },
+        "1134": {
+            "name": "IdentityDictionary",
+            "category": "Collections-Unordered",
+            "class": "IdentityDictionary class",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "1134",
+            "methodCategory": "nil"
+        },
+        "1884876": {
+            "name": "0@0 corner: 1920@22",
+            "category": "Graphics-Primitives",
+            "class": "Rectangle",
+            "package": "Graphics",
+            "methodReference": "nil",
+            "identityHash": "1884876",
+            "methodCategory": "nil"
+        },
+        "4043283": {
+            "name": "an Array",
+            "category": "Collections-Arrayed",
+            "class": "Array",
+            "package": "Collections",
+            "methodReference": "nil",
+            "identityHash": "4043283",
+            "methodCategory": "nil"
+        },
+        "341795": {
+            "name": "a MorphExtension (341795) [other:  (borderStyle -> a BorderStyle)]",
+            "category": "Morphic-Kernel",
+            "class": "MorphExtension",
+            "package": "Morphic",
+            "methodReference": "nil",
+            "identityHash": "341795",
+            "methodCategory": "nil"
+        }
+    },
+    "edges": [
+        {
+            "weight": 1,
+            "target": "1591637",
+            "source": "3837818"
+        },
+        {
+            "weight": 1,
+            "target": "2644307",
+            "source": "3447"
+        },
+        {
+            "weight": 2,
+            "target": "3447",
+            "source": "3447"
+        },
+        {
+            "weight": 1,
+            "target": "145155",
+            "source": "3447"
+        },
+        {
+            "weight": 1,
+            "target": "1529061",
+            "source": "210037"
+        },
+        {
+            "weight": 1,
+            "target": "763621",
+            "source": "1134"
+        },
+        {
+            "weight": 3,
+            "target": "763621",
+            "source": "341795"
+        },
+        {
+            "weight": 2,
+            "target": "341795",
+            "source": "341795"
+        },
+        {
+            "weight": 1,
+            "target": "1134",
+            "source": "341795"
+        },
+        {
+            "weight": 1,
+            "target": "50117",
+            "source": "1860723"
+        },
+        {
+            "weight": 1,
+            "target": "3455619",
+            "source": "1860723"
+        },
+        {
+            "weight": 2,
+            "target": "1074",
+            "source": "1860723"
+        },
+        {
+            "weight": 1,
+            "target": "0",
+            "source": "2573139"
+        },
+        {
+            "weight": 1,
+            "target": "2434915",
+            "source": "4043283"
+        },
+        {
+            "weight": 1,
+            "target": "4043283",
+            "source": "4043283"
+        },
+        {
+            "weight": 1,
+            "target": "3447",
+            "source": "6739"
+        },
+        {
+            "weight": 1,
+            "target": "2644307",
+            "source": "6739"
+        },
+        {
+            "weight": 1,
+            "target": "802315",
+            "source": "2958257"
+        },
+        {
+            "weight": 1,
+            "target": "2958257",
+            "source": "2958257"
+        },
+        {
+            "weight": 3,
+            "target": "2063669",
+            "source": "2063669"
+        },
+        {
+            "weight": 1,
+            "target": "3613019",
+            "source": "3613019"
+        },
+        {
+            "weight": 2,
+            "target": "278486",
+            "source": "278486"
+        },
+        {
+            "weight": 4,
+            "target": "1334158",
+            "source": "278486"
+        },
+        {
+            "weight": 1,
+            "target": "3566451",
+            "source": "543493"
+        },
+        {
+            "weight": 1,
+            "target": "4060",
+            "source": "11099"
+        },
+        {
+            "weight": 1,
+            "target": "11099",
+            "source": "11099"
+        },
+        {
+            "weight": 1,
+            "target": "3837818",
+            "source": "11099"
+        },
+        {
+            "weight": 1,
+            "target": "543493",
+            "source": "11099"
+        },
+        {
+            "weight": 1,
+            "target": "802315",
+            "source": "1329017"
+        },
+        {
+            "weight": 8,
+            "target": "1463171",
+            "source": "1329017"
+        },
+        {
+            "weight": 9,
+            "target": "1329017",
+            "source": "1329017"
+        },
+        {
+            "weight": 1,
+            "target": "2155537",
+            "source": "1329017"
+        },
+        {
+            "weight": 4,
+            "target": "3397",
+            "source": "3397"
+        },
+        {
+            "weight": 10,
+            "target": "763621",
+            "source": "763621"
+        },
+        {
+            "weight": 3,
+            "target": "2644307",
+            "source": "763621"
+        },
+        {
+            "weight": 1,
+            "target": "1661915",
+            "source": "763621"
+        },
+        {
+            "weight": 1,
+            "target": "187371",
+            "source": "763621"
+        },
+        {
+            "weight": 1,
+            "target": "1027",
+            "source": "763621"
+        },
+        {
+            "weight": 2,
+            "target": "605417",
+            "source": "763621"
+        },
+        {
+            "weight": 1,
+            "target": "1860723",
+            "source": "1074"
+        },
+        {
+            "weight": 1,
+            "target": "3368645",
+            "source": "1074"
+        },
+        {
+            "weight": 1,
+            "target": "2888707",
+            "source": "1074"
+        },
+        {
+            "weight": 1,
+            "target": "282789",
+            "source": "1074"
+        },
+        {
+            "weight": 1,
+            "target": "3686693",
+            "source": "1074"
+        },
+        {
+            "weight": 1,
+            "target": "943555",
+            "source": "1074"
+        },
+        {
+            "weight": 1,
+            "target": "3201779",
+            "source": "1074"
+        },
+        {
+            "weight": 1,
+            "target": "3827093",
+            "source": "1074"
+        },
+        {
+            "weight": 1,
+            "target": "3860037",
+            "source": "1074"
+        },
+        {
+            "weight": 1,
+            "target": "3135651",
+            "source": "1074"
+        },
+        {
+            "weight": 1,
+            "target": "546613",
+            "source": "1074"
+        },
+        {
+            "weight": 2,
+            "target": "2343909",
+            "source": "3954"
+        },
+        {
+            "weight": 1,
+            "target": "3583",
+            "source": "3954"
+        },
+        {
+            "weight": 1,
+            "target": "1074",
+            "source": "1385635"
+        },
+        {
+            "weight": 1,
+            "target": "54",
+            "source": "1385635"
+        },
+        {
+            "weight": 1,
+            "target": "2644307",
+            "source": "61045"
+        },
+        {
+            "weight": 3,
+            "target": "746309",
+            "source": "893963"
+        },
+        {
+            "weight": 2,
+            "target": "50117",
+            "source": "893963"
+        },
+        {
+            "weight": 1,
+            "target": "3455619",
+            "source": "893963"
+        },
+        {
+            "weight": 1,
+            "target": "6",
+            "source": "2081637"
+        },
+        {
+            "weight": 1,
+            "target": "210037",
+            "source": "2081637"
+        },
+        {
+            "weight": 2,
+            "target": "2081637",
+            "source": "2081637"
+        },
+        {
+            "weight": 1,
+            "target": "0",
+            "source": "2081637"
+        },
+        {
+            "weight": 9,
+            "target": "1329017",
+            "source": "2133574"
+        },
+        {
+            "weight": 2,
+            "target": "1860723",
+            "source": "2434915"
+        },
+        {
+            "weight": 6,
+            "target": "2644307",
+            "source": "2434915"
+        },
+        {
+            "weight": 13,
+            "target": "2155537",
+            "source": "2434915"
+        },
+        {
+            "weight": 2,
+            "target": "1074",
+            "source": "2434915"
+        },
+        {
+            "weight": 1,
+            "target": "51",
+            "source": "2434915"
+        },
+        {
+            "weight": 4,
+            "target": "3916213",
+            "source": "2434915"
+        },
+        {
+            "weight": 11,
+            "target": "3487043",
+            "source": "2434915"
+        },
+        {
+            "weight": 37,
+            "target": "2434915",
+            "source": "2434915"
+        },
+        {
+            "weight": 1,
+            "target": "789493",
+            "source": "2434915"
+        },
+        {
+            "weight": 4,
+            "target": "278486",
+            "source": "2434915"
+        },
+        {
+            "weight": 1,
+            "target": "1529061",
+            "source": "2434915"
+        },
+        {
+            "weight": 1,
+            "target": "4043283",
+            "source": "2434915"
+        },
+        {
+            "weight": 1,
+            "target": "3929327",
+            "source": "2434915"
+        },
+        {
+            "weight": 1,
+            "target": "1431823",
+            "source": "2434915"
+        },
+        {
+            "weight": 1,
+            "target": "3637193",
+            "source": "2434915"
+        },
+        {
+            "weight": 1,
+            "target": "0",
+            "source": "3455619"
+        },
+        {
+            "weight": 3,
+            "target": "2644307",
+            "source": "1688755"
+        },
+        {
+            "weight": 2,
+            "target": "1860723",
+            "source": "2644307"
+        },
+        {
+            "weight": 2,
+            "target": "1385635",
+            "source": "2644307"
+        },
+        {
+            "weight": 53,
+            "target": "2644307",
+            "source": "2644307"
+        },
+        {
+            "weight": 2,
+            "target": "3613019",
+            "source": "2644307"
+        },
+        {
+            "weight": 1,
+            "target": "3954",
+            "source": "2644307"
+        },
+        {
+            "weight": 1,
+            "target": "1038",
+            "source": "2644307"
+        },
+        {
+            "weight": 1,
+            "target": "1041",
+            "source": "2644307"
+        },
+        {
+            "weight": 3,
+            "target": "341795",
+            "source": "2644307"
+        },
+        {
+            "weight": 1,
+            "target": "2773523",
+            "source": "2644307"
+        },
+        {
+            "weight": 1,
+            "target": "51",
+            "source": "2644307"
+        },
+        {
+            "weight": 1,
+            "target": "1554723",
+            "source": "2644307"
+        },
+        {
+            "weight": 5,
+            "target": "2434915",
+            "source": "2644307"
+        },
+        {
+            "weight": 1,
+            "target": "1688755",
+            "source": "2644307"
+        },
+        {
+            "weight": 3,
+            "target": "943555",
+            "source": "2644307"
+        },
+        {
+            "weight": 1,
+            "target": "2343909",
+            "source": "2644307"
+        },
+        {
+            "weight": 2,
+            "target": "1151459",
+            "source": "2644307"
+        },
+        {
+            "weight": 1,
+            "target": "0",
+            "source": "2644307"
+        },
+        {
+            "weight": 1,
+            "target": "1057",
+            "source": "2644307"
+        },
+        {
+            "weight": 1,
+            "target": "3300709",
+            "source": "2644307"
+        },
+        {
+            "weight": 1,
+            "target": "11099",
+            "source": "2644307"
+        },
+        {
+            "weight": 3,
+            "target": "3447",
+            "source": "2644307"
+        },
+        {
+            "weight": 1,
+            "target": "61045",
+            "source": "2644307"
+        },
+        {
+            "weight": 1,
+            "target": "546613",
+            "source": "2644307"
+        },
+        {
+            "weight": 2,
+            "target": "52757",
+            "source": "943555"
+        },
+        {
+            "weight": 2,
+            "target": "1074",
+            "source": "943555"
+        },
+        {
+            "weight": 2,
+            "target": "1385635",
+            "source": "943555"
+        },
+        {
+            "weight": 1,
+            "target": "2958257",
+            "source": "804818"
+        },
+        {
+            "weight": 1,
+            "target": "6739",
+            "source": "1"
+        },
+        {
+            "weight": 1,
+            "target": "356893",
+            "source": "457485"
+        },
+        {
+            "weight": 1,
+            "target": "804818",
+            "source": "789493"
+        },
+        {
+            "weight": 1,
+            "target": "789493",
+            "source": "789493"
+        },
+        {
+            "weight": 1,
+            "target": "1529061",
+            "source": "1529061"
+        },
+        {
+            "weight": 1,
+            "target": "2434915",
+            "source": "1529061"
+        },
+        {
+            "weight": 1,
+            "target": "50117",
+            "source": "0"
+        },
+        {
+            "weight": 1,
+            "target": "2573139",
+            "source": "0"
+        },
+        {
+            "weight": 1,
+            "target": "3455619",
+            "source": "0"
+        },
+        {
+            "weight": 1,
+            "target": "3472933",
+            "source": "0"
+        },
+        {
+            "weight": 1,
+            "target": "0",
+            "source": "50117"
+        },
+        {
+            "weight": 1,
+            "target": "1074",
+            "source": "50117"
+        },
+        {
+            "weight": 1,
+            "target": "2343909",
+            "source": "3583"
+        },
+        {
+            "weight": 1,
+            "target": "457485",
+            "source": "1431823"
+        },
+        {
+            "weight": 1,
+            "target": "1431823",
+            "source": "1431823"
+        },
+        {
+            "weight": 1,
+            "target": "6",
+            "source": "3825555"
+        },
+        {
+            "weight": 1,
+            "target": "0",
+            "source": "3825555"
+        },
+        {
+            "weight": 2,
+            "target": "3825555",
+            "source": "3825555"
+        },
+        {
+            "weight": 1,
+            "target": "3686403",
+            "source": "3825555"
+        },
+        {
+            "weight": 1,
+            "target": "3472933",
+            "source": "3487043"
+        },
+        {
+            "weight": 1,
+            "target": "2573139",
+            "source": "3487043"
+        },
+        {
+            "weight": 3,
+            "target": "1074",
+            "source": "3487043"
+        },
+        {
+            "weight": 1,
+            "target": "4043283",
+            "source": "3686403"
+        },
+        {
+            "weight": 1,
+            "target": "0",
+            "source": "3472933"
+        },
+        {
+            "weight": 1,
+            "target": "2773523",
+            "source": "2773523"
+        },
+        {
+            "weight": 1,
+            "target": "54",
+            "source": "2773523"
+        },
+        {
+            "weight": 3,
+            "target": "11099",
+            "source": "3566451"
+        },
+        {
+            "weight": 1,
+            "target": "3566451",
+            "source": "3566451"
+        },
+        {
+            "weight": 1,
+            "target": "145155",
+            "source": "145155"
+        },
+        {
+            "weight": 5,
+            "target": "3195587",
+            "source": "3195587"
+        },
+        {
+            "weight": 1,
+            "target": "802315",
+            "source": "356893"
+        },
+        {
+            "weight": 1,
+            "target": "356893",
+            "source": "356893"
+        },
+        {
+            "weight": 1,
+            "target": "1033",
+            "source": "1033"
+        },
+        {
+            "weight": 2,
+            "target": "3195587",
+            "source": "1033"
+        },
+        {
+            "weight": 1,
+            "target": "2081637",
+            "source": "3504"
+        },
+        {
+            "weight": 1,
+            "target": "3825555",
+            "source": "3504"
+        },
+        {
+            "weight": 1,
+            "target": "2343909",
+            "source": "2343909"
+        },
+        {
+            "weight": 1,
+            "target": "1033",
+            "source": "2343909"
+        },
+        {
+            "weight": 3,
+            "target": "3195587",
+            "source": "2343909"
+        },
+        {
+            "weight": 1,
+            "target": "341795",
+            "source": "1041"
+        },
+        {
+            "weight": 1,
+            "target": "3443893",
+            "source": "1027"
+        },
+        {
+            "weight": 4,
+            "target": "1884876",
+            "source": "2155537"
+        },
+        {
+            "weight": 17,
+            "target": "2155537",
+            "source": "2155537"
+        },
+        {
+            "weight": 9,
+            "target": "2133574",
+            "source": "2155537"
+        },
+        {
+            "weight": 1,
+            "target": "3397",
+            "source": "2155537"
+        },
+        {
+            "weight": 1,
+            "target": "893963",
+            "source": "3929327"
+        },
+        {
+            "weight": 1,
+            "target": "1860723",
+            "source": "3929327"
+        },
+        {
+            "weight": 1,
+            "target": "3504327",
+            "source": "1334158"
+        },
+        {
+            "weight": 5,
+            "target": "1334158",
+            "source": "1334158"
+        },
+        {
+            "weight": 1,
+            "target": "2172575",
+            "source": "1334158"
+        },
+        {
+            "weight": 1,
+            "target": "580973",
+            "source": "1334158"
+        },
+        {
+            "weight": 1,
+            "target": "605417",
+            "source": "1334158"
+        },
+        {
+            "weight": 2,
+            "target": "2081637",
+            "source": "3916213"
+        },
+        {
+            "weight": 2,
+            "target": "3504",
+            "source": "3916213"
+        },
+        {
+            "weight": 15,
+            "target": "2434915",
+            "source": "3916213"
+        },
+        {
+            "weight": 2,
+            "target": "3825555",
+            "source": "3916213"
+        },
+        {
+            "weight": 3,
+            "target": "2063669",
+            "source": "3916213"
+        }
+    ]
+}
