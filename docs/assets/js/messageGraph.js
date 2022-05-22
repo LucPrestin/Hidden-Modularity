@@ -4,13 +4,29 @@ import { uniqueRandomColor } from "./utils.js"
 
 // ==================== interface ==================== //
 
-export async function runSimulationWithDataFromFile(filePath, onSimulationFinished = () => { }) {
+export async function runSimulationWithDataFromFileAndGranularity(
+    filePath,
+    granularity = {
+        vertex_granularity: "identityHash",
+        color_granularity: "identityHash",
+        label_granularity: "identityHash"
+    },
+    onSimulationFinished = () => { }) 
+{
     const data = await (await fetch(filePath)).json();
-    runSimulationWithData(data, onSimulationFinished);
+    runSimulationWithDataAndGranularity(data, granularity, onSimulationFinished);
 }
 
-export function runSimulationWithData(data, onSimulationFinished = () => { }) {
-    var svg = d3.select(container)
+export function runSimulationWithDataAndGranularity(
+    data,
+    granularity = {
+        vertex_granularity: "identityHash",
+        color_granularity: "identityHash",
+        label_granularity: "identityHash"
+    },
+    onSimulationFinished = () => { }) 
+{
+    let svg = d3.select(container)
         .append("svg")
         .attr("width", "100%")
         .attr("height", "100%")
@@ -19,17 +35,18 @@ export function runSimulationWithData(data, onSimulationFinished = () => { }) {
         }))
         .append("g")
 
-    const { nodes, nodeMap } = createNodes(data);
-    const colors = createColorCategories(nodes);
-    const links = createLinks(nodeMap, data);
+    const { nodes, nodeMap } = createNodes(data, granularity);
+    const links = createLinks(nodeMap, data, granularity);
+    const colors = createColors(nodeMap, granularity);
+    const averageLinkForce = links.reduce((sum, link) => sum + link.strength, 0) / links.length
 
     const simulation = forceSimulation(nodes)
         .force("link", forceLink(links))
-        .force("charge", forceManyBody(-0.5))
+        .force("charge", forceManyBody().strength(averageLinkForce * (-1)))
         .force("collision", forceCollide().radius(function (d) {
             return d.radius;
         }))
-        .on("tick", () => ticked(nodes, links, colors));
+        .on("tick", () => ticked(nodes, links, colors, granularity));
 
     setTimeout(function () {
         simulation.stop();
@@ -39,15 +56,16 @@ export function runSimulationWithData(data, onSimulationFinished = () => { }) {
 
 // ==================== helpers ==================== //
 
-function createNodes(data) {
+function createNodes(data, granularity) {
     const nodeMap = {};
-    Object.keys(data).forEach((caller) => {
-        nodeMap[caller] = newNode(caller)
-        Object.keys(data[caller]).forEach(callee => {
-            if (!nodeMap[callee]) {
-                nodeMap[callee] = newNode(callee);
-            }
-        });
+    Object.values(data.vertices).forEach((vertex) => {
+        const id = vertex[granularity.vertex_granularity];
+
+        if (!nodeMap[id]) {
+            nodeMap[id] = newNode(vertex, granularity)
+        } else {
+            nodeMap[id].data.push(vertex)
+        }
     });
     Object.keys(nodeMap).forEach((nodeName, index) => {
         nodeMap[nodeName].index = index;
@@ -61,46 +79,59 @@ function createNodes(data) {
     return { nodes, nodeMap }
 }
 
-function newNode(label) {
+function newNode(vertex, granularity) {
     return {
-        label: label,
+        label: vertex[granularity.label_granularity],
         index: null,
         x: 400,
         y: 400,
         vx: 0,
         vy: 0,
-        radius: 20,
-        category: label.match(/^.*>>/) ? label.match(/^.*>>/)[0] : 'default'
+        radius: 50,
+        data: [vertex]
     }
 }
 
-function createColorCategories(nodes) {
-    var colors = {
-        default: 'white'
-    }
-    nodes.forEach(node => {
-        if (!colors[node.category]) {
-            colors[node.category] = uniqueRandomColor(node.category, colors)
-        }
+function createLinks(nodeMap, data, granularity) {
+    const edgeMap = {};
+    data.edges.forEach(edge => {
+        const sourceId = data.vertices[edge.source][granularity.vertex_granularity]
+        const targetId = data.vertices[edge.target][granularity.vertex_granularity]
+
+        if (!edgeMap[sourceId]) edgeMap[sourceId] = {}
+        if (!edgeMap[sourceId][targetId]) edgeMap[sourceId][targetId] = {weight: 0, data: []}
+        edgeMap[sourceId][targetId].weight += edge.weight
+        edgeMap[sourceId][targetId].data.push(edge)
     })
-    return colors
-}
 
-function createLinks(nodeMap, data) {
     const links = [];
-    Object.keys(data).forEach(caller => {
-        Object.keys(data[caller]).forEach(callee => {
+    Object.keys(edgeMap).forEach(sourceId => {
+        Object.keys(edgeMap[sourceId]).forEach(targetId => {
             links.push({
-                source: nodeMap[caller].index,
-                target: nodeMap[callee].index,
-                strength: data[caller][callee] * 2
-            });
-        });
-    });
+                source: nodeMap[sourceId].index,
+                target: nodeMap[targetId].index,
+                strength: edgeMap[sourceId][targetId].weight,
+                data: edgeMap[sourceId][targetId].data
+            })
+        })
+    })
+
     return links
 }
 
-function ticked(nodes, links, colors) {
+function createColors(nodeMap, granularity) {
+    const colors = {};
+
+    Object.keys(nodeMap).forEach(nodeName => {
+        const node = nodeMap[nodeName];
+        const id = node.data[0][granularity.color_granularity]
+        colors[id] = uniqueRandomColor(id, colors)
+    })
+
+    return colors
+}
+
+function ticked(nodes, links, colors, granularity) {
     d3.select('svg g')
         .selectAll('circle')
         .data(nodes)
@@ -108,8 +139,8 @@ function ticked(nodes, links, colors) {
         .attr('r', function (d) {
             return d.radius
         })
-        .style('fill', function (d) {
-            return colors[d.category] ? colors[d.category] : colors.default
+        .style('fill', function(d) { 
+            return colors[d.data[0][granularity.color_granularity]]
         })
         .style('stroke', "black")
         .attr('cx', function (d) {
@@ -119,7 +150,7 @@ function ticked(nodes, links, colors) {
             return d.y
         })
         .on('click', function (d) {
-            console.log(d.target.__data__.label)
+            console.log(d.target.__data__)
         })
 
     d3.select('svg g')

@@ -1,4 +1,0 @@
-as yet unclassified
-messageGraphWithoutTracingInfrastructureFrom: aTDBCursor
-
-	^ self new messageGraphWithoutTracingInfrastructureFrom: aTDBCursor

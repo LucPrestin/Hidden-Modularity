@@ -24,37 +24,114 @@
 
     <h1>Visualization of Message Graphs using a Force Simulation</h1>
 
-    <label for="select-dataset-path">Choose a dataset:</label>
+    <label for="select-dataset">Choose a dataset:</label>
     <select name="dataset" id="select-dataset">
         <option value="" selected disabled>None</option>
-        <option value="/Hidden-Modularity/assets/traceData/messageGraphData/morphDrawOn/identityHash.json"><code>Morph>>drawOn:</code> using <code>#identityHash</code></option>
-        <option value="/Hidden-Modularity/assets/traceData/messageGraphData/morphDrawOn/asString.json"><code>Morph>>drawOn:</code> using <code>#asString</code></option>
-        <option value="/Hidden-Modularity/assets/traceData/messageGraphData/morphDrawOn/name.json"><code>Morph>>drawOn:</code> using <code>#name</code></option>
+        <option value="/Hidden-Modularity/assets/traceData/browserOpening.json">Opening a SystemBrowser</option>
+        <option value="/Hidden-Modularity/assets/traceData/explorerOpening.json">Opening an Explorer</option>
+        <option value="/Hidden-Modularity/assets/traceData/morphDrawOn.json">Drawing a Morph</option>
+        <option value="/Hidden-Modularity/assets/traceData/morphOpening.json">Opening a Morph</option>
+        <option value="/Hidden-Modularity/assets/traceData/networkAccess.json">Fetching a website</option>
     </select>
-    <button id="button-confirm-dataset">Confirm</button>
+
+    <br />
+
+    <label for="select-vertex-granularity">Choose the granularity of the vertices:</label>
+    <select name="vertex-granularity" id="select-vertex-granularity"></select>
+
+    <br />
+
+    <label for="select-color-granularity">Choose the granularity of the colors:</label>
+    <select name="color-granularity" id="select-color-granularity"></select>
+
+    <br />
+
+    <label for="select-label-granularity">Choose the granularity of the labels:</label>
+    <select name="label-granularity" id="select-label-granularity"></select>
+
+    <br />
+
+    <button id="button-confirm">Confirm</button>
 
     <div id="container" class="svg-container"></div>
 
     <script type="module">
-        import { runSimulationWithDataFromFile } from "/Hidden-Modularity/assets/js/messageGraph.js";
-        import { removeChildren } from "/Hidden-Modularity/assets/js/utils.js";
+        import { runSimulationWithDataFromFileAndGranularity } from "/Hidden-Modularity/assets/js/messageGraph.js";
+        import { removeChildren, granularityOptions, disableOptionsByIndex } from "/Hidden-Modularity/assets/js/utils.js";
 
         const container = document.getElementById("container");
-        const select = document.getElementById("select-dataset");
-        const button = document.getElementById("button-confirm-dataset");
+
+        const dataset_select = document.getElementById("select-dataset");
+
+        const vertex_granularity_select = document.getElementById("select-vertex-granularity");
+        const color_granularity_select = document.getElementById("select-color-granularity");
+        const label_granularity_select = document.getElementById("select-label-granularity");
+        const granularity_selects = [vertex_granularity_select, color_granularity_select, label_granularity_select];
+
+        const granularity_options = granularityOptions()
+        
+        const button = document.getElementById("button-confirm");
+
+        const ui_elements = [dataset_select, button, ...granularity_selects];
+
+        granularity_selects.forEach(granularity_select => {
+            Object.values(granularity_options).forEach(option => {
+                granularity_select.add(new Option(option.text, option.value, option.default_selected, option.selected), option.index)
+                granularity_select.options[option.index].disabled = option.disabled
+            })
+        })
+
+        vertex_granularity_select.addEventListener("change", () => {
+            const selected_value = vertex_granularity_select.options[vertex_granularity_select.selectedIndex].value;
+            const vertex_granularity_index = granularity_options[selected_value].index
+
+            disableOptionsByIndex(vertex_granularity_index, Object.keys(granularity_options).length, [color_granularity_select, label_granularity_select], true);
+        });
+
+        color_granularity_select.addEventListener("change", () => {
+            const selected_value = color_granularity_select.options[color_granularity_select.selectedIndex].value;
+            const color_granularity_index = granularity_options[selected_value].index
+
+            disableOptionsByIndex(color_granularity_index, Object.keys(granularity_options).length, [vertex_granularity_select], false);
+        })
+
+        label_granularity_select.addEventListener("change", () => {
+            const selected_value = label_granularity_select.options[label_granularity_select.selectedIndex].value;
+            const label_granularity_index = granularity_options[selected_value].index
+
+            disableOptionsByIndex(label_granularity_index, Object.keys(granularity_options).length, [vertex_granularity_select], false);
+        })
 
         button.addEventListener("click", () => {
-            const dataPath = select.options[select.selectedIndex].value;
-            if(dataPath) {
+            const dataPath = dataset_select.options[dataset_select.selectedIndex].value;
+
+            const vertex_granularity = vertex_granularity_select.options[vertex_granularity_select.selectedIndex].value;
+            const color_granularity = color_granularity_select.options[color_granularity_select.selectedIndex].value;
+            const label_granularity = label_granularity_select.options[label_granularity_select.selectedIndex].value;
+
+            let errorMessage = "";
+
+            if (!dataPath) {
+                errorMessage += "Please select a dataset\n"
+            }
+            if (vertex_granularity === "None") {
+                errorMessage += "Please select a vertex granularity\n"
+            }
+            if (color_granularity === "None") {
+                errorMessage += "Please select a color granularity\n"
+            }
+            if (label_granularity === "None") {
+                errorMessage += "Please select a label granularity\n"
+            }
+
+            if (errorMessage === "") {
                 removeChildren(container);
-                button.disabled = true;
-                select.disabled = true;
-                runSimulationWithDataFromFile(dataPath, () => {
-                    button.disabled = false;
-                    select.disabled = false;
+                ui_elements.forEach(element => element.disabled = true);
+                runSimulationWithDataFromFileAndGranularity(dataPath, { vertex_granularity, color_granularity, label_granularity }, () => {
+                    ui_elements.forEach(element => element.disabled = false);
                 });
             } else {
-                alert('Please select a dataset first');
+                alert(errorMessage);
             }
         })
     </script>
