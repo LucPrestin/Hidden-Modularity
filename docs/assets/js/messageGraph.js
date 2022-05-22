@@ -4,13 +4,29 @@ import { uniqueRandomColor } from "./utils.js"
 
 // ==================== interface ==================== //
 
-export async function runSimulationWithDataFromFileAndGranularity(filePath, granularity, onSimulationFinished = () => { }) {
+export async function runSimulationWithDataFromFileAndGranularity(
+    filePath,
+    granularity = {
+        vertex_granularity: "identityHash",
+        color_granularity: "identityHash",
+        label_granularity: "identityHash"
+    },
+    onSimulationFinished = () => { }) 
+{
     const data = await (await fetch(filePath)).json();
-    runSimulationWithData(data, granularity, onSimulationFinished);
+    runSimulationWithDataAndGranularity(data, granularity, onSimulationFinished);
 }
 
-export function runSimulationWithDataAndGranularity(data, granularity, onSimulationFinished = () => { }) {
-    var svg = d3.select(container)
+export function runSimulationWithDataAndGranularity(
+    data,
+    granularity = {
+        vertex_granularity: "identityHash",
+        color_granularity: "identityHash",
+        label_granularity: "identityHash"
+    },
+    onSimulationFinished = () => { }) 
+{
+    let svg = d3.select(container)
         .append("svg")
         .attr("width", "100%")
         .attr("height", "100%")
@@ -21,6 +37,7 @@ export function runSimulationWithDataAndGranularity(data, granularity, onSimulat
 
     const { nodes, nodeMap } = createNodes(data, granularity);
     const links = createLinks(nodeMap, data, granularity);
+    const colors = createColors(nodeMap, granularity);
     const averageLinkForce = links.reduce((sum, link) => sum + link.strength, 0) / links.length
 
     const simulation = forceSimulation(nodes)
@@ -29,7 +46,7 @@ export function runSimulationWithDataAndGranularity(data, granularity, onSimulat
         .force("collision", forceCollide().radius(function (d) {
             return d.radius;
         }))
-        .on("tick", () => ticked(nodes, links));
+        .on("tick", () => ticked(nodes, links, colors, granularity));
 
     setTimeout(function () {
         simulation.stop();
@@ -42,10 +59,12 @@ export function runSimulationWithDataAndGranularity(data, granularity, onSimulat
 function createNodes(data, granularity) {
     const nodeMap = {};
     Object.values(data.vertices).forEach((vertex) => {
-        const id = vertex[granularity];
+        const id = vertex[granularity.vertex_granularity];
 
         if (!nodeMap[id]) {
-            nodeMap[id] = newNode(id)
+            nodeMap[id] = newNode(vertex, granularity)
+        } else {
+            nodeMap[id].data.push(vertex)
         }
     });
     Object.keys(nodeMap).forEach((nodeName, index) => {
@@ -60,27 +79,29 @@ function createNodes(data, granularity) {
     return { nodes, nodeMap }
 }
 
-function newNode(label) {
+function newNode(vertex, granularity) {
     return {
-        label: label,
+        label: vertex[granularity.label_granularity],
         index: null,
         x: 400,
         y: 400,
         vx: 0,
         vy: 0,
         radius: 50,
+        data: [vertex]
     }
 }
 
 function createLinks(nodeMap, data, granularity) {
     const edgeMap = {};
     data.edges.forEach(edge => {
-        const sourceId = data.vertices[edge.source][granularity]
-        const targetId = data.vertices[edge.target][granularity]
+        const sourceId = data.vertices[edge.source][granularity.vertex_granularity]
+        const targetId = data.vertices[edge.target][granularity.vertex_granularity]
 
-        if(!edgeMap[sourceId]) edgeMap[sourceId] = {}
-        if(!edgeMap[sourceId][targetId]) edgeMap[sourceId][targetId] = 0
-        edgeMap[sourceId][targetId] += edge.weight
+        if (!edgeMap[sourceId]) edgeMap[sourceId] = {}
+        if (!edgeMap[sourceId][targetId]) edgeMap[sourceId][targetId] = {weight: 0, data: []}
+        edgeMap[sourceId][targetId].weight += edge.weight
+        edgeMap[sourceId][targetId].data.push(edge)
     })
 
     const links = [];
@@ -89,15 +110,28 @@ function createLinks(nodeMap, data, granularity) {
             links.push({
                 source: nodeMap[sourceId].index,
                 target: nodeMap[targetId].index,
-                strength: edgeMap[sourceId][targetId]
+                strength: edgeMap[sourceId][targetId].weight,
+                data: edgeMap[sourceId][targetId].data
             })
         })
     })
-    
+
     return links
 }
 
-function ticked(nodes, links) {
+function createColors(nodeMap, granularity) {
+    const colors = {};
+
+    Object.keys(nodeMap).forEach(nodeName => {
+        const node = nodeMap[nodeName];
+        const id = node.data[0][granularity.color_granularity]
+        colors[id] = uniqueRandomColor(id, colors)
+    })
+
+    return colors
+}
+
+function ticked(nodes, links, colors, granularity) {
     d3.select('svg g')
         .selectAll('circle')
         .data(nodes)
@@ -105,7 +139,9 @@ function ticked(nodes, links) {
         .attr('r', function (d) {
             return d.radius
         })
-        .style('fill', 'white')
+        .style('fill', function(d) { 
+            return colors[d.data[0][granularity.color_granularity]]
+        })
         .style('stroke', "black")
         .attr('cx', function (d) {
             return d.x
@@ -114,7 +150,7 @@ function ticked(nodes, links) {
             return d.y
         })
         .on('click', function (d) {
-            console.log(d.target.__data__.label)
+            console.log(d.target.__data__)
         })
 
     d3.select('svg g')
