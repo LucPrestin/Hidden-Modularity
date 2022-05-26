@@ -14,7 +14,9 @@ export async function runSimulationWithDataFromFileAndGranularity(
     show_edges = false,
     onSimulationFinished = () => { }) 
 {
+    console.log("fetching data ...")
     const data = await (await fetch(filePath)).json();
+    console.log("done")
     runSimulationWithDataAndGranularity(data, granularity, show_edges, onSimulationFinished);
 }
 
@@ -28,6 +30,7 @@ export function runSimulationWithDataAndGranularity(
     show_edges = false,
     onSimulationFinished = () => { }) 
 {
+    console.log("preparing simulation ...")
     let svg = d3.select(container)
         .append("svg")
         .attr("width", "100%")
@@ -42,6 +45,9 @@ export function runSimulationWithDataAndGranularity(
     const colors = createColors(nodeMap, granularity);
     const averageLinkForce = links.reduce((sum, link) => sum + link.strength, 0) / links.length
 
+    console.log("done")
+    console.log("running simulation ...")
+
     const simulation = forceSimulation(nodes)
         .force("link", forceLink(links))
         .force("charge", forceManyBody().strength(averageLinkForce * (-1)))
@@ -53,7 +59,8 @@ export function runSimulationWithDataAndGranularity(
     setTimeout(function () {
         simulation.stop();
         onSimulationFinished();
-    }, 5000);
+        console.log("done")
+    }, 8000);
 }
 
 // ==================== helpers ==================== //
