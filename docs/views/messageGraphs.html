@@ -51,6 +51,11 @@
 
     <br />
 
+    <label for="checkbox_show_edges">Choose whether to show the graph edges:</label>
+    <input id="checkbox_show_edges" name="checkbox_show_edges" type="checkbox">
+
+    <br />
+
     <button id="button-confirm">Confirm</button>
 
     <div id="container" class="svg-container"></div>
@@ -69,10 +74,12 @@
         const granularity_selects = [vertex_granularity_select, color_granularity_select, label_granularity_select];
 
         const granularity_options = granularityOptions()
-        
+
+        const edge_checkbox = document.getElementById("checkbox_show_edges");
+
         const button = document.getElementById("button-confirm");
 
-        const ui_elements = [dataset_select, button, ...granularity_selects];
+        const ui_elements = [dataset_select, ...granularity_selects, edge_checkbox, button];
 
         granularity_selects.forEach(granularity_select => {
             Object.values(granularity_options).forEach(option => {
@@ -127,9 +134,12 @@
             if (errorMessage === "") {
                 removeChildren(container);
                 ui_elements.forEach(element => element.disabled = true);
-                runSimulationWithDataFromFileAndGranularity(dataPath, { vertex_granularity, color_granularity, label_granularity }, () => {
-                    ui_elements.forEach(element => element.disabled = false);
-                });
+                runSimulationWithDataFromFileAndGranularity(
+                    dataPath,
+                    { vertex_granularity, color_granularity, label_granularity },
+                    edge_checkbox.checked,
+                    () => { ui_elements.forEach(element => element.disabled = false); }
+                );
             } else {
                 alert(errorMessage);
             }

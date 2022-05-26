@@ -11,10 +11,11 @@ export async function runSimulationWithDataFromFileAndGranularity(
         color_granularity: "identityHash",
         label_granularity: "identityHash"
     },
+    show_edges = false,
     onSimulationFinished = () => { }) 
 {
     const data = await (await fetch(filePath)).json();
-    runSimulationWithDataAndGranularity(data, granularity, onSimulationFinished);
+    runSimulationWithDataAndGranularity(data, granularity, show_edges, onSimulationFinished);
 }
 
 export function runSimulationWithDataAndGranularity(
@@ -24,6 +25,7 @@ export function runSimulationWithDataAndGranularity(
         color_granularity: "identityHash",
         label_granularity: "identityHash"
     },
+    show_edges = false,
     onSimulationFinished = () => { }) 
 {
     let svg = d3.select(container)
@@ -46,7 +48,7 @@ export function runSimulationWithDataAndGranularity(
         .force("collision", forceCollide().radius(function (d) {
             return d.radius;
         }))
-        .on("tick", () => ticked(nodes, links, colors, granularity));
+        .on("tick", () => ticked(nodes, links, colors, granularity, show_edges));
 
     setTimeout(function () {
         simulation.stop();
@@ -99,7 +101,7 @@ function createLinks(nodeMap, data, granularity) {
         const targetId = data.vertices[edge.target][granularity.vertex_granularity]
 
         if (!edgeMap[sourceId]) edgeMap[sourceId] = {}
-        if (!edgeMap[sourceId][targetId]) edgeMap[sourceId][targetId] = {weight: 0, data: []}
+        if (!edgeMap[sourceId][targetId]) edgeMap[sourceId][targetId] = { weight: 0, data: [] }
         edgeMap[sourceId][targetId].weight += edge.weight
         edgeMap[sourceId][targetId].data.push(edge)
     })
@@ -131,7 +133,7 @@ function createColors(nodeMap, granularity) {
     return colors
 }
 
-function ticked(nodes, links, colors, granularity) {
+function ticked(nodes, links, colors, granularity, show_edges) {
     d3.select('svg g')
         .selectAll('circle')
         .data(nodes)
@@ -139,7 +141,7 @@ function ticked(nodes, links, colors, granularity) {
         .attr('r', function (d) {
             return d.radius
         })
-        .style('fill', function(d) { 
+        .style('fill', function (d) {
             return colors[d.data[0][granularity.color_granularity]]
         })
         .style('stroke', "black")
@@ -167,13 +169,15 @@ function ticked(nodes, links, colors, granularity) {
             return d.y
         })
 
-    d3.select('svg g')
-        .selectAll('path')
-        .data(links)
-        .join("path")
-        .attr("d", d3.link(d3.curveBasis)
-            .source(link => [link.source.x, link.source.y])
-            .target(link => [link.target.x, link.target.y]))
-        .attr("fill", "none")
-        .attr("stroke", "black")
+    if (show_edges) {
+        d3.select('svg g')
+            .selectAll('path')
+            .data(links)
+            .join("path")
+            .attr("d", d3.link(d3.curveBasis)
+                .source(link => [link.source.x, link.source.y])
+                .target(link => [link.target.x, link.target.y]))
+            .attr("fill", "none")
+            .attr("stroke", "black")
+    }
 }
