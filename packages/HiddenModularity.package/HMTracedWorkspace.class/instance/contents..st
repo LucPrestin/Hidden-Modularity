@@ -1,4 +1,4 @@
 as yet unclassified
 contents: aTextOrString
 
-	[super contents: aTextOrString] traceAndDebug
+	(TDBCursor traceForBlock: [super contents: aTextOrString]) explore

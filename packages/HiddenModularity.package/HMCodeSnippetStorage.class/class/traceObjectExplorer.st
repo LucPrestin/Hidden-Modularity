@@ -11,4 +11,4 @@ traceObjectExplorer
 	(tmp at: '2') at: '2' put: 'Hello'.
 	(tmp at: '2') at: '3' put: Morph new.
 	
-	[tmp explore] traceAndDebug
+	^ TDBCursor traceForBlock: [tmp explore]

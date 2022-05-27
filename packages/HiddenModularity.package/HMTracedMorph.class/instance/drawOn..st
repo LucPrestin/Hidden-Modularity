@@ -1,4 +1,4 @@
 as yet unclassified
 drawOn: aCanvas
 
-	[super drawOn: aCanvas] traceAndDebug
+	(TDBCursor traceForBlock: [super drawOn: aCanvas]) explore

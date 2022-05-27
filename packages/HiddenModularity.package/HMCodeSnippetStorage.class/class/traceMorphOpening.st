@@ -1,4 +1,4 @@
 as yet unclassified
 traceMorphOpening
 
-	[Morph new openInWorld] traceAndDebug
+	^ TDBCursor traceForBlock: [Morph new openInWorld]

@@ -1,4 +1,4 @@
 as yet unclassified
 traceBrowserOpening
 
-	[SystemBrowser defaultOpenBrowser] traceAndDebug
+	^ TDBCursor traceForBlock: [SystemBrowser defaultOpenBrowser]

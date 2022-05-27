@@ -1,4 +1,4 @@
 as yet unclassified
 traceNetworkAccess
 
-	[(WebClient httpGet: 'https://google.com') content] traceAndDebug
+	^ TDBCursor traceForBlock: [(WebClient httpGet: 'https://google.com') content]
