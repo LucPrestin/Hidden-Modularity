@@ -1,7 +1,7 @@
-as yet unclassified
+fileIn/Out
 writeMessageGraphFromCursor: aTDBCursor toFileNamed: fileName 
 
 	FileStream
 		forceNewFileNamed: fileName
-		do: [:stream | (self default messageGraphFromCursor: aTDBCursor)
+		do: [:stream | (self messageGraphFromCursor: aTDBCursor)
 				jsonWriteOn: stream]

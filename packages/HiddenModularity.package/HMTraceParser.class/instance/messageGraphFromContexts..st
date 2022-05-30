@@ -1,4 +1,4 @@
-as yet unclassified
+message graph construction
 messageGraphFromContexts: contexts
 	
 	| graph communicators |

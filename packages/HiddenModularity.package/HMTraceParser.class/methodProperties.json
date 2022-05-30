@@ -2,7 +2,7 @@
 	"class" : {
 		"default" : "lp 5/10/2022 18:46",
 		"messageGraphFromCursor:" : "lp 5/22/2022 14:12",
-		"writeMessageGraphFromCursor:toFileNamed:" : "lp 5/22/2022 16:28" },
+		"writeMessageGraphFromCursor:toFileNamed:" : "lpr 5/30/2022 22:52" },
 	"instance" : {
 		"collectCommunicatorsFrom:" : "lp 5/22/2022 21:10",
 		"collectContextsFrom:" : "lpr 5/27/2022 18:16",

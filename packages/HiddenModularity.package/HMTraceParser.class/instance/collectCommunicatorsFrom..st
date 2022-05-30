@@ -1,4 +1,4 @@
-as yet unclassified
+message graph construction
 collectCommunicatorsFrom: contexts 
 
 	^ contexts collect: [:contextPair | {
