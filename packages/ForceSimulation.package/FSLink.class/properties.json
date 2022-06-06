@@ -1,0 +1,16 @@
+{
+	"category" : "ForceSimulation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"source",
+		"target",
+		"strength" ],
+	"name" : "FSLink",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

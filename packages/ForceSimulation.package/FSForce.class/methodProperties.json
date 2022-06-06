@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"defaultMaxDistance" : "lpr 6/6/2022 21:39",
+		"defaultMinDistance" : "lpr 6/6/2022 21:40",
+		"defaultStrength" : "lpr 6/6/2022 22:30",
+		"defaultTheta" : "lpr 6/6/2022 21:40" },
+	"instance" : {
+		"force:" : "lpr 6/6/2022 22:54",
+		"initialize" : "lpr 6/6/2022 22:42",
+		"nodes" : "lpr 6/6/2022 21:20",
+		"nodes:" : "lpr 6/6/2022 21:20",
+		"random" : "lpr 6/6/2022 22:10",
+		"random:" : "lpr 6/6/2022 22:10",
+		"strength" : "lpr 6/6/2022 21:32",
+		"strength:" : "lpr 6/6/2022 22:30",
+		"strengths" : "lpr 6/6/2022 21:22",
+		"strengths:" : "lpr 6/6/2022 21:22" } }

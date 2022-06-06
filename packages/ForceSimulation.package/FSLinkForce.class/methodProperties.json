@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"defaultDistance" : "lpr 6/6/2022 22:49",
+		"defaultStrength" : "lpr 6/6/2022 22:35" },
+	"instance" : {
+		"bias" : "lpr 6/6/2022 22:40",
+		"bias:" : "lpr 6/6/2022 22:25",
+		"count" : "lpr 6/6/2022 22:40",
+		"count:" : "lpr 6/6/2022 22:36",
+		"distance" : "lpr 6/6/2022 22:45",
+		"distance:" : "lpr 6/6/2022 22:47",
+		"distances" : "lpr 6/6/2022 22:45",
+		"distances:" : "lpr 6/6/2022 22:46",
+		"force:" : "lpr 6/6/2022 23:16",
+		"links" : "lpr 6/6/2022 22:16",
+		"links:" : "lpr 6/6/2022 22:16",
+		"prepare" : "lpr 6/6/2022 22:44",
+		"prepareBias" : "lpr 6/6/2022 22:44",
+		"prepareCount" : "lpr 6/6/2022 22:44",
+		"prepareDistances" : "lpr 6/6/2022 22:49",
+		"prepareStrenghts" : "lpr 6/6/2022 22:44" } }

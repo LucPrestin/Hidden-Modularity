@@ -1,0 +1,14 @@
+{
+	"category" : "ForceSimulation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSJiggler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

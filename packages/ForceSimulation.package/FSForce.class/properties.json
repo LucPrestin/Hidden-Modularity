@@ -1,0 +1,18 @@
+{
+	"category" : "ForceSimulation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nodes",
+		"hasConstantStrength",
+		"strength",
+		"strenghts",
+		"random" ],
+	"name" : "FSForce",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

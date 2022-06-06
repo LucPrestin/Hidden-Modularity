@@ -1,0 +1,14 @@
+{
+	"category" : "ForceSimulation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"seed" ],
+	"name" : "FSLinearCongruentialGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"category" : "ForceSimulation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"links",
+		"distance",
+		"distances",
+		"count",
+		"bias",
+		"iterations" ],
+	"name" : "FSLinkForce",
+	"pools" : [
+		 ],
+	"super" : "FSForce",
+	"type" : "normal" }

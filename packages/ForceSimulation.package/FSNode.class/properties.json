@@ -1,0 +1,16 @@
+{
+	"category" : "ForceSimulation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"position",
+		"velocity",
+		"index" ],
+	"name" : "FSNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
