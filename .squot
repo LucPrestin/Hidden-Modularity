@@ -1,3 +1,4 @@
 OrderedDictionary {
-	'packages/HiddenModularity.package' : #SquotCypressCodeSerializer
+	'packages/HiddenModularity.package' : #SquotCypressCodeSerializer,
+	'packages/BaselineOfHiddenModularity.package' : #SquotCypressCodeSerializer
 }

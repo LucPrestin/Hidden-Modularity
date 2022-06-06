@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfHiddenModularity",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfHiddenModularity",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
