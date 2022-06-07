@@ -66,7 +66,8 @@ export function runSimulationWithDataAndGranularity(
 
 // ==================== helpers ==================== //
 
-const minNodeRadius = 5;
+const minNodeRadius = 30;
+const radiusIncrement = 5;
 
 function createNodes(data, granularity) {
     const nodeMap = {};
@@ -99,7 +100,10 @@ function newNode(vertex, granularity) {
         y: 400,
         vx: 0,
         vy: 0,
-        radius: minNodeRadius,
+        // each node has at least one edge, so it will be incremented at least one time.
+        // for the minNodeRadius to be an actual min, this is taken into account
+        // at node construction
+        radius: minNodeRadius - radiusIncrement,
         data: [vertex]
     }
 }
@@ -133,8 +137,8 @@ function createLinks(nodeMap, data, granularity) {
 
 function setSizeByEdges(nodes, links) {
     links.forEach(link => {
-        nodes[link.source].radius += 1
-        nodes[link.target].radius += 1
+        nodes[link.source].radius += radiusIncrement
+        nodes[link.target].radius += radiusIncrement
     })
 }
 
