@@ -62,7 +62,7 @@ export function runSimulationWithDataAndGranularity(
         .force("collision", forceCollide().radius(function (d) {
             return d.radius;
         }))
-        .on("tick", () => ticked(nodes, links, colors, granularity, show_edges));
+        .on("tick", () => ticked(nodes, links, colors, granularity, show_edges, calculate_node_size_by_edges));
 
     setTimeout(function () {
         simulation.stop();
@@ -167,7 +167,7 @@ function createColors(nodeMap, granularity) {
     return colors
 }
 
-function ticked(nodes, links, colors, granularity, show_edges) {
+function ticked(nodes, links, colors, granularity, show_edges, calculate_node_size_by_edges) {
     d3.select('svg g')
         .selectAll('circle')
         .data(nodes)
@@ -194,7 +194,10 @@ function ticked(nodes, links, colors, granularity, show_edges) {
         .data(nodes)
         .join('text')
         .text(function (d) {
-            return d.radius > minNodeRadius ? d.label : ""
+            if (calculate_node_size_by_edges) {
+                return d.radius > minNodeRadius ? d.label : ""
+            }
+            return d.label
         })
         .attr('x', function (d) {
             return d.x
