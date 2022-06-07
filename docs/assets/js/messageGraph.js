@@ -12,12 +12,13 @@ export async function runSimulationWithDataFromFileAndGranularity(
         label_granularity: "identityHash"
     },
     show_edges = false,
+    calculate_node_size_by_edges = true,
     onSimulationFinished = () => { }) 
 {
     console.log("fetching data ...")
     const data = await (await fetch(filePath)).json();
     console.log("done")
-    runSimulationWithDataAndGranularity(data, granularity, show_edges, onSimulationFinished);
+    runSimulationWithDataAndGranularity(data, granularity, show_edges, calculate_node_size_by_edges, onSimulationFinished);
 }
 
 export function runSimulationWithDataAndGranularity(
@@ -28,6 +29,7 @@ export function runSimulationWithDataAndGranularity(
         label_granularity: "identityHash"
     },
     show_edges = false,
+    calculate_node_size_by_edges = true,
     onSimulationFinished = () => { }) 
 {
     console.log("preparing simulation ...")
@@ -42,7 +44,12 @@ export function runSimulationWithDataAndGranularity(
 
     const { nodes, nodeMap } = createNodes(data, granularity);
     const links = createLinks(nodeMap, data, granularity);
-    setSizeByEdges(nodes, links)
+    if (calculate_node_size_by_edges) {
+        setSizeByEdges(nodes, links)
+    } else {
+        setSizeByAggregatedData(nodes)
+    }
+    
     const colors = createColors(nodeMap, granularity);
     const averageLinkForce = links.reduce((sum, link) => sum + link.strength, 0) / links.length
 
@@ -139,6 +146,12 @@ function setSizeByEdges(nodes, links) {
     links.forEach(link => {
         nodes[link.source].radius += radiusIncrement
         nodes[link.target].radius += radiusIncrement
+    })
+}
+
+function setSizeByAggregatedData(nodes) {
+    nodes.forEach(node => {
+        node.radius += radiusIncrement * node.data.length
     })
 }
 
