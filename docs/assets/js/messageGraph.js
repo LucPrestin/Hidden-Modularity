@@ -1,6 +1,6 @@
 import * as d3 from "https://cdn.skypack.dev/d3@7";
 import { forceSimulation, forceLink, forceManyBody, forceCollide } from "https://cdn.skypack.dev/d3-force@3";
-import { uniqueRandomColor } from "./utils.js"
+import { uniqueRandomColor, deepCopy } from "./utils.js"
 
 // ==================== interface ==================== //
 
@@ -33,6 +33,7 @@ export function runSimulationWithDataAndGranularity(
     onSimulationFinished = () => { }) 
 {
     console.log("preparing simulation ...")
+
     let svg = d3.select(container)
         .append("svg")
         .attr("width", "100%")
@@ -42,14 +43,14 @@ export function runSimulationWithDataAndGranularity(
         }))
         .append("g")
 
-    const { nodes, nodeMap } = createNodes(data, granularity);
-    const links = createLinks(nodeMap, data, granularity);
+    const { nodes, nodeMap, replacedNames } = createNodes(data, granularity);
+    const links = createLinks(nodeMap, replacedNames, data, granularity);
     if (calculate_node_size_by_edges) {
         setSizeByEdges(nodes, links)
     } else {
         setSizeByAggregatedData(nodes)
     }
-    
+
     const colors = createColors(nodeMap, granularity);
     const averageLinkForce = links.reduce((sum, link) => sum + link.strength, 0) / links.length
 
@@ -87,6 +88,26 @@ function createNodes(data, granularity) {
             nodeMap[id].data.push(vertex)
         }
     });
+
+    const replacedNames = {};
+    const granularity_options = granularityOptions()
+    if (granularity_options[granularity.vertex_granularity].index >= granularity_options['class'].index) {
+        Object.keys(nodeMap).forEach(nodeKey => {
+            if (nodeKey.match(/ class$/)) {
+                const instance_name = nodeKey.replace(/ class$/, '')
+                if (nodeMap[instance_name]) {
+                    nodeMap[instance_name].data = [...nodeMap[instance_name].data, ...nodeMap[nodeKey].data]
+                } else {
+                    nodeMap[instance_name] = deepCopy(nodeMap[nodeKey])
+                }
+                nodeMap[instance_name].label = nodeMap[instance_name].label.replace(/ class$/, '')
+                replacedNames[nodeKey] = instance_name
+                delete nodeMap[nodeKey]
+            }
+        })
+        debugger
+    }
+
     Object.keys(nodeMap).forEach((nodeName, index) => {
         nodeMap[nodeName].index = index;
     });
@@ -96,7 +117,7 @@ function createNodes(data, granularity) {
         nodes.push(nodeMap[nodeName])
     });
 
-    return { nodes, nodeMap }
+    return { nodes, nodeMap, replacedNames }
 }
 
 function newNode(vertex, granularity) {
@@ -115,7 +136,7 @@ function newNode(vertex, granularity) {
     }
 }
 
-function createLinks(nodeMap, data, granularity) {
+function createLinks(nodeMap, replacedNames, data, granularity) {
     const edgeMap = {};
     data.edges.forEach(edge => {
         const sourceId = data.vertices[edge.source][granularity.vertex_granularity]
@@ -131,8 +152,8 @@ function createLinks(nodeMap, data, granularity) {
     Object.keys(edgeMap).forEach(sourceId => {
         Object.keys(edgeMap[sourceId]).forEach(targetId => {
             links.push({
-                source: nodeMap[sourceId].index,
-                target: nodeMap[targetId].index,
+                source: nodeMap[sourceId] ? nodeMap[sourceId].index : nodeMap[replacedNames[sourceId]].index,
+                target: nodeMap[targetId] ? nodeMap[targetId].index : nodeMap[replacedNames[targetId]].index,
                 strength: edgeMap[sourceId][targetId].weight,
                 data: edgeMap[sourceId][targetId].data
             })

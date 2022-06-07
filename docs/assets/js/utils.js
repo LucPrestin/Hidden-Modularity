@@ -1,3 +1,7 @@
+export function deepCopy(obj) {
+    return JSON.parse(JSON.stringify(obj))
+}
+
 export function randomColor() {
     const maxColorVal = 0xFFFFFF
     const randomColor = Math.random() * maxColorVal
