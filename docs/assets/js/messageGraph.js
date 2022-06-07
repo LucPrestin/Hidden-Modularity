@@ -42,6 +42,7 @@ export function runSimulationWithDataAndGranularity(
 
     const { nodes, nodeMap } = createNodes(data, granularity);
     const links = createLinks(nodeMap, data, granularity);
+    setSizeByEdges(nodes, links)
     const colors = createColors(nodeMap, granularity);
     const averageLinkForce = links.reduce((sum, link) => sum + link.strength, 0) / links.length
 
@@ -64,6 +65,8 @@ export function runSimulationWithDataAndGranularity(
 }
 
 // ==================== helpers ==================== //
+
+const minNodeRadius = 5;
 
 function createNodes(data, granularity) {
     const nodeMap = {};
@@ -96,7 +99,7 @@ function newNode(vertex, granularity) {
         y: 400,
         vx: 0,
         vy: 0,
-        radius: 50,
+        radius: minNodeRadius,
         data: [vertex]
     }
 }
@@ -126,6 +129,13 @@ function createLinks(nodeMap, data, granularity) {
     })
 
     return links
+}
+
+function setSizeByEdges(nodes, links) {
+    links.forEach(link => {
+        nodes[link.source].radius += 1
+        nodes[link.target].radius += 1
+    })
 }
 
 function createColors(nodeMap, granularity) {
@@ -167,7 +177,7 @@ function ticked(nodes, links, colors, granularity, show_edges) {
         .data(nodes)
         .join('text')
         .text(function (d) {
-            return d.label
+            return d.radius > minNodeRadius ? d.label : ""
         })
         .attr('x', function (d) {
             return d.x
