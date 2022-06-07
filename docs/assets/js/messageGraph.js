@@ -1,6 +1,6 @@
 import * as d3 from "https://cdn.skypack.dev/d3@7";
 import { forceSimulation, forceLink, forceManyBody, forceCollide } from "https://cdn.skypack.dev/d3-force@3";
-import { uniqueRandomColor } from "./utils.js"
+import { uniqueRandomColor, deepCopy, granularityOptions } from "./utils.js"
 
 // ==================== interface ==================== //
 
@@ -12,12 +12,13 @@ export async function runSimulationWithDataFromFileAndGranularity(
         label_granularity: "identityHash"
     },
     show_edges = false,
+    calculate_node_size_by_edges = true,
     onSimulationFinished = () => { }) 
 {
     console.log("fetching data ...")
     const data = await (await fetch(filePath)).json();
     console.log("done")
-    runSimulationWithDataAndGranularity(data, granularity, show_edges, onSimulationFinished);
+    runSimulationWithDataAndGranularity(data, granularity, show_edges, calculate_node_size_by_edges, onSimulationFinished);
 }
 
 export function runSimulationWithDataAndGranularity(
@@ -28,9 +29,11 @@ export function runSimulationWithDataAndGranularity(
         label_granularity: "identityHash"
     },
     show_edges = false,
+    calculate_node_size_by_edges = true,
     onSimulationFinished = () => { }) 
 {
     console.log("preparing simulation ...")
+
     let svg = d3.select(container)
         .append("svg")
         .attr("width", "100%")
@@ -40,8 +43,14 @@ export function runSimulationWithDataAndGranularity(
         }))
         .append("g")
 
-    const { nodes, nodeMap } = createNodes(data, granularity);
-    const links = createLinks(nodeMap, data, granularity);
+    const { nodes, nodeMap, replacedNames } = createNodes(data, granularity);
+    const links = createLinks(nodeMap, replacedNames, data, granularity);
+    if (calculate_node_size_by_edges) {
+        setSizeByEdges(nodes, links)
+    } else {
+        setSizeByAggregatedData(nodes)
+    }
+
     const colors = createColors(nodeMap, granularity);
     const averageLinkForce = links.reduce((sum, link) => sum + link.strength, 0) / links.length
 
@@ -54,7 +63,7 @@ export function runSimulationWithDataAndGranularity(
         .force("collision", forceCollide().radius(function (d) {
             return d.radius;
         }))
-        .on("tick", () => ticked(nodes, links, colors, granularity, show_edges));
+        .on("tick", () => ticked(nodes, links, colors, granularity, show_edges, calculate_node_size_by_edges));
 
     setTimeout(function () {
         simulation.stop();
@@ -64,6 +73,9 @@ export function runSimulationWithDataAndGranularity(
 }
 
 // ==================== helpers ==================== //
+
+const minNodeRadius = 30;
+const radiusIncrement = 5;
 
 function createNodes(data, granularity) {
     const nodeMap = {};
@@ -76,6 +88,25 @@ function createNodes(data, granularity) {
             nodeMap[id].data.push(vertex)
         }
     });
+
+    const replacedNames = {};
+    const granularity_options = granularityOptions()
+    if (granularity_options[granularity.vertex_granularity].index >= granularity_options['class'].index) {
+        Object.keys(nodeMap).forEach(nodeKey => {
+            if (nodeKey.match(/ class$/)) {
+                const instance_name = nodeKey.replace(/ class$/, '')
+                if (nodeMap[instance_name]) {
+                    nodeMap[instance_name].data = [...nodeMap[instance_name].data, ...nodeMap[nodeKey].data]
+                } else {
+                    nodeMap[instance_name] = deepCopy(nodeMap[nodeKey])
+                }
+                nodeMap[instance_name].label = nodeMap[instance_name].label.replace(/ class$/, '')
+                replacedNames[nodeKey] = instance_name
+                delete nodeMap[nodeKey]
+            }
+        })
+    }
+
     Object.keys(nodeMap).forEach((nodeName, index) => {
         nodeMap[nodeName].index = index;
     });
@@ -85,7 +116,7 @@ function createNodes(data, granularity) {
         nodes.push(nodeMap[nodeName])
     });
 
-    return { nodes, nodeMap }
+    return { nodes, nodeMap, replacedNames }
 }
 
 function newNode(vertex, granularity) {
@@ -96,12 +127,15 @@ function newNode(vertex, granularity) {
         y: 400,
         vx: 0,
         vy: 0,
-        radius: 50,
+        // each node has at least one edge, so it will be incremented at least one time.
+        // for the minNodeRadius to be an actual min, this is taken into account
+        // at node construction
+        radius: minNodeRadius - radiusIncrement,
         data: [vertex]
     }
 }
 
-function createLinks(nodeMap, data, granularity) {
+function createLinks(nodeMap, replacedNames, data, granularity) {
     const edgeMap = {};
     data.edges.forEach(edge => {
         const sourceId = data.vertices[edge.source][granularity.vertex_granularity]
@@ -117,8 +151,8 @@ function createLinks(nodeMap, data, granularity) {
     Object.keys(edgeMap).forEach(sourceId => {
         Object.keys(edgeMap[sourceId]).forEach(targetId => {
             links.push({
-                source: nodeMap[sourceId].index,
-                target: nodeMap[targetId].index,
+                source: nodeMap[sourceId] ? nodeMap[sourceId].index : nodeMap[replacedNames[sourceId]].index,
+                target: nodeMap[targetId] ? nodeMap[targetId].index : nodeMap[replacedNames[targetId]].index,
                 strength: edgeMap[sourceId][targetId].weight,
                 data: edgeMap[sourceId][targetId].data
             })
@@ -126,6 +160,19 @@ function createLinks(nodeMap, data, granularity) {
     })
 
     return links
+}
+
+function setSizeByEdges(nodes, links) {
+    links.forEach(link => {
+        nodes[link.source].radius += radiusIncrement
+        nodes[link.target].radius += radiusIncrement
+    })
+}
+
+function setSizeByAggregatedData(nodes) {
+    nodes.forEach(node => {
+        node.radius += radiusIncrement * node.data.length
+    })
 }
 
 function createColors(nodeMap, granularity) {
@@ -140,7 +187,7 @@ function createColors(nodeMap, granularity) {
     return colors
 }
 
-function ticked(nodes, links, colors, granularity, show_edges) {
+function ticked(nodes, links, colors, granularity, show_edges, calculate_node_size_by_edges) {
     d3.select('svg g')
         .selectAll('circle')
         .data(nodes)
@@ -167,6 +214,9 @@ function ticked(nodes, links, colors, granularity, show_edges) {
         .data(nodes)
         .join('text')
         .text(function (d) {
+            if (calculate_node_size_by_edges) {
+                return d.radius > minNodeRadius ? d.label : ""
+            }
             return d.label
         })
         .attr('x', function (d) {
