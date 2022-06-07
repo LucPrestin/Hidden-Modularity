@@ -105,7 +105,6 @@ function createNodes(data, granularity) {
                 delete nodeMap[nodeKey]
             }
         })
-        debugger
     }
 
     Object.keys(nodeMap).forEach((nodeName, index) => {
