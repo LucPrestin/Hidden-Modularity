@@ -2,7 +2,7 @@
 
 This repo contains code snippes that were used to work towards the research goal below. For the gained insights and further information, have a look at the [wiki](https://github.com/LucPrestin/Hidden-Modularity/wiki).
 
-For the visualizations made with JavaScript, have a look at the [github pages entry](https://lucprestin.github.io/Hidden-Modularity/).
+For the visualizations made with JavaScript, have a look at the files in the [visualization folder](https://github.com/LucPrestin/Hidden-Modularity/tree/main/visualizations).
 
 ## Installation
 
