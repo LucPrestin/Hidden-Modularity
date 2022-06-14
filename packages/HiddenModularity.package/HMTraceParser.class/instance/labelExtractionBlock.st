@@ -1,0 +1,4 @@
+accessing
+labelExtractionBlock
+
+	^ labelExtractionBlock

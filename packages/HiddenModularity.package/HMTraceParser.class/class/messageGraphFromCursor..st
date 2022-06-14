@@ -1,4 +1,4 @@
 message graph construction
 messageGraphFromCursor: aTDBCursor
 
-	^ self default messageGraphFromCursor: aTDBCursor
+	^ self new messageGraphFromCursor: aTDBCursor

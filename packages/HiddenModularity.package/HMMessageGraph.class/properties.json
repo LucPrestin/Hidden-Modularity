@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"idExtractionBlock",
-		"labelExtractionBlock",
-		"colorLabelExtractionBlock",
-		"colors" ],
-	"name" : "HMTraceParser",
+		"vertices",
+		"edges" ],
+	"name" : "HMMessageGraph",
 	"pools" : [
 		 ],
 	"super" : "Object",

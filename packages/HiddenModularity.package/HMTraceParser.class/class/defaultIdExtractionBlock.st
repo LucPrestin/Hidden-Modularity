@@ -1,0 +1,4 @@
+defaults
+defaultIdExtractionBlock
+
+	^ self nameExtractionBlock

@@ -1,0 +1,4 @@
+accessing
+colorLabelExtractionBlock
+
+	^ colorLabelExtractionBlock
