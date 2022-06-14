@@ -260,7 +260,8 @@
 
         function newNode(vertex, granularity) {
             return {
-                label: vertex[granularity.label_granularity],
+                label: vertex['label'],
+                color: vertex['color'] ? vertex['color'] : "white",
                 index: null,
                 x: 400,
                 y: 400,
