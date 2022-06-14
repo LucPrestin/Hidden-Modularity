@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addEdgeBetween:and:" : "lpr 6/14/2022 10:56",
+		"addEdgeBetween:and:withWeight:" : "lpr 6/14/2022 10:58",
+		"addVertexWithId:label:andColor:" : "lpr 6/14/2022 10:56",
+		"edges" : "lpr 6/14/2022 10:50",
+		"edges:" : "lpr 6/14/2022 10:51",
+		"edgesAsCollection" : "lpr 6/14/2022 10:53",
+		"initialize" : "lpr 6/14/2022 10:54",
+		"jsonWriteOn:" : "lpr 6/14/2022 11:00",
+		"vertices" : "lpr 6/14/2022 10:51",
+		"vertices:" : "lpr 6/14/2022 10:51",
+		"writeToFileNamed:" : "lpr 6/14/2022 11:01" } }

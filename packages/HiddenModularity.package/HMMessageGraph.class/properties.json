@@ -1,0 +1,15 @@
+{
+	"category" : "HiddenModularity",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"vertices",
+		"edges" ],
+	"name" : "HMMessageGraph",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
