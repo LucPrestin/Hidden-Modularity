@@ -29,29 +29,8 @@
 
     <br />
 
-    <label for="select-vertex-granularity">Choose the granularity of the vertices:</label>
-    <select name="vertex-granularity" id="select-vertex-granularity"></select>
-
-    <br />
-
-    <label for="select-color-granularity">Choose the granularity of the colors:</label>
-    <select name="color-granularity" id="select-color-granularity"></select>
-
-    <br />
-
-    <label for="select-label-granularity">Choose the granularity of the labels:</label>
-    <select name="label-granularity" id="select-label-granularity"></select>
-
-    <br />
-
     <label for="checkbox_show_edges">Show graph edges:</label>
     <input id="checkbox_show_edges" name="checkbox_show_edges" type="checkbox">
-
-    <br />
-
-    <label for="checkbox_node_size_by_edges">Calculate node size by amount of edges (otherwise aggregated
-        nodes):</label>
-    <input id="checkbox_node_size_by_edges" name="checkbox_node_size_by_edges" type="checkbox" checked>
 
     <br />
 
@@ -69,112 +48,22 @@
             return JSON.parse(JSON.stringify(obj))
         }
 
-        function randomColor() {
-            const maxColorVal = 0xFFFFFF
-            const randomColor = Math.random() * maxColorVal
-            return "#" + Math.floor(randomColor).toString(16);
-        }
-
-        function uniqueRandomColor(id, dict) {
-            let color = randomColor();
-            while (Object.values(dict).includes(color)) {
-                color = randomColor();
-            }
-            return color
-        }
-
         function removeChildren(widget) {
             while (widget.firstChild) {
                 widget.removeChild(widget.lastChild);
             }
         }
 
-        const granularity_options = {
-            None: {
-                text: "None",
-                value: "None",
-                default_selected: true,
-                selected: true,
-                index: 0,
-                disabled: true
-            }, identityHash: {
-                text: "Object identity",
-                value: "identityHash",
-                default_selected: false,
-                selected: false,
-                index: 1,
-                disabled: false
-            }, name: {
-                text: "Object name",
-                value: "name",
-                default_selected: false,
-                selected: false,
-                index: 2,
-                disabled: false
-            }, methodReference: {
-                text: "Method reference (only for compiled methods)",
-                value: "methodReference",
-                default_selected: false,
-                selected: false,
-                index: 3,
-                disabled: false
-            }, methodCategory: {
-                text: "Method category (only for compiled methods)",
-                value: "methodCategory",
-                default_selected: false,
-                selected: false,
-                index: 4,
-                disabled: false
-            }, class: {
-                text: "Object class",
-                value: "class",
-                default_selected: false,
-                selected: false,
-                index: 5,
-                disabled: false
-            }, category: {
-                text: "Object class category",
-                value: "category",
-                default_selected: false,
-                selected: false,
-                index: 6,
-                disabled: false
-            }, package: {
-                text: "Object class package",
-                value: "package",
-                default_selected: false,
-                selected: false,
-                index: 7,
-                disabled: false
-            }
-        }
-
-        function disableOptionsByIndex(threshold, number_of_options, selects = [], smallerThreshold = true) {
-            for (let option_index = 1; option_index < number_of_options; option_index++) {
-                if ((option_index < threshold) === smallerThreshold) {
-                    selects.forEach(select => select.options[option_index].disabled = true);
-                } else {
-                    selects.forEach(select => select.options[option_index].disabled = false);
-                }
-            }
-            selects.forEach(select => select.options[threshold].disabled = false);
-        }
-
         // end utils //
 
         // begin message graph code //
 
-        function runSimulationWithDataAndGranularity(
+        function runSimulationWithData(
             data,
-            granularity = {
-                vertex_granularity: "identityHash",
-                color_granularity: "identityHash",
-                label_granularity: "identityHash"
-            },
             show_edges = false,
-            calculate_node_size_by_edges = true,
-            onSimulationFinished = () => { }) {
-            console.log("preparing simulation ...")
+            onSimulationFinished = () => { }) 
+        {
+            console.log("Simulation started.")
 
             let svg = d3.select(container)
                 .append("svg")
@@ -185,19 +74,11 @@
                 }))
                 .append("g")
 
-            const { nodes, nodeMap, replacedNames } = createNodes(data, granularity);
-            const links = createLinks(nodeMap, replacedNames, data, granularity);
-            if (calculate_node_size_by_edges) {
-                setSizeByEdges(nodes, links)
-            } else {
-                setSizeByAggregatedData(nodes)
-            }
-
-            const colors = createColors(nodeMap, granularity);
+            const { nodes, nodeMap } = createNodes(data);
+            const links = createLinks(nodeMap, data);
+            
+            setSizeByEdges(nodes, links)
             const averageLinkForce = links.reduce((sum, link) => sum + link.strength, 0) / links.length
-
-            console.log("done")
-            console.log("running simulation ...")
 
             const simulation = forceSimulation(nodes)
                 .force("link", forceLink(links))
@@ -205,46 +86,24 @@
                 .force("collision", forceCollide().radius(function (d) {
                     return d.radius;
                 }))
-                .on("tick", () => ticked(nodes, links, colors, granularity, show_edges, calculate_node_size_by_edges));
+                .on("tick", () => ticked(nodes, links, show_edges));
 
             setTimeout(function () {
                 simulation.stop();
                 onSimulationFinished();
-                console.log("done")
+                console.log("Simulation finished")
             }, 8000);
         }
 
         const minNodeRadius = 30;
         const radiusIncrement = 5;
 
-        function createNodes(data, granularity) {
-            const nodeMap = {};
-            Object.values(data.vertices).forEach((vertex) => {
-                const id = vertex[granularity.vertex_granularity];
-
-                if (!nodeMap[id]) {
-                    nodeMap[id] = newNode(vertex, granularity)
-                } else {
-                    nodeMap[id].data.push(vertex)
-                }
+        function createNodes(data) {
+            const nodeMap = deepCopy(data['vertices']);
+            Object.keys(nodeMap).forEach((vertexKey) => {
+                const id = vertexKey;
+                nodeMap[id] = newNode(nodeMap[id])
             });
-
-            const replacedNames = {};
-            if (granularity_options[granularity.vertex_granularity].index >= granularity_options['class'].index) {
-                Object.keys(nodeMap).forEach(nodeKey => {
-                    if (nodeKey.match(/ class$/)) {
-                        const instance_name = nodeKey.replace(/ class$/, '')
-                        if (nodeMap[instance_name]) {
-                            nodeMap[instance_name].data = [...nodeMap[instance_name].data, ...nodeMap[nodeKey].data]
-                        } else {
-                            nodeMap[instance_name] = deepCopy(nodeMap[nodeKey])
-                        }
-                        nodeMap[instance_name].label = nodeMap[instance_name].label.replace(/ class$/, '')
-                        replacedNames[nodeKey] = instance_name
-                        delete nodeMap[nodeKey]
-                    }
-                })
-            }
 
             Object.keys(nodeMap).forEach((nodeName, index) => {
                 nodeMap[nodeName].index = index;
@@ -255,12 +114,13 @@
                 nodes.push(nodeMap[nodeName])
             });
 
-            return { nodes, nodeMap, replacedNames }
+            return  { nodes, nodeMap }
         }
 
-        function newNode(vertex, granularity) {
+        function newNode(vertex) {
             return {
                 label: vertex['label'],
+                id: vertex['id'],
                 color: vertex['color'] ? vertex['color'] : "white",
                 index: null,
                 x: 400,
@@ -270,32 +130,18 @@
                 // each node has at least one edge, so it will be incremented at least one time.
                 // for the minNodeRadius to be an actual min, this is taken into account
                 // at node construction
-                radius: minNodeRadius - radiusIncrement,
-                data: [vertex]
+                radius: minNodeRadius - radiusIncrement
             }
         }
 
-        function createLinks(nodeMap, replacedNames, data, granularity) {
-            const edgeMap = {};
+        function createLinks(nodeMap, data) {
+            const links = []
+
             data.edges.forEach(edge => {
-                const sourceId = data.vertices[edge.source][granularity.vertex_granularity]
-                const targetId = data.vertices[edge.target][granularity.vertex_granularity]
-
-                if (!edgeMap[sourceId]) edgeMap[sourceId] = {}
-                if (!edgeMap[sourceId][targetId]) edgeMap[sourceId][targetId] = { weight: 0, data: [] }
-                edgeMap[sourceId][targetId].weight += edge.weight
-                edgeMap[sourceId][targetId].data.push(edge)
-            })
-
-            const links = [];
-            Object.keys(edgeMap).forEach(sourceId => {
-                Object.keys(edgeMap[sourceId]).forEach(targetId => {
-                    links.push({
-                        source: nodeMap[sourceId] ? nodeMap[sourceId].index : nodeMap[replacedNames[sourceId]].index,
-                        target: nodeMap[targetId] ? nodeMap[targetId].index : nodeMap[replacedNames[targetId]].index,
-                        strength: edgeMap[sourceId][targetId].weight,
-                        data: edgeMap[sourceId][targetId].data
-                    })
+                links.push({
+                    source: nodeMap[edge['sender']]['index'],
+                    target: nodeMap[edge['receiver']]['index'],
+                    strength: edge['weight']
                 })
             })
 
@@ -315,19 +161,7 @@
             })
         }
 
-        function createColors(nodeMap, granularity) {
-            const colors = {};
-
-            Object.keys(nodeMap).forEach(nodeName => {
-                const node = nodeMap[nodeName];
-                const id = node.data[0][granularity.color_granularity]
-                colors[id] = uniqueRandomColor(id, colors)
-            })
-
-            return colors
-        }
-
-        function ticked(nodes, links, colors, granularity, show_edges, calculate_node_size_by_edges) {
+        function ticked(nodes, links, show_edges) {
             d3.select('svg g')
                 .selectAll('circle')
                 .data(nodes)
@@ -336,7 +170,7 @@
                     return d.radius
                 })
                 .style('fill', function (d) {
-                    return colors[d.data[0][granularity.color_granularity]]
+                    return d.color
                 })
                 .style('stroke', "black")
                 .attr('cx', function (d) {
@@ -354,10 +188,7 @@
                 .data(nodes)
                 .join('text')
                 .text(function (d) {
-                    if (calculate_node_size_by_edges) {
-                        return d.radius > minNodeRadius ? d.label : ""
-                    }
-                    return d.label
+                    return d.radius > minNodeRadius ? d.label : ""
                 })
                 .attr('x', function (d) {
                     return d.x
@@ -397,75 +228,26 @@
         const container = document.getElementById("container");
 
         const dataset_file_input = document.getElementById("input-file-dataset");
-
-        const vertex_granularity_select = document.getElementById("select-vertex-granularity");
-        const color_granularity_select = document.getElementById("select-color-granularity");
-        const label_granularity_select = document.getElementById("select-label-granularity");
-        const granularity_selects = [vertex_granularity_select, color_granularity_select, label_granularity_select];
-
         const edge_checkbox = document.getElementById("checkbox_show_edges");
-        const node_size_checkbox = document.getElementById("checkbox_node_size_by_edges")
-
         const button = document.getElementById("button-confirm");
 
-        const ui_elements = [dataset_file_input, ...granularity_selects, edge_checkbox, node_size_checkbox, button];
+        const ui_elements = [dataset_file_input, edge_checkbox, button];
 
-        granularity_selects.forEach(granularity_select => {
-            Object.values(granularity_options).forEach(option => {
-                granularity_select.add(new Option(option.text, option.value, option.default_selected, option.selected), option.index)
-                granularity_select.options[option.index].disabled = option.disabled
-            })
-        })
-
-        vertex_granularity_select.addEventListener("change", () => {
-            const selected_value = vertex_granularity_select.options[vertex_granularity_select.selectedIndex].value;
-            const vertex_granularity_index = granularity_options[selected_value].index
-
-            disableOptionsByIndex(vertex_granularity_index, Object.keys(granularity_options).length, [color_granularity_select, label_granularity_select], true);
-        });
-
-        color_granularity_select.addEventListener("change", () => {
-            const selected_value = color_granularity_select.options[color_granularity_select.selectedIndex].value;
-            const color_granularity_index = granularity_options[selected_value].index
-
-            disableOptionsByIndex(color_granularity_index, Object.keys(granularity_options).length, [vertex_granularity_select], false);
-        })
-
-        label_granularity_select.addEventListener("change", () => {
-            const selected_value = label_granularity_select.options[label_granularity_select.selectedIndex].value;
-            const label_granularity_index = granularity_options[selected_value].index
-
-            disableOptionsByIndex(label_granularity_index, Object.keys(granularity_options).length, [vertex_granularity_select], false);
-        })
 
         button.addEventListener("click", async () => {
-            const vertex_granularity = vertex_granularity_select.options[vertex_granularity_select.selectedIndex].value;
-            const color_granularity = color_granularity_select.options[color_granularity_select.selectedIndex].value;
-            const label_granularity = label_granularity_select.options[label_granularity_select.selectedIndex].value;
 
             let errorMessage = "";
 
             if (!dataset_file_input.files.length > 0) {
                 errorMessage += "Please select a dataset\n"
             }
-            if (vertex_granularity === "None") {
-                errorMessage += "Please select a vertex granularity\n"
-            }
-            if (color_granularity === "None") {
-                errorMessage += "Please select a color granularity\n"
-            }
-            if (label_granularity === "None") {
-                errorMessage += "Please select a label granularity\n"
-            }
 
             if (errorMessage === "") {
                 removeChildren(container);
                 ui_elements.forEach(element => element.disabled = true);
-                runSimulationWithDataAndGranularity(
+                runSimulationWithData(
                     await load_json(dataset_file_input.files[0]),
-                    { vertex_granularity, color_granularity, label_granularity },
                     edge_checkbox.checked,
-                    node_size_checkbox.checked,
                     () => { ui_elements.forEach(element => element.disabled = false); }
                 );
             } else {
