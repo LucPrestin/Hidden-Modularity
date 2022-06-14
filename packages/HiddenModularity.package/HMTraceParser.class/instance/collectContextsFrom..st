@@ -3,7 +3,8 @@ collectContextsFrom: aTDBCursor
 
 	| contexts |
 	
-	contexts := self collectContextsFrom: aTDBCursor startingAt: aTDBCursor context.
+	contexts := OrderedCollection new.
 	contexts add: {nil . aTDBCursor context tdbproxyYourself}.
+	contexts addAll: (self collectContextsFrom: aTDBCursor startingAt: aTDBCursor context).
 	
 	^ contexts
