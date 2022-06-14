@@ -1,2 +1,4 @@
 defaults
 defaultColorLabelExtractionBlock
+
+	^ self classExtractionBlock

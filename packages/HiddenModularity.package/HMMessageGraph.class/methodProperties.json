@@ -7,9 +7,10 @@
 		"addVertexWithId:label:andColor:" : "lpr 6/14/2022 10:56",
 		"edges" : "lpr 6/14/2022 10:50",
 		"edges:" : "lpr 6/14/2022 10:51",
-		"edgesAsCollection" : "lpr 6/14/2022 10:53",
+		"edgesForJsonExport" : "lpr 6/14/2022 11:36",
 		"initialize" : "lpr 6/14/2022 10:54",
-		"jsonWriteOn:" : "lpr 6/14/2022 11:00",
+		"jsonWriteOn:" : "lpr 6/14/2022 11:37",
 		"vertices" : "lpr 6/14/2022 10:51",
 		"vertices:" : "lpr 6/14/2022 10:51",
+		"verticesForJsonExport" : "lpr 6/14/2022 11:39",
 		"writeToFileNamed:" : "lpr 6/14/2022 11:01" } }

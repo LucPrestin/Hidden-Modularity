@@ -2,7 +2,7 @@ fileIn/Out
 jsonWriteOn: aStream
 
 	aStream nextPutAll: '{ "vertices": '.
-	self vertices jsonWriteOn: aStream.
+	self verticesForJsonExport jsonWriteOn: aStream.
 	aStream nextPutAll: '}, "edges": '.
-	self edgesAsCollection jsonWriteOn: aStream.
+	self edgesForJsonExport jsonWriteOn: aStream.
 	aStream nextPutAll: '}'

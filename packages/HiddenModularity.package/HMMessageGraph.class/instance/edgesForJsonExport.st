@@ -1,5 +1,5 @@
 accessing
-edgesAsCollection
+edgesForJsonExport
 
 	| result |
 	
