@@ -3,10 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Default" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"idExtractionBlock",
+		"labelExtractionBlock",
+		"colorLabelExtractionBlock" ],
 	"name" : "HMTraceParser",
 	"pools" : [
 		 ],
