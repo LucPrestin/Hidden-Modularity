@@ -1,4 +1,4 @@
 defaults
 defaultColorLabelExtractionBlock
 
-	^ self classExtractionBlock
+	^ self packageExtractionBlock
