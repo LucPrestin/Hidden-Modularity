@@ -1,9 +1,11 @@
 {
 	"class" : {
-		"traceBrowserOpening" : "lpr 5/27/2022 18:14",
-		"traceExceptionHandling" : "lpr 6/14/2022 13:08",
-		"traceMorphOpening" : "lpr 5/27/2022 18:14",
-		"traceNetworkAccess" : "lpr 5/30/2022 14:56",
-		"traceObjectExplorer" : "lpr 5/27/2022 18:14" },
+		"codeBrowserOpening" : "lpr 6/14/2022 13:59",
+		"fetchingGoogle" : "lpr 6/14/2022 13:59",
+		"morphOpening" : "lpr 6/14/2022 13:59",
+		"objectExplorerOpening" : "lpr 6/14/2022 13:59",
+		"tracingExample" : "lpr 6/14/2022 14:00",
+		"writeTraceNamed:toFileName:" : "lpr 6/14/2022 13:58",
+		"zeroDivideHandling" : "lpr 6/14/2022 13:59" },
 	"instance" : {
 		 } }

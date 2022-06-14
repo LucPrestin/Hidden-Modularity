@@ -1,4 +1,4 @@
-tracing
-traceBrowserOpening
+scenarios
+codeBrowserOpening
 
 	^ TDBCursor traceForBlock: [SystemBrowser defaultOpenBrowser]

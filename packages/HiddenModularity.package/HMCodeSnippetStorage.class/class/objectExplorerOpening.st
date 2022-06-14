@@ -1,5 +1,5 @@
-tracing
-traceObjectExplorer
+scenarios
+objectExplorerOpening
 
 	| tmp |
 	

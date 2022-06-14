@@ -1,5 +1,5 @@
-tracing
-traceExceptionHandling
+scenarios
+zeroDivideHandling
 
 	^ TDBCursor
 		traceForBlock: [[2 / 0]
