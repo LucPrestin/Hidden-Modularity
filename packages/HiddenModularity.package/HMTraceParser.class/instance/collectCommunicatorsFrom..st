@@ -1,4 +1,4 @@
-message graph construction
+information retrieving
 collectCommunicatorsFrom: contexts 
 
 	^ contexts collect: [:contextPair | {

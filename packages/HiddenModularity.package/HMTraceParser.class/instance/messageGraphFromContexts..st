@@ -5,9 +5,9 @@ messageGraphFromContexts: contexts
 	
 	communicators := self collectCommunicatorsFrom: contexts.
 
-	graph := HMMessageGraph new.
+	graph := HMGraph new.
 	
-	self addVerticesToGraph: graph fromCommunicators: communicators.
-	self addEdgesToGraph: graph fromCommunicator: communicators.
+	self addVerticesFromCommunicators: communicators toMessageGraph: graph.
+	self addEdgesFromCommunicators: communicators toMessageGraph: graph.
 	
 	^ graph

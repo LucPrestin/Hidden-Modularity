@@ -1,5 +1,5 @@
 message graph construction
-addVerticesToGraph: graph fromCommunicators: communicators
+addVerticesFromCommunicators: communicators toMessageGraph: graph
 
 	communicators
 		do: [:contextPair | contextPair
