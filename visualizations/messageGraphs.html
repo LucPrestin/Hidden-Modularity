@@ -34,6 +34,17 @@
 
     <br />
 
+    <label for="select_node_size_calculation">Calculate node size by:</label>
+    <select id="select_node_size_calculation">
+        <option disabled selected>-- select a calculation methode --</option>
+        <option value="None">Don't differ node sizes</option>
+        <option value="incoming edges">Incoming edges</option>
+        <option value="outgoing edges">Outgoing edges</option>
+        <option value="all edges">All edges</option>
+    </select>
+
+    <br />
+
     <button id="button-confirm">Confirm</button>
 
     <div id="container" class="svg-container"></div>
@@ -61,6 +72,7 @@
         function runSimulationWithData(
             data,
             show_edges = false,
+            node_size_calculation_method,
             onSimulationFinished = () => { }) 
         {
             console.log("Simulation started.")
@@ -77,7 +89,8 @@
             const { nodes, nodeMap } = createNodes(data);
             const links = createLinks(nodeMap, data);
             
-            setSizeByEdges(nodes, links)
+            setSizeByEdges(nodes, links, node_size_calculation_method)
+
             const averageLinkForce = links.reduce((sum, link) => sum + link.strength, 0) / links.length
 
             const simulation = forceSimulation(nodes)
@@ -148,11 +161,17 @@
             return links
         }
 
-        function setSizeByEdges(nodes, links) {
-            links.forEach(link => {
-                nodes[link.source].radius += radiusIncrement
-                nodes[link.target].radius += radiusIncrement
-            })
+        function setSizeByEdges(nodes, links, node_size_calculation_method) {
+            if (node_size_calculation_method === "incoming edges" || node_size_calculation_method === "all edges") {
+                links.forEach(link => {
+                    nodes[link.target].radius += radiusIncrement
+                })
+            }
+            if (node_size_calculation_method === "outgoing edges" || node_size_calculation_method === "all edges") {
+                links.forEach(link => {
+                    nodes[link.target].radius += radiusIncrement
+                })
+            }
         }
 
         function setSizeByAggregatedData(nodes) {
@@ -188,7 +207,7 @@
                 .data(nodes)
                 .join('text')
                 .text(function (d) {
-                    return d.radius > minNodeRadius ? d.label : ""
+                    return d.label
                 })
                 .attr('x', function (d) {
                     return d.x
@@ -229,17 +248,22 @@
 
         const dataset_file_input = document.getElementById("input-file-dataset");
         const edge_checkbox = document.getElementById("checkbox_show_edges");
+        const select_node_size_calculation = document.getElementById("select_node_size_calculation");
         const button = document.getElementById("button-confirm");
 
-        const ui_elements = [dataset_file_input, edge_checkbox, button];
+        const ui_elements = [dataset_file_input, edge_checkbox, select_node_size_calculation, button];
 
 
         button.addEventListener("click", async () => {
 
             let errorMessage = "";
-
+            const node_size_calculation_method = select_node_size_calculation.options[select_node_size_calculation.selectedIndex].value;
+            
             if (!dataset_file_input.files.length > 0) {
                 errorMessage += "Please select a dataset\n"
+            }
+            if (!node_size_calculation_method) {
+                errorMessage += "Please choose a node size calculation method\n"
             }
 
             if (errorMessage === "") {
@@ -248,6 +272,7 @@
                 runSimulationWithData(
                     await load_json(dataset_file_input.files[0]),
                     edge_checkbox.checked,
+                    node_size_calculation_method,
                     () => { ui_elements.forEach(element => element.disabled = false); }
                 );
             } else {
