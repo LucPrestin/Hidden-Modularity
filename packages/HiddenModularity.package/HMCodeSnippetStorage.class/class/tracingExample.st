@@ -1,4 +1,4 @@
 scenarios
 tracingExample
 
-	self writeTraceNamed: #morphOpening toFileName: 'morphOpening.json'
+	self writeTraceNamed: #morphOpening asMessageGraphToFileName: 'morphOpening.json'

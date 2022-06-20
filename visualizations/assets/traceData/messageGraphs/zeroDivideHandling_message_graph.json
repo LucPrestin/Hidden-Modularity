@@ -2,52 +2,52 @@
     "vertices": {
         "CompiledMethod": {
             "id": "CompiledMethod",
-            "color": "#509AFA",
+            "color": "#14E4EF",
             "label": "CompiledMethod"
         },
         "ZeroDivide class": {
             "id": "ZeroDivide class",
-            "color": "#509AFA",
+            "color": "#14E4EF",
             "label": "ZeroDivide class"
         },
         "HMCodeSnippetStorage class": {
             "id": "HMCodeSnippetStorage class",
-            "color": "#E14296",
+            "color": "#8646AE",
             "label": "HMCodeSnippetStorage class"
         },
         "FullBlockClosure": {
             "id": "FullBlockClosure",
-            "color": "#509AFA",
+            "color": "#14E4EF",
             "label": "FullBlockClosure"
         },
         "ZeroDivide": {
             "id": "ZeroDivide",
-            "color": "#509AFA",
+            "color": "#14E4EF",
             "label": "ZeroDivide"
         },
         "UndefinedObject": {
             "id": "UndefinedObject",
-            "color": "#509AFA",
+            "color": "#14E4EF",
             "label": "UndefinedObject"
         },
         "SmalltalkImage": {
             "id": "SmalltalkImage",
-            "color": "#5D80AE",
+            "color": "#786FAF",
             "label": "SmalltalkImage"
         },
         "Context": {
             "id": "Context",
-            "color": "#509AFA",
+            "color": "#14E4EF",
             "label": "Context"
         },
         "OrderedCollection": {
             "id": "OrderedCollection",
-            "color": "#F2F72F",
+            "color": "#1F5A89",
             "label": "OrderedCollection"
         },
         "SmallInteger": {
             "id": "SmallInteger",
-            "color": "#509AFA",
+            "color": "#14E4EF",
             "label": "SmallInteger"
         }
     },

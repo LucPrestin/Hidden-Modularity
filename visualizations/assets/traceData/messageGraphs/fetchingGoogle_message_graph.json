@@ -2,817 +2,817 @@
     "vertices": {
         "SmalltalkImage": {
             "id": "SmalltalkImage",
-            "color": "#ED3959",
+            "color": "#AEFA98",
             "label": "SmalltalkImage"
         },
         "SocketStream class": {
             "id": "SocketStream class",
-            "color": "#C84C30",
+            "color": "#3274B8",
             "label": "SocketStream class"
         },
         "WebClient class": {
             "id": "WebClient class",
-            "color": "#93D78D",
+            "color": "#EBD789",
             "label": "WebClient class"
         },
         "WebCookie": {
             "id": "WebCookie",
-            "color": "#93D78D",
+            "color": "#EBD789",
             "label": "WebCookie"
         },
         "CompoundTextConverter class": {
             "id": "CompoundTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "CompoundTextConverter class"
         },
         "Duration class": {
             "id": "Duration class",
-            "color": "#885EAA",
+            "color": "#724929",
             "label": "Duration class"
         },
         "ISO88594TextConverter class": {
             "id": "ISO88594TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO88594TextConverter class"
         },
         "String class": {
             "id": "String class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "String class"
         },
         "CP874TextConverter class": {
             "id": "CP874TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "CP874TextConverter class"
         },
         "WebCookie class": {
             "id": "WebCookie class",
-            "color": "#93D78D",
+            "color": "#EBD789",
             "label": "WebCookie class"
         },
         "CP1253TextConverter class": {
             "id": "CP1253TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "CP1253TextConverter class"
         },
         "UTF8TextConverter class": {
             "id": "UTF8TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "UTF8TextConverter class"
         },
         "KOI8UTextConverter class": {
             "id": "KOI8UTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "KOI8UTextConverter class"
         },
         "WeakIdentityKeyDictionary": {
             "id": "WeakIdentityKeyDictionary",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "WeakIdentityKeyDictionary"
         },
         "WebRequest class": {
             "id": "WebRequest class",
-            "color": "#93D78D",
+            "color": "#EBD789",
             "label": "WebRequest class"
         },
         "SqueakSSL": {
             "id": "SqueakSSL",
-            "color": "#476C4D",
+            "color": "#76FBA9",
             "label": "SqueakSSL"
         },
         "Socket": {
             "id": "Socket",
-            "color": "#C84C30",
+            "color": "#3274B8",
             "label": "Socket"
         },
         "WebClient": {
             "id": "WebClient",
-            "color": "#93D78D",
+            "color": "#EBD789",
             "label": "WebClient"
         },
         "WebRequest": {
             "id": "WebRequest",
-            "color": "#93D78D",
+            "color": "#EBD789",
             "label": "WebRequest"
         },
         "Association class": {
             "id": "Association class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "Association class"
         },
         "GZipReadStream class": {
             "id": "GZipReadStream class",
-            "color": "#8E534A",
+            "color": "#AF0909",
             "label": "GZipReadStream class"
         },
         "HMCodeSnippetStorage class": {
             "id": "HMCodeSnippetStorage class",
-            "color": "#6B0D71",
+            "color": "#885871",
             "label": "HMCodeSnippetStorage class"
         },
         "Array class": {
             "id": "Array class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "Array class"
         },
         "CurrentEnvironment": {
             "id": "CurrentEnvironment",
-            "color": "#73B92D",
+            "color": "#128C7B",
             "label": "CurrentEnvironment"
         },
         "ByteArray class": {
             "id": "ByteArray class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "ByteArray class"
         },
         "ExternalObjectTable class": {
             "id": "ExternalObjectTable class",
-            "color": "#ED3959",
+            "color": "#AEFA98",
             "label": "ExternalObjectTable class"
         },
         "Message": {
             "id": "Message",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "Message"
         },
         "Integer class": {
             "id": "Integer class",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "Integer class"
         },
         "ExtendedNumberParser class": {
             "id": "ExtendedNumberParser class",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "ExtendedNumberParser class"
         },
         "OrderedCollection": {
             "id": "OrderedCollection",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "OrderedCollection"
         },
         "ISO88599TextConverter class": {
             "id": "ISO88599TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO88599TextConverter class"
         },
         "WriteStream class": {
             "id": "WriteStream class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "WriteStream class"
         },
         "CP1258TextConverter class": {
             "id": "CP1258TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "CP1258TextConverter class"
         },
         "MacTurkishTextConverter class": {
             "id": "MacTurkishTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "MacTurkishTextConverter class"
         },
         "ByteSymbol class": {
             "id": "ByteSymbol class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "ByteSymbol class"
         },
         "MCVersionInfo": {
             "id": "MCVersionInfo",
-            "color": "#9DD621",
+            "color": "#19705B",
             "label": "MCVersionInfo"
         },
         "MCPackage class": {
             "id": "MCPackage class",
-            "color": "#9DD621",
+            "color": "#19705B",
             "label": "MCPackage class"
         },
         "ISO885913TextConverter class": {
             "id": "ISO885913TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO885913TextConverter class"
         },
         "Semaphore": {
             "id": "Semaphore",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "Semaphore"
         },
         "PackageInfo class": {
             "id": "PackageInfo class",
-            "color": "#09B1BF",
+            "color": "#CC6274",
             "label": "PackageInfo class"
         },
         "ISO88595TextConverter class": {
             "id": "ISO88595TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO88595TextConverter class"
         },
         "ExtendedNumberParser": {
             "id": "ExtendedNumberParser",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "ExtendedNumberParser"
         },
         "Latin9TextConverter class": {
             "id": "Latin9TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "Latin9TextConverter class"
         },
         "SystemVersion class": {
             "id": "SystemVersion class",
-            "color": "#ED3959",
+            "color": "#AEFA98",
             "label": "SystemVersion class"
         },
         "FullBlockClosure": {
             "id": "FullBlockClosure",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "FullBlockClosure"
         },
         "Environment": {
             "id": "Environment",
-            "color": "#73B92D",
+            "color": "#128C7B",
             "label": "Environment"
         },
         "ISO8859TextConverter class": {
             "id": "ISO8859TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO8859TextConverter class"
         },
         "WeakRegistry": {
             "id": "WeakRegistry",
-            "color": "#ED3959",
+            "color": "#AEFA98",
             "label": "WeakRegistry"
         },
         "Environment class": {
             "id": "Environment class",
-            "color": "#73B92D",
+            "color": "#128C7B",
             "label": "Environment class"
         },
         "EUCCNTextConverter class": {
             "id": "EUCCNTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "EUCCNTextConverter class"
         },
         "DelayWaitTimeout": {
             "id": "DelayWaitTimeout",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "DelayWaitTimeout"
         },
         "CP1254TextConverter class": {
             "id": "CP1254TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "CP1254TextConverter class"
         },
         "EUCJPTextConverter class": {
             "id": "EUCJPTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "EUCJPTextConverter class"
         },
         "DateAndTime": {
             "id": "DateAndTime",
-            "color": "#885EAA",
+            "color": "#724929",
             "label": "DateAndTime"
         },
         "Semaphore class": {
             "id": "Semaphore class",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "Semaphore class"
         },
         "ByteString class": {
             "id": "ByteString class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "ByteString class"
         },
         "MCPackage": {
             "id": "MCPackage",
-            "color": "#9DD621",
+            "color": "#19705B",
             "label": "MCPackage"
         },
         "IdentityDictionary": {
             "id": "IdentityDictionary",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "IdentityDictionary"
         },
         "Month class": {
             "id": "Month class",
-            "color": "#885EAA",
+            "color": "#724929",
             "label": "Month class"
         },
         "ISO88591TextConverter class": {
             "id": "ISO88591TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO88591TextConverter class"
         },
         "MacIcelandTextConverter class": {
             "id": "MacIcelandTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "MacIcelandTextConverter class"
         },
         "WinCPTextConverter class": {
             "id": "WinCPTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "WinCPTextConverter class"
         },
         "CNGBTextConverter class": {
             "id": "CNGBTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "CNGBTextConverter class"
         },
         "SocketAddressInformation class": {
             "id": "SocketAddressInformation class",
-            "color": "#C84C30",
+            "color": "#3274B8",
             "label": "SocketAddressInformation class"
         },
         "CP1250TextConverter class": {
             "id": "CP1250TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "CP1250TextConverter class"
         },
         "WeakKeyAssociation class": {
             "id": "WeakKeyAssociation class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "WeakKeyAssociation class"
         },
         "DelayWaitTimeout class": {
             "id": "DelayWaitTimeout class",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "DelayWaitTimeout class"
         },
         "Process": {
             "id": "Process",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "Process"
         },
         "SystemOrganizer": {
             "id": "SystemOrganizer",
-            "color": "#ED3959",
+            "color": "#AEFA98",
             "label": "SystemOrganizer"
         },
         "CharacterSet class": {
             "id": "CharacterSet class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "CharacterSet class"
         },
         "SmallInteger": {
             "id": "SmallInteger",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "SmallInteger"
         },
         "Character": {
             "id": "Character",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "Character"
         },
         "KOI8RTextConverter class": {
             "id": "KOI8RTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "KOI8RTextConverter class"
         },
         "ShiftJISTextConverter class": {
             "id": "ShiftJISTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ShiftJISTextConverter class"
         },
         "Number class": {
             "id": "Number class",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "Number class"
         },
         "HTTPSocket class": {
             "id": "HTTPSocket class",
-            "color": "#C84C30",
+            "color": "#3274B8",
             "label": "HTTPSocket class"
         },
         "WordArray": {
             "id": "WordArray",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "WordArray"
         },
         "MacRomanTextConverter class": {
             "id": "MacRomanTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "MacRomanTextConverter class"
         },
         "KOI8ETextConverter class": {
             "id": "KOI8ETextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "KOI8ETextConverter class"
         },
         "ISO885914TextConverter class": {
             "id": "ISO885914TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO885914TextConverter class"
         },
         "ExternalObjectTable": {
             "id": "ExternalObjectTable",
-            "color": "#ED3959",
+            "color": "#AEFA98",
             "label": "ExternalObjectTable"
         },
         "Latin1TextConverter class": {
             "id": "Latin1TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "Latin1TextConverter class"
         },
         "Association": {
             "id": "Association",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "Association"
         },
         "ISO88596TextConverter class": {
             "id": "ISO88596TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO88596TextConverter class"
         },
         "SecureSocketStream class": {
             "id": "SecureSocketStream class",
-            "color": "#476C4D",
+            "color": "#76FBA9",
             "label": "SecureSocketStream class"
         },
         "WeakArray class": {
             "id": "WeakArray class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "WeakArray class"
         },
         "CP1255TextConverter class": {
             "id": "CP1255TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "CP1255TextConverter class"
         },
         "MCWorkingCopy": {
             "id": "MCWorkingCopy",
-            "color": "#9DD621",
+            "color": "#19705B",
             "label": "MCWorkingCopy"
         },
         "ByteCharacterSet class": {
             "id": "ByteCharacterSet class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "ByteCharacterSet class"
         },
         "WebResponse class": {
             "id": "WebResponse class",
-            "color": "#93D78D",
+            "color": "#EBD789",
             "label": "WebResponse class"
         },
         "PackageInfo": {
             "id": "PackageInfo",
-            "color": "#09B1BF",
+            "color": "#CC6274",
             "label": "PackageInfo"
         },
         "UTF32TextConverter class": {
             "id": "UTF32TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "UTF32TextConverter class"
         },
         "CurrentEnvironment class": {
             "id": "CurrentEnvironment class",
-            "color": "#73B92D",
+            "color": "#128C7B",
             "label": "CurrentEnvironment class"
         },
         "WeakKeyAssociation": {
             "id": "WeakKeyAssociation",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "WeakKeyAssociation"
         },
         "TextConverter class": {
             "id": "TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "TextConverter class"
         },
         "ISO885910TextConverter class": {
             "id": "ISO885910TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO885910TextConverter class"
         },
         "Dictionary class": {
             "id": "Dictionary class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "Dictionary class"
         },
         "NetNameResolver class": {
             "id": "NetNameResolver class",
-            "color": "#C84C30",
+            "color": "#3274B8",
             "label": "NetNameResolver class"
         },
         "WordArray class": {
             "id": "WordArray class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "WordArray class"
         },
         "SqueakSSL class": {
             "id": "SqueakSSL class",
-            "color": "#476C4D",
+            "color": "#76FBA9",
             "label": "SqueakSSL class"
         },
         "MCWorkingCopy class": {
             "id": "MCWorkingCopy class",
-            "color": "#9DD621",
+            "color": "#19705B",
             "label": "MCWorkingCopy class"
         },
         "ISO88592TextConverter class": {
             "id": "ISO88592TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO88592TextConverter class"
         },
         "EUCKRTextConverter class": {
             "id": "EUCKRTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "EUCKRTextConverter class"
         },
         "GZipReadStream": {
             "id": "GZipReadStream",
-            "color": "#8E534A",
+            "color": "#AF0909",
             "label": "GZipReadStream"
         },
         "WebUtils class": {
             "id": "WebUtils class",
-            "color": "#93D78D",
+            "color": "#EBD789",
             "label": "WebUtils class"
         },
         "CP1251TextConverter class": {
             "id": "CP1251TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "CP1251TextConverter class"
         },
         "MacUkrainianTextConverter class": {
             "id": "MacUkrainianTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "MacUkrainianTextConverter class"
         },
         "Character class": {
             "id": "Character class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "Character class"
         },
         "MacOSCPTextConverter class": {
             "id": "MacOSCPTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "MacOSCPTextConverter class"
         },
         "PackageOrganizer": {
             "id": "PackageOrganizer",
-            "color": "#09B1BF",
+            "color": "#CC6274",
             "label": "PackageOrganizer"
         },
         "IdentityDictionary class": {
             "id": "IdentityDictionary class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "IdentityDictionary class"
         },
         "ByteTextConverter class": {
             "id": "ByteTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ByteTextConverter class"
         },
         "KOI8FTextConverter class": {
             "id": "KOI8FTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "KOI8FTextConverter class"
         },
         "SecureSocketStream": {
             "id": "SecureSocketStream",
-            "color": "#476C4D",
+            "color": "#76FBA9",
             "label": "SecureSocketStream"
         },
         "WeakFinalizerItem": {
             "id": "WeakFinalizerItem",
-            "color": "#ED3959",
+            "color": "#AEFA98",
             "label": "WeakFinalizerItem"
         },
         "ISO88591TextConverter": {
             "id": "ISO88591TextConverter",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO88591TextConverter"
         },
         "Date class": {
             "id": "Date class",
-            "color": "#885EAA",
+            "color": "#724929",
             "label": "Date class"
         },
         "ReadStream": {
             "id": "ReadStream",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "ReadStream"
         },
         "ISO885915TextConverter class": {
             "id": "ISO885915TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO885915TextConverter class"
         },
         "EUCTextConverter class": {
             "id": "EUCTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "EUCTextConverter class"
         },
         "Latin2TextConverter class": {
             "id": "Latin2TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "Latin2TextConverter class"
         },
         "ISO88597TextConverter class": {
             "id": "ISO88597TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO88597TextConverter class"
         },
         "ByteArray": {
             "id": "ByteArray",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "ByteArray"
         },
         "MacCyrillicOldTextConverter class": {
             "id": "MacCyrillicOldTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "MacCyrillicOldTextConverter class"
         },
         "CP1256TextConverter class": {
             "id": "CP1256TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "CP1256TextConverter class"
         },
         "CharacterSetComplement": {
             "id": "CharacterSetComplement",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "CharacterSetComplement"
         },
         "MethodDictionary": {
             "id": "MethodDictionary",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "MethodDictionary"
         },
         "Context": {
             "id": "Context",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "Context"
         },
         "Time class": {
             "id": "Time class",
-            "color": "#885EAA",
+            "color": "#724929",
             "label": "Time class"
         },
         "SocketStream": {
             "id": "SocketStream",
-            "color": "#C84C30",
+            "color": "#3274B8",
             "label": "SocketStream"
         },
         "MCWorkingAncestry": {
             "id": "MCWorkingAncestry",
-            "color": "#9DD621",
+            "color": "#19705B",
             "label": "MCWorkingAncestry"
         },
         "UndefinedObject": {
             "id": "UndefinedObject",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "UndefinedObject"
         },
         "WriteStream": {
             "id": "WriteStream",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "WriteStream"
         },
         "WeakFinalizerItem class": {
             "id": "WeakFinalizerItem class",
-            "color": "#ED3959",
+            "color": "#AEFA98",
             "label": "WeakFinalizerItem class"
         },
         "ProcessorScheduler": {
             "id": "ProcessorScheduler",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "ProcessorScheduler"
         },
         "ByteSymbol": {
             "id": "ByteSymbol",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "ByteSymbol"
         },
         "MacLatin2TextConverter class": {
             "id": "MacLatin2TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "MacLatin2TextConverter class"
         },
         "KOI8BTextConverter class": {
             "id": "KOI8BTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "KOI8BTextConverter class"
         },
         "ByteString": {
             "id": "ByteString",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "ByteString"
         },
         "ISO885911TextConverter class": {
             "id": "ISO885911TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO885911TextConverter class"
         },
         "False": {
             "id": "False",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "False"
         },
         "ISO88593TextConverter class": {
             "id": "ISO88593TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO88593TextConverter class"
         },
         "KOI8TextConverter class": {
             "id": "KOI8TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "KOI8TextConverter class"
         },
         "True": {
             "id": "True",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "True"
         },
         "SystemVersion": {
             "id": "SystemVersion",
-            "color": "#ED3959",
+            "color": "#AEFA98",
             "label": "SystemVersion"
         },
         "MacGreekTextConverter class": {
             "id": "MacGreekTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "MacGreekTextConverter class"
         },
         "CP1252TextConverter class": {
             "id": "CP1252TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "CP1252TextConverter class"
         },
         "UTF16TextConverter class": {
             "id": "UTF16TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "UTF16TextConverter class"
         },
         "OrderedCollection class": {
             "id": "OrderedCollection class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "OrderedCollection class"
         },
         "MacCyrillicTextConverter class": {
             "id": "MacCyrillicTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "MacCyrillicTextConverter class"
         },
         "UTF8TextConverter": {
             "id": "UTF8TextConverter",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "UTF8TextConverter"
         },
         "Array": {
             "id": "Array",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "Array"
         },
         "Dictionary": {
             "id": "Dictionary",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "Dictionary"
         },
         "ReadStream class": {
             "id": "ReadStream class",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "ReadStream class"
         },
         "Socket class": {
             "id": "Socket class",
-            "color": "#C84C30",
+            "color": "#3274B8",
             "label": "Socket class"
         },
         "DateAndTime class": {
             "id": "DateAndTime class",
-            "color": "#885EAA",
+            "color": "#724929",
             "label": "DateAndTime class"
         },
         "ISO885916TextConverter class": {
             "id": "ISO885916TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO885916TextConverter class"
         },
         "KOI8RUTextConverter class": {
             "id": "KOI8RUTextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "KOI8RUTextConverter class"
         },
         "WebResponse": {
             "id": "WebResponse",
-            "color": "#93D78D",
+            "color": "#EBD789",
             "label": "WebResponse"
         },
         "ISO88598TextConverter class": {
             "id": "ISO88598TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "ISO88598TextConverter class"
         },
         "ByteCharacterSet": {
             "id": "ByteCharacterSet",
-            "color": "#F099EF",
+            "color": "#245088",
             "label": "ByteCharacterSet"
         },
         "CompiledMethod": {
             "id": "CompiledMethod",
-            "color": "#079692",
+            "color": "#4E60F2",
             "label": "CompiledMethod"
         },
         "CP1257TextConverter class": {
             "id": "CP1257TextConverter class",
-            "color": "#240977",
+            "color": "#9563A5",
             "label": "CP1257TextConverter class"
         }
     },
@@ -823,7 +823,7 @@
             "receiver": "WriteStream"
         },
         {
-            "weight": 242,
+            "weight": 238,
             "sender": "ByteString class",
             "receiver": "ByteString class"
         },
@@ -903,12 +903,12 @@
             "receiver": "ByteString"
         },
         {
-            "weight": 128,
+            "weight": 124,
             "sender": "String class",
             "receiver": "String class"
         },
         {
-            "weight": 90,
+            "weight": 88,
             "sender": "String class",
             "receiver": "ByteString class"
         },
@@ -918,7 +918,7 @@
             "receiver": "WriteStream class"
         },
         {
-            "weight": 118,
+            "weight": 114,
             "sender": "String class",
             "receiver": "Character class"
         },
@@ -1098,12 +1098,12 @@
             "receiver": "Array"
         },
         {
-            "weight": 41,
+            "weight": 39,
             "sender": "ExtendedNumberParser class",
             "receiver": "ExtendedNumberParser class"
         },
         {
-            "weight": 82,
+            "weight": 78,
             "sender": "ExtendedNumberParser class",
             "receiver": "ExtendedNumberParser"
         },
@@ -1223,7 +1223,7 @@
             "receiver": "Time class"
         },
         {
-            "weight": 244,
+            "weight": 232,
             "sender": "Socket",
             "receiver": "Socket"
         },
@@ -1303,12 +1303,12 @@
             "receiver": "WordArray class"
         },
         {
-            "weight": 256,
+            "weight": 244,
             "sender": "ReadStream",
             "receiver": "ByteString"
         },
         {
-            "weight": 14301,
+            "weight": 14336,
             "sender": "ReadStream",
             "receiver": "ReadStream"
         },
@@ -1318,12 +1318,12 @@
             "receiver": "Character"
         },
         {
-            "weight": 182,
+            "weight": 170,
             "sender": "ReadStream",
             "receiver": "SmallInteger"
         },
         {
-            "weight": 52,
+            "weight": 50,
             "sender": "WriteStream",
             "receiver": "ByteString"
         },
@@ -1498,7 +1498,7 @@
             "receiver": "Socket"
         },
         {
-            "weight": 14,
+            "weight": 7,
             "sender": "WeakIdentityKeyDictionary",
             "receiver": "WeakKeyAssociation"
         },
@@ -1558,7 +1558,7 @@
             "receiver": "WebCookie"
         },
         {
-            "weight": 19,
+            "weight": 17,
             "sender": "WebResponse",
             "receiver": "WriteStream"
         },
@@ -1598,7 +1598,7 @@
             "receiver": "Environment"
         },
         {
-            "weight": 252,
+            "weight": 246,
             "sender": "WebResponse",
             "receiver": "ByteString"
         },
@@ -1628,7 +1628,7 @@
             "receiver": "OrderedCollection"
         },
         {
-            "weight": 62,
+            "weight": 56,
             "sender": "WebResponse",
             "receiver": "SecureSocketStream"
         },
@@ -1693,17 +1693,17 @@
             "receiver": "String class"
         },
         {
-            "weight": 13701,
+            "weight": 13764,
             "sender": "ISO88591TextConverter",
             "receiver": "WriteStream"
         },
         {
-            "weight": 13706,
+            "weight": 13769,
             "sender": "ISO88591TextConverter",
             "receiver": "ReadStream"
         },
         {
-            "weight": 13706,
+            "weight": 13769,
             "sender": "ISO88591TextConverter",
             "receiver": "ISO88591TextConverter"
         },
@@ -1743,7 +1743,7 @@
             "receiver": "WriteStream"
         },
         {
-            "weight": 1127,
+            "weight": 1133,
             "sender": "GZipReadStream",
             "receiver": "GZipReadStream"
         },
@@ -1768,7 +1768,7 @@
             "receiver": "ByteString class"
         },
         {
-            "weight": 173,
+            "weight": 176,
             "sender": "GZipReadStream",
             "receiver": "OrderedCollection"
         },
@@ -1783,7 +1783,7 @@
             "receiver": "WordArray"
         },
         {
-            "weight": 274,
+            "weight": 277,
             "sender": "GZipReadStream",
             "receiver": "SmallInteger"
         },
@@ -2198,7 +2198,7 @@
             "receiver": "String class"
         },
         {
-            "weight": 21,
+            "weight": 19,
             "sender": "ByteString",
             "receiver": "Number class"
         },
@@ -2238,7 +2238,7 @@
             "receiver": "ByteCharacterSet"
         },
         {
-            "weight": 5295,
+            "weight": 5249,
             "sender": "ByteString",
             "receiver": "ByteString"
         },
@@ -2268,7 +2268,7 @@
             "receiver": "CharacterSet class"
         },
         {
-            "weight": 1109,
+            "weight": 1099,
             "sender": "ByteString",
             "receiver": "ByteString class"
         },
@@ -2288,7 +2288,7 @@
             "receiver": "Association"
         },
         {
-            "weight": 60,
+            "weight": 58,
             "sender": "ByteString",
             "receiver": "SmallInteger"
         },
@@ -2503,22 +2503,22 @@
             "receiver": "OrderedCollection class"
         },
         {
-            "weight": 21,
+            "weight": 19,
             "sender": "Number class",
             "receiver": "ReadStream class"
         },
         {
-            "weight": 21,
+            "weight": 19,
             "sender": "Number class",
             "receiver": "ExtendedNumberParser"
         },
         {
-            "weight": 21,
+            "weight": 19,
             "sender": "Number class",
             "receiver": "Number class"
         },
         {
-            "weight": 21,
+            "weight": 19,
             "sender": "Number class",
             "receiver": "ExtendedNumberParser class"
         },
@@ -2623,17 +2623,17 @@
             "receiver": "WriteStream class"
         },
         {
-            "weight": 371,
+            "weight": 349,
             "sender": "SecureSocketStream",
             "receiver": "SmallInteger"
         },
         {
-            "weight": 38,
+            "weight": 36,
             "sender": "SecureSocketStream",
             "receiver": "String class"
         },
         {
-            "weight": 198,
+            "weight": 186,
             "sender": "SecureSocketStream",
             "receiver": "SqueakSSL"
         },
@@ -2643,7 +2643,7 @@
             "receiver": "ReadStream class"
         },
         {
-            "weight": 44,
+            "weight": 40,
             "sender": "SecureSocketStream",
             "receiver": "FullBlockClosure"
         },
@@ -2668,17 +2668,17 @@
             "receiver": "ByteArray"
         },
         {
-            "weight": 154,
+            "weight": 148,
             "sender": "SecureSocketStream",
             "receiver": "ByteString"
         },
         {
-            "weight": 533,
+            "weight": 497,
             "sender": "SecureSocketStream",
             "receiver": "ReadStream"
         },
         {
-            "weight": 195,
+            "weight": 183,
             "sender": "SecureSocketStream",
             "receiver": "Socket"
         },
@@ -2688,7 +2688,7 @@
             "receiver": "SecureSocketStream class"
         },
         {
-            "weight": 1424,
+            "weight": 1340,
             "sender": "SecureSocketStream",
             "receiver": "SecureSocketStream"
         },
@@ -2758,7 +2758,7 @@
             "receiver": "ByteSymbol"
         },
         {
-            "weight": 59,
+            "weight": 60,
             "sender": "IdentityDictionary",
             "receiver": "IdentityDictionary"
         },
@@ -2773,7 +2773,7 @@
             "receiver": "WebUtils class"
         },
         {
-            "weight": 22,
+            "weight": 23,
             "sender": "IdentityDictionary",
             "receiver": "Semaphore"
         },
@@ -2793,27 +2793,27 @@
             "receiver": "WebUtils class"
         },
         {
-            "weight": 21,
+            "weight": 19,
             "sender": "ExtendedNumberParser",
             "receiver": "ByteString"
         },
         {
-            "weight": 305,
+            "weight": 283,
             "sender": "ExtendedNumberParser",
             "receiver": "ExtendedNumberParser"
         },
         {
-            "weight": 536,
+            "weight": 486,
             "sender": "ExtendedNumberParser",
             "receiver": "ReadStream"
         },
         {
-            "weight": 272,
+            "weight": 242,
             "sender": "ExtendedNumberParser",
             "receiver": "Character"
         },
         {
-            "weight": 42,
+            "weight": 40,
             "sender": "ReadStream class",
             "receiver": "ReadStream"
         },
@@ -2903,7 +2903,7 @@
             "receiver": "Socket class"
         },
         {
-            "weight": 63,
+            "weight": 57,
             "sender": "FullBlockClosure",
             "receiver": "SecureSocketStream"
         },

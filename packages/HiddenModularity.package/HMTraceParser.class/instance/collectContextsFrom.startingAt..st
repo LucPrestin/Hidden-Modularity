@@ -1,4 +1,4 @@
-message graph construction
+information retrieving
 collectContextsFrom: aTDBCursor startingAt: aContextProxy
 
 	| childContexts contexts |

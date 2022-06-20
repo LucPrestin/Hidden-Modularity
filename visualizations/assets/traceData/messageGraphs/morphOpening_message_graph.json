@@ -2,207 +2,207 @@
     "vertices": {
         "IdentityDictionary": {
             "id": "IdentityDictionary",
-            "color": "#862C66",
+            "color": "#752A01",
             "label": "IdentityDictionary"
         },
         "SmallInteger": {
             "id": "SmallInteger",
-            "color": "#458261",
+            "color": "#673062",
             "label": "SmallInteger"
         },
         "DockingBarMorph": {
             "id": "DockingBarMorph",
-            "color": "#E30A86",
+            "color": "#E95954",
             "label": "DockingBarMorph"
         },
         "Association": {
             "id": "Association",
-            "color": "#862C66",
+            "color": "#752A01",
             "label": "Association"
         },
         "MethodDictionary": {
             "id": "MethodDictionary",
-            "color": "#458261",
+            "color": "#673062",
             "label": "MethodDictionary"
         },
         "PasteUpMorph": {
             "id": "PasteUpMorph",
-            "color": "#E30A86",
+            "color": "#E95954",
             "label": "PasteUpMorph"
         },
         "SimpleBorder": {
             "id": "SimpleBorder",
-            "color": "#E30A86",
+            "color": "#E95954",
             "label": "SimpleBorder"
         },
         "IdentityDictionary class": {
             "id": "IdentityDictionary class",
-            "color": "#862C66",
+            "color": "#752A01",
             "label": "IdentityDictionary class"
         },
         "ExceptionSet": {
             "id": "ExceptionSet",
-            "color": "#458261",
+            "color": "#673062",
             "label": "ExceptionSet"
         },
         "BorderStyle class": {
             "id": "BorderStyle class",
-            "color": "#E30A86",
+            "color": "#E95954",
             "label": "BorderStyle class"
         },
         "WorldState": {
             "id": "WorldState",
-            "color": "#E30A86",
+            "color": "#E95954",
             "label": "WorldState"
         },
         "Association class": {
             "id": "Association class",
-            "color": "#862C66",
+            "color": "#752A01",
             "label": "Association class"
         },
         "WriteStream": {
             "id": "WriteStream",
-            "color": "#862C66",
+            "color": "#752A01",
             "label": "WriteStream"
         },
         "Point class": {
             "id": "Point class",
-            "color": "#7EABDD",
+            "color": "#027F07",
             "label": "Point class"
         },
         "Array": {
             "id": "Array",
-            "color": "#862C66",
+            "color": "#752A01",
             "label": "Array"
         },
         "UndefinedObject": {
             "id": "UndefinedObject",
-            "color": "#458261",
+            "color": "#673062",
             "label": "UndefinedObject"
         },
         "DamageRecorder": {
             "id": "DamageRecorder",
-            "color": "#E30A86",
+            "color": "#E95954",
             "label": "DamageRecorder"
         },
         "PluggableSystemWindow": {
             "id": "PluggableSystemWindow",
-            "color": "#20AD1F",
+            "color": "#349CA6",
             "label": "PluggableSystemWindow"
         },
         "Rectangle": {
             "id": "Rectangle",
-            "color": "#7EABDD",
+            "color": "#027F07",
             "label": "Rectangle"
         },
         "Dictionary": {
             "id": "Dictionary",
-            "color": "#862C66",
+            "color": "#752A01",
             "label": "Dictionary"
         },
         "HMCodeSnippetStorage class": {
             "id": "HMCodeSnippetStorage class",
-            "color": "#69220C",
+            "color": "#304769",
             "label": "HMCodeSnippetStorage class"
         },
         "ProcessorScheduler": {
             "id": "ProcessorScheduler",
-            "color": "#458261",
+            "color": "#673062",
             "label": "ProcessorScheduler"
         },
         "Morph": {
             "id": "Morph",
-            "color": "#E30A86",
+            "color": "#E95954",
             "label": "Morph"
         },
         "Array class": {
             "id": "Array class",
-            "color": "#862C66",
+            "color": "#752A01",
             "label": "Array class"
         },
         "MorphExtension": {
             "id": "MorphExtension",
-            "color": "#E30A86",
+            "color": "#E95954",
             "label": "MorphExtension"
         },
         "OrderedCollection": {
             "id": "OrderedCollection",
-            "color": "#862C66",
+            "color": "#752A01",
             "label": "OrderedCollection"
         },
         "FullBlockClosure": {
             "id": "FullBlockClosure",
-            "color": "#458261",
+            "color": "#673062",
             "label": "FullBlockClosure"
         },
         "Morph class": {
             "id": "Morph class",
-            "color": "#E30A86",
+            "color": "#E95954",
             "label": "Morph class"
         },
         "OrderedCollection class": {
             "id": "OrderedCollection class",
-            "color": "#862C66",
+            "color": "#752A01",
             "label": "OrderedCollection class"
         },
         "WriteStream class": {
             "id": "WriteStream class",
-            "color": "#862C66",
+            "color": "#752A01",
             "label": "WriteStream class"
         },
         "BorderStyle": {
             "id": "BorderStyle",
-            "color": "#E30A86",
+            "color": "#E95954",
             "label": "BorderStyle"
         },
         "ByteSymbol": {
             "id": "ByteSymbol",
-            "color": "#862C66",
+            "color": "#752A01",
             "label": "ByteSymbol"
         },
         "MorphExtension class": {
             "id": "MorphExtension class",
-            "color": "#E30A86",
+            "color": "#E95954",
             "label": "MorphExtension class"
         },
         "Rectangle class": {
             "id": "Rectangle class",
-            "color": "#7EABDD",
+            "color": "#027F07",
             "label": "Rectangle class"
         },
         "Process": {
             "id": "Process",
-            "color": "#458261",
+            "color": "#673062",
             "label": "Process"
         },
         "Color class": {
             "id": "Color class",
-            "color": "#7EABDD",
+            "color": "#027F07",
             "label": "Color class"
         },
         "ActiveWorldVariable class": {
             "id": "ActiveWorldVariable class",
-            "color": "#E30A86",
+            "color": "#E95954",
             "label": "ActiveWorldVariable class"
         },
         "DockingBarMorph class": {
             "id": "DockingBarMorph class",
-            "color": "#E30A86",
+            "color": "#E95954",
             "label": "DockingBarMorph class"
         },
         "Error class": {
             "id": "Error class",
-            "color": "#458261",
+            "color": "#673062",
             "label": "Error class"
         },
         "ExceptionSet class": {
             "id": "ExceptionSet class",
-            "color": "#458261",
+            "color": "#673062",
             "label": "ExceptionSet class"
         },
         "Point": {
             "id": "Point",
-            "color": "#7EABDD",
+            "color": "#027F07",
             "label": "Point"
         }
     },
@@ -213,12 +213,12 @@
             "receiver": "Association class"
         },
         {
-            "weight": 18,
+            "weight": 17,
             "sender": "IdentityDictionary",
             "receiver": "ByteSymbol"
         },
         {
-            "weight": 25,
+            "weight": 24,
             "sender": "IdentityDictionary",
             "receiver": "IdentityDictionary"
         },
@@ -273,7 +273,7 @@
             "receiver": "PluggableSystemWindow"
         },
         {
-            "weight": 37,
+            "weight": 36,
             "sender": "PasteUpMorph",
             "receiver": "PasteUpMorph"
         },
@@ -293,7 +293,7 @@
             "receiver": "SimpleBorder"
         },
         {
-            "weight": 4,
+            "weight": 3,
             "sender": "PasteUpMorph",
             "receiver": "MorphExtension"
         },
@@ -383,7 +383,7 @@
             "receiver": "WriteStream class"
         },
         {
-            "weight": 12,
+            "weight": 18,
             "sender": "Array",
             "receiver": "PasteUpMorph"
         },
@@ -393,14 +393,14 @@
             "receiver": "HMCodeSnippetStorage class"
         },
         {
-            "weight": 3,
-            "sender": "DamageRecorder",
-            "receiver": "OrderedCollection"
-        },
-        {
-            "weight": 3,
+            "weight": 4,
             "sender": "DamageRecorder",
             "receiver": "Point"
+        },
+        {
+            "weight": 1,
+            "sender": "DamageRecorder",
+            "receiver": "OrderedCollection"
         },
         {
             "weight": 4,
@@ -423,17 +423,22 @@
             "receiver": "Point"
         },
         {
-            "weight": 2,
-            "sender": "Rectangle",
-            "receiver": "Rectangle"
-        },
-        {
-            "weight": 9,
+            "weight": 8,
             "sender": "Rectangle",
             "receiver": "Rectangle class"
         },
         {
+            "weight": 4,
+            "sender": "Rectangle",
+            "receiver": "Rectangle"
+        },
+        {
             "weight": 2,
+            "sender": "Rectangle",
+            "receiver": "SmallInteger"
+        },
+        {
+            "weight": 1,
             "sender": "OrderedCollection",
             "receiver": "DamageRecorder"
         },
@@ -558,12 +563,12 @@
             "receiver": "IdentityDictionary class"
         },
         {
-            "weight": 17,
+            "weight": 16,
             "sender": "MorphExtension",
             "receiver": "IdentityDictionary"
         },
         {
-            "weight": 4,
+            "weight": 3,
             "sender": "MorphExtension",
             "receiver": "MorphExtension"
         },
@@ -608,7 +613,7 @@
             "receiver": "MorphExtension"
         },
         {
-            "weight": 13,
+            "weight": 11,
             "sender": "Rectangle class",
             "receiver": "Rectangle"
         },
@@ -658,12 +663,12 @@
             "receiver": "Point"
         },
         {
-            "weight": 2,
+            "weight": 1,
             "sender": "Point",
             "receiver": "Rectangle class"
         },
         {
-            "weight": 4,
+            "weight": 8,
             "sender": "Point",
             "receiver": "SmallInteger"
         }

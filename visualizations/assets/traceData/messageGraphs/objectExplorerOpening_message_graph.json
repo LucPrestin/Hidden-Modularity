@@ -2,1302 +2,1302 @@
     "vertices": {
         "SmalltalkImage": {
             "id": "SmalltalkImage",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "SmalltalkImage"
         },
         "PluggableTreeMorph": {
             "id": "PluggableTreeMorph",
-            "color": "#19AA5E",
+            "color": "#268F74",
             "label": "PluggableTreeMorph"
         },
         "RunArray": {
             "id": "RunArray",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "RunArray"
         },
         "PluggableDictionary class": {
             "id": "PluggableDictionary class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "PluggableDictionary class"
         },
         "IdentitySet": {
             "id": "IdentitySet",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "IdentitySet"
         },
         "TextEditorCommandHistory": {
             "id": "TextEditorCommandHistory",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TextEditorCommandHistory"
         },
         "ToolBuilder class": {
             "id": "ToolBuilder class",
-            "color": "#88276A",
+            "color": "#5D3A91",
             "label": "ToolBuilder class"
+        },
+        "Browser": {
+            "id": "Browser",
+            "color": "#2336F9",
+            "label": "Browser"
         },
         "MorphExtension": {
             "id": "MorphExtension",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "MorphExtension"
         },
         "TableLayout class": {
             "id": "TableLayout class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TableLayout class"
+        },
+        "BorderedMorph": {
+            "id": "BorderedMorph",
+            "color": "#AC6715",
+            "label": "BorderedMorph"
         },
         "PasteUpMorph class": {
             "id": "PasteUpMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "PasteUpMorph class"
         },
         "SmallInteger class": {
             "id": "SmallInteger class",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "SmallInteger class"
         },
         "MorphicProject": {
             "id": "MorphicProject",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "MorphicProject"
         },
         "ScrollPane class": {
             "id": "ScrollPane class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ScrollPane class"
         },
         "InternalTranslator": {
             "id": "InternalTranslator",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "InternalTranslator"
         },
         "RectangleMorph": {
             "id": "RectangleMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "RectangleMorph"
-        },
-        "Heap class": {
-            "id": "Heap class",
-            "color": "#CB2D29",
-            "label": "Heap class"
         },
         "WeakArray": {
             "id": "WeakArray",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "WeakArray"
+        },
+        "LazyListMorph": {
+            "id": "LazyListMorph",
+            "color": "#AC6715",
+            "label": "LazyListMorph"
         },
         "ObjectExplorerWrapper": {
             "id": "ObjectExplorerWrapper",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ObjectExplorerWrapper"
         },
         "Float class": {
             "id": "Float class",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "Float class"
         },
         "SmalltalkEditor": {
             "id": "SmalltalkEditor",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "SmalltalkEditor"
         },
         "SystemWindow class": {
             "id": "SystemWindow class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "SystemWindow class"
         },
         "ProportionalSplitterMorph class": {
             "id": "ProportionalSplitterMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ProportionalSplitterMorph class"
         },
         "LRUCache": {
             "id": "LRUCache",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "LRUCache"
         },
         "IndentingListItemMorph": {
             "id": "IndentingListItemMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "IndentingListItemMorph"
         },
         "String class": {
             "id": "String class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "String class"
         },
         "IconicButton class": {
             "id": "IconicButton class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "IconicButton class"
         },
         "ToolIcons class": {
             "id": "ToolIcons class",
-            "color": "#6E36A2",
+            "color": "#2336F9",
             "label": "ToolIcons class"
         },
         "WeakIdentityKeyDictionary": {
             "id": "WeakIdentityKeyDictionary",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "WeakIdentityKeyDictionary"
         },
         "TopGripMorph class": {
             "id": "TopGripMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TopGripMorph class"
         },
         "Fraction": {
             "id": "Fraction",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "Fraction"
         },
         "PluggableCodePaneSpec class": {
             "id": "PluggableCodePaneSpec class",
-            "color": "#88276A",
+            "color": "#5D3A91",
             "label": "PluggableCodePaneSpec class"
         },
         "LeftGripMorph": {
             "id": "LeftGripMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "LeftGripMorph"
         },
         "Text class": {
             "id": "Text class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "Text class"
         },
         "Editor class": {
             "id": "Editor class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "Editor class"
         },
         "AdditionalMethodState": {
             "id": "AdditionalMethodState",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "AdditionalMethodState"
         },
         "BottomLeftGripMorph": {
             "id": "BottomLeftGripMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "BottomLeftGripMorph"
         },
         "Association class": {
             "id": "Association class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "Association class"
         },
         "SolidFillStyle": {
             "id": "SolidFillStyle",
-            "color": "#7A5A1C",
+            "color": "#12CDB3",
             "label": "SolidFillStyle"
         },
         "MorphicProject class": {
             "id": "MorphicProject class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "MorphicProject class"
         },
         "HMCodeSnippetStorage class": {
             "id": "HMCodeSnippetStorage class",
-            "color": "#A7AE05",
+            "color": "#811CA7",
             "label": "HMCodeSnippetStorage class"
         },
         "Array class": {
             "id": "Array class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "Array class"
         },
         "Morph": {
             "id": "Morph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "Morph"
         },
         "PluggableButtonMorphPlus class": {
             "id": "PluggableButtonMorphPlus class",
-            "color": "#19AA5E",
+            "color": "#268F74",
             "label": "PluggableButtonMorphPlus class"
         },
         "Message": {
             "id": "Message",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "Message"
         },
         "SmalltalkEditor class": {
             "id": "SmalltalkEditor class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "SmalltalkEditor class"
         },
         "Form class": {
             "id": "Form class",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "Form class"
         },
         "Interval": {
             "id": "Interval",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "Interval"
         },
         "PluggableTextMorphPlus class": {
             "id": "PluggableTextMorphPlus class",
-            "color": "#19AA5E",
+            "color": "#268F74",
             "label": "PluggableTextMorphPlus class"
         },
         "PluggableCodePaneSpec": {
             "id": "PluggableCodePaneSpec",
-            "color": "#88276A",
+            "color": "#5D3A91",
             "label": "PluggableCodePaneSpec"
         },
         "ExceptionSet": {
             "id": "ExceptionSet",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "ExceptionSet"
         },
         "OrderedCollection": {
             "id": "OrderedCollection",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "OrderedCollection"
         },
         "ActiveEventVariable class": {
             "id": "ActiveEventVariable class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ActiveEventVariable class"
         },
         "TableLayoutProperties class": {
             "id": "TableLayoutProperties class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TableLayoutProperties class"
         },
         "MorphicToolBuilder class": {
             "id": "MorphicToolBuilder class",
-            "color": "#19AA5E",
+            "color": "#268F74",
             "label": "MorphicToolBuilder class"
-        },
-        "Workspace class": {
-            "id": "Workspace class",
-            "color": "#6E36A2",
-            "label": "Workspace class"
         },
         "WriteStream class": {
             "id": "WriteStream class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "WriteStream class"
         },
         "ObjectExplorer": {
             "id": "ObjectExplorer",
-            "color": "#6E36A2",
+            "color": "#2336F9",
             "label": "ObjectExplorer"
         },
         "Model class": {
             "id": "Model class",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "Model class"
         },
         "TextStyler class": {
             "id": "TextStyler class",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "TextStyler class"
         },
         "BorderedMorph class": {
             "id": "BorderedMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "BorderedMorph class"
         },
         "StrikeFont": {
             "id": "StrikeFont",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "StrikeFont"
         },
         "Slider class": {
             "id": "Slider class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "Slider class"
         },
         "ToolSet class": {
             "id": "ToolSet class",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "ToolSet class"
         },
         "LayoutProperties": {
             "id": "LayoutProperties",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "LayoutProperties"
         },
         "LegacyShortcutsFilter class": {
             "id": "LegacyShortcutsFilter class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "LegacyShortcutsFilter class"
         },
         "PluggableWindowSpec": {
             "id": "PluggableWindowSpec",
-            "color": "#88276A",
+            "color": "#5D3A91",
             "label": "PluggableWindowSpec"
         },
         "Collection class": {
             "id": "Collection class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "Collection class"
         },
         "PluggableTextMorphPlus": {
             "id": "PluggableTextMorphPlus",
-            "color": "#19AA5E",
+            "color": "#268F74",
             "label": "PluggableTextMorphPlus"
         },
         "TransformMorph class": {
             "id": "TransformMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TransformMorph class"
         },
         "MorphicUIManager class": {
             "id": "MorphicUIManager class",
-            "color": "#19AA5E",
+            "color": "#268F74",
             "label": "MorphicUIManager class"
         },
         "CornerGripMorph class": {
             "id": "CornerGripMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "CornerGripMorph class"
         },
         "TopLeftGripMorph class": {
             "id": "TopLeftGripMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TopLeftGripMorph class"
         },
         "TextStyle class": {
             "id": "TextStyle class",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "TextStyle class"
         },
         "MessageSend": {
             "id": "MessageSend",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "MessageSend"
         },
         "BorderGripMorph class": {
             "id": "BorderGripMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "BorderGripMorph class"
         },
         "FullBlockClosure": {
             "id": "FullBlockClosure",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "FullBlockClosure"
         },
         "MorphicToolBuilder": {
             "id": "MorphicToolBuilder",
-            "color": "#19AA5E",
+            "color": "#268F74",
             "label": "MorphicToolBuilder"
         },
         "CharacterBlock class": {
             "id": "CharacterBlock class",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "CharacterBlock class"
         },
         "LeftGripMorph class": {
             "id": "LeftGripMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "LeftGripMorph class"
         },
         "DependentsArray class": {
             "id": "DependentsArray class",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "DependentsArray class"
         },
         "Environment": {
             "id": "Environment",
-            "color": "#A4B86D",
+            "color": "#56A3AD",
             "label": "Environment"
         },
         "Browser class": {
             "id": "Browser class",
-            "color": "#6E36A2",
+            "color": "#2336F9",
             "label": "Browser class"
         },
         "NewParagraph class": {
             "id": "NewParagraph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "NewParagraph class"
         },
         "ChainedSortFunction": {
             "id": "ChainedSortFunction",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "ChainedSortFunction"
         },
         "SHParserST80": {
             "id": "SHParserST80",
-            "color": "#F92FA9",
+            "color": "#44673F",
             "label": "SHParserST80"
         },
         "Error class": {
             "id": "Error class",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "Error class"
         },
         "NaturalLanguageTranslator class": {
             "id": "NaturalLanguageTranslator class",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "NaturalLanguageTranslator class"
         },
         "TextMorphForEditView class": {
             "id": "TextMorphForEditView class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TextMorphForEditView class"
         },
         "Color": {
             "id": "Color",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "Color"
         },
         "MorphicTransform class": {
             "id": "MorphicTransform class",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "MorphicTransform class"
         },
         "ImageMorph class": {
             "id": "ImageMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ImageMorph class"
         },
         "RealEstateAgent class": {
             "id": "RealEstateAgent class",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "RealEstateAgent class"
         },
         "DefaultSortFunction": {
             "id": "DefaultSortFunction",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "DefaultSortFunction"
         },
         "HandMorph": {
             "id": "HandMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "HandMorph"
         },
         "Color class": {
             "id": "Color class",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "Color class"
         },
         "ByteString class": {
             "id": "ByteString class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "ByteString class"
         },
         "WeakSet": {
             "id": "WeakSet",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "WeakSet"
         },
         "IdentityDictionary": {
             "id": "IdentityDictionary",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "IdentityDictionary"
         },
         "LocaleID": {
             "id": "LocaleID",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "LocaleID"
         },
         "PluggableTreeSpec class": {
             "id": "PluggableTreeSpec class",
-            "color": "#88276A",
+            "color": "#5D3A91",
             "label": "PluggableTreeSpec class"
         },
         "AbstractResizerMorph class": {
             "id": "AbstractResizerMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "AbstractResizerMorph class"
         },
         "DockingBarMorph": {
             "id": "DockingBarMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "DockingBarMorph"
         },
         "WeakKeyAssociation class": {
             "id": "WeakKeyAssociation class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "WeakKeyAssociation class"
         },
         "StandardScriptingSystem": {
             "id": "StandardScriptingSystem",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "StandardScriptingSystem"
         },
         "PluggableWindowSpec class": {
             "id": "PluggableWindowSpec class",
-            "color": "#88276A",
+            "color": "#5D3A91",
             "label": "PluggableWindowSpec class"
         },
         "RunArray class": {
             "id": "RunArray class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "RunArray class"
         },
         "MorphicModel class": {
             "id": "MorphicModel class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "MorphicModel class"
         },
         "TextStyle": {
             "id": "TextStyle",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "TextStyle"
         },
         "SketchMorph": {
             "id": "SketchMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "SketchMorph"
         },
         "Process": {
             "id": "Process",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "Process"
         },
         "Flaps class": {
             "id": "Flaps class",
-            "color": "#5A4BC2",
+            "color": "#29F336",
             "label": "Flaps class"
         },
         "Scanner class": {
             "id": "Scanner class",
-            "color": "#6F408B",
+            "color": "#AAA502",
             "label": "Scanner class"
+        },
+        "PluggableListMorphPlus": {
+            "id": "PluggableListMorphPlus",
+            "color": "#268F74",
+            "label": "PluggableListMorphPlus"
         },
         "AlignmentMorph": {
             "id": "AlignmentMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "AlignmentMorph"
         },
         "BorderStyle": {
             "id": "BorderStyle",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "BorderStyle"
         },
         "LimitedWriteStream class": {
             "id": "LimitedWriteStream class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "LimitedWriteStream class"
         },
         "CharacterSet class": {
             "id": "CharacterSet class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "CharacterSet class"
         },
         "Point class": {
             "id": "Point class",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "Point class"
         },
         "SmallInteger": {
             "id": "SmallInteger",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "SmallInteger"
         },
         "Character": {
             "id": "Character",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "Character"
         },
         "TextMorph class": {
             "id": "TextMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TextMorph class"
         },
         "SHTextStylerST80": {
             "id": "SHTextStylerST80",
-            "color": "#F92FA9",
+            "color": "#44673F",
             "label": "SHTextStylerST80"
         },
         "SqueakTheme class": {
             "id": "SqueakTheme class",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "SqueakTheme class"
         },
         "DamageRecorder": {
             "id": "DamageRecorder",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "DamageRecorder"
-        },
-        "Workspace": {
-            "id": "Workspace",
-            "color": "#6E36A2",
-            "label": "Workspace"
-        },
-        "StepMessage": {
-            "id": "StepMessage",
-            "color": "#2FD23D",
-            "label": "StepMessage"
         },
         "PropertySortFunction": {
             "id": "PropertySortFunction",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "PropertySortFunction"
         },
         "LayoutCell": {
             "id": "LayoutCell",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "LayoutCell"
         },
         "PluggableTreeSpec": {
             "id": "PluggableTreeSpec",
-            "color": "#88276A",
+            "color": "#5D3A91",
             "label": "PluggableTreeSpec"
         },
         "TextLine": {
             "id": "TextLine",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "TextLine"
         },
         "BottomRightGripMorph class": {
             "id": "BottomRightGripMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "BottomRightGripMorph class"
         },
         "SimpleButtonMorph class": {
             "id": "SimpleButtonMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "SimpleButtonMorph class"
         },
         "SmallFloat64": {
             "id": "SmallFloat64",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "SmallFloat64"
         },
         "PasteUpMorph": {
             "id": "PasteUpMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "PasteUpMorph"
         },
         "Project class": {
             "id": "Project class",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "Project class"
         },
         "PluggableListMorph class": {
             "id": "PluggableListMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "PluggableListMorph class"
         },
         "Association": {
             "id": "Association",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "Association"
         },
         "Point": {
             "id": "Point",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "Point"
         },
         "SolidFillStyle class": {
             "id": "SolidFillStyle class",
-            "color": "#7A5A1C",
+            "color": "#12CDB3",
             "label": "SolidFillStyle class"
         },
         "TextMorphForEditView": {
             "id": "TextMorphForEditView",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TextMorphForEditView"
         },
         "EventHandler": {
             "id": "EventHandler",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "EventHandler"
         },
         "LRUCacheHeadNode": {
             "id": "LRUCacheHeadNode",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "LRUCacheHeadNode"
         },
         "WeakArray class": {
             "id": "WeakArray class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "WeakArray class"
         },
         "SHParserST80 class": {
             "id": "SHParserST80 class",
-            "color": "#F92FA9",
+            "color": "#44673F",
             "label": "SHParserST80 class"
         },
         "MorphicUIManager": {
             "id": "MorphicUIManager",
-            "color": "#19AA5E",
+            "color": "#268F74",
             "label": "MorphicUIManager"
         },
         "TextDomainManager class": {
             "id": "TextDomainManager class",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "TextDomainManager class"
         },
         "AbstractHierarchicalList class": {
             "id": "AbstractHierarchicalList class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "AbstractHierarchicalList class"
         },
         "IdentitySet class": {
             "id": "IdentitySet class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "IdentitySet class"
         },
         "DockingBarMorph class": {
             "id": "DockingBarMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "DockingBarMorph class"
         },
         "ChainedSortFunction class": {
             "id": "ChainedSortFunction class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "ChainedSortFunction class"
         },
         "SimpleBorder": {
             "id": "SimpleBorder",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "SimpleBorder"
         },
         "RightGripMorph class": {
             "id": "RightGripMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "RightGripMorph class"
         },
         "PluggableButtonSpec class": {
             "id": "PluggableButtonSpec class",
-            "color": "#88276A",
+            "color": "#5D3A91",
             "label": "PluggableButtonSpec class"
         },
         "MorphExtension class": {
             "id": "MorphExtension class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "MorphExtension class"
         },
         "CharacterBlockScanner class": {
             "id": "CharacterBlockScanner class",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "CharacterBlockScanner class"
         },
         "StringMorph class": {
             "id": "StringMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "StringMorph class"
         },
         "ExceptionSet class": {
             "id": "ExceptionSet class",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "ExceptionSet class"
         },
         "DependentsArray": {
             "id": "DependentsArray",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "DependentsArray"
         },
         "Morph class": {
             "id": "Morph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "Morph class"
         },
         "WeakKeyAssociation": {
             "id": "WeakKeyAssociation",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "WeakKeyAssociation"
         },
         "MenuMorph class": {
             "id": "MenuMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "MenuMorph class"
         },
         "EventHandler class": {
             "id": "EventHandler class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "EventHandler class"
         },
         "IndentingListItemMorph class": {
             "id": "IndentingListItemMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "IndentingListItemMorph class"
         },
         "ECToolSet class": {
             "id": "ECToolSet class",
-            "color": "#5B41AB",
+            "color": "#024FAA",
             "label": "ECToolSet class"
         },
         "Dictionary class": {
             "id": "Dictionary class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "Dictionary class"
         },
         "ColorPickerMorph class": {
             "id": "ColorPickerMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ColorPickerMorph class"
         },
         "ProportionalSplitterMorph": {
             "id": "ProportionalSplitterMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ProportionalSplitterMorph"
         },
         "SimpleBorder class": {
             "id": "SimpleBorder class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "SimpleBorder class"
         },
         "UserInterfaceThemeRequest class": {
             "id": "UserInterfaceThemeRequest class",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "UserInterfaceThemeRequest class"
         },
         "CharacterBlockScanner": {
             "id": "CharacterBlockScanner",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "CharacterBlockScanner"
         },
         "ProtoObject class": {
             "id": "ProtoObject class",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "ProtoObject class"
         },
         "DisplayScreen": {
             "id": "DisplayScreen",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "DisplayScreen"
         },
         "TextComposer class": {
             "id": "TextComposer class",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "TextComposer class"
         },
         "LayoutFrame": {
             "id": "LayoutFrame",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "LayoutFrame"
         },
         "Form": {
             "id": "Form",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "Form"
         },
         "ProportionalLayout": {
             "id": "ProportionalLayout",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ProportionalLayout"
         },
         "Character class": {
             "id": "Character class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "Character class"
         },
         "PluggableButtonMorphPlus": {
             "id": "PluggableButtonMorphPlus",
-            "color": "#19AA5E",
+            "color": "#268F74",
             "label": "PluggableButtonMorphPlus"
         },
         "IdentityDictionary class": {
             "id": "IdentityDictionary class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "IdentityDictionary class"
         },
         "RightGripMorph": {
             "id": "RightGripMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "RightGripMorph"
         },
         "BottomRightGripMorph": {
             "id": "BottomRightGripMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "BottomRightGripMorph"
         },
         "TableLayoutProperties": {
             "id": "TableLayoutProperties",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TableLayoutProperties"
         },
         "Rectangle": {
             "id": "Rectangle",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "Rectangle"
         },
         "LimitedWriteStream": {
             "id": "LimitedWriteStream",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "LimitedWriteStream"
         },
         "CompositionScanner": {
             "id": "CompositionScanner",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "CompositionScanner"
         },
         "CharacterBlock": {
             "id": "CharacterBlock",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "CharacterBlock"
         },
         "LayoutCell class": {
             "id": "LayoutCell class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "LayoutCell class"
         },
         "TextLine class": {
             "id": "TextLine class",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "TextLine class"
         },
         "HashedCollection class": {
             "id": "HashedCollection class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "HashedCollection class"
         },
         "UserInterfaceThemeRequest": {
             "id": "UserInterfaceThemeRequest",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "UserInterfaceThemeRequest"
         },
         "Text": {
             "id": "Text",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "Text"
         },
         "ProportionalLayout class": {
             "id": "ProportionalLayout class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ProportionalLayout class"
         },
         "TextComposer": {
             "id": "TextComposer",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "TextComposer"
-        },
-        "Time class": {
-            "id": "Time class",
-            "color": "#3A019D",
-            "label": "Time class"
         },
         "SketchMorph class": {
             "id": "SketchMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "SketchMorph class"
         },
         "MethodDictionary": {
             "id": "MethodDictionary",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "MethodDictionary"
         },
         "Context": {
             "id": "Context",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "Context"
         },
         "BorderStyle class": {
             "id": "BorderStyle class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "BorderStyle class"
         },
         "TopRightGripMorph class": {
             "id": "TopRightGripMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TopRightGripMorph class"
         },
         "UndefinedObject": {
             "id": "UndefinedObject",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "UndefinedObject"
         },
         "NewParagraph": {
             "id": "NewParagraph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "NewParagraph"
         },
         "PluggableTextMorph class": {
             "id": "PluggableTextMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "PluggableTextMorph class"
         },
         "BottomLeftGripMorph class": {
             "id": "BottomLeftGripMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "BottomLeftGripMorph class"
         },
         "PluggableButtonSpec": {
             "id": "PluggableButtonSpec",
-            "color": "#88276A",
+            "color": "#5D3A91",
             "label": "PluggableButtonSpec"
         },
         "TextEditorCommandHistory class": {
             "id": "TextEditorCommandHistory class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TextEditorCommandHistory class"
         },
         "BottomGripMorph": {
             "id": "BottomGripMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "BottomGripMorph"
         },
         "PluggableButtonMorph class": {
             "id": "PluggableButtonMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "PluggableButtonMorph class"
         },
         "ObjectExplorerWrapper class": {
             "id": "ObjectExplorerWrapper class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ObjectExplorerWrapper class"
         },
         "WorldState": {
             "id": "WorldState",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "WorldState"
         },
         "SimpleHierarchicalListMorph class": {
             "id": "SimpleHierarchicalListMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "SimpleHierarchicalListMorph class"
         },
         "WriteStream": {
             "id": "WriteStream",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "WriteStream"
         },
         "ProcessorScheduler": {
             "id": "ProcessorScheduler",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "ProcessorScheduler"
         },
         "ByteSymbol": {
             "id": "ByteSymbol",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "ByteSymbol"
-        },
-        "Heap": {
-            "id": "Heap",
-            "color": "#CB2D29",
-            "label": "Heap"
         },
         "RectangleMorph class": {
             "id": "RectangleMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "RectangleMorph class"
         },
         "Bitmap class": {
             "id": "Bitmap class",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "Bitmap class"
         },
         "ByteString": {
             "id": "ByteString",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "ByteString"
         },
         "TopLeftGripMorph": {
             "id": "TopLeftGripMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TopLeftGripMorph"
         },
         "StringMorph": {
             "id": "StringMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "StringMorph"
         },
         "Interval class": {
             "id": "Interval class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "Interval class"
         },
         "Object class": {
             "id": "Object class",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "Object class"
         },
         "SHTextStylerST80 class": {
             "id": "SHTextStylerST80 class",
-            "color": "#F92FA9",
+            "color": "#44673F",
             "label": "SHTextStylerST80 class"
         },
         "UserInterfaceTheme class": {
             "id": "UserInterfaceTheme class",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "UserInterfaceTheme class"
+        },
+        "PluggablePanelMorph": {
+            "id": "PluggablePanelMorph",
+            "color": "#268F74",
+            "label": "PluggablePanelMorph"
         },
         "False": {
             "id": "False",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "False"
         },
         "True": {
             "id": "True",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "True"
         },
         "ScrollBar": {
             "id": "ScrollBar",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ScrollBar"
         },
         "ObjectExplorer class": {
             "id": "ObjectExplorer class",
-            "color": "#6E36A2",
+            "color": "#2336F9",
             "label": "ObjectExplorer class"
         },
         "LRUCacheNode": {
             "id": "LRUCacheNode",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "LRUCacheNode"
         },
         "PluggableSystemWindow class": {
             "id": "PluggableSystemWindow class",
-            "color": "#19AA5E",
+            "color": "#268F74",
             "label": "PluggableSystemWindow class"
         },
         "PluggableSystemWindow": {
             "id": "PluggableSystemWindow",
-            "color": "#19AA5E",
+            "color": "#268F74",
             "label": "PluggableSystemWindow"
         },
         "TableLayout": {
             "id": "TableLayout",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TableLayout"
         },
         "ActiveWorldVariable class": {
             "id": "ActiveWorldVariable class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ActiveWorldVariable class"
         },
         "Preferences class": {
             "id": "Preferences class",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "Preferences class"
         },
         "TranslucentColor": {
             "id": "TranslucentColor",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "TranslucentColor"
         },
         "OrderedCollection class": {
             "id": "OrderedCollection class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "OrderedCollection class"
         },
         "ActiveHandVariable class": {
             "id": "ActiveHandVariable class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ActiveHandVariable class"
         },
         "ImageMorph": {
             "id": "ImageMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ImageMorph"
         },
         "PluggableDictionary": {
             "id": "PluggableDictionary",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "PluggableDictionary"
         },
         "SystemWindowButton class": {
             "id": "SystemWindowButton class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "SystemWindowButton class"
         },
         "Bitmap": {
             "id": "Bitmap",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "Bitmap"
         },
         "ScrollBar class": {
             "id": "ScrollBar class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "ScrollBar class"
         },
         "PluggableTreeMorph class": {
             "id": "PluggableTreeMorph class",
-            "color": "#19AA5E",
+            "color": "#268F74",
             "label": "PluggableTreeMorph class"
         },
         "TransformMorph": {
             "id": "TransformMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TransformMorph"
         },
         "Array": {
             "id": "Array",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "Array"
         },
         "Dictionary": {
             "id": "Dictionary",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "Dictionary"
         },
         "BottomGripMorph class": {
             "id": "BottomGripMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "BottomGripMorph class"
         },
         "Fraction class": {
             "id": "Fraction class",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "Fraction class"
         },
         "SystemWindowButton": {
             "id": "SystemWindowButton",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "SystemWindowButton"
         },
         "MorphicTransform": {
             "id": "MorphicTransform",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "MorphicTransform"
         },
         "TopGripMorph": {
             "id": "TopGripMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TopGripMorph"
         },
         "TopRightGripMorph": {
             "id": "TopRightGripMorph",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "TopRightGripMorph"
         },
         "AlignmentMorph class": {
             "id": "AlignmentMorph class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "AlignmentMorph class"
         },
         "LayoutFrame class": {
             "id": "LayoutFrame class",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "LayoutFrame class"
+        },
+        "PluggableListMorphPlus class": {
+            "id": "PluggableListMorphPlus class",
+            "color": "#268F74",
+            "label": "PluggableListMorphPlus class"
         },
         "PropertySortFunction class": {
             "id": "PropertySortFunction class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "PropertySortFunction class"
         },
         "Rectangle class": {
             "id": "Rectangle class",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "Rectangle class"
         },
         "CompositionScanner class": {
             "id": "CompositionScanner class",
-            "color": "#711591",
+            "color": "#C08B59",
             "label": "CompositionScanner class"
         },
         "Symbol class": {
             "id": "Symbol class",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "Symbol class"
         },
         "LayoutProperties class": {
             "id": "LayoutProperties class",
-            "color": "#2FD23D",
+            "color": "#AC6715",
             "label": "LayoutProperties class"
         },
         "ByteCharacterSet": {
             "id": "ByteCharacterSet",
-            "color": "#CB2D29",
+            "color": "#87DD1B",
             "label": "ByteCharacterSet"
         },
         "CompiledMethod": {
             "id": "CompiledMethod",
-            "color": "#19832A",
+            "color": "#1344AA",
             "label": "CompiledMethod"
         },
         "SqueakTheme": {
             "id": "SqueakTheme",
-            "color": "#54AEA3",
+            "color": "#26A0DF",
             "label": "SqueakTheme"
         }
     },
@@ -1588,7 +1588,7 @@
             "receiver": "OrderedCollection"
         },
         {
-            "weight": 216,
+            "weight": 282,
             "sender": "PluggableDictionary class",
             "receiver": "Array"
         },
@@ -1628,27 +1628,42 @@
             "receiver": "MorphicUIManager"
         },
         {
-            "weight": 108,
+            "weight": 1,
+            "sender": "Browser",
+            "receiver": "Browser class"
+        },
+        {
+            "weight": 120,
             "sender": "MorphExtension",
             "receiver": "IdentityDictionary class"
         },
         {
-            "weight": 9870,
+            "weight": 11476,
             "sender": "MorphExtension",
             "receiver": "IdentityDictionary"
         },
         {
-            "weight": 5554,
+            "weight": 6604,
             "sender": "MorphExtension",
             "receiver": "MorphExtension"
         },
         {
-            "weight": 32,
+            "weight": 2,
+            "sender": "BorderedMorph",
+            "receiver": "BorderedMorph"
+        },
+        {
+            "weight": 2,
+            "sender": "BorderedMorph",
+            "receiver": "Array"
+        },
+        {
+            "weight": 38,
             "sender": "ScrollPane class",
             "receiver": "ScrollPane class"
         },
         {
-            "weight": 30,
+            "weight": 36,
             "sender": "ScrollPane class",
             "receiver": "ByteSymbol"
         },
@@ -1673,64 +1688,14 @@
             "receiver": "LocaleID"
         },
         {
-            "weight": 22516,
+            "weight": 108,
             "sender": "RectangleMorph",
-            "receiver": "RectangleMorph"
+            "receiver": "SmallInteger"
         },
         {
-            "weight": 1484,
+            "weight": 172,
             "sender": "RectangleMorph",
-            "receiver": "ImageMorph"
-        },
-        {
-            "weight": 288,
-            "sender": "RectangleMorph",
-            "receiver": "Color"
-        },
-        {
-            "weight": 48,
-            "sender": "RectangleMorph",
-            "receiver": "EventHandler"
-        },
-        {
-            "weight": 52,
-            "sender": "RectangleMorph",
-            "receiver": "BorderStyle class"
-        },
-        {
-            "weight": 20,
-            "sender": "RectangleMorph",
-            "receiver": "EventHandler class"
-        },
-        {
-            "weight": 1128,
-            "sender": "RectangleMorph",
-            "receiver": "Array"
-        },
-        {
-            "weight": 26,
-            "sender": "RectangleMorph",
-            "receiver": "MorphExtension class"
-        },
-        {
-            "weight": 96,
-            "sender": "RectangleMorph",
-            "receiver": "ExceptionSet"
-        },
-        {
-            "weight": 192,
-            "sender": "RectangleMorph",
-            "receiver": "FullBlockClosure"
-        },
-        {
-            "weight": 1198,
-            "sender": "RectangleMorph",
-            "receiver": "SimpleBorder"
-        },
-        {
-            "weight": 5575,
-            "sender": "RectangleMorph",
-            "receiver": "MorphExtension"
+            "receiver": "TranslucentColor"
         },
         {
             "weight": 60,
@@ -1738,24 +1703,39 @@
             "receiver": "LayoutProperties"
         },
         {
-            "weight": 52,
+            "weight": 12,
             "sender": "RectangleMorph",
-            "receiver": "Color class"
+            "receiver": "PasteUpMorph"
         },
         {
-            "weight": 1037,
+            "weight": 1534,
+            "sender": "RectangleMorph",
+            "receiver": "SimpleBorder"
+        },
+        {
+            "weight": 20,
+            "sender": "RectangleMorph",
+            "receiver": "EventHandler class"
+        },
+        {
+            "weight": 108,
+            "sender": "RectangleMorph",
+            "receiver": "ExceptionSet"
+        },
+        {
+            "weight": 1343,
             "sender": "RectangleMorph",
             "receiver": "ScrollBar"
         },
         {
-            "weight": 1552,
+            "weight": 52,
             "sender": "RectangleMorph",
-            "receiver": "Point"
+            "receiver": "BorderStyle class"
         },
         {
-            "weight": 96,
+            "weight": 27721,
             "sender": "RectangleMorph",
-            "receiver": "Error class"
+            "receiver": "RectangleMorph"
         },
         {
             "weight": 12,
@@ -1763,39 +1743,79 @@
             "receiver": "LayoutProperties class"
         },
         {
-            "weight": 304,
+            "weight": 1386,
             "sender": "RectangleMorph",
-            "receiver": "ByteSymbol"
+            "receiver": "Array"
         },
         {
-            "weight": 128,
+            "weight": 376,
             "sender": "RectangleMorph",
-            "receiver": "TranslucentColor"
+            "receiver": "Color"
         },
         {
-            "weight": 458,
+            "weight": 12,
             "sender": "RectangleMorph",
-            "receiver": "Array class"
+            "receiver": "PluggableSystemWindow"
         },
         {
-            "weight": 1461,
+            "weight": 1910,
+            "sender": "RectangleMorph",
+            "receiver": "ImageMorph"
+        },
+        {
+            "weight": 1629,
             "sender": "RectangleMorph",
             "receiver": "Rectangle"
         },
         {
-            "weight": 96,
+            "weight": 590,
             "sender": "RectangleMorph",
-            "receiver": "SmallInteger"
+            "receiver": "Array class"
         },
         {
-            "weight": 2,
-            "sender": "Heap class",
-            "receiver": "Heap"
+            "weight": 6819,
+            "sender": "RectangleMorph",
+            "receiver": "MorphExtension"
         },
         {
-            "weight": 3,
-            "sender": "Heap class",
-            "receiver": "Heap class"
+            "weight": 216,
+            "sender": "RectangleMorph",
+            "receiver": "FullBlockClosure"
+        },
+        {
+            "weight": 48,
+            "sender": "RectangleMorph",
+            "receiver": "EventHandler"
+        },
+        {
+            "weight": 392,
+            "sender": "RectangleMorph",
+            "receiver": "ByteSymbol"
+        },
+        {
+            "weight": 26,
+            "sender": "RectangleMorph",
+            "receiver": "MorphExtension class"
+        },
+        {
+            "weight": 52,
+            "sender": "RectangleMorph",
+            "receiver": "Color class"
+        },
+        {
+            "weight": 108,
+            "sender": "RectangleMorph",
+            "receiver": "Error class"
+        },
+        {
+            "weight": 12,
+            "sender": "RectangleMorph",
+            "receiver": "PluggableListMorphPlus"
+        },
+        {
+            "weight": 1756,
+            "sender": "RectangleMorph",
+            "receiver": "Point"
         },
         {
             "weight": 3,
@@ -1831,6 +1851,16 @@
             "weight": 18,
             "sender": "WeakArray",
             "receiver": "WeakArray"
+        },
+        {
+            "weight": 4,
+            "sender": "LazyListMorph",
+            "receiver": "LazyListMorph"
+        },
+        {
+            "weight": 4,
+            "sender": "LazyListMorph",
+            "receiver": "Array"
         },
         {
             "weight": 3,
@@ -1958,12 +1988,12 @@
             "receiver": "SystemWindow class"
         },
         {
-            "weight": 2,
+            "weight": 4,
             "sender": "SystemWindow class",
             "receiver": "Morph"
         },
         {
-            "weight": 6,
+            "weight": 10,
             "sender": "SystemWindow class",
             "receiver": "RealEstateAgent class"
         },
@@ -1983,7 +2013,7 @@
             "receiver": "OrderedCollection class"
         },
         {
-            "weight": 4,
+            "weight": 8,
             "sender": "SystemWindow class",
             "receiver": "OrderedCollection"
         },
@@ -2038,12 +2068,12 @@
             "receiver": "SmallInteger"
         },
         {
-            "weight": 216,
+            "weight": 282,
             "sender": "LRUCache",
             "receiver": "PluggableDictionary"
         },
         {
-            "weight": 370,
+            "weight": 478,
             "sender": "LRUCache",
             "receiver": "LRUCacheNode"
         },
@@ -2228,7 +2258,7 @@
             "receiver": "WeakKeyAssociation class"
         },
         {
-            "weight": 10,
+            "weight": 22,
             "sender": "WeakIdentityKeyDictionary",
             "receiver": "WeakKeyAssociation"
         },
@@ -2558,7 +2588,7 @@
             "receiver": "Color"
         },
         {
-            "weight": 261,
+            "weight": 273,
             "sender": "Association class",
             "receiver": "Association"
         },
@@ -2588,7 +2618,7 @@
             "receiver": "Array"
         },
         {
-            "weight": 216,
+            "weight": 282,
             "sender": "Array class",
             "receiver": "ByteSymbol"
         },
@@ -2598,7 +2628,7 @@
             "receiver": "WriteStream class"
         },
         {
-            "weight": 491,
+            "weight": 617,
             "sender": "Array class",
             "receiver": "Array class"
         },
@@ -2611,6 +2641,11 @@
             "weight": 1,
             "sender": "Morph",
             "receiver": "BorderStyle"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph",
+            "receiver": "PasteUpMorph"
         },
         {
             "weight": 11,
@@ -2643,12 +2678,12 @@
             "receiver": "FullBlockClosure"
         },
         {
-            "weight": 12,
+            "weight": 19,
             "sender": "Morph",
             "receiver": "Morph class"
         },
         {
-            "weight": 112,
+            "weight": 114,
             "sender": "Morph",
             "receiver": "Morph"
         },
@@ -2658,9 +2693,9 @@
             "receiver": "Color class"
         },
         {
-            "weight": 1,
+            "weight": 18,
             "sender": "Morph",
-            "receiver": "Error class"
+            "receiver": "MorphExtension"
         },
         {
             "weight": 10,
@@ -2668,9 +2703,9 @@
             "receiver": "Point"
         },
         {
-            "weight": 17,
+            "weight": 1,
             "sender": "Morph",
-            "receiver": "MorphExtension"
+            "receiver": "Error class"
         },
         {
             "weight": 2,
@@ -2748,7 +2783,7 @@
             "receiver": "Interval"
         },
         {
-            "weight": 34,
+            "weight": 36,
             "sender": "PluggableTextMorphPlus class",
             "receiver": "PluggableTextMorphPlus class"
         },
@@ -2778,7 +2813,7 @@
             "receiver": "SqueakTheme"
         },
         {
-            "weight": 31,
+            "weight": 33,
             "sender": "PluggableTextMorphPlus class",
             "receiver": "ByteSymbol"
         },
@@ -2798,7 +2833,7 @@
             "receiver": "Preferences class"
         },
         {
-            "weight": 31,
+            "weight": 33,
             "sender": "PluggableTextMorphPlus class",
             "receiver": "Association"
         },
@@ -2823,22 +2858,27 @@
             "receiver": "TextStyler class"
         },
         {
-            "weight": 170,
+            "weight": 194,
             "sender": "ExceptionSet",
             "receiver": "OrderedCollection class"
         },
         {
-            "weight": 170,
+            "weight": 194,
             "sender": "ExceptionSet",
             "receiver": "ExceptionSet"
         },
         {
-            "weight": 510,
+            "weight": 582,
             "sender": "ExceptionSet",
             "receiver": "OrderedCollection"
         },
         {
-            "weight": 4,
+            "weight": 14,
+            "sender": "OrderedCollection",
+            "receiver": "Rectangle class"
+        },
+        {
+            "weight": 6,
             "sender": "OrderedCollection",
             "receiver": "PluggableSystemWindow"
         },
@@ -2853,12 +2893,12 @@
             "receiver": "Array"
         },
         {
-            "weight": 129,
+            "weight": 178,
             "sender": "OrderedCollection",
             "receiver": "DamageRecorder"
         },
         {
-            "weight": 8,
+            "weight": 24,
             "sender": "OrderedCollection",
             "receiver": "RealEstateAgent class"
         },
@@ -2878,7 +2918,7 @@
             "receiver": "IndentingListItemMorph"
         },
         {
-            "weight": 990,
+            "weight": 1116,
             "sender": "OrderedCollection",
             "receiver": "OrderedCollection"
         },
@@ -3128,12 +3168,12 @@
             "receiver": "Dictionary"
         },
         {
-            "weight": 22,
+            "weight": 23,
             "sender": "BorderedMorph class",
             "receiver": "BorderedMorph class"
         },
         {
-            "weight": 14,
+            "weight": 15,
             "sender": "BorderedMorph class",
             "receiver": "ByteSymbol"
         },
@@ -3183,12 +3223,12 @@
             "receiver": "MorphicProject class"
         },
         {
-            "weight": 84,
+            "weight": 106,
             "sender": "Slider class",
             "receiver": "Slider class"
         },
         {
-            "weight": 84,
+            "weight": 106,
             "sender": "Slider class",
             "receiver": "ByteSymbol"
         },
@@ -3298,7 +3338,7 @@
             "receiver": "MorphicToolBuilder"
         },
         {
-            "weight": 31,
+            "weight": 33,
             "sender": "PluggableTextMorphPlus",
             "receiver": "UserInterfaceThemeRequest class"
         },
@@ -3308,7 +3348,7 @@
             "receiver": "SmallInteger"
         },
         {
-            "weight": 31,
+            "weight": 33,
             "sender": "PluggableTextMorphPlus",
             "receiver": "UserInterfaceTheme class"
         },
@@ -3318,7 +3358,7 @@
             "receiver": "LegacyShortcutsFilter class"
         },
         {
-            "weight": 53,
+            "weight": 51,
             "sender": "PluggableTextMorphPlus",
             "receiver": "TextMorphForEditView"
         },
@@ -3338,7 +3378,7 @@
             "receiver": "TransformMorph class"
         },
         {
-            "weight": 8,
+            "weight": 9,
             "sender": "PluggableTextMorphPlus",
             "receiver": "SqueakTheme class"
         },
@@ -3348,7 +3388,7 @@
             "receiver": "ObjectExplorer"
         },
         {
-            "weight": 1193,
+            "weight": 1214,
             "sender": "PluggableTextMorphPlus",
             "receiver": "PluggableTextMorphPlus"
         },
@@ -3373,7 +3413,7 @@
             "receiver": "ScrollPane class"
         },
         {
-            "weight": 43,
+            "weight": 46,
             "sender": "PluggableTextMorphPlus",
             "receiver": "SimpleBorder"
         },
@@ -3398,7 +3438,7 @@
             "receiver": "BorderStyle class"
         },
         {
-            "weight": 65,
+            "weight": 67,
             "sender": "PluggableTextMorphPlus",
             "receiver": "ScrollBar"
         },
@@ -3423,12 +3463,12 @@
             "receiver": "Text"
         },
         {
-            "weight": 27,
+            "weight": 28,
             "sender": "PluggableTextMorphPlus",
             "receiver": "Array"
         },
         {
-            "weight": 16,
+            "weight": 18,
             "sender": "PluggableTextMorphPlus",
             "receiver": "Color"
         },
@@ -3443,12 +3483,12 @@
             "receiver": "UndefinedObject"
         },
         {
-            "weight": 33,
+            "weight": 27,
             "sender": "PluggableTextMorphPlus",
             "receiver": "PluggableSystemWindow"
         },
         {
-            "weight": 127,
+            "weight": 128,
             "sender": "PluggableTextMorphPlus",
             "receiver": "TransformMorph"
         },
@@ -3473,7 +3513,12 @@
             "receiver": "SHTextStylerST80"
         },
         {
-            "weight": 242,
+            "weight": 4,
+            "sender": "PluggableTextMorphPlus",
+            "receiver": "PluggablePanelMorph"
+        },
+        {
+            "weight": 244,
             "sender": "PluggableTextMorphPlus",
             "receiver": "MorphExtension"
         },
@@ -3488,7 +3533,7 @@
             "receiver": "Preferences class"
         },
         {
-            "weight": 93,
+            "weight": 99,
             "sender": "PluggableTextMorphPlus",
             "receiver": "UserInterfaceThemeRequest"
         },
@@ -3528,7 +3573,7 @@
             "receiver": "StrikeFont"
         },
         {
-            "weight": 17,
+            "weight": 18,
             "sender": "PluggableTextMorphPlus",
             "receiver": "ByteSymbol"
         },
@@ -3543,7 +3588,7 @@
             "receiver": "MorphExtension class"
         },
         {
-            "weight": 11,
+            "weight": 10,
             "sender": "PluggableTextMorphPlus",
             "receiver": "PluggableTextMorphPlus class"
         },
@@ -3663,7 +3708,7 @@
             "receiver": "BorderGripMorph class"
         },
         {
-            "weight": 818,
+            "weight": 950,
             "sender": "FullBlockClosure",
             "receiver": "SmallInteger"
         },
@@ -3708,7 +3753,7 @@
             "receiver": "PluggableTreeMorph"
         },
         {
-            "weight": 384,
+            "weight": 432,
             "sender": "FullBlockClosure",
             "receiver": "RectangleMorph"
         },
@@ -3728,7 +3773,7 @@
             "receiver": "BottomRightGripMorph"
         },
         {
-            "weight": 144,
+            "weight": 192,
             "sender": "FullBlockClosure",
             "receiver": "ImageMorph"
         },
@@ -3753,7 +3798,7 @@
             "receiver": "PluggableButtonMorphPlus"
         },
         {
-            "weight": 820,
+            "weight": 952,
             "sender": "FullBlockClosure",
             "receiver": "FullBlockClosure"
         },
@@ -4038,12 +4083,12 @@
             "receiver": "OrderedCollection"
         },
         {
-            "weight": 170,
+            "weight": 194,
             "sender": "Error class",
             "receiver": "ExceptionSet class"
         },
         {
-            "weight": 340,
+            "weight": 388,
             "sender": "Error class",
             "receiver": "ExceptionSet"
         },
@@ -4068,7 +4113,7 @@
             "receiver": "TextMorphForEditView"
         },
         {
-            "weight": 2574,
+            "weight": 2868,
             "sender": "Color",
             "receiver": "SmallInteger"
         },
@@ -4078,12 +4123,12 @@
             "receiver": "PluggableSystemWindow"
         },
         {
-            "weight": 673,
+            "weight": 718,
             "sender": "Color",
             "receiver": "TranslucentColor"
         },
         {
-            "weight": 4438,
+            "weight": 5485,
             "sender": "Color",
             "receiver": "Color"
         },
@@ -4093,12 +4138,12 @@
             "receiver": "Fraction"
         },
         {
-            "weight": 3072,
+            "weight": 3468,
             "sender": "Color",
             "receiver": "SmallFloat64"
         },
         {
-            "weight": 185,
+            "weight": 236,
             "sender": "Color",
             "receiver": "Color class"
         },
@@ -4113,14 +4158,29 @@
             "receiver": "MorphicTransform class"
         },
         {
-            "weight": 216,
+            "weight": 12,
+            "sender": "ImageMorph class",
+            "receiver": "MethodDictionary"
+        },
+        {
+            "weight": 12,
+            "sender": "ImageMorph class",
+            "receiver": "ImageMorph class"
+        },
+        {
+            "weight": 282,
             "sender": "ImageMorph class",
             "receiver": "ImageMorph"
         },
         {
-            "weight": 4,
+            "weight": 10,
             "sender": "RealEstateAgent class",
             "receiver": "True"
+        },
+        {
+            "weight": 6,
+            "sender": "RealEstateAgent class",
+            "receiver": "False"
         },
         {
             "weight": 3,
@@ -4153,12 +4213,12 @@
             "receiver": "RealEstateAgent class"
         },
         {
-            "weight": 10,
+            "weight": 26,
             "sender": "RealEstateAgent class",
             "receiver": "Point"
         },
         {
-            "weight": 4,
+            "weight": 6,
             "sender": "RealEstateAgent class",
             "receiver": "OrderedCollection"
         },
@@ -4168,7 +4228,7 @@
             "receiver": "Preferences class"
         },
         {
-            "weight": 13,
+            "weight": 25,
             "sender": "RealEstateAgent class",
             "receiver": "Rectangle"
         },
@@ -4185,7 +4245,7 @@
         {
             "weight": 1,
             "sender": "HandMorph",
-            "receiver": "TextMorphForEditView"
+            "receiver": "PluggableListMorphPlus"
         },
         {
             "weight": 576,
@@ -4193,12 +4253,12 @@
             "receiver": "False"
         },
         {
-            "weight": 1065,
+            "weight": 1165,
             "sender": "Color class",
             "receiver": "Color"
         },
         {
-            "weight": 751,
+            "weight": 801,
             "sender": "Color class",
             "receiver": "Color class"
         },
@@ -4238,9 +4298,14 @@
             "receiver": "WeakSet"
         },
         {
-            "weight": 14798,
+            "weight": 17445,
             "sender": "IdentityDictionary",
             "receiver": "IdentityDictionary"
+        },
+        {
+            "weight": 7,
+            "sender": "IdentityDictionary",
+            "receiver": "PluggableListMorphPlus"
         },
         {
             "weight": 2,
@@ -4273,9 +4338,14 @@
             "receiver": "TextMorphForEditView"
         },
         {
-            "weight": 86,
+            "weight": 85,
             "sender": "IdentityDictionary",
             "receiver": "PluggableTextMorphPlus"
+        },
+        {
+            "weight": 1,
+            "sender": "IdentityDictionary",
+            "receiver": "PasteUpMorph"
         },
         {
             "weight": 15,
@@ -4293,22 +4363,22 @@
             "receiver": "PluggableTreeMorph"
         },
         {
-            "weight": 253,
+            "weight": 295,
             "sender": "IdentityDictionary",
             "receiver": "ScrollBar"
         },
         {
-            "weight": 2050,
+            "weight": 2364,
             "sender": "IdentityDictionary",
             "receiver": "RectangleMorph"
         },
         {
-            "weight": 261,
+            "weight": 273,
             "sender": "IdentityDictionary",
             "receiver": "Association class"
         },
         {
-            "weight": 198,
+            "weight": 212,
             "sender": "IdentityDictionary",
             "receiver": "PluggableSystemWindow"
         },
@@ -4318,7 +4388,7 @@
             "receiver": "BottomRightGripMorph"
         },
         {
-            "weight": 130,
+            "weight": 166,
             "sender": "IdentityDictionary",
             "receiver": "ImageMorph"
         },
@@ -4328,9 +4398,14 @@
             "receiver": "TransformMorph"
         },
         {
-            "weight": 273,
+            "weight": 333,
             "sender": "IdentityDictionary",
             "receiver": "Array class"
+        },
+        {
+            "weight": 4,
+            "sender": "IdentityDictionary",
+            "receiver": "PluggablePanelMorph"
         },
         {
             "weight": 212,
@@ -4338,12 +4413,12 @@
             "receiver": "SystemWindowButton"
         },
         {
-            "weight": 5,
+            "weight": 6,
             "sender": "IdentityDictionary",
             "receiver": "Morph"
         },
         {
-            "weight": 280,
+            "weight": 340,
             "sender": "IdentityDictionary",
             "receiver": "MorphExtension"
         },
@@ -4363,7 +4438,7 @@
             "receiver": "StringMorph"
         },
         {
-            "weight": 9835,
+            "weight": 11393,
             "sender": "IdentityDictionary",
             "receiver": "ByteSymbol"
         },
@@ -4478,12 +4553,12 @@
             "receiver": "MethodDictionary"
         },
         {
-            "weight": 16,
+            "weight": 17,
             "sender": "MorphicModel class",
             "receiver": "MorphicModel class"
         },
         {
-            "weight": 14,
+            "weight": 15,
             "sender": "MorphicModel class",
             "receiver": "ByteSymbol"
         },
@@ -4638,7 +4713,7 @@
             "receiver": "Dictionary"
         },
         {
-            "weight": 3,
+            "weight": 6,
             "sender": "Flaps class",
             "receiver": "Morph"
         },
@@ -4653,9 +4728,89 @@
             "receiver": "PasteUpMorph"
         },
         {
-            "weight": 10,
+            "weight": 16,
             "sender": "Flaps class",
             "receiver": "PluggableSystemWindow"
+        },
+        {
+            "weight": 12,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "RectangleMorph"
+        },
+        {
+            "weight": 49,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "PluggableSystemWindow"
+        },
+        {
+            "weight": 4,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "TransformMorph"
+        },
+        {
+            "weight": 4,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "Array"
+        },
+        {
+            "weight": 12,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "SimpleBorder"
+        },
+        {
+            "weight": 24,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "MorphExtension"
+        },
+        {
+            "weight": 1,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "UndefinedObject"
+        },
+        {
+            "weight": 9,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "ScrollBar"
+        },
+        {
+            "weight": 121,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "PluggableListMorphPlus"
+        },
+        {
+            "weight": 4,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "UserInterfaceThemeRequest class"
+        },
+        {
+            "weight": 4,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "ByteSymbol"
+        },
+        {
+            "weight": 4,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "SqueakTheme class"
+        },
+        {
+            "weight": 4,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "UserInterfaceTheme class"
+        },
+        {
+            "weight": 12,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "UserInterfaceThemeRequest"
+        },
+        {
+            "weight": 11,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "Rectangle"
+        },
+        {
+            "weight": 2,
+            "sender": "PluggableListMorphPlus",
+            "receiver": "PluggableListMorphPlus class"
         },
         {
             "weight": 5,
@@ -4813,7 +4968,7 @@
             "receiver": "Interval class"
         },
         {
-            "weight": 818,
+            "weight": 950,
             "sender": "SmallInteger",
             "receiver": "FullBlockClosure"
         },
@@ -4823,7 +4978,7 @@
             "receiver": "Fraction class"
         },
         {
-            "weight": 2365,
+            "weight": 2831,
             "sender": "SmallInteger",
             "receiver": "Point"
         },
@@ -4833,7 +4988,7 @@
             "receiver": "Fraction"
         },
         {
-            "weight": 7244,
+            "weight": 7334,
             "sender": "SmallInteger",
             "receiver": "SmallInteger"
         },
@@ -4943,7 +5098,7 @@
             "receiver": "IdentityDictionary"
         },
         {
-            "weight": 12,
+            "weight": 13,
             "sender": "SqueakTheme class",
             "receiver": "UserInterfaceTheme class"
         },
@@ -4958,7 +5113,7 @@
             "receiver": "Color class"
         },
         {
-            "weight": 12,
+            "weight": 13,
             "sender": "SqueakTheme class",
             "receiver": "MethodDictionary"
         },
@@ -4968,39 +5123,44 @@
             "receiver": "TextStyle class"
         },
         {
-            "weight": 298,
+            "weight": 391,
             "sender": "SqueakTheme class",
             "receiver": "Color"
         },
         {
-            "weight": 24,
+            "weight": 26,
             "sender": "SqueakTheme class",
             "receiver": "SqueakTheme class"
         },
         {
-            "weight": 489,
+            "weight": 1,
+            "sender": "DamageRecorder",
+            "receiver": "DamageRecorder"
+        },
+        {
+            "weight": 532,
             "sender": "DamageRecorder",
             "receiver": "Point"
         },
         {
-            "weight": 129,
+            "weight": 1,
+            "sender": "DamageRecorder",
+            "receiver": "Rectangle class"
+        },
+        {
+            "weight": 1,
+            "sender": "DamageRecorder",
+            "receiver": "OrderedCollection class"
+        },
+        {
+            "weight": 143,
             "sender": "DamageRecorder",
             "receiver": "OrderedCollection"
         },
         {
-            "weight": 503,
+            "weight": 618,
             "sender": "DamageRecorder",
             "receiver": "Rectangle"
-        },
-        {
-            "weight": 1,
-            "sender": "Workspace",
-            "receiver": "Workspace class"
-        },
-        {
-            "weight": 1,
-            "sender": "StepMessage",
-            "receiver": "UndefinedObject"
         },
         {
             "weight": 1,
@@ -5078,7 +5238,7 @@
             "receiver": "SimpleButtonMorph class"
         },
         {
-            "weight": 3860,
+            "weight": 4113,
             "sender": "SmallFloat64",
             "receiver": "SmallFloat64"
         },
@@ -5098,12 +5258,17 @@
             "receiver": "Rectangle class"
         },
         {
-            "weight": 15,
+            "weight": 12,
+            "sender": "PasteUpMorph",
+            "receiver": "RectangleMorph"
+        },
+        {
+            "weight": 16,
             "sender": "PasteUpMorph",
             "receiver": "PluggableSystemWindow"
         },
         {
-            "weight": 1278,
+            "weight": 1387,
             "sender": "PasteUpMorph",
             "receiver": "PasteUpMorph"
         },
@@ -5113,22 +5278,27 @@
             "receiver": "Array"
         },
         {
-            "weight": 124,
+            "weight": 134,
             "sender": "PasteUpMorph",
             "receiver": "WorldState"
         },
         {
-            "weight": 123,
+            "weight": 1,
+            "sender": "PasteUpMorph",
+            "receiver": "PasteUpMorph class"
+        },
+        {
+            "weight": 134,
             "sender": "PasteUpMorph",
             "receiver": "SimpleBorder"
         },
         {
-            "weight": 252,
+            "weight": 273,
             "sender": "PasteUpMorph",
             "receiver": "MorphExtension"
         },
         {
-            "weight": 1,
+            "weight": 3,
             "sender": "PasteUpMorph",
             "receiver": "Morph"
         },
@@ -5143,7 +5313,7 @@
             "receiver": "DockingBarMorph"
         },
         {
-            "weight": 384,
+            "weight": 417,
             "sender": "PasteUpMorph",
             "receiver": "Rectangle"
         },
@@ -5163,69 +5333,19 @@
             "receiver": "Association"
         },
         {
-            "weight": 7,
+            "weight": 11,
             "sender": "PluggableListMorph class",
             "receiver": "PluggableListMorph class"
         },
         {
-            "weight": 7,
+            "weight": 11,
             "sender": "PluggableListMorph class",
             "receiver": "ByteSymbol"
         },
         {
-            "weight": 14,
+            "weight": 43054,
             "sender": "Association",
-            "receiver": "BorderedMorph class"
-        },
-        {
-            "weight": 20,
-            "sender": "Association",
-            "receiver": "PluggableTreeMorph class"
-        },
-        {
-            "weight": 10,
-            "sender": "Association",
-            "receiver": "AbstractHierarchicalList class"
-        },
-        {
-            "weight": 1281,
-            "sender": "Association",
-            "receiver": "PluggableSystemWindow class"
-        },
-        {
-            "weight": 3168,
-            "sender": "Association",
-            "receiver": "PluggableTextMorph class"
-        },
-        {
-            "weight": 1476,
-            "sender": "Association",
-            "receiver": "PluggableButtonMorphPlus class"
-        },
-        {
-            "weight": 155,
-            "sender": "Association",
-            "receiver": "PluggableTextMorphPlus class"
-        },
-        {
-            "weight": 2064,
-            "sender": "Association",
-            "receiver": "Object class"
-        },
-        {
-            "weight": 2104,
-            "sender": "Association",
-            "receiver": "SimpleHierarchicalListMorph class"
-        },
-        {
-            "weight": 34816,
-            "sender": "Association",
-            "receiver": "Association class"
-        },
-        {
-            "weight": 14,
-            "sender": "Association",
-            "receiver": "MorphicModel class"
+            "receiver": "Association"
         },
         {
             "weight": 198,
@@ -5233,42 +5353,7 @@
             "receiver": "SystemWindow class"
         },
         {
-            "weight": 171,
-            "sender": "Association",
-            "receiver": "Morph class"
-        },
-        {
-            "weight": 12,
-            "sender": "Association",
-            "receiver": "ProtoObject class"
-        },
-        {
-            "weight": 266,
-            "sender": "Association",
-            "receiver": "PluggableButtonMorph class"
-        },
-        {
-            "weight": 12224,
-            "sender": "Association",
-            "receiver": "Slider class"
-        },
-        {
-            "weight": 9404,
-            "sender": "Association",
-            "receiver": "ScrollBar class"
-        },
-        {
-            "weight": 2,
-            "sender": "Association",
-            "receiver": "ObjectExplorer class"
-        },
-        {
-            "weight": 3829,
-            "sender": "Association",
-            "receiver": "ByteSymbol"
-        },
-        {
-            "weight": 520,
+            "weight": 582,
             "sender": "Association",
             "receiver": "ScrollPane class"
         },
@@ -5278,32 +5363,122 @@
             "receiver": "Model class"
         },
         {
-            "weight": 35467,
-            "sender": "Association",
-            "receiver": "Association"
-        },
-        {
-            "weight": 968,
+            "weight": 1880,
             "sender": "Association",
             "receiver": "PluggableListMorph class"
         },
         {
-            "weight": 429,
+            "weight": 2,
+            "sender": "Association",
+            "receiver": "ObjectExplorer class"
+        },
+        {
+            "weight": 13,
+            "sender": "Association",
+            "receiver": "ProtoObject class"
+        },
+        {
+            "weight": 12088,
+            "sender": "Association",
+            "receiver": "ScrollBar class"
+        },
+        {
+            "weight": 3384,
+            "sender": "Association",
+            "receiver": "PluggableTextMorph class"
+        },
+        {
+            "weight": 2236,
+            "sender": "Association",
+            "receiver": "Object class"
+        },
+        {
+            "weight": 42270,
+            "sender": "Association",
+            "receiver": "Association class"
+        },
+        {
+            "weight": 1476,
+            "sender": "Association",
+            "receiver": "PluggableButtonMorphPlus class"
+        },
+        {
+            "weight": 4,
+            "sender": "Association",
+            "receiver": "PluggableListMorphPlus class"
+        },
+        {
+            "weight": 15,
+            "sender": "Association",
+            "receiver": "BorderedMorph class"
+        },
+        {
+            "weight": 15,
+            "sender": "Association",
+            "receiver": "MorphicModel class"
+        },
+        {
+            "weight": 2104,
+            "sender": "Association",
+            "receiver": "SimpleHierarchicalListMorph class"
+        },
+        {
+            "weight": 1281,
+            "sender": "Association",
+            "receiver": "PluggableSystemWindow class"
+        },
+        {
+            "weight": 184,
+            "sender": "Association",
+            "receiver": "Morph class"
+        },
+        {
+            "weight": 10,
+            "sender": "Association",
+            "receiver": "AbstractHierarchicalList class"
+        },
+        {
+            "weight": 15436,
+            "sender": "Association",
+            "receiver": "Slider class"
+        },
+        {
+            "weight": 4652,
+            "sender": "Association",
+            "receiver": "ByteSymbol"
+        },
+        {
+            "weight": 20,
+            "sender": "Association",
+            "receiver": "PluggableTreeMorph class"
+        },
+        {
+            "weight": 266,
+            "sender": "Association",
+            "receiver": "PluggableButtonMorph class"
+        },
+        {
+            "weight": 165,
+            "sender": "Association",
+            "receiver": "PluggableTextMorphPlus class"
+        },
+        {
+            "weight": 465,
             "sender": "Point",
             "receiver": "Point class"
         },
         {
-            "weight": 20,
+            "weight": 36,
             "sender": "Point",
             "receiver": "Point"
         },
         {
-            "weight": 1754,
+            "weight": 1977,
             "sender": "Point",
             "receiver": "Rectangle class"
         },
         {
-            "weight": 4345,
+            "weight": 5037,
             "sender": "Point",
             "receiver": "SmallInteger"
         },
@@ -5318,7 +5493,7 @@
             "receiver": "TextEditorCommandHistory class"
         },
         {
-            "weight": 807,
+            "weight": 793,
             "sender": "TextMorphForEditView",
             "receiver": "TextMorphForEditView"
         },
@@ -5333,14 +5508,9 @@
             "receiver": "False"
         },
         {
-            "weight": 4,
-            "sender": "TextMorphForEditView",
-            "receiver": "PluggableTextMorphPlus"
-        },
-        {
             "weight": 1,
             "sender": "TextMorphForEditView",
-            "receiver": "PasteUpMorph"
+            "receiver": "PluggableTextMorphPlus"
         },
         {
             "weight": 17,
@@ -5363,7 +5533,7 @@
             "receiver": "BorderStyle class"
         },
         {
-            "weight": 65,
+            "weight": 60,
             "sender": "TextMorphForEditView",
             "receiver": "NewParagraph"
         },
@@ -5378,7 +5548,7 @@
             "receiver": "Text"
         },
         {
-            "weight": 31,
+            "weight": 32,
             "sender": "TextMorphForEditView",
             "receiver": "Array"
         },
@@ -5393,7 +5563,7 @@
             "receiver": "BorderedMorph class"
         },
         {
-            "weight": 2,
+            "weight": 1,
             "sender": "TextMorphForEditView",
             "receiver": "PluggableSystemWindow"
         },
@@ -5403,17 +5573,12 @@
             "receiver": "ActiveHandVariable class"
         },
         {
-            "weight": 1,
-            "sender": "TextMorphForEditView",
-            "receiver": "Time class"
-        },
-        {
-            "weight": 112,
+            "weight": 111,
             "sender": "TextMorphForEditView",
             "receiver": "Rectangle"
         },
         {
-            "weight": 27,
+            "weight": 24,
             "sender": "TextMorphForEditView",
             "receiver": "TransformMorph"
         },
@@ -5423,12 +5588,12 @@
             "receiver": "Array class"
         },
         {
-            "weight": 7,
+            "weight": 6,
             "sender": "TextMorphForEditView",
             "receiver": "True"
         },
         {
-            "weight": 152,
+            "weight": 151,
             "sender": "TextMorphForEditView",
             "receiver": "MorphExtension"
         },
@@ -5628,7 +5793,7 @@
             "receiver": "ChainedSortFunction"
         },
         {
-            "weight": 133,
+            "weight": 178,
             "sender": "SimpleBorder",
             "receiver": "SimpleBorder"
         },
@@ -5648,7 +5813,7 @@
             "receiver": "SimpleBorder class"
         },
         {
-            "weight": 389,
+            "weight": 527,
             "sender": "SimpleBorder",
             "receiver": "Color"
         },
@@ -5683,7 +5848,7 @@
             "receiver": "CharacterBlockScanner"
         },
         {
-            "weight": 108,
+            "weight": 120,
             "sender": "MorphExtension class",
             "receiver": "MorphExtension"
         },
@@ -5703,7 +5868,7 @@
             "receiver": "MethodDictionary"
         },
         {
-            "weight": 170,
+            "weight": 194,
             "sender": "ExceptionSet class",
             "receiver": "ExceptionSet"
         },
@@ -5743,7 +5908,7 @@
             "receiver": "DependentsArray class"
         },
         {
-            "weight": 15,
+            "weight": 16,
             "sender": "Morph class",
             "receiver": "ByteSymbol"
         },
@@ -5753,7 +5918,7 @@
             "receiver": "Morph"
         },
         {
-            "weight": 28,
+            "weight": 40,
             "sender": "Morph class",
             "receiver": "MethodDictionary"
         },
@@ -5763,7 +5928,7 @@
             "receiver": "Association"
         },
         {
-            "weight": 71,
+            "weight": 96,
             "sender": "Morph class",
             "receiver": "Morph class"
         },
@@ -5838,7 +6003,7 @@
             "receiver": "BorderStyle class"
         },
         {
-            "weight": 8,
+            "weight": 12,
             "sender": "ProportionalSplitterMorph",
             "receiver": "Array"
         },
@@ -5848,7 +6013,7 @@
             "receiver": "MorphExtension class"
         },
         {
-            "weight": 78,
+            "weight": 86,
             "sender": "ProportionalSplitterMorph",
             "receiver": "MorphExtension"
         },
@@ -5898,7 +6063,7 @@
             "receiver": "Rectangle"
         },
         {
-            "weight": 205,
+            "weight": 225,
             "sender": "ProportionalSplitterMorph",
             "receiver": "ProportionalSplitterMorph"
         },
@@ -5958,17 +6123,17 @@
             "receiver": "Array"
         },
         {
-            "weight": 40,
+            "weight": 43,
             "sender": "ProtoObject class",
             "receiver": "ProtoObject class"
         },
         {
-            "weight": 12,
+            "weight": 13,
             "sender": "ProtoObject class",
             "receiver": "ByteSymbol"
         },
         {
-            "weight": 13,
+            "weight": 14,
             "sender": "ProtoObject class",
             "receiver": "MethodDictionary"
         },
@@ -6178,7 +6343,7 @@
             "receiver": "PluggableButtonMorphPlus class"
         },
         {
-            "weight": 12,
+            "weight": 23,
             "sender": "PluggableButtonMorphPlus",
             "receiver": "Array"
         },
@@ -6218,7 +6383,7 @@
             "receiver": "UserInterfaceThemeRequest"
         },
         {
-            "weight": 608,
+            "weight": 619,
             "sender": "PluggableButtonMorphPlus",
             "receiver": "PluggableButtonMorphPlus"
         },
@@ -6293,7 +6458,7 @@
             "receiver": "IdentityDictionary class"
         },
         {
-            "weight": 108,
+            "weight": 120,
             "sender": "IdentityDictionary class",
             "receiver": "IdentityDictionary"
         },
@@ -6553,22 +6718,22 @@
             "receiver": "PluggableSystemWindow"
         },
         {
-            "weight": 254,
+            "weight": 270,
             "sender": "Rectangle",
             "receiver": "SmallInteger"
         },
         {
-            "weight": 7173,
+            "weight": 8513,
             "sender": "Rectangle",
             "receiver": "Point"
         },
         {
-            "weight": 2747,
+            "weight": 3245,
             "sender": "Rectangle",
             "receiver": "Rectangle class"
         },
         {
-            "weight": 1511,
+            "weight": 1713,
             "sender": "Rectangle",
             "receiver": "Rectangle"
         },
@@ -6578,7 +6743,7 @@
             "receiver": "PluggableSystemWindow"
         },
         {
-            "weight": 21,
+            "weight": 20,
             "sender": "Rectangle",
             "receiver": "Array class"
         },
@@ -6713,29 +6878,9 @@
             "receiver": "Array"
         },
         {
-            "weight": 389,
+            "weight": 20,
             "sender": "UserInterfaceThemeRequest",
-            "receiver": "SqueakTheme"
-        },
-        {
-            "weight": 292,
-            "sender": "UserInterfaceThemeRequest",
-            "receiver": "ScrollBar class"
-        },
-        {
-            "weight": 377,
-            "sender": "UserInterfaceThemeRequest",
-            "receiver": "Message"
-        },
-        {
-            "weight": 2,
-            "sender": "UserInterfaceThemeRequest",
-            "receiver": "ObjectExplorer class"
-        },
-        {
-            "weight": 31,
-            "sender": "UserInterfaceThemeRequest",
-            "receiver": "PluggableTextMorphPlus class"
+            "receiver": "PluggableTreeMorph class"
         },
         {
             "weight": 21,
@@ -6743,14 +6888,39 @@
             "receiver": "PluggableSystemWindow class"
         },
         {
-            "weight": 20,
+            "weight": 33,
             "sender": "UserInterfaceThemeRequest",
-            "receiver": "PluggableTreeMorph class"
+            "receiver": "PluggableTextMorphPlus class"
+        },
+        {
+            "weight": 471,
+            "sender": "UserInterfaceThemeRequest",
+            "receiver": "Message"
+        },
+        {
+            "weight": 380,
+            "sender": "UserInterfaceThemeRequest",
+            "receiver": "ScrollBar class"
+        },
+        {
+            "weight": 484,
+            "sender": "UserInterfaceThemeRequest",
+            "receiver": "SqueakTheme"
+        },
+        {
+            "weight": 2,
+            "sender": "UserInterfaceThemeRequest",
+            "receiver": "ObjectExplorer class"
         },
         {
             "weight": 11,
             "sender": "UserInterfaceThemeRequest",
             "receiver": "PluggableButtonMorphPlus class"
+        },
+        {
+            "weight": 4,
+            "sender": "UserInterfaceThemeRequest",
+            "receiver": "PluggableListMorphPlus class"
         },
         {
             "weight": 48,
@@ -6873,7 +7043,7 @@
             "receiver": "SketchMorph"
         },
         {
-            "weight": 167,
+            "weight": 195,
             "sender": "MethodDictionary",
             "receiver": "MethodDictionary"
         },
@@ -7013,12 +7183,12 @@
             "receiver": "MethodDictionary"
         },
         {
-            "weight": 31,
+            "weight": 33,
             "sender": "PluggableTextMorph class",
             "receiver": "ByteSymbol"
         },
         {
-            "weight": 32,
+            "weight": 34,
             "sender": "PluggableTextMorph class",
             "receiver": "PluggableTextMorph class"
         },
@@ -7218,17 +7388,12 @@
             "receiver": "ObjectExplorerWrapper class"
         },
         {
-            "weight": 123,
+            "weight": 134,
             "sender": "WorldState",
             "receiver": "DamageRecorder"
         },
         {
-            "weight": 2,
-            "sender": "WorldState",
-            "receiver": "Heap"
-        },
-        {
-            "weight": 123,
+            "weight": 134,
             "sender": "WorldState",
             "receiver": "Rectangle"
         },
@@ -7333,7 +7498,7 @@
             "receiver": "RightGripMorph"
         },
         {
-            "weight": 2097,
+            "weight": 2583,
             "sender": "ByteSymbol",
             "receiver": "ByteSymbol"
         },
@@ -7361,26 +7526,6 @@
             "weight": 8,
             "sender": "ByteSymbol",
             "receiver": "BottomRightGripMorph"
-        },
-        {
-            "weight": 1,
-            "sender": "Heap",
-            "receiver": "Heap class"
-        },
-        {
-            "weight": 9,
-            "sender": "Heap",
-            "receiver": "Heap"
-        },
-        {
-            "weight": 5,
-            "sender": "Heap",
-            "receiver": "WorldState"
-        },
-        {
-            "weight": 2,
-            "sender": "Heap",
-            "receiver": "StepMessage"
         },
         {
             "weight": 6,
@@ -7708,7 +7853,7 @@
             "receiver": "Interval"
         },
         {
-            "weight": 15,
+            "weight": 16,
             "sender": "Object class",
             "receiver": "ProtoObject class"
         },
@@ -7718,17 +7863,17 @@
             "receiver": "Array"
         },
         {
-            "weight": 12,
+            "weight": 13,
             "sender": "Object class",
             "receiver": "ByteSymbol"
         },
         {
-            "weight": 13,
+            "weight": 14,
             "sender": "Object class",
             "receiver": "MethodDictionary"
         },
         {
-            "weight": 40,
+            "weight": 43,
             "sender": "Object class",
             "receiver": "Object class"
         },
@@ -7738,19 +7883,59 @@
             "receiver": "SHTextStylerST80"
         },
         {
-            "weight": 24,
+            "weight": 26,
             "sender": "UserInterfaceTheme class",
             "receiver": "UserInterfaceTheme class"
         },
         {
-            "weight": 12,
+            "weight": 13,
             "sender": "UserInterfaceTheme class",
             "receiver": "MethodDictionary"
         },
         {
-            "weight": 12,
+            "weight": 13,
             "sender": "UserInterfaceTheme class",
             "receiver": "Object class"
+        },
+        {
+            "weight": 3,
+            "sender": "PluggablePanelMorph",
+            "receiver": "Array"
+        },
+        {
+            "weight": 6,
+            "sender": "PluggablePanelMorph",
+            "receiver": "MorphExtension"
+        },
+        {
+            "weight": 2,
+            "sender": "PluggablePanelMorph",
+            "receiver": "BorderedMorph"
+        },
+        {
+            "weight": 11,
+            "sender": "PluggablePanelMorph",
+            "receiver": "PluggableButtonMorphPlus"
+        },
+        {
+            "weight": 2,
+            "sender": "PluggablePanelMorph",
+            "receiver": "PluggableTextMorphPlus"
+        },
+        {
+            "weight": 20,
+            "sender": "PluggablePanelMorph",
+            "receiver": "PluggablePanelMorph"
+        },
+        {
+            "weight": 4,
+            "sender": "PluggablePanelMorph",
+            "receiver": "Rectangle"
+        },
+        {
+            "weight": 4,
+            "sender": "PluggablePanelMorph",
+            "receiver": "PluggableSystemWindow"
         },
         {
             "weight": 9,
@@ -7768,17 +7953,17 @@
             "receiver": "TextMorphForEditView"
         },
         {
-            "weight": 292,
+            "weight": 380,
             "sender": "ScrollBar",
             "receiver": "UserInterfaceThemeRequest class"
         },
         {
-            "weight": 292,
+            "weight": 380,
             "sender": "ScrollBar",
             "receiver": "UserInterfaceTheme class"
         },
         {
-            "weight": 1065,
+            "weight": 1263,
             "sender": "ScrollBar",
             "receiver": "SmallInteger"
         },
@@ -7793,12 +7978,12 @@
             "receiver": "TranslucentColor"
         },
         {
-            "weight": 272,
+            "weight": 360,
             "sender": "ScrollBar",
             "receiver": "SqueakTheme class"
         },
         {
-            "weight": 216,
+            "weight": 282,
             "sender": "ScrollBar",
             "receiver": "ImageMorph class"
         },
@@ -7808,12 +7993,12 @@
             "receiver": "PluggableTextMorphPlus"
         },
         {
-            "weight": 572,
+            "weight": 704,
             "sender": "ScrollBar",
             "receiver": "SimpleBorder"
         },
         {
-            "weight": 8423,
+            "weight": 9869,
             "sender": "ScrollBar",
             "receiver": "ScrollBar"
         },
@@ -7828,12 +8013,12 @@
             "receiver": "SmallFloat64"
         },
         {
-            "weight": 3547,
+            "weight": 4361,
             "sender": "ScrollBar",
             "receiver": "RectangleMorph"
         },
         {
-            "weight": 332,
+            "weight": 420,
             "sender": "ScrollBar",
             "receiver": "ScrollBar class"
         },
@@ -7843,22 +8028,22 @@
             "receiver": "PluggableTreeMorph"
         },
         {
-            "weight": 97,
+            "weight": 119,
             "sender": "ScrollBar",
             "receiver": "Array"
         },
         {
-            "weight": 204,
+            "weight": 270,
             "sender": "ScrollBar",
             "receiver": "Color"
         },
         {
-            "weight": 216,
+            "weight": 282,
             "sender": "ScrollBar",
             "receiver": "ImageMorph"
         },
         {
-            "weight": 2045,
+            "weight": 2351,
             "sender": "ScrollBar",
             "receiver": "Rectangle"
         },
@@ -7873,7 +8058,7 @@
             "receiver": "Fraction"
         },
         {
-            "weight": 842,
+            "weight": 1016,
             "sender": "ScrollBar",
             "receiver": "MorphExtension"
         },
@@ -7888,7 +8073,7 @@
             "receiver": "Preferences class"
         },
         {
-            "weight": 876,
+            "weight": 1140,
             "sender": "ScrollBar",
             "receiver": "UserInterfaceThemeRequest"
         },
@@ -7911,6 +8096,11 @@
             "weight": 28,
             "sender": "ScrollBar",
             "receiver": "Color class"
+        },
+        {
+            "weight": 42,
+            "sender": "ScrollBar",
+            "receiver": "PluggableListMorphPlus"
         },
         {
             "weight": 1064,
@@ -7953,12 +8143,12 @@
             "receiver": "ObjectExplorer"
         },
         {
-            "weight": 185,
+            "weight": 239,
             "sender": "LRUCacheNode",
             "receiver": "LRUCacheHeadNode"
         },
         {
-            "weight": 555,
+            "weight": 717,
             "sender": "LRUCacheNode",
             "receiver": "LRUCacheNode"
         },
@@ -7978,12 +8168,12 @@
             "receiver": "PluggableSystemWindow"
         },
         {
-            "weight": 37,
+            "weight": 39,
             "sender": "PluggableSystemWindow class",
             "receiver": "PluggableSystemWindow class"
         },
         {
-            "weight": 4,
+            "weight": 6,
             "sender": "PluggableSystemWindow class",
             "receiver": "OrderedCollection"
         },
@@ -7993,7 +8183,7 @@
             "receiver": "Array"
         },
         {
-            "weight": 1,
+            "weight": 2,
             "sender": "PluggableSystemWindow class",
             "receiver": "Morph"
         },
@@ -8048,7 +8238,7 @@
             "receiver": "ColorPickerMorph class"
         },
         {
-            "weight": 49,
+            "weight": 61,
             "sender": "PluggableSystemWindow",
             "receiver": "ProportionalSplitterMorph"
         },
@@ -8118,7 +8308,7 @@
             "receiver": "SystemWindowButton class"
         },
         {
-            "weight": 364,
+            "weight": 384,
             "sender": "PluggableSystemWindow",
             "receiver": "MorphExtension"
         },
@@ -8153,7 +8343,7 @@
             "receiver": "Array class"
         },
         {
-            "weight": 40,
+            "weight": 37,
             "sender": "PluggableSystemWindow",
             "receiver": "PluggableTextMorphPlus"
         },
@@ -8161,11 +8351,6 @@
             "weight": 1,
             "sender": "PluggableSystemWindow",
             "receiver": "MorphicUIManager"
-        },
-        {
-            "weight": 1,
-            "sender": "PluggableSystemWindow",
-            "receiver": "Workspace"
         },
         {
             "weight": 27,
@@ -8188,6 +8373,11 @@
             "receiver": "StringMorph class"
         },
         {
+            "weight": 1,
+            "sender": "PluggableSystemWindow",
+            "receiver": "Browser"
+        },
+        {
             "weight": 3,
             "sender": "PluggableSystemWindow",
             "receiver": "OrderedCollection class"
@@ -8203,7 +8393,7 @@
             "receiver": "TopGripMorph"
         },
         {
-            "weight": 1648,
+            "weight": 1711,
             "sender": "PluggableSystemWindow",
             "receiver": "PluggableSystemWindow"
         },
@@ -8253,9 +8443,14 @@
             "receiver": "ActiveHandVariable class"
         },
         {
-            "weight": 230,
+            "weight": 244,
             "sender": "PluggableSystemWindow",
             "receiver": "Rectangle"
+        },
+        {
+            "weight": 12,
+            "sender": "PluggableSystemWindow",
+            "receiver": "RectangleMorph"
         },
         {
             "weight": 12,
@@ -8278,7 +8473,7 @@
             "receiver": "Error class"
         },
         {
-            "weight": 2,
+            "weight": 1,
             "sender": "PluggableSystemWindow",
             "receiver": "TextMorphForEditView"
         },
@@ -8306,6 +8501,11 @@
             "weight": 11,
             "sender": "PluggableSystemWindow",
             "receiver": "ObjectExplorer"
+        },
+        {
+            "weight": 4,
+            "sender": "PluggableSystemWindow",
+            "receiver": "PluggablePanelMorph"
         },
         {
             "weight": 38,
@@ -8368,7 +8568,7 @@
             "receiver": "Array"
         },
         {
-            "weight": 55,
+            "weight": 63,
             "sender": "PluggableSystemWindow",
             "receiver": "PluggableSystemWindow class"
         },
@@ -8393,12 +8593,17 @@
             "receiver": "TransformMorph"
         },
         {
+            "weight": 10,
+            "sender": "PluggableSystemWindow",
+            "receiver": "PluggableListMorphPlus"
+        },
+        {
             "weight": 1,
             "sender": "PluggableSystemWindow",
             "receiver": "MorphExtension class"
         },
         {
-            "weight": 135,
+            "weight": 180,
             "sender": "PluggableSystemWindow",
             "receiver": "PasteUpMorph"
         },
@@ -8573,17 +8778,17 @@
             "receiver": "Color"
         },
         {
-            "weight": 865,
+            "weight": 910,
             "sender": "TranslucentColor",
             "receiver": "SmallFloat64"
         },
         {
-            "weight": 865,
+            "weight": 910,
             "sender": "TranslucentColor",
             "receiver": "SmallInteger"
         },
         {
-            "weight": 193,
+            "weight": 217,
             "sender": "OrderedCollection class",
             "receiver": "OrderedCollection class"
         },
@@ -8593,7 +8798,7 @@
             "receiver": "Array class"
         },
         {
-            "weight": 395,
+            "weight": 445,
             "sender": "OrderedCollection class",
             "receiver": "OrderedCollection"
         },
@@ -8608,97 +8813,112 @@
             "receiver": "Process"
         },
         {
-            "weight": 20598,
+            "weight": 12,
+            "sender": "ImageMorph",
+            "receiver": "RectangleMorph"
+        },
+        {
+            "weight": 27278,
             "sender": "ImageMorph",
             "receiver": "ImageMorph"
         },
         {
-            "weight": 36,
+            "weight": 48,
             "sender": "ImageMorph",
             "receiver": "BorderStyle"
         },
         {
-            "weight": 36,
+            "weight": 48,
             "sender": "ImageMorph",
             "receiver": "BorderStyle class"
         },
         {
-            "weight": 36,
+            "weight": 72,
             "sender": "ImageMorph",
             "receiver": "Array"
         },
         {
-            "weight": 36,
+            "weight": 48,
             "sender": "ImageMorph",
             "receiver": "MorphExtension class"
         },
         {
-            "weight": 36,
+            "weight": 48,
             "sender": "ImageMorph",
             "receiver": "ExceptionSet"
         },
         {
-            "weight": 72,
+            "weight": 96,
             "sender": "ImageMorph",
             "receiver": "FullBlockClosure"
         },
         {
-            "weight": 250,
+            "weight": 310,
             "sender": "ImageMorph",
             "receiver": "MorphExtension"
         },
         {
-            "weight": 216,
+            "weight": 24,
+            "sender": "ImageMorph",
+            "receiver": "Morph class"
+        },
+        {
+            "weight": 282,
             "sender": "ImageMorph",
             "receiver": "Color class"
         },
         {
-            "weight": 36,
+            "weight": 48,
             "sender": "ImageMorph",
             "receiver": "Error class"
         },
         {
-            "weight": 1656,
+            "weight": 2180,
             "sender": "ImageMorph",
             "receiver": "Point"
         },
         {
-            "weight": 864,
+            "weight": 12,
+            "sender": "ImageMorph",
+            "receiver": "ImageMorph class"
+        },
+        {
+            "weight": 1128,
             "sender": "ImageMorph",
             "receiver": "Form"
         },
         {
-            "weight": 216,
+            "weight": 282,
             "sender": "ImageMorph",
             "receiver": "Array class"
         },
         {
-            "weight": 3042,
+            "weight": 4040,
             "sender": "ImageMorph",
             "receiver": "Rectangle"
         },
         {
-            "weight": 36,
+            "weight": 48,
             "sender": "ImageMorph",
             "receiver": "SmallInteger"
         },
         {
-            "weight": 290,
+            "weight": 398,
             "sender": "PluggableDictionary",
             "receiver": "Array"
         },
         {
-            "weight": 216,
+            "weight": 282,
             "sender": "PluggableDictionary",
             "receiver": "PluggableDictionary class"
         },
         {
-            "weight": 216,
+            "weight": 282,
             "sender": "PluggableDictionary",
             "receiver": "PluggableDictionary"
         },
         {
-            "weight": 216,
+            "weight": 282,
             "sender": "PluggableDictionary",
             "receiver": "LRUCache"
         },
@@ -8733,27 +8953,27 @@
             "receiver": "ScrollBar"
         },
         {
-            "weight": 304,
+            "weight": 392,
             "sender": "ScrollBar class",
             "receiver": "ScrollBar class"
         },
         {
-            "weight": 292,
+            "weight": 380,
             "sender": "ScrollBar class",
             "receiver": "ByteSymbol"
         },
         {
-            "weight": 292,
+            "weight": 380,
             "sender": "ScrollBar class",
             "receiver": "Association"
         },
         {
-            "weight": 216,
+            "weight": 282,
             "sender": "ScrollBar class",
             "receiver": "LRUCache"
         },
         {
-            "weight": 144,
+            "weight": 188,
             "sender": "ScrollBar class",
             "receiver": "SmallInteger"
         },
@@ -8818,12 +9038,12 @@
             "receiver": "TransformMorph class"
         },
         {
-            "weight": 29,
+            "weight": 26,
             "sender": "TransformMorph",
             "receiver": "PluggableTextMorphPlus"
         },
         {
-            "weight": 26,
+            "weight": 25,
             "sender": "TransformMorph",
             "receiver": "MorphicTransform"
         },
@@ -8848,7 +9068,7 @@
             "receiver": "LayoutProperties class"
         },
         {
-            "weight": 163,
+            "weight": 168,
             "sender": "TransformMorph",
             "receiver": "Array"
         },
@@ -8863,12 +9083,12 @@
             "receiver": "PluggableSystemWindow"
         },
         {
-            "weight": 838,
+            "weight": 841,
             "sender": "TransformMorph",
             "receiver": "TransformMorph"
         },
         {
-            "weight": 259,
+            "weight": 256,
             "sender": "TransformMorph",
             "receiver": "Rectangle"
         },
@@ -8918,6 +9138,11 @@
             "receiver": "BorderStyle"
         },
         {
+            "weight": 4,
+            "sender": "TransformMorph",
+            "receiver": "LazyListMorph"
+        },
+        {
             "weight": 2,
             "sender": "TransformMorph",
             "receiver": "MorphExtension class"
@@ -8936,6 +9161,11 @@
             "weight": 129,
             "sender": "TransformMorph",
             "receiver": "Point"
+        },
+        {
+            "weight": 69,
+            "sender": "Array",
+            "receiver": "PluggableListMorphPlus"
         },
         {
             "weight": 45,
@@ -8968,17 +9198,17 @@
             "receiver": "BottomGripMorph"
         },
         {
-            "weight": 10,
+            "weight": 16,
             "sender": "Array",
             "receiver": "SystemWindow class"
         },
         {
-            "weight": 37,
+            "weight": 28,
             "sender": "Array",
             "receiver": "PluggableTextMorphPlus"
         },
         {
-            "weight": 30,
+            "weight": 42,
             "sender": "Array",
             "receiver": "PasteUpMorph"
         },
@@ -8988,7 +9218,7 @@
             "receiver": "RunArray"
         },
         {
-            "weight": 80,
+            "weight": 76,
             "sender": "Array",
             "receiver": "MorphicTransform"
         },
@@ -9008,12 +9238,12 @@
             "receiver": "DependentsArray class"
         },
         {
-            "weight": 225,
+            "weight": 291,
             "sender": "Array",
             "receiver": "ScrollBar"
         },
         {
-            "weight": 696,
+            "weight": 864,
             "sender": "Array",
             "receiver": "RectangleMorph"
         },
@@ -9023,22 +9253,22 @@
             "receiver": "NewParagraph"
         },
         {
-            "weight": 131,
+            "weight": 135,
             "sender": "Array",
             "receiver": "WriteStream"
         },
         {
-            "weight": 1910,
+            "weight": 2222,
             "sender": "Array",
             "receiver": "Array"
         },
         {
-            "weight": 254,
+            "weight": 342,
             "sender": "Array",
             "receiver": "Color"
         },
         {
-            "weight": 347,
+            "weight": 369,
             "sender": "Array",
             "receiver": "PluggableSystemWindow"
         },
@@ -9048,12 +9278,12 @@
             "receiver": "BottomRightGripMorph"
         },
         {
-            "weight": 53,
+            "weight": 58,
             "sender": "Array",
             "receiver": "TransformMorph"
         },
         {
-            "weight": 506,
+            "weight": 680,
             "sender": "Array",
             "receiver": "Array class"
         },
@@ -9071,6 +9301,11 @@
             "weight": 25,
             "sender": "Array",
             "receiver": "OrderedCollection"
+        },
+        {
+            "weight": 51,
+            "sender": "Array",
+            "receiver": "PluggablePanelMorph"
         },
         {
             "weight": 12,
@@ -9093,7 +9328,7 @@
             "receiver": "TableLayout"
         },
         {
-            "weight": 6,
+            "weight": 9,
             "sender": "Array",
             "receiver": "PluggableSystemWindow class"
         },
@@ -9103,12 +9338,12 @@
             "receiver": "WriteStream class"
         },
         {
-            "weight": 288,
+            "weight": 376,
             "sender": "Array",
             "receiver": "ByteSymbol"
         },
         {
-            "weight": 60,
+            "weight": 57,
             "sender": "Array",
             "receiver": "Rectangle class"
         },
@@ -9128,7 +9363,7 @@
             "receiver": "WeakArray class"
         },
         {
-            "weight": 16,
+            "weight": 25,
             "sender": "Array",
             "receiver": "Flaps class"
         },
@@ -9168,7 +9403,7 @@
             "receiver": "String class"
         },
         {
-            "weight": 814,
+            "weight": 947,
             "sender": "Dictionary",
             "receiver": "Dictionary"
         },
@@ -9208,7 +9443,7 @@
             "receiver": "ByteString"
         },
         {
-            "weight": 383,
+            "weight": 476,
             "sender": "Dictionary",
             "receiver": "SqueakTheme"
         },
@@ -9238,7 +9473,7 @@
             "receiver": "Character"
         },
         {
-            "weight": 35467,
+            "weight": 43054,
             "sender": "Dictionary",
             "receiver": "Association"
         },
@@ -9438,27 +9673,27 @@
             "receiver": "Point"
         },
         {
-            "weight": 20,
+            "weight": 19,
             "sender": "MorphicTransform",
             "receiver": "Array"
         },
         {
-            "weight": 272,
+            "weight": 259,
             "sender": "MorphicTransform",
             "receiver": "MorphicTransform"
         },
         {
-            "weight": 80,
+            "weight": 76,
             "sender": "MorphicTransform",
             "receiver": "Point"
         },
         {
-            "weight": 20,
+            "weight": 19,
             "sender": "MorphicTransform",
             "receiver": "Rectangle class"
         },
         {
-            "weight": 20,
+            "weight": 19,
             "sender": "MorphicTransform",
             "receiver": "Rectangle"
         },
@@ -9729,6 +9964,21 @@
         },
         {
             "weight": 4,
+            "sender": "PluggableListMorphPlus class",
+            "receiver": "Association"
+        },
+        {
+            "weight": 4,
+            "sender": "PluggableListMorphPlus class",
+            "receiver": "ByteSymbol"
+        },
+        {
+            "weight": 4,
+            "sender": "PluggableListMorphPlus class",
+            "receiver": "PluggableListMorphPlus class"
+        },
+        {
+            "weight": 4,
             "sender": "PropertySortFunction class",
             "receiver": "PropertySortFunction"
         },
@@ -9738,12 +9988,12 @@
             "receiver": "PropertySortFunction class"
         },
         {
-            "weight": 40,
+            "weight": 38,
             "sender": "Rectangle class",
             "receiver": "Array"
         },
         {
-            "weight": 1511,
+            "weight": 1797,
             "sender": "Rectangle class",
             "receiver": "Point"
         },
@@ -9753,9 +10003,14 @@
             "receiver": "Rectangle class"
         },
         {
-            "weight": 4359,
+            "weight": 5068,
             "sender": "Rectangle class",
             "receiver": "Rectangle"
+        },
+        {
+            "weight": 3,
+            "sender": "Rectangle class",
+            "receiver": "OrderedCollection"
         },
         {
             "weight": 6,
@@ -9798,7 +10053,7 @@
             "receiver": "AdditionalMethodState"
         },
         {
-            "weight": 660,
+            "weight": 793,
             "sender": "SqueakTheme",
             "receiver": "Dictionary"
         },
@@ -9813,12 +10068,12 @@
             "receiver": "SmalltalkImage"
         },
         {
-            "weight": 298,
+            "weight": 339,
             "sender": "SqueakTheme",
             "receiver": "SqueakTheme"
         },
         {
-            "weight": 319,
+            "weight": 413,
             "sender": "SqueakTheme",
             "receiver": "SqueakTheme class"
         },
@@ -9833,7 +10088,7 @@
             "receiver": "Model class"
         },
         {
-            "weight": 289,
+            "weight": 330,
             "sender": "SqueakTheme",
             "receiver": "Association"
         },

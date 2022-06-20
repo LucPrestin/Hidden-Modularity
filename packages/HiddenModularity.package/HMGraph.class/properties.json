@@ -8,7 +8,7 @@
 	"instvars" : [
 		"vertices",
 		"edges" ],
-	"name" : "HMMessageGraph",
+	"name" : "HMGraph",
 	"pools" : [
 		 ],
 	"super" : "Object",
