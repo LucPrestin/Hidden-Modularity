@@ -1,5 +1,5 @@
 exporting
-writeTraceNamed: aSymbol toFileName: aString
+writeTraceNamed: aSymbol asMessageGraphToFileName: aString
 
 	| cursor graph |
 
