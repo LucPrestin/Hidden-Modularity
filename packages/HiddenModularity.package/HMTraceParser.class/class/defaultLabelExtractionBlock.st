@@ -1,4 +1,0 @@
-defaults
-defaultLabelExtractionBlock
-
-	^ self classExtractionBlock

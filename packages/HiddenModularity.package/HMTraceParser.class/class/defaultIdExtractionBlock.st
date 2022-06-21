@@ -1,4 +1,0 @@
-defaults
-defaultIdExtractionBlock
-
-	^ self classExtractionBlock
