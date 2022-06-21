@@ -1,4 +1,4 @@
-message graph construction
+communicator graph
 colorFor: anId
 
 	| color |

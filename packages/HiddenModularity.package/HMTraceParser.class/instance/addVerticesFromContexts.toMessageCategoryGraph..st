@@ -1,4 +1,4 @@
-message category graph construction
+method category graph
 addVerticesFromContexts: contexts toMessageCategoryGraph: graph 
 
 	contexts
@@ -6,7 +6,7 @@ addVerticesFromContexts: contexts toMessageCategoryGraph: graph
 				do: [:communicator | 
 					| methodReference id |
 							methodReference := communicator method methodReference.
-							id := methodReference classSymbol asString , '>>' , methodReference category asString.
+							id := methodReference classSymbol asString , ' ' , methodReference category asString.
 							graph
 								addVertexWithId: id
 								label: id

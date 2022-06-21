@@ -1,4 +1,4 @@
-message category graph construction
+method category graph
 addEdgesFromContexts: contexts toMessageCategoryGraph: graph 
 
 	contexts
@@ -6,7 +6,7 @@ addEdgesFromContexts: contexts toMessageCategoryGraph: graph
 			| aBlock firstMethodReference secondMethodReference |
 			firstMethodReference := contextPair first method methodReference.
 			secondMethodReference := contextPair second method methodReference.
-			aBlock := [:reference | reference classSymbol asString , '>>' , reference category asString].
+			aBlock := [:reference | reference classSymbol asString , ' ' , reference category asString].
 			graph
 				addEdgeBetween: (aBlock value: firstMethodReference)
 				and: (aBlock value: secondMethodReference)]

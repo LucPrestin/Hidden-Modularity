@@ -1,4 +1,4 @@
-message category graph construction
+method category graph
 messageCategoryGraphFromContexts: contexts
 	
 	| graph cleanedContexts |

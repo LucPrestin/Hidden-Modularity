@@ -1,5 +1,5 @@
 communicator graph
-addEdgesFromCommunicators: communicators toMessageGraph: graph 
+addEdgesFromCommunicators: communicators toCommunicatorGraph: graph 
 	
 	communicators
 		do: [:contextPair | graph

@@ -1,4 +1,4 @@
-message category graph construction
+method category graph
 messageCategoryGraphFromCursor: aTDBCursor
 
 	^ self messageCategoryGraphFromContexts: (self collectContextsFrom: aTDBCursor)
