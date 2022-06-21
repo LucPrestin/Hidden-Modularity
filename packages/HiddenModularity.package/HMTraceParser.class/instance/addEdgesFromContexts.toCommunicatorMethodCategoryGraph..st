@@ -1,5 +1,5 @@
-method category graph
-addEdgesFromContexts: contexts toMessageCategoryGraph: graph 
+communicator method category graph
+addEdgesFromContexts: contexts toCommunicatorMethodCategoryGraph: graph 
 
 	contexts
 		do: [:contextPair | 

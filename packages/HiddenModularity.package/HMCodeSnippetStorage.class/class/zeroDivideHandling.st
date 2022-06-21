@@ -1,5 +1,6 @@
 scenarios
 zeroDivideHandling
+	<scenario>
 
 	^ TDBCursor
 		traceForBlock: [[2 / 0]

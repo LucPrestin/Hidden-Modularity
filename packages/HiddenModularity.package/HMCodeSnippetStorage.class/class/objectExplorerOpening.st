@@ -1,5 +1,6 @@
 scenarios
 objectExplorerOpening
+	<scenario>
 
 	| tmp |
 	

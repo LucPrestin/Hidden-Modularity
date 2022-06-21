@@ -1,14 +1,18 @@
 scenarios
 doAllTraces
 
-	| traceSymbols |
+	| traceMethods |
 
-	traceSymbols := {#codeBrowserOpening. #fetchingGoogle. #morphOpening. #objectExplorerOpening. #zeroDivideHandling}.
+	traceMethods := self class methodDict values
+				select: [:method | method hasPragma: #scenario].
 
-	traceSymbols
-		do: [:traceSymbol | 
-			| cursor |
+	traceMethods
+		do: [:traceMethod | | cursor |
+			cursor := traceMethod valueWithReceiver: self arguments: {}.
 			
-			cursor := self perform: traceSymbol.
-			(HMTraceParser messageGraphFromCursor: cursor) writeToFileNamed: traceSymbol asString, '_message_graph.json'.
-			(HMTraceParser messageCategoryGraphFromCursor: cursor) writeToFileNamed: traceSymbol asString, '_message_category_graph.json']
+			(HMTraceParser communicatorGraphFromCursor: cursor)
+				writeToFileNamed: traceMethod methodReference methodSymbol asString , '_communicator_graph.json'.
+			(HMTraceParser communicatorMethodCategoryGraphFromCursor: cursor)
+				writeToFileNamed: traceMethod methodReference methodSymbol asString , '_communicator_method_category_graph.json'.
+			(HMTraceParser methodCategoryGraphFromCursor: cursor)
+				writeToFileNamed: traceMethod methodReference methodSymbol asString , '_method_category_graph.json']

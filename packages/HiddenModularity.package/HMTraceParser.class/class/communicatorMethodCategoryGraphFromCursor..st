@@ -1,0 +1,4 @@
+graphs
+communicatorMethodCategoryGraphFromCursor: aTDBCursor
+
+	^ self new communicatorMethodCategoryGraphFromCursor: aTDBCursor

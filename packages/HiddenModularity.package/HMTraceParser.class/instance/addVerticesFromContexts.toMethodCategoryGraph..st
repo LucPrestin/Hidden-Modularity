@@ -1,5 +1,5 @@
 method category graph
-addVerticesFromContexts: contexts toMessageCategoryGraph: graph 
+addVerticesFromContexts: contexts toMethodCategoryGraph: graph 
 
 	contexts
 		do: [:contextPair | contextPair

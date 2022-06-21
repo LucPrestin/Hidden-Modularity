@@ -1,4 +1,4 @@
-communicator graph
+initialization
 colorFor: anId
 
 	| color |
