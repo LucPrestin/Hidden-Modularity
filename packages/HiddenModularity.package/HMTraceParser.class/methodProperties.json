@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"blacklist" : "lpr 6/21/2022 11:58",
 		"categoryExtractionBlock" : "lpr 6/14/2022 11:17",
 		"classExtractionBlock" : "lpr 6/14/2022 11:16",
 		"communicatorClassAndMethodCategoryExtractionBlock" : "lpr 6/21/2022 11:15",
@@ -15,7 +16,9 @@
 	"instance" : {
 		"addEdgesFromCommunicators:toGraph:" : "lpr 6/21/2022 11:19",
 		"addUniqueEdgesFromCommunicators:toGraph:" : "lpr 6/21/2022 11:51",
-		"addVerticesFromCommunicators:toGraph:" : "lpr 6/21/2022 11:18",
+		"addVerticesFromCommunicators:toGraph:" : "lpr 6/21/2022 11:59",
+		"blacklist" : "lpr 6/21/2022 11:58",
+		"blacklist:" : "lpr 6/21/2022 11:58",
 		"buildGraphFromCommunicators:" : "lpr 6/21/2022 11:29",
 		"collectCommunicatorsFrom:" : "lp 5/22/2022 21:10",
 		"collectContextsFrom:" : "lpr 6/14/2022 13:13",
@@ -29,7 +32,7 @@
 		"communicatorBasedGraphFromCursor:" : "lpr 6/21/2022 11:29",
 		"idExtractionBlock" : "lpr 6/14/2022 11:10",
 		"idExtractionBlock:" : "lpr 6/14/2022 11:10",
-		"initialize" : "lpr 6/21/2022 11:12",
+		"initialize" : "lpr 6/21/2022 11:58",
 		"labelExtractionBlock" : "lpr 6/14/2022 11:10",
 		"labelExtractionBlock:" : "lpr 6/14/2022 11:10",
 		"methodBasedGraphFromCursor:" : "lpr 6/21/2022 11:30" } }

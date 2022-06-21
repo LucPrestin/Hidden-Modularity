@@ -9,7 +9,8 @@
 		"idExtractionBlock",
 		"labelExtractionBlock",
 		"colorLabelExtractionBlock",
-		"colors" ],
+		"colors",
+		"blacklist" ],
 	"name" : "HMTraceParser",
 	"pools" : [
 		 ],

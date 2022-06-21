@@ -2,7 +2,8 @@ initialization
 initialize
 
 	self 
-		idExtractionBlock: self class defaultIdExtractionBlock;
-		labelExtractionBlock: self class defaultLabelExtractionBlock;
-		colorLabelExtractionBlock: self class defaultColorLabelExtractionBlock;
-		colors: Dictionary new
+		idExtractionBlock: self class classExtractionBlock;
+		labelExtractionBlock: self class classExtractionBlock;
+		colorLabelExtractionBlock: self class packageExtractionBlock;
+		colors: Dictionary new;
+		blacklist: self class blacklist
