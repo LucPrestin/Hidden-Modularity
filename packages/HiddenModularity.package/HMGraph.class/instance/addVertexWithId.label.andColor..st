@@ -1,4 +1,4 @@
-graph-construction
+graph construction
 addVertexWithId: id label: label andColor: color
 
 	| vertex |

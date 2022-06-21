@@ -1,4 +1,4 @@
-graph-construction
+graph construction
 addEdgeBetween: senderId and: receiverId withWeight: weight
 
 	| currentWeight |
