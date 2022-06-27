@@ -3,10 +3,10 @@ colorFor: anId
 
 	| color |
 
-	(self colors includesKey: anId) 
+	(self class colors includesKey: anId) 
 		ifFalse: [
-			color := HMUtils uniqueColorWithCurrentColors: self colors values.
-			self colors at: anId put: color]
-		ifTrue: [color := self colors at: anId].
+			color := HMUtils uniqueColorWithCurrentColors: self class colors values.
+			self class colors at: anId put: color]
+		ifTrue: [color := self class colors at: anId].
 		
 	^ color
