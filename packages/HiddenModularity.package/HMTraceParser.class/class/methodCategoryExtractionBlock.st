@@ -1,4 +1,9 @@
-accessing
+information retrieving
 methodCategoryExtractionBlock
 
-	^ [:anObject | anObject methodReference category asString]
+	^ [:anObject | 
+		| result |
+		anObject isCompiledMethod
+			ifTrue: [result := anObject methodReference category asString]
+			ifFalse: [result := anObject method methodReference category asString].
+		result]

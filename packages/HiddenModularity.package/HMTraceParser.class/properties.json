@@ -3,13 +3,14 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Colors" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"idExtractionBlock",
 		"labelExtractionBlock",
 		"colorLabelExtractionBlock",
-		"colors" ],
+		"colors",
+		"blacklist" ],
 	"name" : "HMTraceParser",
 	"pools" : [
 		 ],

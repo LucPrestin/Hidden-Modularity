@@ -1,0 +1,7511 @@
+{
+    "vertices": {
+        "sorting": {
+            "id": "sorting",
+            "color": "#694F2C",
+            "label": "sorting"
+        },
+        "metaclass": {
+            "id": "metaclass",
+            "color": "#694F2C",
+            "label": "metaclass"
+        },
+        "layout-menu": {
+            "id": "layout-menu",
+            "color": "#694F2C",
+            "label": "layout-menu"
+        },
+        "associating": {
+            "id": "associating",
+            "color": "#694F2C",
+            "label": "associating"
+        },
+        "unaccepted edits": {
+            "id": "unaccepted edits",
+            "color": "#694F2C",
+            "label": "unaccepted edits"
+        },
+        "enumerating": {
+            "id": "enumerating",
+            "color": "#694F2C",
+            "label": "enumerating"
+        },
+        "measuring": {
+            "id": "measuring",
+            "color": "#694F2C",
+            "label": "measuring"
+        },
+        "resize handling": {
+            "id": "resize handling",
+            "color": "#694F2C",
+            "label": "resize handling"
+        },
+        "dependents access": {
+            "id": "dependents access",
+            "color": "#694F2C",
+            "label": "dependents access"
+        },
+        "accessing - support": {
+            "id": "accessing - support",
+            "color": "#694F2C",
+            "label": "accessing - support"
+        },
+        "transforming": {
+            "id": "transforming",
+            "color": "#694F2C",
+            "label": "transforming"
+        },
+        "*Collections-SortFunctions-converting": {
+            "id": "*Collections-SortFunctions-converting",
+            "color": "#694F2C",
+            "label": "*Collections-SortFunctions-converting"
+        },
+        "*System-Support-user interface": {
+            "id": "*System-Support-user interface",
+            "color": "#694F2C",
+            "label": "*System-Support-user interface"
+        },
+        "widgets optional": {
+            "id": "widgets optional",
+            "color": "#694F2C",
+            "label": "widgets optional"
+        },
+        "accessing options": {
+            "id": "accessing options",
+            "color": "#694F2C",
+            "label": "accessing options"
+        },
+        "accessing - list": {
+            "id": "accessing - list",
+            "color": "#694F2C",
+            "label": "accessing - list"
+        },
+        "stepping": {
+            "id": "stepping",
+            "color": "#694F2C",
+            "label": "stepping"
+        },
+        "smart splitters - stepping": {
+            "id": "smart splitters - stepping",
+            "color": "#694F2C",
+            "label": "smart splitters - stepping"
+        },
+        "colors": {
+            "id": "colors",
+            "color": "#694F2C",
+            "label": "colors"
+        },
+        "submorphs - add\/remove": {
+            "id": "submorphs - add\/remove",
+            "color": "#694F2C",
+            "label": "submorphs - add\/remove"
+        },
+        "layout": {
+            "id": "layout",
+            "color": "#694F2C",
+            "label": "layout"
+        },
+        "accessing-selection": {
+            "id": "accessing-selection",
+            "color": "#694F2C",
+            "label": "accessing-selection"
+        },
+        "edit view": {
+            "id": "edit view",
+            "color": "#694F2C",
+            "label": "edit view"
+        },
+        "conversions": {
+            "id": "conversions",
+            "color": "#694F2C",
+            "label": "conversions"
+        },
+        "form dictionary": {
+            "id": "form dictionary",
+            "color": "#694F2C",
+            "label": "form dictionary"
+        },
+        "composition": {
+            "id": "composition",
+            "color": "#694F2C",
+            "label": "composition"
+        },
+        "typing support": {
+            "id": "typing support",
+            "color": "#694F2C",
+            "label": "typing support"
+        },
+        "literals": {
+            "id": "literals",
+            "color": "#694F2C",
+            "label": "literals"
+        },
+        "self-updating": {
+            "id": "self-updating",
+            "color": "#694F2C",
+            "label": "self-updating"
+        },
+        "misc": {
+            "id": "misc",
+            "color": "#694F2C",
+            "label": "misc"
+        },
+        "framing": {
+            "id": "framing",
+            "color": "#694F2C",
+            "label": "framing"
+        },
+        "*System-Preferences": {
+            "id": "*System-Preferences",
+            "color": "#694F2C",
+            "label": "*System-Preferences"
+        },
+        "layout - visibility": {
+            "id": "layout - visibility",
+            "color": "#694F2C",
+            "label": "layout - visibility"
+        },
+        "general inquiries": {
+            "id": "general inquiries",
+            "color": "#694F2C",
+            "label": "general inquiries"
+        },
+        "point functions": {
+            "id": "point functions",
+            "color": "#694F2C",
+            "label": "point functions"
+        },
+        "dropping\/grabbing": {
+            "id": "dropping\/grabbing",
+            "color": "#694F2C",
+            "label": "dropping\/grabbing"
+        },
+        "transforming points": {
+            "id": "transforming points",
+            "color": "#694F2C",
+            "label": "transforming points"
+        },
+        "widgets required": {
+            "id": "widgets required",
+            "color": "#694F2C",
+            "label": "widgets required"
+        },
+        "settings": {
+            "id": "settings",
+            "color": "#694F2C",
+            "label": "settings"
+        },
+        "layer names": {
+            "id": "layer names",
+            "color": "#694F2C",
+            "label": "layer names"
+        },
+        "testing class hierarchy": {
+            "id": "testing class hierarchy",
+            "color": "#694F2C",
+            "label": "testing class hierarchy"
+        },
+        "class membership": {
+            "id": "class membership",
+            "color": "#694F2C",
+            "label": "class membership"
+        },
+        "initialize-release": {
+            "id": "initialize-release",
+            "color": "#694F2C",
+            "label": "initialize-release"
+        },
+        "standard queries": {
+            "id": "standard queries",
+            "color": "#694F2C",
+            "label": "standard queries"
+        },
+        "naming": {
+            "id": "naming",
+            "color": "#694F2C",
+            "label": "naming"
+        },
+        "layout properties - proportional": {
+            "id": "layout properties - proportional",
+            "color": "#694F2C",
+            "label": "layout properties - proportional"
+        },
+        "composing": {
+            "id": "composing",
+            "color": "#694F2C",
+            "label": "composing"
+        },
+        "defaults": {
+            "id": "defaults",
+            "color": "#694F2C",
+            "label": "defaults"
+        },
+        "initialize": {
+            "id": "initialize",
+            "color": "#694F2C",
+            "label": "initialize"
+        },
+        "converting": {
+            "id": "converting",
+            "color": "#694F2C",
+            "label": "converting"
+        },
+        "mvc compatibility": {
+            "id": "mvc compatibility",
+            "color": "#694F2C",
+            "label": "mvc compatibility"
+        },
+        "editor access": {
+            "id": "editor access",
+            "color": "#694F2C",
+            "label": "editor access"
+        },
+        "smart splitters": {
+            "id": "smart splitters",
+            "color": "#694F2C",
+            "label": "smart splitters"
+        },
+        "adding": {
+            "id": "adding",
+            "color": "#694F2C",
+            "label": "adding"
+        },
+        "updating": {
+            "id": "updating",
+            "color": "#694F2C",
+            "label": "updating"
+        },
+        "accessing - selectors": {
+            "id": "accessing - selectors",
+            "color": "#694F2C",
+            "label": "accessing - selectors"
+        },
+        "menu": {
+            "id": "menu",
+            "color": "#694F2C",
+            "label": "menu"
+        },
+        "private-heap": {
+            "id": "private-heap",
+            "color": "#694F2C",
+            "label": "private-heap"
+        },
+        "rectangle functions": {
+            "id": "rectangle functions",
+            "color": "#694F2C",
+            "label": "rectangle functions"
+        },
+        "toolbuilder": {
+            "id": "toolbuilder",
+            "color": "#694F2C",
+            "label": "toolbuilder"
+        },
+        "other events": {
+            "id": "other events",
+            "color": "#694F2C",
+            "label": "other events"
+        },
+        "access": {
+            "id": "access",
+            "color": "#694F2C",
+            "label": "access"
+        },
+        "layout - scrolling": {
+            "id": "layout - scrolling",
+            "color": "#694F2C",
+            "label": "layout - scrolling"
+        },
+        "structure": {
+            "id": "structure",
+            "color": "#694F2C",
+            "label": "structure"
+        },
+        "morphic ui": {
+            "id": "morphic ui",
+            "color": "#694F2C",
+            "label": "morphic ui"
+        },
+        "*Morphic-Text Support": {
+            "id": "*Morphic-Text Support",
+            "color": "#694F2C",
+            "label": "*Morphic-Text Support"
+        },
+        "events": {
+            "id": "events",
+            "color": "#694F2C",
+            "label": "events"
+        },
+        "arithmetic": {
+            "id": "arithmetic",
+            "color": "#694F2C",
+            "label": "arithmetic"
+        },
+        "accessing - selection": {
+            "id": "accessing - selection",
+            "color": "#694F2C",
+            "label": "accessing - selection"
+        },
+        "*System-icon scaling": {
+            "id": "*System-icon scaling",
+            "color": "#694F2C",
+            "label": "*System-icon scaling"
+        },
+        "class initialization": {
+            "id": "class initialization",
+            "color": "#694F2C",
+            "label": "class initialization"
+        },
+        "geometry - layout": {
+            "id": "geometry - layout",
+            "color": "#694F2C",
+            "label": "geometry - layout"
+        },
+        "submorphs - misc": {
+            "id": "submorphs - misc",
+            "color": "#694F2C",
+            "label": "submorphs - misc"
+        },
+        "*ToolBuilder-Morphic-opening": {
+            "id": "*ToolBuilder-Morphic-opening",
+            "color": "#694F2C",
+            "label": "*ToolBuilder-Morphic-opening"
+        },
+        "properties": {
+            "id": "properties",
+            "color": "#694F2C",
+            "label": "properties"
+        },
+        "character scanning": {
+            "id": "character scanning",
+            "color": "#694F2C",
+            "label": "character scanning"
+        },
+        "visual properties": {
+            "id": "visual properties",
+            "color": "#694F2C",
+            "label": "visual properties"
+        },
+        "widget classes": {
+            "id": "widget classes",
+            "color": "#694F2C",
+            "label": "widget classes"
+        },
+        "removing": {
+            "id": "removing",
+            "color": "#694F2C",
+            "label": "removing"
+        },
+        "display scale": {
+            "id": "display scale",
+            "color": "#694F2C",
+            "label": "display scale"
+        },
+        "message list": {
+            "id": "message list",
+            "color": "#694F2C",
+            "label": "message list"
+        },
+        "event handling": {
+            "id": "event handling",
+            "color": "#694F2C",
+            "label": "event handling"
+        },
+        "open\/close": {
+            "id": "open\/close",
+            "color": "#694F2C",
+            "label": "open\/close"
+        },
+        "top window": {
+            "id": "top window",
+            "color": "#694F2C",
+            "label": "top window"
+        },
+        "parts bin": {
+            "id": "parts bin",
+            "color": "#694F2C",
+            "label": "parts bin"
+        },
+        "styling": {
+            "id": "styling",
+            "color": "#694F2C",
+            "label": "styling"
+        },
+        "builder": {
+            "id": "builder",
+            "color": "#694F2C",
+            "label": "builder"
+        },
+        "canvas": {
+            "id": "canvas",
+            "color": "#694F2C",
+            "label": "canvas"
+        },
+        "events-filtering-capturing": {
+            "id": "events-filtering-capturing",
+            "color": "#694F2C",
+            "label": "events-filtering-capturing"
+        },
+        "queries": {
+            "id": "queries",
+            "color": "#694F2C",
+            "label": "queries"
+        },
+        "model access": {
+            "id": "model access",
+            "color": "#694F2C",
+            "label": "model access"
+        },
+        "controlling": {
+            "id": "controlling",
+            "color": "#694F2C",
+            "label": "controlling"
+        },
+        "geometry ranges": {
+            "id": "geometry ranges",
+            "color": "#694F2C",
+            "label": "geometry ranges"
+        },
+        "layout properties - table": {
+            "id": "layout properties - table",
+            "color": "#694F2C",
+            "label": "layout properties - table"
+        },
+        "annotation": {
+            "id": "annotation",
+            "color": "#694F2C",
+            "label": "annotation"
+        },
+        "building": {
+            "id": "building",
+            "color": "#694F2C",
+            "label": "building"
+        },
+        "fonts and font indexes": {
+            "id": "fonts and font indexes",
+            "color": "#694F2C",
+            "label": "fonts and font indexes"
+        },
+        "accessing untypeable characters": {
+            "id": "accessing untypeable characters",
+            "color": "#694F2C",
+            "label": "accessing untypeable characters"
+        },
+        "list access": {
+            "id": "list access",
+            "color": "#694F2C",
+            "label": "list access"
+        },
+        "submorphs - testing": {
+            "id": "submorphs - testing",
+            "color": "#694F2C",
+            "label": "submorphs - testing"
+        },
+        "initailize-release": {
+            "id": "initailize-release",
+            "color": "#694F2C",
+            "label": "initailize-release"
+        },
+        "constants": {
+            "id": "constants",
+            "color": "#694F2C",
+            "label": "constants"
+        },
+        "code pane": {
+            "id": "code pane",
+            "color": "#694F2C",
+            "label": "code pane"
+        },
+        "translation": {
+            "id": "translation",
+            "color": "#694F2C",
+            "label": "translation"
+        },
+        "emphasis": {
+            "id": "emphasis",
+            "color": "#694F2C",
+            "label": "emphasis"
+        },
+        "*Morphic-Widgets": {
+            "id": "*Morphic-Widgets",
+            "color": "#694F2C",
+            "label": "*Morphic-Widgets"
+        },
+        "layout-properties": {
+            "id": "layout-properties",
+            "color": "#694F2C",
+            "label": "layout-properties"
+        },
+        "support": {
+            "id": "support",
+            "color": "#694F2C",
+            "label": "support"
+        },
+        "user interface": {
+            "id": "user interface",
+            "color": "#694F2C",
+            "label": "user interface"
+        },
+        "scrolling": {
+            "id": "scrolling",
+            "color": "#694F2C",
+            "label": "scrolling"
+        },
+        "*Morphic-Kernel-accessing": {
+            "id": "*Morphic-Kernel-accessing",
+            "color": "#694F2C",
+            "label": "*Morphic-Kernel-accessing"
+        },
+        "*System-preferences": {
+            "id": "*System-preferences",
+            "color": "#694F2C",
+            "label": "*System-preferences"
+        },
+        "rounding": {
+            "id": "rounding",
+            "color": "#694F2C",
+            "label": "rounding"
+        },
+        "layout - resizing": {
+            "id": "layout - resizing",
+            "color": "#694F2C",
+            "label": "layout - resizing"
+        },
+        "what to show": {
+            "id": "what to show",
+            "color": "#694F2C",
+            "label": "what to show"
+        },
+        "other": {
+            "id": "other",
+            "color": "#694F2C",
+            "label": "other"
+        },
+        "*Graphics-Text": {
+            "id": "*Graphics-Text",
+            "color": "#694F2C",
+            "label": "*Graphics-Text"
+        },
+        "text attributes": {
+            "id": "text attributes",
+            "color": "#694F2C",
+            "label": "text attributes"
+        },
+        "get\/set - flags": {
+            "id": "get\/set - flags",
+            "color": "#694F2C",
+            "label": "get\/set - flags"
+        },
+        "prefs - fonts": {
+            "id": "prefs - fonts",
+            "color": "#694F2C",
+            "label": "prefs - fonts"
+        },
+        "accessing - properties": {
+            "id": "accessing - properties",
+            "color": "#694F2C",
+            "label": "accessing - properties"
+        },
+        "drop shadows": {
+            "id": "drop shadows",
+            "color": "#694F2C",
+            "label": "drop shadows"
+        },
+        "submorphs - enumerating": {
+            "id": "submorphs - enumerating",
+            "color": "#694F2C",
+            "label": "submorphs - enumerating"
+        },
+        "menus": {
+            "id": "menus",
+            "color": "#694F2C",
+            "label": "menus"
+        },
+        "submorphs - accessing": {
+            "id": "submorphs - accessing",
+            "color": "#694F2C",
+            "label": "submorphs - accessing"
+        },
+        "e-toy support": {
+            "id": "e-toy support",
+            "color": "#694F2C",
+            "label": "e-toy support"
+        },
+        "submorphs - callbacks": {
+            "id": "submorphs - callbacks",
+            "color": "#694F2C",
+            "label": "submorphs - callbacks"
+        },
+        "controls": {
+            "id": "controls",
+            "color": "#694F2C",
+            "label": "controls"
+        },
+        "opening": {
+            "id": "opening",
+            "color": "#694F2C",
+            "label": "opening"
+        },
+        "scenarios": {
+            "id": "scenarios",
+            "color": "#694F2C",
+            "label": "scenarios"
+        },
+        "stepping and presenter": {
+            "id": "stepping and presenter",
+            "color": "#694F2C",
+            "label": "stepping and presenter"
+        },
+        "scanning": {
+            "id": "scanning",
+            "color": "#694F2C",
+            "label": "scanning"
+        },
+        "geometry testing": {
+            "id": "geometry testing",
+            "color": "#694F2C",
+            "label": "geometry testing"
+        },
+        "accessing - ui": {
+            "id": "accessing - ui",
+            "color": "#694F2C",
+            "label": "accessing - ui"
+        },
+        "truncation and round off": {
+            "id": "truncation and round off",
+            "color": "#694F2C",
+            "label": "truncation and round off"
+        },
+        "accessing - extension": {
+            "id": "accessing - extension",
+            "color": "#694F2C",
+            "label": "accessing - extension"
+        },
+        "accessing": {
+            "id": "accessing",
+            "color": "#694F2C",
+            "label": "accessing"
+        },
+        "images": {
+            "id": "images",
+            "color": "#694F2C",
+            "label": "images"
+        },
+        "organization": {
+            "id": "organization",
+            "color": "#694F2C",
+            "label": "organization"
+        },
+        "accept\/cancel": {
+            "id": "accept\/cancel",
+            "color": "#694F2C",
+            "label": "accept\/cancel"
+        },
+        "private": {
+            "id": "private",
+            "color": "#694F2C",
+            "label": "private"
+        },
+        "halos and balloon help": {
+            "id": "halos and balloon help",
+            "color": "#694F2C",
+            "label": "halos and balloon help"
+        },
+        "accessing - default font": {
+            "id": "accessing - default font",
+            "color": "#694F2C",
+            "label": "accessing - default font"
+        },
+        "submorphs - layers": {
+            "id": "submorphs - layers",
+            "color": "#694F2C",
+            "label": "submorphs - layers"
+        },
+        "positioning": {
+            "id": "positioning",
+            "color": "#694F2C",
+            "label": "positioning"
+        },
+        "ui": {
+            "id": "ui",
+            "color": "#694F2C",
+            "label": "ui"
+        },
+        "drawing": {
+            "id": "drawing",
+            "color": "#694F2C",
+            "label": "drawing"
+        },
+        "intervals": {
+            "id": "intervals",
+            "color": "#694F2C",
+            "label": "intervals"
+        },
+        "selection": {
+            "id": "selection",
+            "color": "#694F2C",
+            "label": "selection"
+        },
+        "optimized": {
+            "id": "optimized",
+            "color": "#694F2C",
+            "label": "optimized"
+        },
+        "accessing - layout properties": {
+            "id": "accessing - layout properties",
+            "color": "#694F2C",
+            "label": "accessing - layout properties"
+        },
+        "polymorph": {
+            "id": "polymorph",
+            "color": "#694F2C",
+            "label": "polymorph"
+        },
+        "testing": {
+            "id": "testing",
+            "color": "#694F2C",
+            "label": "testing"
+        },
+        "lookup": {
+            "id": "lookup",
+            "color": "#694F2C",
+            "label": "lookup"
+        },
+        "label": {
+            "id": "label",
+            "color": "#694F2C",
+            "label": "label"
+        },
+        "preferences": {
+            "id": "preferences",
+            "color": "#694F2C",
+            "label": "preferences"
+        },
+        "framing - private": {
+            "id": "framing - private",
+            "color": "#694F2C",
+            "label": "framing - private"
+        },
+        "system category list": {
+            "id": "system category list",
+            "color": "#694F2C",
+            "label": "system category list"
+        },
+        "transforming rects": {
+            "id": "transforming rects",
+            "color": "#694F2C",
+            "label": "transforming rects"
+        },
+        "named colors": {
+            "id": "named colors",
+            "color": "#694F2C",
+            "label": "named colors"
+        },
+        "evaluating": {
+            "id": "evaluating",
+            "color": "#694F2C",
+            "label": "evaluating"
+        },
+        "testing method dictionary": {
+            "id": "testing method dictionary",
+            "color": "#694F2C",
+            "label": "testing method dictionary"
+        },
+        "list morph callbacks": {
+            "id": "list morph callbacks",
+            "color": "#694F2C",
+            "label": "list morph callbacks"
+        },
+        "bit manipulation": {
+            "id": "bit manipulation",
+            "color": "#694F2C",
+            "label": "bit manipulation"
+        },
+        "*System-Localization": {
+            "id": "*System-Localization",
+            "color": "#694F2C",
+            "label": "*System-Localization"
+        },
+        "initialization": {
+            "id": "initialization",
+            "color": "#694F2C",
+            "label": "initialization"
+        },
+        "mathematical functions": {
+            "id": "mathematical functions",
+            "color": "#694F2C",
+            "label": "mathematical functions"
+        },
+        "filtering": {
+            "id": "filtering",
+            "color": "#694F2C",
+            "label": "filtering"
+        },
+        "transformations": {
+            "id": "transformations",
+            "color": "#694F2C",
+            "label": "transformations"
+        },
+        "copying": {
+            "id": "copying",
+            "color": "#694F2C",
+            "label": "copying"
+        },
+        "contents": {
+            "id": "contents",
+            "color": "#694F2C",
+            "label": "contents"
+        },
+        "exceptions": {
+            "id": "exceptions",
+            "color": "#694F2C",
+            "label": "exceptions"
+        },
+        "accessing-pragmas & properties": {
+            "id": "accessing-pragmas & properties",
+            "color": "#694F2C",
+            "label": "accessing-pragmas & properties"
+        },
+        "new selection": {
+            "id": "new selection",
+            "color": "#694F2C",
+            "label": "new selection"
+        },
+        "accessing - model": {
+            "id": "accessing - model",
+            "color": "#694F2C",
+            "label": "accessing - model"
+        },
+        "accessing - drag and drop": {
+            "id": "accessing - drag and drop",
+            "color": "#694F2C",
+            "label": "accessing - drag and drop"
+        },
+        "process specific": {
+            "id": "process specific",
+            "color": "#694F2C",
+            "label": "process specific"
+        },
+        "model access - cached": {
+            "id": "model access - cached",
+            "color": "#694F2C",
+            "label": "model access - cached"
+        },
+        "events-filtering": {
+            "id": "events-filtering",
+            "color": "#694F2C",
+            "label": "events-filtering"
+        },
+        "converting to rectangle": {
+            "id": "converting to rectangle",
+            "color": "#694F2C",
+            "label": "converting to rectangle"
+        },
+        "color tracking": {
+            "id": "color tracking",
+            "color": "#694F2C",
+            "label": "color tracking"
+        },
+        "stop conditions": {
+            "id": "stop conditions",
+            "color": "#694F2C",
+            "label": "stop conditions"
+        },
+        "logical operations": {
+            "id": "logical operations",
+            "color": "#694F2C",
+            "label": "logical operations"
+        },
+        "dependents": {
+            "id": "dependents",
+            "color": "#694F2C",
+            "label": "dependents"
+        },
+        "list operations": {
+            "id": "list operations",
+            "color": "#694F2C",
+            "label": "list operations"
+        },
+        "private - accessing": {
+            "id": "private - accessing",
+            "color": "#694F2C",
+            "label": "private - accessing"
+        },
+        "class list": {
+            "id": "class list",
+            "color": "#694F2C",
+            "label": "class list"
+        },
+        "rotate scale and flex": {
+            "id": "rotate scale and flex",
+            "color": "#694F2C",
+            "label": "rotate scale and flex"
+        },
+        "focus handling": {
+            "id": "focus handling",
+            "color": "#694F2C",
+            "label": "focus handling"
+        },
+        "classes and traits": {
+            "id": "classes and traits",
+            "color": "#694F2C",
+            "label": "classes and traits"
+        },
+        "project state": {
+            "id": "project state",
+            "color": "#694F2C",
+            "label": "project state"
+        },
+        "exceptionSelector": {
+            "id": "exceptionSelector",
+            "color": "#694F2C",
+            "label": "exceptionSelector"
+        },
+        "classification": {
+            "id": "classification",
+            "color": "#694F2C",
+            "label": "classification"
+        },
+        "error handling": {
+            "id": "error handling",
+            "color": "#694F2C",
+            "label": "error handling"
+        },
+        "fileIn\/Out": {
+            "id": "fileIn\/Out",
+            "color": "#694F2C",
+            "label": "fileIn\/Out"
+        },
+        "sizing": {
+            "id": "sizing",
+            "color": "#694F2C",
+            "label": "sizing"
+        },
+        "comparing": {
+            "id": "comparing",
+            "color": "#694F2C",
+            "label": "comparing"
+        },
+        "get\/set": {
+            "id": "get\/set",
+            "color": "#694F2C",
+            "label": "get\/set"
+        },
+        "geometry": {
+            "id": "geometry",
+            "color": "#694F2C",
+            "label": "geometry"
+        },
+        "scanner methods": {
+            "id": "scanner methods",
+            "color": "#694F2C",
+            "label": "scanner methods"
+        },
+        "snapshot and quit": {
+            "id": "snapshot and quit",
+            "color": "#694F2C",
+            "label": "snapshot and quit"
+        },
+        "change reporting": {
+            "id": "change reporting",
+            "color": "#694F2C",
+            "label": "change reporting"
+        },
+        "preferences - accessibility": {
+            "id": "preferences - accessibility",
+            "color": "#694F2C",
+            "label": "preferences - accessibility"
+        },
+        "message category list": {
+            "id": "message category list",
+            "color": "#694F2C",
+            "label": "message category list"
+        },
+        "debugging": {
+            "id": "debugging",
+            "color": "#694F2C",
+            "label": "debugging"
+        },
+        "panes": {
+            "id": "panes",
+            "color": "#694F2C",
+            "label": "panes"
+        },
+        "linked frames": {
+            "id": "linked frames",
+            "color": "#694F2C",
+            "label": "linked frames"
+        },
+        "world state": {
+            "id": "world state",
+            "color": "#694F2C",
+            "label": "world state"
+        },
+        "layout properties": {
+            "id": "layout properties",
+            "color": "#694F2C",
+            "label": "layout properties"
+        },
+        "initializing": {
+            "id": "initializing",
+            "color": "#694F2C",
+            "label": "initializing"
+        },
+        "accessing - other properties": {
+            "id": "accessing - other properties",
+            "color": "#694F2C",
+            "label": "accessing - other properties"
+        },
+        "focus": {
+            "id": "focus",
+            "color": "#694F2C",
+            "label": "focus"
+        },
+        "instance creation": {
+            "id": "instance creation",
+            "color": "#694F2C",
+            "label": "instance creation"
+        },
+        "geometry - misc": {
+            "id": "geometry - misc",
+            "color": "#694F2C",
+            "label": "geometry - misc"
+        },
+        "recording": {
+            "id": "recording",
+            "color": "#694F2C",
+            "label": "recording"
+        },
+        "layout hints": {
+            "id": "layout hints",
+            "color": "#694F2C",
+            "label": "layout hints"
+        },
+        "*Tools-optional panes": {
+            "id": "*Tools-optional panes",
+            "color": "#694F2C",
+            "label": "*Tools-optional panes"
+        }
+    },
+    "edges": [
+        {
+            "weight": 10,
+            "sender": "sorting",
+            "receiver": "resize handling"
+        },
+        {
+            "weight": 17,
+            "sender": "sorting",
+            "receiver": "private"
+        },
+        {
+            "weight": 70,
+            "sender": "sorting",
+            "receiver": "evaluating"
+        },
+        {
+            "weight": 10,
+            "sender": "sorting",
+            "receiver": "copying"
+        },
+        {
+            "weight": 75,
+            "sender": "sorting",
+            "receiver": "sorting"
+        },
+        {
+            "weight": 5,
+            "sender": "sorting",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 3,
+            "sender": "metaclass",
+            "receiver": "class list"
+        },
+        {
+            "weight": 4,
+            "sender": "metaclass",
+            "receiver": "metaclass"
+        },
+        {
+            "weight": 56,
+            "sender": "layout-menu",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 44,
+            "sender": "layout-menu",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 20,
+            "sender": "layout-menu",
+            "receiver": "layout-properties"
+        },
+        {
+            "weight": 8,
+            "sender": "layout-menu",
+            "receiver": "layout properties - table"
+        },
+        {
+            "weight": 1455,
+            "sender": "associating",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 3,
+            "sender": "unaccepted edits",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 3,
+            "sender": "unaccepted edits",
+            "receiver": "unaccepted edits"
+        },
+        {
+            "weight": 220,
+            "sender": "enumerating",
+            "receiver": "transforming points"
+        },
+        {
+            "weight": 73,
+            "sender": "enumerating",
+            "receiver": "focus"
+        },
+        {
+            "weight": 26,
+            "sender": "enumerating",
+            "receiver": "dependents access"
+        },
+        {
+            "weight": 200,
+            "sender": "enumerating",
+            "receiver": "submorphs - callbacks"
+        },
+        {
+            "weight": 45,
+            "sender": "enumerating",
+            "receiver": "private"
+        },
+        {
+            "weight": 9,
+            "sender": "enumerating",
+            "receiver": "controls"
+        },
+        {
+            "weight": 13,
+            "sender": "enumerating",
+            "receiver": "toolbuilder"
+        },
+        {
+            "weight": 42,
+            "sender": "enumerating",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 1281,
+            "sender": "enumerating",
+            "receiver": "layout"
+        },
+        {
+            "weight": 137,
+            "sender": "enumerating",
+            "receiver": "submorphs - accessing"
+        },
+        {
+            "weight": 18,
+            "sender": "enumerating",
+            "receiver": "framing - private"
+        },
+        {
+            "weight": 19,
+            "sender": "enumerating",
+            "receiver": "geometry - misc"
+        },
+        {
+            "weight": 34,
+            "sender": "enumerating",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 125,
+            "sender": "enumerating",
+            "receiver": "submorphs - enumerating"
+        },
+        {
+            "weight": 922,
+            "sender": "enumerating",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 245,
+            "sender": "enumerating",
+            "receiver": "testing"
+        },
+        {
+            "weight": 1638,
+            "sender": "enumerating",
+            "receiver": "submorphs - add\/remove"
+        },
+        {
+            "weight": 62,
+            "sender": "enumerating",
+            "receiver": "optimized"
+        },
+        {
+            "weight": 598,
+            "sender": "enumerating",
+            "receiver": "converting"
+        },
+        {
+            "weight": 4,
+            "sender": "enumerating",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 307,
+            "sender": "enumerating",
+            "receiver": "copying"
+        },
+        {
+            "weight": 28,
+            "sender": "enumerating",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 1018,
+            "sender": "enumerating",
+            "receiver": "recording"
+        },
+        {
+            "weight": 68,
+            "sender": "enumerating",
+            "receiver": "top window"
+        },
+        {
+            "weight": 113,
+            "sender": "enumerating",
+            "receiver": "submorphs - misc"
+        },
+        {
+            "weight": 22,
+            "sender": "enumerating",
+            "receiver": "building"
+        },
+        {
+            "weight": 35,
+            "sender": "enumerating",
+            "receiver": "adding"
+        },
+        {
+            "weight": 249,
+            "sender": "enumerating",
+            "receiver": "resize handling"
+        },
+        {
+            "weight": 301,
+            "sender": "enumerating",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 14,
+            "sender": "enumerating",
+            "receiver": "panes"
+        },
+        {
+            "weight": 931,
+            "sender": "enumerating",
+            "receiver": "updating"
+        },
+        {
+            "weight": 834,
+            "sender": "enumerating",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 17,
+            "sender": "enumerating",
+            "receiver": "misc"
+        },
+        {
+            "weight": 8,
+            "sender": "enumerating",
+            "receiver": "stepping"
+        },
+        {
+            "weight": 4,
+            "sender": "enumerating",
+            "receiver": "submorphs - layers"
+        },
+        {
+            "weight": 30,
+            "sender": "measuring",
+            "receiver": "measuring"
+        },
+        {
+            "weight": 192,
+            "sender": "measuring",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 64,
+            "sender": "resize handling",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 24,
+            "sender": "resize handling",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 265,
+            "sender": "resize handling",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 28,
+            "sender": "resize handling",
+            "receiver": "submorphs - add\/remove"
+        },
+        {
+            "weight": 21,
+            "sender": "resize handling",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 36,
+            "sender": "resize handling",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 79,
+            "sender": "resize handling",
+            "receiver": "resize handling"
+        },
+        {
+            "weight": 30,
+            "sender": "resize handling",
+            "receiver": "layout properties - table"
+        },
+        {
+            "weight": 3,
+            "sender": "resize handling",
+            "receiver": "submorphs - misc"
+        },
+        {
+            "weight": 148,
+            "sender": "resize handling",
+            "receiver": "testing"
+        },
+        {
+            "weight": 40,
+            "sender": "resize handling",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 145,
+            "sender": "resize handling",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 2,
+            "sender": "resize handling",
+            "receiver": "sorting"
+        },
+        {
+            "weight": 60,
+            "sender": "resize handling",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 10,
+            "sender": "resize handling",
+            "receiver": "copying"
+        },
+        {
+            "weight": 20,
+            "sender": "resize handling",
+            "receiver": "layout"
+        },
+        {
+            "weight": 15,
+            "sender": "resize handling",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 31,
+            "sender": "resize handling",
+            "receiver": "submorphs - accessing"
+        },
+        {
+            "weight": 8,
+            "sender": "resize handling",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 4,
+            "sender": "resize handling",
+            "receiver": "submorphs - enumerating"
+        },
+        {
+            "weight": 434,
+            "sender": "resize handling",
+            "receiver": "layout properties - proportional"
+        },
+        {
+            "weight": 48,
+            "sender": "dependents access",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 25,
+            "sender": "dependents access",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 2,
+            "sender": "dependents access",
+            "receiver": "logical operations"
+        },
+        {
+            "weight": 30,
+            "sender": "dependents access",
+            "receiver": "testing"
+        },
+        {
+            "weight": 30,
+            "sender": "dependents access",
+            "receiver": "copying"
+        },
+        {
+            "weight": 18,
+            "sender": "dependents access",
+            "receiver": "dependents"
+        },
+        {
+            "weight": 129,
+            "sender": "dependents access",
+            "receiver": "dependents access"
+        },
+        {
+            "weight": 5,
+            "sender": "accessing - support",
+            "receiver": "measuring"
+        },
+        {
+            "weight": 5,
+            "sender": "accessing - support",
+            "receiver": "drawing"
+        },
+        {
+            "weight": 5,
+            "sender": "accessing - support",
+            "receiver": "testing"
+        },
+        {
+            "weight": 5,
+            "sender": "accessing - support",
+            "receiver": "*Morphic-Widgets"
+        },
+        {
+            "weight": 2,
+            "sender": "accessing - support",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 5,
+            "sender": "accessing - support",
+            "receiver": "geometry - layout"
+        },
+        {
+            "weight": 2078,
+            "sender": "transforming",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 2,
+            "sender": "transforming",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 2,
+            "sender": "transforming",
+            "receiver": "rectangle functions"
+        },
+        {
+            "weight": 2,
+            "sender": "transforming",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 4171,
+            "sender": "transforming",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 17,
+            "sender": "transforming",
+            "receiver": "transforming"
+        },
+        {
+            "weight": 2,
+            "sender": "*Collections-SortFunctions-converting",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 2,
+            "sender": "*Collections-SortFunctions-converting",
+            "receiver": "*Collections-SortFunctions-converting"
+        },
+        {
+            "weight": 1,
+            "sender": "*System-Support-user interface",
+            "receiver": "settings"
+        },
+        {
+            "weight": 2,
+            "sender": "widgets optional",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 3,
+            "sender": "widgets optional",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets optional",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 10,
+            "sender": "widgets optional",
+            "receiver": "widgets required"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets optional",
+            "receiver": "accessing options"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets optional",
+            "receiver": "widgets optional"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets optional",
+            "receiver": "geometry - layout"
+        },
+        {
+            "weight": 5,
+            "sender": "accessing options",
+            "receiver": "layout - visibility"
+        },
+        {
+            "weight": 2,
+            "sender": "accessing options",
+            "receiver": "accessing options"
+        },
+        {
+            "weight": 5,
+            "sender": "accessing options",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 2,
+            "sender": "stepping",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 5,
+            "sender": "stepping",
+            "receiver": "stepping"
+        },
+        {
+            "weight": 1,
+            "sender": "stepping",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "stepping",
+            "receiver": "self-updating"
+        },
+        {
+            "weight": 1,
+            "sender": "stepping",
+            "receiver": "removing"
+        },
+        {
+            "weight": 1,
+            "sender": "stepping",
+            "receiver": "parts bin"
+        },
+        {
+            "weight": 1,
+            "sender": "stepping",
+            "receiver": "adding"
+        },
+        {
+            "weight": 5,
+            "sender": "stepping",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 2,
+            "sender": "stepping",
+            "receiver": "general inquiries"
+        },
+        {
+            "weight": 4,
+            "sender": "smart splitters - stepping",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 14,
+            "sender": "colors",
+            "receiver": "colors"
+        },
+        {
+            "weight": 7,
+            "sender": "colors",
+            "receiver": "lookup"
+        },
+        {
+            "weight": 2,
+            "sender": "colors",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 5,
+            "sender": "colors",
+            "receiver": "panes"
+        },
+        {
+            "weight": 7,
+            "sender": "colors",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 17,
+            "sender": "colors",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 5,
+            "sender": "colors",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 3,
+            "sender": "colors",
+            "receiver": "focus"
+        },
+        {
+            "weight": 6,
+            "sender": "colors",
+            "receiver": "named colors"
+        },
+        {
+            "weight": 1,
+            "sender": "colors",
+            "receiver": "constants"
+        },
+        {
+            "weight": 2,
+            "sender": "colors",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 24,
+            "sender": "colors",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 7,
+            "sender": "colors",
+            "receiver": "*System-Preferences"
+        },
+        {
+            "weight": 1,
+            "sender": "colors",
+            "receiver": "updating"
+        },
+        {
+            "weight": 2,
+            "sender": "colors",
+            "receiver": "*System-preferences"
+        },
+        {
+            "weight": 1718,
+            "sender": "submorphs - add\/remove",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 1873,
+            "sender": "submorphs - add\/remove",
+            "receiver": "private"
+        },
+        {
+            "weight": 857,
+            "sender": "submorphs - add\/remove",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 80,
+            "sender": "submorphs - add\/remove",
+            "receiver": "submorphs - add\/remove"
+        },
+        {
+            "weight": 12,
+            "sender": "submorphs - add\/remove",
+            "receiver": "halos and balloon help"
+        },
+        {
+            "weight": 893,
+            "sender": "submorphs - add\/remove",
+            "receiver": "structure"
+        },
+        {
+            "weight": 873,
+            "sender": "submorphs - add\/remove",
+            "receiver": "submorphs - callbacks"
+        },
+        {
+            "weight": 2,
+            "sender": "submorphs - add\/remove",
+            "receiver": "submorphs - layers"
+        },
+        {
+            "weight": 1,
+            "sender": "submorphs - add\/remove",
+            "receiver": "event handling"
+        },
+        {
+            "weight": 12,
+            "sender": "submorphs - add\/remove",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 906,
+            "sender": "submorphs - add\/remove",
+            "receiver": "layout"
+        },
+        {
+            "weight": 1,
+            "sender": "submorphs - add\/remove",
+            "receiver": "submorphs - accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "submorphs - add\/remove",
+            "receiver": "submorphs - testing"
+        },
+        {
+            "weight": 56,
+            "sender": "submorphs - add\/remove",
+            "receiver": "change reporting"
+        },
+        {
+            "weight": 2,
+            "sender": "layout",
+            "receiver": "editor access"
+        },
+        {
+            "weight": 121,
+            "sender": "layout",
+            "receiver": "layout properties - table"
+        },
+        {
+            "weight": 12,
+            "sender": "layout",
+            "receiver": "transforming rects"
+        },
+        {
+            "weight": 34,
+            "sender": "layout",
+            "receiver": "private"
+        },
+        {
+            "weight": 869,
+            "sender": "layout",
+            "receiver": "drawing"
+        },
+        {
+            "weight": 5412,
+            "sender": "layout",
+            "receiver": "layout"
+        },
+        {
+            "weight": 238,
+            "sender": "layout",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 23,
+            "sender": "layout",
+            "receiver": "submorphs - accessing"
+        },
+        {
+            "weight": 90,
+            "sender": "layout",
+            "receiver": "transforming"
+        },
+        {
+            "weight": 13,
+            "sender": "layout",
+            "receiver": "*Morphic-Widgets"
+        },
+        {
+            "weight": 111,
+            "sender": "layout",
+            "receiver": "debugging"
+        },
+        {
+            "weight": 705,
+            "sender": "layout",
+            "receiver": "submorphs - enumerating"
+        },
+        {
+            "weight": 837,
+            "sender": "layout",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 37,
+            "sender": "layout",
+            "receiver": "change reporting"
+        },
+        {
+            "weight": 12,
+            "sender": "layout",
+            "receiver": "layout - scrolling"
+        },
+        {
+            "weight": 351,
+            "sender": "layout",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 419,
+            "sender": "layout",
+            "receiver": "testing"
+        },
+        {
+            "weight": 2701,
+            "sender": "layout",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 23,
+            "sender": "layout",
+            "receiver": "accessing - default font"
+        },
+        {
+            "weight": 27,
+            "sender": "layout",
+            "receiver": "optimized"
+        },
+        {
+            "weight": 426,
+            "sender": "layout",
+            "receiver": "menus"
+        },
+        {
+            "weight": 25,
+            "sender": "layout",
+            "receiver": "measuring"
+        },
+        {
+            "weight": 1506,
+            "sender": "layout",
+            "receiver": "converting"
+        },
+        {
+            "weight": 1116,
+            "sender": "layout",
+            "receiver": "exceptionSelector"
+        },
+        {
+            "weight": 25,
+            "sender": "layout",
+            "receiver": "layout - resizing"
+        },
+        {
+            "weight": 729,
+            "sender": "layout",
+            "receiver": "copying"
+        },
+        {
+            "weight": 603,
+            "sender": "layout",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 473,
+            "sender": "layout",
+            "receiver": "rectangle functions"
+        },
+        {
+            "weight": 558,
+            "sender": "layout",
+            "receiver": "exceptions"
+        },
+        {
+            "weight": 5,
+            "sender": "layout",
+            "receiver": "accessing - support"
+        },
+        {
+            "weight": 11,
+            "sender": "layout",
+            "receiver": "defaults"
+        },
+        {
+            "weight": 17,
+            "sender": "layout",
+            "receiver": "error handling"
+        },
+        {
+            "weight": 2,
+            "sender": "layout",
+            "receiver": "layout - visibility"
+        },
+        {
+            "weight": 135,
+            "sender": "layout",
+            "receiver": "truncation and round off"
+        },
+        {
+            "weight": 2172,
+            "sender": "layout",
+            "receiver": "geometry - layout"
+        },
+        {
+            "weight": 4,
+            "sender": "layout",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 329,
+            "sender": "layout",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 18,
+            "sender": "layout",
+            "receiver": "resize handling"
+        },
+        {
+            "weight": 4,
+            "sender": "layout",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "layout",
+            "receiver": "label"
+        },
+        {
+            "weight": 1,
+            "sender": "layout",
+            "receiver": "structure"
+        },
+        {
+            "weight": 558,
+            "sender": "layout",
+            "receiver": "controlling"
+        },
+        {
+            "weight": 925,
+            "sender": "layout",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 56,
+            "sender": "layout",
+            "receiver": "updating"
+        },
+        {
+            "weight": 23,
+            "sender": "layout",
+            "receiver": "layout-menu"
+        },
+        {
+            "weight": 643,
+            "sender": "layout",
+            "receiver": "submorphs - testing"
+        },
+        {
+            "weight": 1286,
+            "sender": "layout",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 31,
+            "sender": "layout",
+            "receiver": "layout-properties"
+        },
+        {
+            "weight": 11,
+            "sender": "layout",
+            "receiver": "list access"
+        },
+        {
+            "weight": 12,
+            "sender": "layout",
+            "receiver": "scrolling"
+        },
+        {
+            "weight": 34,
+            "sender": "layout",
+            "receiver": "layout properties - proportional"
+        },
+        {
+            "weight": 14,
+            "sender": "accessing-selection",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 2,
+            "sender": "accessing-selection",
+            "receiver": "accessing-selection"
+        },
+        {
+            "weight": 10,
+            "sender": "accessing-selection",
+            "receiver": "selection"
+        },
+        {
+            "weight": 192,
+            "sender": "conversions",
+            "receiver": "transformations"
+        },
+        {
+            "weight": 552,
+            "sender": "conversions",
+            "receiver": "conversions"
+        },
+        {
+            "weight": 4,
+            "sender": "form dictionary",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 4,
+            "sender": "form dictionary",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 5,
+            "sender": "typing support",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 5,
+            "sender": "typing support",
+            "receiver": "testing"
+        },
+        {
+            "weight": 5,
+            "sender": "typing support",
+            "receiver": "accessing-selection"
+        },
+        {
+            "weight": 5,
+            "sender": "typing support",
+            "receiver": "emphasis"
+        },
+        {
+            "weight": 24,
+            "sender": "composition",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 16,
+            "sender": "composition",
+            "receiver": "composition"
+        },
+        {
+            "weight": 8,
+            "sender": "composition",
+            "receiver": "composing"
+        },
+        {
+            "weight": 40,
+            "sender": "composition",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "misc",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 1,
+            "sender": "misc",
+            "receiver": "updating"
+        },
+        {
+            "weight": 1,
+            "sender": "misc",
+            "receiver": "controls"
+        },
+        {
+            "weight": 17,
+            "sender": "misc",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 1,
+            "sender": "misc",
+            "receiver": "misc"
+        },
+        {
+            "weight": 1,
+            "sender": "misc",
+            "receiver": "user interface"
+        },
+        {
+            "weight": 1,
+            "sender": "misc",
+            "receiver": "self-updating"
+        },
+        {
+            "weight": 1,
+            "sender": "misc",
+            "receiver": "dependents access"
+        },
+        {
+            "weight": 1,
+            "sender": "self-updating",
+            "receiver": "updating"
+        },
+        {
+            "weight": 1,
+            "sender": "self-updating",
+            "receiver": "metaclass"
+        },
+        {
+            "weight": 1,
+            "sender": "self-updating",
+            "receiver": "standard queries"
+        },
+        {
+            "weight": 3,
+            "sender": "self-updating",
+            "receiver": "self-updating"
+        },
+        {
+            "weight": 2,
+            "sender": "framing",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 2,
+            "sender": "framing",
+            "receiver": "standard queries"
+        },
+        {
+            "weight": 2,
+            "sender": "framing",
+            "receiver": "framing - private"
+        },
+        {
+            "weight": 1440,
+            "sender": "*System-Preferences",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 4320,
+            "sender": "*System-Preferences",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 28,
+            "sender": "layout - visibility",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 66,
+            "sender": "layout - visibility",
+            "receiver": "layout - visibility"
+        },
+        {
+            "weight": 11,
+            "sender": "layout - visibility",
+            "receiver": "submorphs - add\/remove"
+        },
+        {
+            "weight": 73,
+            "sender": "layout - visibility",
+            "receiver": "geometry testing"
+        },
+        {
+            "weight": 26,
+            "sender": "layout - visibility",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 6,
+            "sender": "point functions",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 8,
+            "sender": "dropping\/grabbing",
+            "receiver": "dropping\/grabbing"
+        },
+        {
+            "weight": 8,
+            "sender": "dropping\/grabbing",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 220,
+            "sender": "transforming points",
+            "receiver": "transformations"
+        },
+        {
+            "weight": 55,
+            "sender": "transforming points",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 220,
+            "sender": "transforming points",
+            "receiver": "transforming points"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "focus"
+        },
+        {
+            "weight": 23,
+            "sender": "widgets required",
+            "receiver": "widget classes"
+        },
+        {
+            "weight": 104,
+            "sender": "widgets required",
+            "receiver": "private"
+        },
+        {
+            "weight": 2,
+            "sender": "widgets required",
+            "receiver": "drawing"
+        },
+        {
+            "weight": 3,
+            "sender": "widgets required",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 2,
+            "sender": "widgets required",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "layer names"
+        },
+        {
+            "weight": 12,
+            "sender": "widgets required",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "display scale"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "colors"
+        },
+        {
+            "weight": 2,
+            "sender": "widgets required",
+            "receiver": "unaccepted edits"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "converting"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "model access"
+        },
+        {
+            "weight": 4,
+            "sender": "widgets required",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "open\/close"
+        },
+        {
+            "weight": 5,
+            "sender": "widgets required",
+            "receiver": "named colors"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "truncation and round off"
+        },
+        {
+            "weight": 4,
+            "sender": "widgets required",
+            "receiver": "building"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "*Morphic-Kernel-accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "framing"
+        },
+        {
+            "weight": 28,
+            "sender": "widgets required",
+            "receiver": "resize handling"
+        },
+        {
+            "weight": 25,
+            "sender": "widgets required",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "panes"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "updating"
+        },
+        {
+            "weight": 131,
+            "sender": "widgets required",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 6,
+            "sender": "widgets required",
+            "receiver": "layout hints"
+        },
+        {
+            "weight": 1,
+            "sender": "widgets required",
+            "receiver": "submorphs - layers"
+        },
+        {
+            "weight": 8,
+            "sender": "settings",
+            "receiver": "snapshot and quit"
+        },
+        {
+            "weight": 6,
+            "sender": "settings",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "settings",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 1,
+            "sender": "settings",
+            "receiver": "rectangle functions"
+        },
+        {
+            "weight": 1,
+            "sender": "settings",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 1,
+            "sender": "settings",
+            "receiver": "standard queries"
+        },
+        {
+            "weight": 2,
+            "sender": "settings",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 4,
+            "sender": "settings",
+            "receiver": "settings"
+        },
+        {
+            "weight": 8,
+            "sender": "layer names",
+            "receiver": "layer names"
+        },
+        {
+            "weight": 481,
+            "sender": "class membership",
+            "receiver": "testing class hierarchy"
+        },
+        {
+            "weight": 17,
+            "sender": "class membership",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 68,
+            "sender": "class membership",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 22,
+            "sender": "class membership",
+            "receiver": "testing method dictionary"
+        },
+        {
+            "weight": 34,
+            "sender": "class membership",
+            "receiver": "classes and traits"
+        },
+        {
+            "weight": 9,
+            "sender": "initialize-release",
+            "receiver": "initialize-release"
+        },
+        {
+            "weight": 8,
+            "sender": "initialize-release",
+            "receiver": "private"
+        },
+        {
+            "weight": 2,
+            "sender": "initialize-release",
+            "receiver": "toolbuilder"
+        },
+        {
+            "weight": 6,
+            "sender": "initialize-release",
+            "receiver": "typing support"
+        },
+        {
+            "weight": 5,
+            "sender": "initialize-release",
+            "receiver": "selection"
+        },
+        {
+            "weight": 1,
+            "sender": "initialize-release",
+            "receiver": "debugging"
+        },
+        {
+            "weight": 2,
+            "sender": "initialize-release",
+            "receiver": "testing"
+        },
+        {
+            "weight": 6,
+            "sender": "initialize-release",
+            "receiver": "intervals"
+        },
+        {
+            "weight": 1,
+            "sender": "initialize-release",
+            "receiver": "organization"
+        },
+        {
+            "weight": 1,
+            "sender": "initialize-release",
+            "receiver": "accessing - default font"
+        },
+        {
+            "weight": 1,
+            "sender": "initialize-release",
+            "receiver": "accessing untypeable characters"
+        },
+        {
+            "weight": 22,
+            "sender": "initialize-release",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 1,
+            "sender": "initialize-release",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 109,
+            "sender": "initialize-release",
+            "receiver": "named colors"
+        },
+        {
+            "weight": 1,
+            "sender": "initialize-release",
+            "receiver": "exceptions"
+        },
+        {
+            "weight": 1,
+            "sender": "initialize-release",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 2,
+            "sender": "initialize-release",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 1,
+            "sender": "initialize-release",
+            "receiver": "metaclass"
+        },
+        {
+            "weight": 82,
+            "sender": "initialize-release",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 37,
+            "sender": "initialize-release",
+            "receiver": "updating"
+        },
+        {
+            "weight": 1,
+            "sender": "initialize-release",
+            "receiver": "styling"
+        },
+        {
+            "weight": 2,
+            "sender": "initialize-release",
+            "receiver": "accessing-selection"
+        },
+        {
+            "weight": 22,
+            "sender": "initialize-release",
+            "receiver": "*System-Preferences"
+        },
+        {
+            "weight": 22,
+            "sender": "initialize-release",
+            "receiver": "lookup"
+        },
+        {
+            "weight": 1,
+            "sender": "initialize-release",
+            "receiver": "other"
+        },
+        {
+            "weight": 30,
+            "sender": "initialize-release",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "initialize-release",
+            "receiver": "new selection"
+        },
+        {
+            "weight": 45,
+            "sender": "standard queries",
+            "receiver": "get\/set - flags"
+        },
+        {
+            "weight": 6,
+            "sender": "naming",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 6,
+            "sender": "naming",
+            "receiver": "converting"
+        },
+        {
+            "weight": 6,
+            "sender": "naming",
+            "receiver": "testing"
+        },
+        {
+            "weight": 6,
+            "sender": "naming",
+            "receiver": "naming"
+        },
+        {
+            "weight": 6,
+            "sender": "naming",
+            "receiver": "accessing - extension"
+        },
+        {
+            "weight": 572,
+            "sender": "layout properties - proportional",
+            "receiver": "accessing - layout properties"
+        },
+        {
+            "weight": 43,
+            "sender": "layout properties - proportional",
+            "receiver": "layout properties - proportional"
+        },
+        {
+            "weight": 34,
+            "sender": "layout properties - proportional",
+            "receiver": "layout"
+        },
+        {
+            "weight": 34,
+            "sender": "layout properties - proportional",
+            "receiver": "accessing - extension"
+        },
+        {
+            "weight": 8,
+            "sender": "composing",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 8,
+            "sender": "composing",
+            "receiver": "initialize"
+        },
+        {
+            "weight": 24,
+            "sender": "composing",
+            "receiver": "private"
+        },
+        {
+            "weight": 8,
+            "sender": "composing",
+            "receiver": "converting"
+        },
+        {
+            "weight": 8,
+            "sender": "composing",
+            "receiver": "scanning"
+        },
+        {
+            "weight": 6,
+            "sender": "composing",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 28,
+            "sender": "composing",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 17,
+            "sender": "defaults",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 25,
+            "sender": "defaults",
+            "receiver": "display scale"
+        },
+        {
+            "weight": 2,
+            "sender": "defaults",
+            "receiver": "private"
+        },
+        {
+            "weight": 6,
+            "sender": "defaults",
+            "receiver": "standard queries"
+        },
+        {
+            "weight": 2,
+            "sender": "defaults",
+            "receiver": "preferences - accessibility"
+        },
+        {
+            "weight": 2,
+            "sender": "defaults",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 295,
+            "sender": "initialize",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 48,
+            "sender": "initialize",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 48,
+            "sender": "initialize",
+            "receiver": "lookup"
+        },
+        {
+            "weight": 4,
+            "sender": "initialize",
+            "receiver": "layout-properties"
+        },
+        {
+            "weight": 48,
+            "sender": "initialize",
+            "receiver": "submorphs - add\/remove"
+        },
+        {
+            "weight": 32,
+            "sender": "initialize",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 44,
+            "sender": "initialize",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 24,
+            "sender": "initialize",
+            "receiver": "rounding"
+        },
+        {
+            "weight": 24,
+            "sender": "initialize",
+            "receiver": "named colors"
+        },
+        {
+            "weight": 60,
+            "sender": "initialize",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 72,
+            "sender": "initialize",
+            "receiver": "drawing"
+        },
+        {
+            "weight": 108,
+            "sender": "initialize",
+            "receiver": "event handling"
+        },
+        {
+            "weight": 375,
+            "sender": "initialize",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 12,
+            "sender": "initialize",
+            "receiver": "display scale"
+        },
+        {
+            "weight": 48,
+            "sender": "initialize",
+            "receiver": "*System-Preferences"
+        },
+        {
+            "weight": 60,
+            "sender": "initialize",
+            "receiver": "updating"
+        },
+        {
+            "weight": 84,
+            "sender": "initialize",
+            "receiver": "initialize"
+        },
+        {
+            "weight": 2,
+            "sender": "editor access",
+            "receiver": "rectangle functions"
+        },
+        {
+            "weight": 4,
+            "sender": "editor access",
+            "receiver": "private"
+        },
+        {
+            "weight": 2,
+            "sender": "editor access",
+            "receiver": "scrolling"
+        },
+        {
+            "weight": 4,
+            "sender": "editor access",
+            "receiver": "accessing-selection"
+        },
+        {
+            "weight": 4,
+            "sender": "editor access",
+            "receiver": "editor access"
+        },
+        {
+            "weight": 6,
+            "sender": "editor access",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 10,
+            "sender": "mvc compatibility",
+            "receiver": "accessing-selection"
+        },
+        {
+            "weight": 5,
+            "sender": "mvc compatibility",
+            "receiver": "selection"
+        },
+        {
+            "weight": 606,
+            "sender": "converting",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 9,
+            "sender": "converting",
+            "receiver": "private"
+        },
+        {
+            "weight": 9,
+            "sender": "converting",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 6,
+            "sender": "converting",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 384,
+            "sender": "converting",
+            "receiver": "transformations"
+        },
+        {
+            "weight": 1,
+            "sender": "converting",
+            "receiver": "fonts and font indexes"
+        },
+        {
+            "weight": 1,
+            "sender": "converting",
+            "receiver": "accessing - default font"
+        },
+        {
+            "weight": 1022,
+            "sender": "converting",
+            "receiver": "testing"
+        },
+        {
+            "weight": 1533,
+            "sender": "converting",
+            "receiver": "constants"
+        },
+        {
+            "weight": 4,
+            "sender": "converting",
+            "receiver": "fileIn\/Out"
+        },
+        {
+            "weight": 1787,
+            "sender": "converting",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 3,
+            "sender": "converting",
+            "receiver": "copying"
+        },
+        {
+            "weight": 9648,
+            "sender": "converting",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 9,
+            "sender": "converting",
+            "receiver": "bit manipulation"
+        },
+        {
+            "weight": 2561,
+            "sender": "converting",
+            "receiver": "converting"
+        },
+        {
+            "weight": 768,
+            "sender": "converting",
+            "receiver": "conversions"
+        },
+        {
+            "weight": 2,
+            "sender": "converting",
+            "receiver": "truncation and round off"
+        },
+        {
+            "weight": 4,
+            "sender": "smart splitters",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 9,
+            "sender": "adding",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 2,
+            "sender": "adding",
+            "receiver": "private"
+        },
+        {
+            "weight": 1760,
+            "sender": "adding",
+            "receiver": "adding"
+        },
+        {
+            "weight": 1,
+            "sender": "adding",
+            "receiver": "private-heap"
+        },
+        {
+            "weight": 43,
+            "sender": "updating",
+            "receiver": "initialize-release"
+        },
+        {
+            "weight": 292,
+            "sender": "updating",
+            "receiver": "accessing - ui"
+        },
+        {
+            "weight": 7,
+            "sender": "updating",
+            "receiver": "dependents access"
+        },
+        {
+            "weight": 37,
+            "sender": "updating",
+            "receiver": "private"
+        },
+        {
+            "weight": 276,
+            "sender": "updating",
+            "receiver": "drawing"
+        },
+        {
+            "weight": 4,
+            "sender": "updating",
+            "receiver": "layout"
+        },
+        {
+            "weight": 465,
+            "sender": "updating",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 7,
+            "sender": "updating",
+            "receiver": "toolbuilder"
+        },
+        {
+            "weight": 1,
+            "sender": "updating",
+            "receiver": "controls"
+        },
+        {
+            "weight": 1,
+            "sender": "updating",
+            "receiver": "dependents"
+        },
+        {
+            "weight": 12,
+            "sender": "updating",
+            "receiver": "selection"
+        },
+        {
+            "weight": 4,
+            "sender": "updating",
+            "receiver": "filtering"
+        },
+        {
+            "weight": 277,
+            "sender": "updating",
+            "receiver": "debugging"
+        },
+        {
+            "weight": 8042,
+            "sender": "updating",
+            "receiver": "change reporting"
+        },
+        {
+            "weight": 281,
+            "sender": "updating",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 93,
+            "sender": "updating",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 855,
+            "sender": "updating",
+            "receiver": "submorphs - add\/remove"
+        },
+        {
+            "weight": 9,
+            "sender": "updating",
+            "receiver": "model access"
+        },
+        {
+            "weight": 4,
+            "sender": "updating",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 12,
+            "sender": "updating",
+            "receiver": "rounding"
+        },
+        {
+            "weight": 366,
+            "sender": "updating",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 7801,
+            "sender": "updating",
+            "receiver": "geometry - layout"
+        },
+        {
+            "weight": 855,
+            "sender": "updating",
+            "receiver": "submorphs - misc"
+        },
+        {
+            "weight": 1683,
+            "sender": "updating",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 8,
+            "sender": "updating",
+            "receiver": "label"
+        },
+        {
+            "weight": 1,
+            "sender": "updating",
+            "receiver": "panes"
+        },
+        {
+            "weight": 1387,
+            "sender": "updating",
+            "receiver": "updating"
+        },
+        {
+            "weight": 1,
+            "sender": "updating",
+            "receiver": "styling"
+        },
+        {
+            "weight": 819,
+            "sender": "updating",
+            "receiver": "*System-Preferences"
+        },
+        {
+            "weight": 819,
+            "sender": "updating",
+            "receiver": "lookup"
+        },
+        {
+            "weight": 7360,
+            "sender": "updating",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 855,
+            "sender": "updating",
+            "receiver": "images"
+        },
+        {
+            "weight": 8,
+            "sender": "updating",
+            "receiver": "model access - cached"
+        },
+        {
+            "weight": 8,
+            "sender": "accessing - selectors",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 8,
+            "sender": "menu",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 8,
+            "sender": "menu",
+            "receiver": "e-toy support"
+        },
+        {
+            "weight": 4,
+            "sender": "menu",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 2,
+            "sender": "private-heap",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 5055,
+            "sender": "rectangle functions",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 368,
+            "sender": "rectangle functions",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 13,
+            "sender": "rectangle functions",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 2,
+            "sender": "rectangle functions",
+            "receiver": "rectangle functions"
+        },
+        {
+            "weight": 2,
+            "sender": "rectangle functions",
+            "receiver": "transforming"
+        },
+        {
+            "weight": 6624,
+            "sender": "rectangle functions",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 18,
+            "sender": "rectangle functions",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 3,
+            "sender": "toolbuilder",
+            "receiver": "initialize-release"
+        },
+        {
+            "weight": 5,
+            "sender": "toolbuilder",
+            "receiver": "*Tools-optional panes"
+        },
+        {
+            "weight": 2,
+            "sender": "toolbuilder",
+            "receiver": "private"
+        },
+        {
+            "weight": 1,
+            "sender": "toolbuilder",
+            "receiver": "controls"
+        },
+        {
+            "weight": 27,
+            "sender": "toolbuilder",
+            "receiver": "toolbuilder"
+        },
+        {
+            "weight": 8,
+            "sender": "toolbuilder",
+            "receiver": "accessing - drag and drop"
+        },
+        {
+            "weight": 2,
+            "sender": "toolbuilder",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 8,
+            "sender": "toolbuilder",
+            "receiver": "accessing - selection"
+        },
+        {
+            "weight": 2,
+            "sender": "toolbuilder",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 1,
+            "sender": "toolbuilder",
+            "receiver": "display scale"
+        },
+        {
+            "weight": 23,
+            "sender": "toolbuilder",
+            "receiver": "defaults"
+        },
+        {
+            "weight": 6,
+            "sender": "toolbuilder",
+            "receiver": "associating"
+        },
+        {
+            "weight": 5,
+            "sender": "toolbuilder",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 1,
+            "sender": "toolbuilder",
+            "receiver": "building"
+        },
+        {
+            "weight": 2,
+            "sender": "toolbuilder",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 19,
+            "sender": "toolbuilder",
+            "receiver": "adding"
+        },
+        {
+            "weight": 2,
+            "sender": "toolbuilder",
+            "receiver": "metaclass"
+        },
+        {
+            "weight": 30,
+            "sender": "toolbuilder",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "toolbuilder",
+            "receiver": "opening"
+        },
+        {
+            "weight": 5,
+            "sender": "toolbuilder",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 4,
+            "sender": "toolbuilder",
+            "receiver": "accessing - list"
+        },
+        {
+            "weight": 3,
+            "sender": "toolbuilder",
+            "receiver": "*System-Localization"
+        },
+        {
+            "weight": 156,
+            "sender": "toolbuilder",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 9,
+            "sender": "toolbuilder",
+            "receiver": "layout hints"
+        },
+        {
+            "weight": 12,
+            "sender": "other events",
+            "receiver": "drawing"
+        },
+        {
+            "weight": 8,
+            "sender": "access",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 8,
+            "sender": "access",
+            "receiver": "display scale"
+        },
+        {
+            "weight": 24,
+            "sender": "access",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 150,
+            "sender": "layout - scrolling",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 30,
+            "sender": "layout - scrolling",
+            "receiver": "model access"
+        },
+        {
+            "weight": 15,
+            "sender": "layout - scrolling",
+            "receiver": "layout - visibility"
+        },
+        {
+            "weight": 30,
+            "sender": "layout - scrolling",
+            "receiver": "layout - scrolling"
+        },
+        {
+            "weight": 14,
+            "sender": "layout - scrolling",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 60,
+            "sender": "layout - scrolling",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 90,
+            "sender": "layout - scrolling",
+            "receiver": "geometry ranges"
+        },
+        {
+            "weight": 38,
+            "sender": "structure",
+            "receiver": "debugging"
+        },
+        {
+            "weight": 1911,
+            "sender": "structure",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 26,
+            "sender": "structure",
+            "receiver": "*Morphic-Kernel-accessing"
+        },
+        {
+            "weight": 4,
+            "sender": "structure",
+            "receiver": "testing"
+        },
+        {
+            "weight": 8773,
+            "sender": "structure",
+            "receiver": "structure"
+        },
+        {
+            "weight": 6,
+            "sender": "structure",
+            "receiver": "classification"
+        },
+        {
+            "weight": 1,
+            "sender": "morphic ui",
+            "receiver": "code pane"
+        },
+        {
+            "weight": 4,
+            "sender": "*Morphic-Text Support",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 6,
+            "sender": "*Morphic-Text Support",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 4,
+            "sender": "*Morphic-Text Support",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "events",
+            "receiver": "events"
+        },
+        {
+            "weight": 1549,
+            "sender": "arithmetic",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 9901,
+            "sender": "arithmetic",
+            "receiver": "converting"
+        },
+        {
+            "weight": 1547,
+            "sender": "arithmetic",
+            "receiver": "private"
+        },
+        {
+            "weight": 1547,
+            "sender": "arithmetic",
+            "receiver": "testing"
+        },
+        {
+            "weight": 3393,
+            "sender": "arithmetic",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 8,
+            "sender": "*System-icon scaling",
+            "receiver": "display scale"
+        },
+        {
+            "weight": 8,
+            "sender": "*System-icon scaling",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 4,
+            "sender": "*System-icon scaling",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 754,
+            "sender": "geometry - layout",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 754,
+            "sender": "geometry - layout",
+            "receiver": "testing"
+        },
+        {
+            "weight": 3199,
+            "sender": "geometry - layout",
+            "receiver": "rectangle functions"
+        },
+        {
+            "weight": 87,
+            "sender": "geometry - layout",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 9,
+            "sender": "geometry - layout",
+            "receiver": "drawing"
+        },
+        {
+            "weight": 6258,
+            "sender": "geometry - layout",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 170,
+            "sender": "geometry - layout",
+            "receiver": "layout"
+        },
+        {
+            "weight": 711,
+            "sender": "geometry - layout",
+            "receiver": "geometry - layout"
+        },
+        {
+            "weight": 19792,
+            "sender": "geometry - layout",
+            "receiver": "drop shadows"
+        },
+        {
+            "weight": 2,
+            "sender": "submorphs - misc",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 14,
+            "sender": "submorphs - misc",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 858,
+            "sender": "submorphs - misc",
+            "receiver": "submorphs - add\/remove"
+        },
+        {
+            "weight": 1710,
+            "sender": "submorphs - misc",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 22,
+            "sender": "submorphs - misc",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 855,
+            "sender": "submorphs - misc",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 4,
+            "sender": "submorphs - misc",
+            "receiver": "layout"
+        },
+        {
+            "weight": 1710,
+            "sender": "submorphs - misc",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 3,
+            "sender": "submorphs - misc",
+            "receiver": "layout properties - proportional"
+        },
+        {
+            "weight": 1,
+            "sender": "*ToolBuilder-Morphic-opening",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "*ToolBuilder-Morphic-opening",
+            "receiver": "open\/close"
+        },
+        {
+            "weight": 1,
+            "sender": "*ToolBuilder-Morphic-opening",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 1,
+            "sender": "*ToolBuilder-Morphic-opening",
+            "receiver": "constants"
+        },
+        {
+            "weight": 2,
+            "sender": "character scanning",
+            "receiver": "scanning"
+        },
+        {
+            "weight": 1161,
+            "sender": "visual properties",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 24,
+            "sender": "visual properties",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 20,
+            "sender": "visual properties",
+            "receiver": "submorphs - accessing"
+        },
+        {
+            "weight": 4,
+            "sender": "visual properties",
+            "receiver": "e-toy support"
+        },
+        {
+            "weight": 4,
+            "sender": "visual properties",
+            "receiver": "converting"
+        },
+        {
+            "weight": 8,
+            "sender": "visual properties",
+            "receiver": "ui"
+        },
+        {
+            "weight": 32,
+            "sender": "visual properties",
+            "receiver": "visual properties"
+        },
+        {
+            "weight": 1,
+            "sender": "widget classes",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 1,
+            "sender": "removing",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 595,
+            "sender": "removing",
+            "receiver": "removing"
+        },
+        {
+            "weight": 729,
+            "sender": "removing",
+            "receiver": "private"
+        },
+        {
+            "weight": 677,
+            "sender": "removing",
+            "receiver": "accessing - other properties"
+        },
+        {
+            "weight": 4,
+            "sender": "message list",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 4,
+            "sender": "message list",
+            "receiver": "message list"
+        },
+        {
+            "weight": 4,
+            "sender": "message list",
+            "receiver": "metaclass"
+        },
+        {
+            "weight": 2,
+            "sender": "message list",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "event handling",
+            "receiver": "events"
+        },
+        {
+            "weight": 62,
+            "sender": "event handling",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 147,
+            "sender": "event handling",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 1,
+            "sender": "event handling",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 23,
+            "sender": "event handling",
+            "receiver": "structure"
+        },
+        {
+            "weight": 2,
+            "sender": "event handling",
+            "receiver": "testing"
+        },
+        {
+            "weight": 25,
+            "sender": "event handling",
+            "receiver": "event handling"
+        },
+        {
+            "weight": 358,
+            "sender": "event handling",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 2,
+            "sender": "event handling",
+            "receiver": "updating"
+        },
+        {
+            "weight": 1,
+            "sender": "open\/close",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "open\/close",
+            "receiver": "submorphs - add\/remove"
+        },
+        {
+            "weight": 1,
+            "sender": "open\/close",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 1,
+            "sender": "open\/close",
+            "receiver": "testing"
+        },
+        {
+            "weight": 1,
+            "sender": "open\/close",
+            "receiver": "*Morphic-Kernel-accessing"
+        },
+        {
+            "weight": 2,
+            "sender": "open\/close",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 1,
+            "sender": "open\/close",
+            "receiver": "top window"
+        },
+        {
+            "weight": 1,
+            "sender": "open\/close",
+            "receiver": "world state"
+        },
+        {
+            "weight": 3,
+            "sender": "open\/close",
+            "receiver": "open\/close"
+        },
+        {
+            "weight": 1,
+            "sender": "open\/close",
+            "receiver": "framing"
+        },
+        {
+            "weight": 1,
+            "sender": "open\/close",
+            "receiver": "*System-Support-user interface"
+        },
+        {
+            "weight": 1,
+            "sender": "top window",
+            "receiver": "standard queries"
+        },
+        {
+            "weight": 3,
+            "sender": "top window",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 7,
+            "sender": "top window",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 1,
+            "sender": "top window",
+            "receiver": "submorphs - add\/remove"
+        },
+        {
+            "weight": 2,
+            "sender": "top window",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 10,
+            "sender": "top window",
+            "receiver": "framing - private"
+        },
+        {
+            "weight": 1,
+            "sender": "top window",
+            "receiver": "structure"
+        },
+        {
+            "weight": 5,
+            "sender": "top window",
+            "receiver": "focus"
+        },
+        {
+            "weight": 1,
+            "sender": "top window",
+            "receiver": "focus handling"
+        },
+        {
+            "weight": 2,
+            "sender": "top window",
+            "receiver": "*Morphic-Kernel-accessing"
+        },
+        {
+            "weight": 14,
+            "sender": "top window",
+            "receiver": "top window"
+        },
+        {
+            "weight": 12,
+            "sender": "top window",
+            "receiver": "adding"
+        },
+        {
+            "weight": 16,
+            "sender": "top window",
+            "receiver": "visual properties"
+        },
+        {
+            "weight": 40,
+            "sender": "top window",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 1,
+            "sender": "top window",
+            "receiver": "world state"
+        },
+        {
+            "weight": 2,
+            "sender": "top window",
+            "receiver": "polymorph"
+        },
+        {
+            "weight": 1,
+            "sender": "top window",
+            "receiver": "layout"
+        },
+        {
+            "weight": 2,
+            "sender": "top window",
+            "receiver": "drop shadows"
+        },
+        {
+            "weight": 3,
+            "sender": "styling",
+            "receiver": "testing"
+        },
+        {
+            "weight": 3,
+            "sender": "styling",
+            "receiver": "unaccepted edits"
+        },
+        {
+            "weight": 3,
+            "sender": "styling",
+            "receiver": "model access"
+        },
+        {
+            "weight": 7,
+            "sender": "builder",
+            "receiver": "builder"
+        },
+        {
+            "weight": 7,
+            "sender": "builder",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 288,
+            "sender": "canvas",
+            "receiver": "truncation and round off"
+        },
+        {
+            "weight": 288,
+            "sender": "canvas",
+            "receiver": "recording"
+        },
+        {
+            "weight": 7,
+            "sender": "events-filtering-capturing",
+            "receiver": "events-filtering"
+        },
+        {
+            "weight": 14,
+            "sender": "events-filtering-capturing",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 14,
+            "sender": "events-filtering-capturing",
+            "receiver": "events-filtering-capturing"
+        },
+        {
+            "weight": 2,
+            "sender": "model access",
+            "receiver": "new selection"
+        },
+        {
+            "weight": 96,
+            "sender": "model access",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 3,
+            "sender": "model access",
+            "receiver": "styling"
+        },
+        {
+            "weight": 5,
+            "sender": "model access",
+            "receiver": "debugging"
+        },
+        {
+            "weight": 1,
+            "sender": "model access",
+            "receiver": "intervals"
+        },
+        {
+            "weight": 4,
+            "sender": "model access",
+            "receiver": "private"
+        },
+        {
+            "weight": 2,
+            "sender": "model access",
+            "receiver": "message list"
+        },
+        {
+            "weight": 2,
+            "sender": "model access",
+            "receiver": "message category list"
+        },
+        {
+            "weight": 2,
+            "sender": "model access",
+            "receiver": "annotation"
+        },
+        {
+            "weight": 2,
+            "sender": "model access",
+            "receiver": "editor access"
+        },
+        {
+            "weight": 2,
+            "sender": "model access",
+            "receiver": "system category list"
+        },
+        {
+            "weight": 94,
+            "sender": "model access",
+            "receiver": "support"
+        },
+        {
+            "weight": 108,
+            "sender": "model access",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 3,
+            "sender": "model access",
+            "receiver": "copying"
+        },
+        {
+            "weight": 3,
+            "sender": "model access",
+            "receiver": "layout - scrolling"
+        },
+        {
+            "weight": 2,
+            "sender": "model access",
+            "receiver": "class list"
+        },
+        {
+            "weight": 3,
+            "sender": "model access",
+            "receiver": "updating"
+        },
+        {
+            "weight": 5,
+            "sender": "controlling",
+            "receiver": "layout-properties"
+        },
+        {
+            "weight": 1674,
+            "sender": "controlling",
+            "receiver": "layout"
+        },
+        {
+            "weight": 154,
+            "sender": "geometry ranges",
+            "receiver": "geometry ranges"
+        },
+        {
+            "weight": 45,
+            "sender": "geometry ranges",
+            "receiver": "submorphs - testing"
+        },
+        {
+            "weight": 45,
+            "sender": "geometry ranges",
+            "receiver": "testing"
+        },
+        {
+            "weight": 154,
+            "sender": "geometry ranges",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 109,
+            "sender": "geometry ranges",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 199,
+            "sender": "layout properties - table",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 31,
+            "sender": "layout properties - table",
+            "receiver": "layout"
+        },
+        {
+            "weight": 13,
+            "sender": "layout properties - table",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 72,
+            "sender": "layout properties - table",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 2,
+            "sender": "annotation",
+            "receiver": "metaclass"
+        },
+        {
+            "weight": 4,
+            "sender": "building",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 13,
+            "sender": "building",
+            "receiver": "widgets required"
+        },
+        {
+            "weight": 1,
+            "sender": "building",
+            "receiver": "*ToolBuilder-Morphic-opening"
+        },
+        {
+            "weight": 23,
+            "sender": "building",
+            "receiver": "building"
+        },
+        {
+            "weight": 10,
+            "sender": "building",
+            "receiver": "widgets optional"
+        },
+        {
+            "weight": 11,
+            "sender": "list access",
+            "receiver": "list morph callbacks"
+        },
+        {
+            "weight": 3,
+            "sender": "initailize-release",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 689,
+            "sender": "submorphs - testing",
+            "receiver": "testing"
+        },
+        {
+            "weight": 1,
+            "sender": "constants",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 81,
+            "sender": "constants",
+            "receiver": "accessing - default font"
+        },
+        {
+            "weight": 1,
+            "sender": "constants",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 8,
+            "sender": "constants",
+            "receiver": "constants"
+        },
+        {
+            "weight": 9,
+            "sender": "constants",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "code pane",
+            "receiver": "testing"
+        },
+        {
+            "weight": 1,
+            "sender": "code pane",
+            "receiver": "contents"
+        },
+        {
+            "weight": 7,
+            "sender": "translation",
+            "receiver": "testing"
+        },
+        {
+            "weight": 7,
+            "sender": "translation",
+            "receiver": "private"
+        },
+        {
+            "weight": 7,
+            "sender": "translation",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 17,
+            "sender": "emphasis",
+            "receiver": "testing"
+        },
+        {
+            "weight": 6,
+            "sender": "emphasis",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 18,
+            "sender": "*Morphic-Widgets",
+            "receiver": "preferences - accessibility"
+        },
+        {
+            "weight": 18,
+            "sender": "*Morphic-Widgets",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 64,
+            "sender": "layout-properties",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 2,
+            "sender": "layout-properties",
+            "receiver": "layout-properties"
+        },
+        {
+            "weight": 7,
+            "sender": "layout-properties",
+            "receiver": "private"
+        },
+        {
+            "weight": 2,
+            "sender": "layout-properties",
+            "receiver": "layout properties - table"
+        },
+        {
+            "weight": 10,
+            "sender": "layout-properties",
+            "receiver": "controlling"
+        },
+        {
+            "weight": 36,
+            "sender": "layout-properties",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 188,
+            "sender": "support",
+            "receiver": "truncation and round off"
+        },
+        {
+            "weight": 188,
+            "sender": "support",
+            "receiver": "testing"
+        },
+        {
+            "weight": 376,
+            "sender": "support",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 2,
+            "sender": "user interface",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 4,
+            "sender": "scrolling",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 2,
+            "sender": "scrolling",
+            "receiver": "scrolling"
+        },
+        {
+            "weight": 8,
+            "sender": "scrolling",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 38,
+            "sender": "scrolling",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 64,
+            "sender": "scrolling",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 4,
+            "sender": "scrolling",
+            "receiver": "geometry ranges"
+        },
+        {
+            "weight": 2,
+            "sender": "scrolling",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 14,
+            "sender": "scrolling",
+            "receiver": "layout"
+        },
+        {
+            "weight": 2,
+            "sender": "scrolling",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 4,
+            "sender": "scrolling",
+            "receiver": "model access"
+        },
+        {
+            "weight": 38,
+            "sender": "*Morphic-Kernel-accessing",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 35,
+            "sender": "*Morphic-Kernel-accessing",
+            "receiver": "constants"
+        },
+        {
+            "weight": 2,
+            "sender": "*System-preferences",
+            "receiver": "*System-preferences"
+        },
+        {
+            "weight": 2,
+            "sender": "*System-preferences",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 2,
+            "sender": "*System-preferences",
+            "receiver": "*System-Preferences"
+        },
+        {
+            "weight": 2,
+            "sender": "*System-preferences",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 2,
+            "sender": "*System-preferences",
+            "receiver": "lookup"
+        },
+        {
+            "weight": 44,
+            "sender": "rounding",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 32,
+            "sender": "rounding",
+            "receiver": "updating"
+        },
+        {
+            "weight": 13,
+            "sender": "layout - resizing",
+            "receiver": "geometry - layout"
+        },
+        {
+            "weight": 11,
+            "sender": "layout - resizing",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 24,
+            "sender": "layout - resizing",
+            "receiver": "layout - resizing"
+        },
+        {
+            "weight": 13,
+            "sender": "layout - resizing",
+            "receiver": "layout"
+        },
+        {
+            "weight": 11,
+            "sender": "layout - resizing",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 35,
+            "sender": "layout - resizing",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 22,
+            "sender": "layout - resizing",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "what to show",
+            "receiver": "contents"
+        },
+        {
+            "weight": 1,
+            "sender": "other",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 5,
+            "sender": "other",
+            "receiver": "copying"
+        },
+        {
+            "weight": 6,
+            "sender": "other",
+            "receiver": "other"
+        },
+        {
+            "weight": 2,
+            "sender": "*Graphics-Text",
+            "receiver": "character scanning"
+        },
+        {
+            "weight": 12,
+            "sender": "text attributes",
+            "receiver": "private"
+        },
+        {
+            "weight": 20,
+            "sender": "text attributes",
+            "receiver": "testing"
+        },
+        {
+            "weight": 16,
+            "sender": "text attributes",
+            "receiver": "text attributes"
+        },
+        {
+            "weight": 32,
+            "sender": "text attributes",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 51,
+            "sender": "get\/set - flags",
+            "receiver": "get\/set"
+        },
+        {
+            "weight": 6,
+            "sender": "get\/set - flags",
+            "receiver": "get\/set - flags"
+        },
+        {
+            "weight": 73,
+            "sender": "prefs - fonts",
+            "receiver": "constants"
+        },
+        {
+            "weight": 26,
+            "sender": "prefs - fonts",
+            "receiver": "private"
+        },
+        {
+            "weight": 26,
+            "sender": "prefs - fonts",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 747,
+            "sender": "accessing - properties",
+            "receiver": "visual properties"
+        },
+        {
+            "weight": 2,
+            "sender": "accessing - properties",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 8,
+            "sender": "accessing - properties",
+            "receiver": "e-toy support"
+        },
+        {
+            "weight": 2,
+            "sender": "accessing - properties",
+            "receiver": "layout"
+        },
+        {
+            "weight": 11708,
+            "sender": "accessing - properties",
+            "receiver": "drop shadows"
+        },
+        {
+            "weight": 26880,
+            "sender": "accessing - properties",
+            "receiver": "accessing - other properties"
+        },
+        {
+            "weight": 14297,
+            "sender": "accessing - properties",
+            "receiver": "accessing - extension"
+        },
+        {
+            "weight": 2,
+            "sender": "drop shadows",
+            "receiver": "lookup"
+        },
+        {
+            "weight": 6,
+            "sender": "drop shadows",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 2,
+            "sender": "drop shadows",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 19826,
+            "sender": "drop shadows",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 1,
+            "sender": "drop shadows",
+            "receiver": "testing"
+        },
+        {
+            "weight": 1,
+            "sender": "drop shadows",
+            "receiver": "named colors"
+        },
+        {
+            "weight": 2,
+            "sender": "drop shadows",
+            "receiver": "*System-Preferences"
+        },
+        {
+            "weight": 5,
+            "sender": "drop shadows",
+            "receiver": "layout"
+        },
+        {
+            "weight": 11,
+            "sender": "drop shadows",
+            "receiver": "updating"
+        },
+        {
+            "weight": 11,
+            "sender": "drop shadows",
+            "receiver": "drop shadows"
+        },
+        {
+            "weight": 1517,
+            "sender": "submorphs - enumerating",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 1,
+            "sender": "submorphs - enumerating",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 126,
+            "sender": "submorphs - enumerating",
+            "receiver": "panes"
+        },
+        {
+            "weight": 9,
+            "sender": "submorphs - enumerating",
+            "receiver": "removing"
+        },
+        {
+            "weight": 9,
+            "sender": "submorphs - enumerating",
+            "receiver": "focus"
+        },
+        {
+            "weight": 9,
+            "sender": "submorphs - enumerating",
+            "receiver": "testing"
+        },
+        {
+            "weight": 8,
+            "sender": "submorphs - enumerating",
+            "receiver": "adding"
+        },
+        {
+            "weight": 8,
+            "sender": "submorphs - enumerating",
+            "receiver": "sorting"
+        },
+        {
+            "weight": 126,
+            "sender": "submorphs - enumerating",
+            "receiver": "submorphs - enumerating"
+        },
+        {
+            "weight": 445,
+            "sender": "menus",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 31,
+            "sender": "submorphs - accessing",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 137,
+            "sender": "submorphs - accessing",
+            "receiver": "resize handling"
+        },
+        {
+            "weight": 60,
+            "sender": "submorphs - accessing",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 28,
+            "sender": "e-toy support",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 1,
+            "sender": "controls",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 6,
+            "sender": "controls",
+            "receiver": "updating"
+        },
+        {
+            "weight": 2,
+            "sender": "controls",
+            "receiver": "controls"
+        },
+        {
+            "weight": 1,
+            "sender": "controls",
+            "receiver": "standard queries"
+        },
+        {
+            "weight": 2,
+            "sender": "controls",
+            "receiver": "copying"
+        },
+        {
+            "weight": 11,
+            "sender": "controls",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 200,
+            "sender": "submorphs - callbacks",
+            "receiver": "submorphs - callbacks"
+        },
+        {
+            "weight": 2,
+            "sender": "submorphs - callbacks",
+            "receiver": "stepping"
+        },
+        {
+            "weight": 4,
+            "sender": "submorphs - callbacks",
+            "receiver": "smart splitters - stepping"
+        },
+        {
+            "weight": 256,
+            "sender": "submorphs - callbacks",
+            "receiver": "submorphs - enumerating"
+        },
+        {
+            "weight": 157,
+            "sender": "submorphs - callbacks",
+            "receiver": "stepping and presenter"
+        },
+        {
+            "weight": 1,
+            "sender": "opening",
+            "receiver": "*ToolBuilder-Morphic-opening"
+        },
+        {
+            "weight": 1,
+            "sender": "opening",
+            "receiver": "building"
+        },
+        {
+            "weight": 1,
+            "sender": "scenarios",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 143,
+            "sender": "stepping and presenter",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 149,
+            "sender": "stepping and presenter",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 8,
+            "sender": "stepping and presenter",
+            "receiver": "scrolling"
+        },
+        {
+            "weight": 433,
+            "sender": "stepping and presenter",
+            "receiver": "testing method dictionary"
+        },
+        {
+            "weight": 149,
+            "sender": "stepping and presenter",
+            "receiver": "structure"
+        },
+        {
+            "weight": 149,
+            "sender": "stepping and presenter",
+            "receiver": "parts bin"
+        },
+        {
+            "weight": 12,
+            "sender": "scanning",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 28,
+            "sender": "scanning",
+            "receiver": "private"
+        },
+        {
+            "weight": 6,
+            "sender": "scanning",
+            "receiver": "measuring"
+        },
+        {
+            "weight": 2,
+            "sender": "scanning",
+            "receiver": "emphasis"
+        },
+        {
+            "weight": 18,
+            "sender": "scanning",
+            "receiver": "accessing - default font"
+        },
+        {
+            "weight": 2,
+            "sender": "scanning",
+            "receiver": "*Graphics-Text"
+        },
+        {
+            "weight": 10,
+            "sender": "scanning",
+            "receiver": "testing"
+        },
+        {
+            "weight": 2,
+            "sender": "scanning",
+            "receiver": "scanner methods"
+        },
+        {
+            "weight": 52,
+            "sender": "scanning",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 2,
+            "sender": "scanning",
+            "receiver": "stop conditions"
+        },
+        {
+            "weight": 6,
+            "sender": "scanning",
+            "receiver": "scanning"
+        },
+        {
+            "weight": 47,
+            "sender": "geometry testing",
+            "receiver": "logical operations"
+        },
+        {
+            "weight": 15,
+            "sender": "geometry testing",
+            "receiver": "geometry testing"
+        },
+        {
+            "weight": 15,
+            "sender": "geometry testing",
+            "receiver": "geometry ranges"
+        },
+        {
+            "weight": 47,
+            "sender": "geometry testing",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 273,
+            "sender": "accessing - ui",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 285,
+            "sender": "accessing - ui",
+            "receiver": "*System-Preferences"
+        },
+        {
+            "weight": 121,
+            "sender": "accessing - ui",
+            "receiver": "updating"
+        },
+        {
+            "weight": 285,
+            "sender": "accessing - ui",
+            "receiver": "lookup"
+        },
+        {
+            "weight": 285,
+            "sender": "accessing - ui",
+            "receiver": "accessing - ui"
+        },
+        {
+            "weight": 2113,
+            "sender": "truncation and round off",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 4414,
+            "sender": "truncation and round off",
+            "receiver": "truncation and round off"
+        },
+        {
+            "weight": 4119,
+            "sender": "truncation and round off",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 1049,
+            "sender": "truncation and round off",
+            "receiver": "mathematical functions"
+        },
+        {
+            "weight": 2070,
+            "sender": "truncation and round off",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 289,
+            "sender": "accessing - extension",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 289,
+            "sender": "accessing - extension",
+            "receiver": "accessing - extension"
+        },
+        {
+            "weight": 20,
+            "sender": "accessing",
+            "receiver": "rotate scale and flex"
+        },
+        {
+            "weight": 7,
+            "sender": "accessing",
+            "receiver": "builder"
+        },
+        {
+            "weight": 8,
+            "sender": "accessing",
+            "receiver": "rounding"
+        },
+        {
+            "weight": 74,
+            "sender": "accessing",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 1987,
+            "sender": "accessing",
+            "receiver": "drawing"
+        },
+        {
+            "weight": 1093,
+            "sender": "accessing",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "accessing",
+            "receiver": "message category list"
+        },
+        {
+            "weight": 4,
+            "sender": "accessing",
+            "receiver": "dropping\/grabbing"
+        },
+        {
+            "weight": 37,
+            "sender": "accessing",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 3,
+            "sender": "accessing",
+            "receiver": "layout-properties"
+        },
+        {
+            "weight": 2,
+            "sender": "accessing",
+            "receiver": "submorphs - layers"
+        },
+        {
+            "weight": 1,
+            "sender": "accessing",
+            "receiver": "intervals"
+        },
+        {
+            "weight": 8,
+            "sender": "accessing",
+            "receiver": "conversions"
+        },
+        {
+            "weight": 60,
+            "sender": "accessing",
+            "receiver": "bit manipulation"
+        },
+        {
+            "weight": 37,
+            "sender": "accessing",
+            "receiver": "dependents access"
+        },
+        {
+            "weight": 52,
+            "sender": "accessing",
+            "receiver": "geometry - layout"
+        },
+        {
+            "weight": 2,
+            "sender": "accessing",
+            "receiver": "submorphs - add\/remove"
+        },
+        {
+            "weight": 389,
+            "sender": "accessing",
+            "receiver": "submorphs - enumerating"
+        },
+        {
+            "weight": 422,
+            "sender": "accessing",
+            "receiver": "visual properties"
+        },
+        {
+            "weight": 7173,
+            "sender": "accessing",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 6,
+            "sender": "accessing",
+            "receiver": "*Morphic-Text Support"
+        },
+        {
+            "weight": 4,
+            "sender": "accessing",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 10,
+            "sender": "accessing",
+            "receiver": "rectangle functions"
+        },
+        {
+            "weight": 91,
+            "sender": "accessing",
+            "receiver": "*System-Preferences"
+        },
+        {
+            "weight": 4,
+            "sender": "accessing",
+            "receiver": "focus"
+        },
+        {
+            "weight": 8085,
+            "sender": "accessing",
+            "receiver": "drop shadows"
+        },
+        {
+            "weight": 5366,
+            "sender": "accessing",
+            "receiver": "testing"
+        },
+        {
+            "weight": 3746,
+            "sender": "accessing",
+            "receiver": "debugging"
+        },
+        {
+            "weight": 44582,
+            "sender": "accessing",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 91,
+            "sender": "accessing",
+            "receiver": "lookup"
+        },
+        {
+            "weight": 3,
+            "sender": "accessing",
+            "receiver": "accessing options"
+        },
+        {
+            "weight": 1,
+            "sender": "accessing",
+            "receiver": "message list"
+        },
+        {
+            "weight": 1,
+            "sender": "accessing",
+            "receiver": "logical operations"
+        },
+        {
+            "weight": 1372,
+            "sender": "accessing",
+            "receiver": "list operations"
+        },
+        {
+            "weight": 10,
+            "sender": "accessing",
+            "receiver": "constants"
+        },
+        {
+            "weight": 29,
+            "sender": "accessing",
+            "receiver": "accessing - other properties"
+        },
+        {
+            "weight": 14344,
+            "sender": "accessing",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 121,
+            "sender": "accessing",
+            "receiver": "accessing - ui"
+        },
+        {
+            "weight": 7,
+            "sender": "accessing",
+            "receiver": "translation"
+        },
+        {
+            "weight": 123,
+            "sender": "accessing",
+            "receiver": "copying"
+        },
+        {
+            "weight": 442,
+            "sender": "accessing",
+            "receiver": "layout"
+        },
+        {
+            "weight": 2,
+            "sender": "accessing",
+            "receiver": "new selection"
+        },
+        {
+            "weight": 2,
+            "sender": "accessing",
+            "receiver": "emphasis"
+        },
+        {
+            "weight": 22,
+            "sender": "accessing",
+            "receiver": "structure"
+        },
+        {
+            "weight": 7,
+            "sender": "accessing",
+            "receiver": "literals"
+        },
+        {
+            "weight": 1,
+            "sender": "accessing",
+            "receiver": "prefs - fonts"
+        },
+        {
+            "weight": 3803,
+            "sender": "accessing",
+            "receiver": "updating"
+        },
+        {
+            "weight": 51,
+            "sender": "accessing",
+            "receiver": "classes and traits"
+        },
+        {
+            "weight": 5,
+            "sender": "accessing",
+            "receiver": "project state"
+        },
+        {
+            "weight": 94,
+            "sender": "accessing",
+            "receiver": "support"
+        },
+        {
+            "weight": 30,
+            "sender": "accessing",
+            "receiver": "transformations"
+        },
+        {
+            "weight": 5,
+            "sender": "accessing",
+            "receiver": "snapshot and quit"
+        },
+        {
+            "weight": 2,
+            "sender": "accessing",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 38,
+            "sender": "accessing",
+            "receiver": "process specific"
+        },
+        {
+            "weight": 5,
+            "sender": "accessing",
+            "receiver": "submorphs - misc"
+        },
+        {
+            "weight": 2,
+            "sender": "accessing",
+            "receiver": "converting"
+        },
+        {
+            "weight": 60,
+            "sender": "accessing",
+            "receiver": "model access"
+        },
+        {
+            "weight": 42,
+            "sender": "accessing",
+            "receiver": "named colors"
+        },
+        {
+            "weight": 42884,
+            "sender": "accessing",
+            "receiver": "private"
+        },
+        {
+            "weight": 13,
+            "sender": "accessing",
+            "receiver": "layout properties - table"
+        },
+        {
+            "weight": 20,
+            "sender": "accessing",
+            "receiver": "private - accessing"
+        },
+        {
+            "weight": 7,
+            "sender": "accessing",
+            "receiver": "accessing-pragmas & properties"
+        },
+        {
+            "weight": 36,
+            "sender": "accessing",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 153,
+            "sender": "accessing",
+            "receiver": "accessing - extension"
+        },
+        {
+            "weight": 1617,
+            "sender": "accessing",
+            "receiver": "color tracking"
+        },
+        {
+            "weight": 5,
+            "sender": "accessing",
+            "receiver": "other"
+        },
+        {
+            "weight": 1840,
+            "sender": "accessing",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 23,
+            "sender": "accessing",
+            "receiver": "event handling"
+        },
+        {
+            "weight": 8082,
+            "sender": "accessing",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 1425,
+            "sender": "images",
+            "receiver": "testing"
+        },
+        {
+            "weight": 855,
+            "sender": "images",
+            "receiver": "images"
+        },
+        {
+            "weight": 1710,
+            "sender": "images",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 2280,
+            "sender": "images",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 56,
+            "sender": "private",
+            "receiver": "access"
+        },
+        {
+            "weight": 8,
+            "sender": "private",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 8,
+            "sender": "private",
+            "receiver": "logical operations"
+        },
+        {
+            "weight": 2,
+            "sender": "private",
+            "receiver": "layout properties - table"
+        },
+        {
+            "weight": 7,
+            "sender": "private",
+            "receiver": "initialize-release"
+        },
+        {
+            "weight": 6,
+            "sender": "private",
+            "receiver": "naming"
+        },
+        {
+            "weight": 1034,
+            "sender": "private",
+            "receiver": "submorphs - callbacks"
+        },
+        {
+            "weight": 9441,
+            "sender": "private",
+            "receiver": "private"
+        },
+        {
+            "weight": 24,
+            "sender": "private",
+            "receiver": "emphasis"
+        },
+        {
+            "weight": 1078,
+            "sender": "private",
+            "receiver": "layout"
+        },
+        {
+            "weight": 23,
+            "sender": "private",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 10,
+            "sender": "private",
+            "receiver": "stop conditions"
+        },
+        {
+            "weight": 1242,
+            "sender": "private",
+            "receiver": "transforming"
+        },
+        {
+            "weight": 8,
+            "sender": "private",
+            "receiver": "accessing-selection"
+        },
+        {
+            "weight": 595,
+            "sender": "private",
+            "receiver": "removing"
+        },
+        {
+            "weight": 19,
+            "sender": "private",
+            "receiver": "selection"
+        },
+        {
+            "weight": 4,
+            "sender": "private",
+            "receiver": "debugging"
+        },
+        {
+            "weight": 1043,
+            "sender": "private",
+            "receiver": "change reporting"
+        },
+        {
+            "weight": 18,
+            "sender": "private",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 4,
+            "sender": "private",
+            "receiver": "accessing - selection"
+        },
+        {
+            "weight": 37,
+            "sender": "private",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 10127,
+            "sender": "private",
+            "receiver": "testing"
+        },
+        {
+            "weight": 43,
+            "sender": "private",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 13,
+            "sender": "private",
+            "receiver": "submorphs - add\/remove"
+        },
+        {
+            "weight": 4,
+            "sender": "private",
+            "receiver": "intervals"
+        },
+        {
+            "weight": 18,
+            "sender": "private",
+            "receiver": "accessing - default font"
+        },
+        {
+            "weight": 1299,
+            "sender": "private",
+            "receiver": "converting"
+        },
+        {
+            "weight": 4,
+            "sender": "private",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 24,
+            "sender": "private",
+            "receiver": "text attributes"
+        },
+        {
+            "weight": 1032,
+            "sender": "private",
+            "receiver": "copying"
+        },
+        {
+            "weight": 170596,
+            "sender": "private",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 2,
+            "sender": "private",
+            "receiver": "named colors"
+        },
+        {
+            "weight": 34,
+            "sender": "private",
+            "receiver": "rectangle functions"
+        },
+        {
+            "weight": 8,
+            "sender": "private",
+            "receiver": "linked frames"
+        },
+        {
+            "weight": 9,
+            "sender": "private",
+            "receiver": "associating"
+        },
+        {
+            "weight": 8,
+            "sender": "private",
+            "receiver": "exceptions"
+        },
+        {
+            "weight": 3885,
+            "sender": "private",
+            "receiver": "truncation and round off"
+        },
+        {
+            "weight": 100,
+            "sender": "private",
+            "receiver": "positioning"
+        },
+        {
+            "weight": 7,
+            "sender": "private",
+            "receiver": "classes and traits"
+        },
+        {
+            "weight": 13,
+            "sender": "private",
+            "receiver": "geometry - layout"
+        },
+        {
+            "weight": 8,
+            "sender": "private",
+            "receiver": "*Morphic-Kernel-accessing"
+        },
+        {
+            "weight": 1686,
+            "sender": "private",
+            "receiver": "adding"
+        },
+        {
+            "weight": 12,
+            "sender": "private",
+            "receiver": "metaclass"
+        },
+        {
+            "weight": 5222,
+            "sender": "private",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 2020,
+            "sender": "private",
+            "receiver": "structure"
+        },
+        {
+            "weight": 6,
+            "sender": "private",
+            "receiver": "panes"
+        },
+        {
+            "weight": 5,
+            "sender": "private",
+            "receiver": "evaluating"
+        },
+        {
+            "weight": 3,
+            "sender": "private",
+            "receiver": "resize handling"
+        },
+        {
+            "weight": 2,
+            "sender": "private",
+            "receiver": "scanning"
+        },
+        {
+            "weight": 10,
+            "sender": "private",
+            "receiver": "updating"
+        },
+        {
+            "weight": 24,
+            "sender": "private",
+            "receiver": "accessing - selectors"
+        },
+        {
+            "weight": 1161,
+            "sender": "private",
+            "receiver": "visual properties"
+        },
+        {
+            "weight": 8,
+            "sender": "private",
+            "receiver": "composition"
+        },
+        {
+            "weight": 5862,
+            "sender": "private",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 48,
+            "sender": "private",
+            "receiver": "sizing"
+        },
+        {
+            "weight": 46,
+            "sender": "private",
+            "receiver": "layout hints"
+        },
+        {
+            "weight": 4707,
+            "sender": "private",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 7,
+            "sender": "private",
+            "receiver": "literals"
+        },
+        {
+            "weight": 40,
+            "sender": "private",
+            "receiver": "layout properties - proportional"
+        },
+        {
+            "weight": 12,
+            "sender": "halos and balloon help",
+            "receiver": "halos and balloon help"
+        },
+        {
+            "weight": 4,
+            "sender": "halos and balloon help",
+            "receiver": "debugging"
+        },
+        {
+            "weight": 12,
+            "sender": "halos and balloon help",
+            "receiver": "structure"
+        },
+        {
+            "weight": 4,
+            "sender": "halos and balloon help",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 177,
+            "sender": "accessing - default font",
+            "receiver": "accessing - default font"
+        },
+        {
+            "weight": 2,
+            "sender": "accessing - default font",
+            "receiver": "initialize-release"
+        },
+        {
+            "weight": 33,
+            "sender": "accessing - default font",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 6,
+            "sender": "submorphs - layers",
+            "receiver": "submorphs - layers"
+        },
+        {
+            "weight": 2,
+            "sender": "submorphs - layers",
+            "receiver": "layer names"
+        },
+        {
+            "weight": 2,
+            "sender": "submorphs - layers",
+            "receiver": "private"
+        },
+        {
+            "weight": 2,
+            "sender": "submorphs - layers",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 7,
+            "sender": "submorphs - layers",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 100,
+            "sender": "positioning",
+            "receiver": "testing"
+        },
+        {
+            "weight": 8,
+            "sender": "ui",
+            "receiver": "menu"
+        },
+        {
+            "weight": 8,
+            "sender": "ui",
+            "receiver": "submorphs - accessing"
+        },
+        {
+            "weight": 108,
+            "sender": "drawing",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 2306,
+            "sender": "drawing",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 2,
+            "sender": "drawing",
+            "receiver": "emphasis"
+        },
+        {
+            "weight": 7,
+            "sender": "drawing",
+            "receiver": "rectangle functions"
+        },
+        {
+            "weight": 2,
+            "sender": "drawing",
+            "receiver": "constants"
+        },
+        {
+            "weight": 165,
+            "sender": "drawing",
+            "receiver": "drawing"
+        },
+        {
+            "weight": 48,
+            "sender": "drawing",
+            "receiver": "accessing - extension"
+        },
+        {
+            "weight": 56,
+            "sender": "drawing",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 51,
+            "sender": "drawing",
+            "receiver": "layout"
+        },
+        {
+            "weight": 72,
+            "sender": "drawing",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 130,
+            "sender": "drawing",
+            "receiver": "updating"
+        },
+        {
+            "weight": 300,
+            "sender": "drawing",
+            "receiver": "geometry - layout"
+        },
+        {
+            "weight": 18,
+            "sender": "drawing",
+            "receiver": "drop shadows"
+        },
+        {
+            "weight": 12,
+            "sender": "intervals",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 31,
+            "sender": "selection",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 25,
+            "sender": "selection",
+            "receiver": "private"
+        },
+        {
+            "weight": 16,
+            "sender": "selection",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 8,
+            "sender": "selection",
+            "receiver": "access"
+        },
+        {
+            "weight": 12,
+            "sender": "selection",
+            "receiver": "selection"
+        },
+        {
+            "weight": 20,
+            "sender": "selection",
+            "receiver": "testing"
+        },
+        {
+            "weight": 38,
+            "sender": "selection",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 8,
+            "sender": "selection",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 16,
+            "sender": "selection",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 10,
+            "sender": "selection",
+            "receiver": "scanning"
+        },
+        {
+            "weight": 77,
+            "sender": "optimized",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 43,
+            "sender": "optimized",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 13,
+            "sender": "optimized",
+            "receiver": "layout properties - table"
+        },
+        {
+            "weight": 216,
+            "sender": "optimized",
+            "receiver": "testing"
+        },
+        {
+            "weight": 296,
+            "sender": "optimized",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 43,
+            "sender": "optimized",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 105,
+            "sender": "optimized",
+            "receiver": "layout"
+        },
+        {
+            "weight": 93,
+            "sender": "optimized",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 108,
+            "sender": "optimized",
+            "receiver": "converting"
+        },
+        {
+            "weight": 27,
+            "sender": "optimized",
+            "receiver": "submorphs - enumerating"
+        },
+        {
+            "weight": 5016,
+            "sender": "accessing - layout properties",
+            "receiver": "accessing - other properties"
+        },
+        {
+            "weight": 2,
+            "sender": "polymorph",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 23,
+            "sender": "testing",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 416,
+            "sender": "testing",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 543,
+            "sender": "testing",
+            "receiver": "private"
+        },
+        {
+            "weight": 2,
+            "sender": "testing",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 4,
+            "sender": "testing",
+            "receiver": "resize handling"
+        },
+        {
+            "weight": 2,
+            "sender": "testing",
+            "receiver": "evaluating"
+        },
+        {
+            "weight": 15,
+            "sender": "testing",
+            "receiver": "emphasis"
+        },
+        {
+            "weight": 2,
+            "sender": "testing",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 7337,
+            "sender": "testing",
+            "receiver": "testing"
+        },
+        {
+            "weight": 15,
+            "sender": "testing",
+            "receiver": "constants"
+        },
+        {
+            "weight": 1,
+            "sender": "testing",
+            "receiver": "morphic ui"
+        },
+        {
+            "weight": 86,
+            "sender": "testing",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 1,
+            "sender": "testing",
+            "receiver": "open\/close"
+        },
+        {
+            "weight": 992,
+            "sender": "testing",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 5,
+            "sender": "testing",
+            "receiver": "submorphs - enumerating"
+        },
+        {
+            "weight": 1440,
+            "sender": "lookup",
+            "receiver": "private"
+        },
+        {
+            "weight": 19,
+            "sender": "lookup",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 1440,
+            "sender": "lookup",
+            "receiver": "associating"
+        },
+        {
+            "weight": 1440,
+            "sender": "lookup",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "label",
+            "receiver": "accessing - support"
+        },
+        {
+            "weight": 10,
+            "sender": "label",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "label",
+            "receiver": "geometry - misc"
+        },
+        {
+            "weight": 14,
+            "sender": "label",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 14,
+            "sender": "label",
+            "receiver": "submorphs - add\/remove"
+        },
+        {
+            "weight": 1,
+            "sender": "label",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 2,
+            "sender": "label",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 8,
+            "sender": "label",
+            "receiver": "submorphs - misc"
+        },
+        {
+            "weight": 8,
+            "sender": "label",
+            "receiver": "e-toy support"
+        },
+        {
+            "weight": 4,
+            "sender": "label",
+            "receiver": "layout properties - table"
+        },
+        {
+            "weight": 3,
+            "sender": "label",
+            "receiver": "testing"
+        },
+        {
+            "weight": 1,
+            "sender": "label",
+            "receiver": "user interface"
+        },
+        {
+            "weight": 50,
+            "sender": "label",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 1,
+            "sender": "label",
+            "receiver": "initializing"
+        },
+        {
+            "weight": 1,
+            "sender": "label",
+            "receiver": "label"
+        },
+        {
+            "weight": 2,
+            "sender": "label",
+            "receiver": "event handling"
+        },
+        {
+            "weight": 1,
+            "sender": "label",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 24,
+            "sender": "label",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "label",
+            "receiver": "layout"
+        },
+        {
+            "weight": 27,
+            "sender": "label",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 1,
+            "sender": "label",
+            "receiver": "layout properties - proportional"
+        },
+        {
+            "weight": 1,
+            "sender": "preferences",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 58,
+            "sender": "preferences",
+            "receiver": "display scale"
+        },
+        {
+            "weight": 1,
+            "sender": "preferences",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 9,
+            "sender": "preferences",
+            "receiver": "standard queries"
+        },
+        {
+            "weight": 1,
+            "sender": "preferences",
+            "receiver": "testing"
+        },
+        {
+            "weight": 9,
+            "sender": "preferences",
+            "receiver": "truncation and round off"
+        },
+        {
+            "weight": 9,
+            "sender": "preferences",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 2,
+            "sender": "preferences",
+            "receiver": "constants"
+        },
+        {
+            "weight": 6,
+            "sender": "framing - private",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 12,
+            "sender": "framing - private",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 2,
+            "sender": "framing - private",
+            "receiver": "point functions"
+        },
+        {
+            "weight": 2,
+            "sender": "framing - private",
+            "receiver": "rectangle functions"
+        },
+        {
+            "weight": 2,
+            "sender": "framing - private",
+            "receiver": "top window"
+        },
+        {
+            "weight": 2,
+            "sender": "framing - private",
+            "receiver": "snapshot and quit"
+        },
+        {
+            "weight": 16,
+            "sender": "framing - private",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 12,
+            "sender": "framing - private",
+            "receiver": "logical operations"
+        },
+        {
+            "weight": 4,
+            "sender": "framing - private",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 4,
+            "sender": "framing - private",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 4,
+            "sender": "framing - private",
+            "receiver": "settings"
+        },
+        {
+            "weight": 4,
+            "sender": "framing - private",
+            "receiver": "transforming"
+        },
+        {
+            "weight": 2,
+            "sender": "system category list",
+            "receiver": "system category list"
+        },
+        {
+            "weight": 4,
+            "sender": "system category list",
+            "receiver": "class initialization"
+        },
+        {
+            "weight": 4,
+            "sender": "system category list",
+            "receiver": "copying"
+        },
+        {
+            "weight": 6,
+            "sender": "system category list",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 55,
+            "sender": "transforming rects",
+            "receiver": "transforming points"
+        },
+        {
+            "weight": 55,
+            "sender": "transforming rects",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 55,
+            "sender": "transforming rects",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 94,
+            "sender": "evaluating",
+            "receiver": "sorting"
+        },
+        {
+            "weight": 10,
+            "sender": "evaluating",
+            "receiver": "private"
+        },
+        {
+            "weight": 446,
+            "sender": "evaluating",
+            "receiver": "evaluating"
+        },
+        {
+            "weight": 70,
+            "sender": "evaluating",
+            "receiver": "testing"
+        },
+        {
+            "weight": 2542,
+            "sender": "evaluating",
+            "receiver": "exceptions"
+        },
+        {
+            "weight": 2,
+            "sender": "evaluating",
+            "receiver": "emphasis"
+        },
+        {
+            "weight": 188,
+            "sender": "evaluating",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 523,
+            "sender": "testing method dictionary",
+            "receiver": "testing"
+        },
+        {
+            "weight": 158,
+            "sender": "testing method dictionary",
+            "receiver": "testing method dictionary"
+        },
+        {
+            "weight": 523,
+            "sender": "testing method dictionary",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 3,
+            "sender": "list morph callbacks",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 11,
+            "sender": "list morph callbacks",
+            "receiver": "model access - cached"
+        },
+        {
+            "weight": 14,
+            "sender": "bit manipulation",
+            "receiver": "bit manipulation"
+        },
+        {
+            "weight": 14,
+            "sender": "*System-Localization",
+            "receiver": "translation"
+        },
+        {
+            "weight": 7,
+            "sender": "*System-Localization",
+            "receiver": "*System-Localization"
+        },
+        {
+            "weight": 28,
+            "sender": "*System-Localization",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 11,
+            "sender": "initialization",
+            "receiver": "initialize-release"
+        },
+        {
+            "weight": 4,
+            "sender": "initialization",
+            "receiver": "form dictionary"
+        },
+        {
+            "weight": 17,
+            "sender": "initialization",
+            "receiver": "layout properties - table"
+        },
+        {
+            "weight": 12,
+            "sender": "initialization",
+            "receiver": "accessing - ui"
+        },
+        {
+            "weight": 19,
+            "sender": "initialization",
+            "receiver": "dependents access"
+        },
+        {
+            "weight": 12,
+            "sender": "initialization",
+            "receiver": "other events"
+        },
+        {
+            "weight": 6,
+            "sender": "initialization",
+            "receiver": "private"
+        },
+        {
+            "weight": 32,
+            "sender": "initialization",
+            "receiver": "initialize"
+        },
+        {
+            "weight": 31,
+            "sender": "initialization",
+            "receiver": "layout"
+        },
+        {
+            "weight": 123,
+            "sender": "initialization",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 2,
+            "sender": "initialization",
+            "receiver": "drop shadows"
+        },
+        {
+            "weight": 4,
+            "sender": "initialization",
+            "receiver": "prefs - fonts"
+        },
+        {
+            "weight": 36,
+            "sender": "initialization",
+            "receiver": "event handling"
+        },
+        {
+            "weight": 17,
+            "sender": "initialization",
+            "receiver": "drawing"
+        },
+        {
+            "weight": 3,
+            "sender": "initialization",
+            "receiver": "accept\/cancel"
+        },
+        {
+            "weight": 4,
+            "sender": "initialization",
+            "receiver": "constants"
+        },
+        {
+            "weight": 52,
+            "sender": "initialization",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 6,
+            "sender": "initialization",
+            "receiver": "get\/set - flags"
+        },
+        {
+            "weight": 1,
+            "sender": "initialization",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 2,
+            "sender": "initialization",
+            "receiver": "testing"
+        },
+        {
+            "weight": 78,
+            "sender": "initialization",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 14,
+            "sender": "initialization",
+            "receiver": "standard queries"
+        },
+        {
+            "weight": 18,
+            "sender": "initialization",
+            "receiver": "display scale"
+        },
+        {
+            "weight": 1,
+            "sender": "initialization",
+            "receiver": "colors"
+        },
+        {
+            "weight": 54,
+            "sender": "initialization",
+            "receiver": "submorphs - add\/remove"
+        },
+        {
+            "weight": 8,
+            "sender": "initialization",
+            "receiver": "transformations"
+        },
+        {
+            "weight": 4,
+            "sender": "initialization",
+            "receiver": "smart splitters"
+        },
+        {
+            "weight": 2,
+            "sender": "initialization",
+            "receiver": "accessing - default font"
+        },
+        {
+            "weight": 7,
+            "sender": "initialization",
+            "receiver": "events-filtering-capturing"
+        },
+        {
+            "weight": 105,
+            "sender": "initialization",
+            "receiver": "color tracking"
+        },
+        {
+            "weight": 3554,
+            "sender": "initialization",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 24,
+            "sender": "initialization",
+            "receiver": "accessing - model"
+        },
+        {
+            "weight": 22,
+            "sender": "initialization",
+            "receiver": "model access"
+        },
+        {
+            "weight": 21,
+            "sender": "initialization",
+            "receiver": "copying"
+        },
+        {
+            "weight": 9,
+            "sender": "initialization",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 1068,
+            "sender": "initialization",
+            "receiver": "named colors"
+        },
+        {
+            "weight": 4,
+            "sender": "initialization",
+            "receiver": "initializing"
+        },
+        {
+            "weight": 1,
+            "sender": "initialization",
+            "receiver": "top window"
+        },
+        {
+            "weight": 4,
+            "sender": "initialization",
+            "receiver": "halos and balloon help"
+        },
+        {
+            "weight": 12,
+            "sender": "initialization",
+            "receiver": "defaults"
+        },
+        {
+            "weight": 39,
+            "sender": "initialization",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 4,
+            "sender": "initialization",
+            "receiver": "dropping\/grabbing"
+        },
+        {
+            "weight": 16,
+            "sender": "initialization",
+            "receiver": "geometry - layout"
+        },
+        {
+            "weight": 2,
+            "sender": "initialization",
+            "receiver": "edit view"
+        },
+        {
+            "weight": 1,
+            "sender": "initialization",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 17,
+            "sender": "initialization",
+            "receiver": "adding"
+        },
+        {
+            "weight": 8,
+            "sender": "initialization",
+            "receiver": "resize handling"
+        },
+        {
+            "weight": 1313,
+            "sender": "initialization",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 11,
+            "sender": "initialization",
+            "receiver": "label"
+        },
+        {
+            "weight": 4,
+            "sender": "initialization",
+            "receiver": "*System-icon scaling"
+        },
+        {
+            "weight": 1011,
+            "sender": "initialization",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 41,
+            "sender": "initialization",
+            "receiver": "updating"
+        },
+        {
+            "weight": 2,
+            "sender": "initialization",
+            "receiver": "styling"
+        },
+        {
+            "weight": 160,
+            "sender": "initialization",
+            "receiver": "*System-Preferences"
+        },
+        {
+            "weight": 160,
+            "sender": "initialization",
+            "receiver": "lookup"
+        },
+        {
+            "weight": 1577,
+            "sender": "initialization",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 4,
+            "sender": "initialization",
+            "receiver": "*System-Localization"
+        },
+        {
+            "weight": 4,
+            "sender": "initialization",
+            "receiver": "layout-properties"
+        },
+        {
+            "weight": 20,
+            "sender": "initialization",
+            "receiver": "layout properties - proportional"
+        },
+        {
+            "weight": 12,
+            "sender": "filtering",
+            "receiver": "filtering"
+        },
+        {
+            "weight": 8,
+            "sender": "filtering",
+            "receiver": "testing"
+        },
+        {
+            "weight": 662,
+            "sender": "transformations",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 19,
+            "sender": "transformations",
+            "receiver": "named colors"
+        },
+        {
+            "weight": 1285,
+            "sender": "transformations",
+            "receiver": "private"
+        },
+        {
+            "weight": 306,
+            "sender": "transformations",
+            "receiver": "transformations"
+        },
+        {
+            "weight": 886,
+            "sender": "transformations",
+            "receiver": "testing"
+        },
+        {
+            "weight": 220,
+            "sender": "transformations",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 2724,
+            "sender": "transformations",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 62,
+            "sender": "copying",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 83,
+            "sender": "copying",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 1250,
+            "sender": "copying",
+            "receiver": "private"
+        },
+        {
+            "weight": 7,
+            "sender": "copying",
+            "receiver": "converting"
+        },
+        {
+            "weight": 37,
+            "sender": "copying",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 70,
+            "sender": "copying",
+            "receiver": "testing"
+        },
+        {
+            "weight": 49,
+            "sender": "copying",
+            "receiver": "copying"
+        },
+        {
+            "weight": 25,
+            "sender": "copying",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "contents",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 1,
+            "sender": "contents",
+            "receiver": "what to show"
+        },
+        {
+            "weight": 1,
+            "sender": "exceptions",
+            "receiver": "initialize-release"
+        },
+        {
+            "weight": 2542,
+            "sender": "exceptions",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 16,
+            "sender": "exceptions",
+            "receiver": "private"
+        },
+        {
+            "weight": 558,
+            "sender": "exceptions",
+            "receiver": "layout"
+        },
+        {
+            "weight": 7,
+            "sender": "accessing-pragmas & properties",
+            "receiver": "private"
+        },
+        {
+            "weight": 7,
+            "sender": "accessing-pragmas & properties",
+            "receiver": "properties"
+        },
+        {
+            "weight": 7,
+            "sender": "new selection",
+            "receiver": "new selection"
+        },
+        {
+            "weight": 5,
+            "sender": "new selection",
+            "receiver": "accessing-selection"
+        },
+        {
+            "weight": 5,
+            "sender": "new selection",
+            "receiver": "typing support"
+        },
+        {
+            "weight": 5,
+            "sender": "new selection",
+            "receiver": "mvc compatibility"
+        },
+        {
+            "weight": 2,
+            "sender": "new selection",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 38,
+            "sender": "process specific",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 2,
+            "sender": "model access - cached",
+            "receiver": "message list"
+        },
+        {
+            "weight": 4,
+            "sender": "model access - cached",
+            "receiver": "filtering"
+        },
+        {
+            "weight": 2,
+            "sender": "model access - cached",
+            "receiver": "system category list"
+        },
+        {
+            "weight": 4,
+            "sender": "model access - cached",
+            "receiver": "updating"
+        },
+        {
+            "weight": 8,
+            "sender": "model access - cached",
+            "receiver": "model access - cached"
+        },
+        {
+            "weight": 2,
+            "sender": "model access - cached",
+            "receiver": "class list"
+        },
+        {
+            "weight": 2,
+            "sender": "model access - cached",
+            "receiver": "message category list"
+        },
+        {
+            "weight": 4,
+            "sender": "model access - cached",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 7,
+            "sender": "events-filtering",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 7,
+            "sender": "events-filtering",
+            "receiver": "copying"
+        },
+        {
+            "weight": 5179,
+            "sender": "converting to rectangle",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 10,
+            "sender": "stop conditions",
+            "receiver": "private"
+        },
+        {
+            "weight": 6,
+            "sender": "stop conditions",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 20,
+            "sender": "rotate scale and flex",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 2744,
+            "sender": "list operations",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 20,
+            "sender": "private - accessing",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 1,
+            "sender": "dependents",
+            "receiver": "dependents access"
+        },
+        {
+            "weight": 3,
+            "sender": "focus handling",
+            "receiver": "focus handling"
+        },
+        {
+            "weight": 2,
+            "sender": "focus handling",
+            "receiver": "event handling"
+        },
+        {
+            "weight": 2,
+            "sender": "focus handling",
+            "receiver": "debugging"
+        },
+        {
+            "weight": 8,
+            "sender": "class list",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 4,
+            "sender": "class list",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 22,
+            "sender": "class list",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 4,
+            "sender": "class list",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 4,
+            "sender": "class list",
+            "receiver": "system category list"
+        },
+        {
+            "weight": 2,
+            "sender": "class list",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 4,
+            "sender": "class list",
+            "receiver": "copying"
+        },
+        {
+            "weight": 4,
+            "sender": "class list",
+            "receiver": "class initialization"
+        },
+        {
+            "weight": 28,
+            "sender": "class list",
+            "receiver": "class list"
+        },
+        {
+            "weight": 46,
+            "sender": "classes and traits",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 92,
+            "sender": "classes and traits",
+            "receiver": "testing"
+        },
+        {
+            "weight": 92,
+            "sender": "classes and traits",
+            "receiver": "classes and traits"
+        },
+        {
+            "weight": 46,
+            "sender": "classes and traits",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 558,
+            "sender": "exceptionSelector",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 1674,
+            "sender": "exceptionSelector",
+            "receiver": "private"
+        },
+        {
+            "weight": 4,
+            "sender": "fileIn\/Out",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 48,
+            "sender": "sizing",
+            "receiver": "sizing"
+        },
+        {
+            "weight": 427365,
+            "sender": "comparing",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 9641,
+            "sender": "comparing",
+            "receiver": "private"
+        },
+        {
+            "weight": 589,
+            "sender": "comparing",
+            "receiver": "converting"
+        },
+        {
+            "weight": 2542,
+            "sender": "comparing",
+            "receiver": "evaluating"
+        },
+        {
+            "weight": 2814,
+            "sender": "comparing",
+            "receiver": "testing"
+        },
+        {
+            "weight": 8266,
+            "sender": "comparing",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 51,
+            "sender": "get\/set",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 776,
+            "sender": "geometry",
+            "receiver": "private"
+        },
+        {
+            "weight": 817,
+            "sender": "geometry",
+            "receiver": "drawing"
+        },
+        {
+            "weight": 73,
+            "sender": "geometry",
+            "receiver": "prefs - fonts"
+        },
+        {
+            "weight": 3152,
+            "sender": "geometry",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 8,
+            "sender": "geometry",
+            "receiver": "submorphs - accessing"
+        },
+        {
+            "weight": 766,
+            "sender": "geometry",
+            "receiver": "transforming"
+        },
+        {
+            "weight": 2204,
+            "sender": "geometry",
+            "receiver": "layout"
+        },
+        {
+            "weight": 156,
+            "sender": "geometry",
+            "receiver": "debugging"
+        },
+        {
+            "weight": 1377,
+            "sender": "geometry",
+            "receiver": "change reporting"
+        },
+        {
+            "weight": 2070,
+            "sender": "geometry",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 14,
+            "sender": "geometry",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 182,
+            "sender": "geometry",
+            "receiver": "testing"
+        },
+        {
+            "weight": 97,
+            "sender": "geometry",
+            "receiver": "geometry testing"
+        },
+        {
+            "weight": 7,
+            "sender": "geometry",
+            "receiver": "accessing - default font"
+        },
+        {
+            "weight": 2005,
+            "sender": "geometry",
+            "receiver": "converting"
+        },
+        {
+            "weight": 16,
+            "sender": "geometry",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 2437,
+            "sender": "geometry",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 231,
+            "sender": "geometry",
+            "receiver": "rectangle functions"
+        },
+        {
+            "weight": 3291,
+            "sender": "geometry",
+            "receiver": "truncation and round off"
+        },
+        {
+            "weight": 2818,
+            "sender": "geometry",
+            "receiver": "geometry - layout"
+        },
+        {
+            "weight": 1214,
+            "sender": "geometry",
+            "receiver": "point functions"
+        },
+        {
+            "weight": 2453,
+            "sender": "geometry",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 3052,
+            "sender": "geometry",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 4178,
+            "sender": "geometry",
+            "receiver": "updating"
+        },
+        {
+            "weight": 11291,
+            "sender": "geometry",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 15,
+            "sender": "snapshot and quit",
+            "receiver": "constants"
+        },
+        {
+            "weight": 43,
+            "sender": "change reporting",
+            "receiver": "transforming rects"
+        },
+        {
+            "weight": 288,
+            "sender": "change reporting",
+            "receiver": "canvas"
+        },
+        {
+            "weight": 9904,
+            "sender": "change reporting",
+            "receiver": "testing"
+        },
+        {
+            "weight": 288,
+            "sender": "change reporting",
+            "receiver": "classification"
+        },
+        {
+            "weight": 331,
+            "sender": "change reporting",
+            "receiver": "rectangle functions"
+        },
+        {
+            "weight": 13718,
+            "sender": "change reporting",
+            "receiver": "drawing"
+        },
+        {
+            "weight": 37,
+            "sender": "change reporting",
+            "receiver": "layout"
+        },
+        {
+            "weight": 33,
+            "sender": "change reporting",
+            "receiver": "updating"
+        },
+        {
+            "weight": 43,
+            "sender": "change reporting",
+            "receiver": "truncation and round off"
+        },
+        {
+            "weight": 11882,
+            "sender": "change reporting",
+            "receiver": "change reporting"
+        },
+        {
+            "weight": 4,
+            "sender": "message category list",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 4,
+            "sender": "message category list",
+            "receiver": "class list"
+        },
+        {
+            "weight": 2,
+            "sender": "message category list",
+            "receiver": "message category list"
+        },
+        {
+            "weight": 2,
+            "sender": "message category list",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 4,
+            "sender": "panes",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 8,
+            "sender": "panes",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 6,
+            "sender": "panes",
+            "receiver": "colors"
+        },
+        {
+            "weight": 5,
+            "sender": "panes",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 5,
+            "sender": "panes",
+            "receiver": "standard queries"
+        },
+        {
+            "weight": 6,
+            "sender": "panes",
+            "receiver": "submorphs - add\/remove"
+        },
+        {
+            "weight": 18,
+            "sender": "panes",
+            "receiver": "resize handling"
+        },
+        {
+            "weight": 8,
+            "sender": "panes",
+            "receiver": "adding"
+        },
+        {
+            "weight": 126,
+            "sender": "panes",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 6,
+            "sender": "panes",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 6,
+            "sender": "panes",
+            "receiver": "copying"
+        },
+        {
+            "weight": 8,
+            "sender": "panes",
+            "receiver": "layout"
+        },
+        {
+            "weight": 1,
+            "sender": "panes",
+            "receiver": "submorphs - enumerating"
+        },
+        {
+            "weight": 1,
+            "sender": "panes",
+            "receiver": "converting"
+        },
+        {
+            "weight": 6,
+            "sender": "panes",
+            "receiver": "layout properties - proportional"
+        },
+        {
+            "weight": 1,
+            "sender": "world state",
+            "receiver": "debugging"
+        },
+        {
+            "weight": 1,
+            "sender": "world state",
+            "receiver": "submorphs - misc"
+        },
+        {
+            "weight": 3798,
+            "sender": "layout properties",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 85,
+            "sender": "layout properties",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 11,
+            "sender": "layout properties",
+            "receiver": "debugging"
+        },
+        {
+            "weight": 4444,
+            "sender": "layout properties",
+            "receiver": "accessing - layout properties"
+        },
+        {
+            "weight": 24,
+            "sender": "layout properties",
+            "receiver": "resize handling"
+        },
+        {
+            "weight": 15,
+            "sender": "layout properties",
+            "receiver": "layout properties - table"
+        },
+        {
+            "weight": 109,
+            "sender": "layout properties",
+            "receiver": "accessing - extension"
+        },
+        {
+            "weight": 692,
+            "sender": "layout properties",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 934,
+            "sender": "layout properties",
+            "receiver": "layout"
+        },
+        {
+            "weight": 129,
+            "sender": "layout properties",
+            "receiver": "updating"
+        },
+        {
+            "weight": 85,
+            "sender": "layout properties",
+            "receiver": "initialize"
+        },
+        {
+            "weight": 8,
+            "sender": "layout properties",
+            "receiver": "converting"
+        },
+        {
+            "weight": 5,
+            "sender": "initializing",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 4,
+            "sender": "initializing",
+            "receiver": "initializing"
+        },
+        {
+            "weight": 289,
+            "sender": "accessing - other properties",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 703,
+            "sender": "accessing - other properties",
+            "receiver": "removing"
+        },
+        {
+            "weight": 703,
+            "sender": "accessing - other properties",
+            "receiver": "testing"
+        },
+        {
+            "weight": 14729,
+            "sender": "accessing - other properties",
+            "receiver": "accessing - other properties"
+        },
+        {
+            "weight": 31188,
+            "sender": "accessing - other properties",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 4,
+            "sender": "focus",
+            "receiver": "lookup"
+        },
+        {
+            "weight": 8,
+            "sender": "focus",
+            "receiver": "colors"
+        },
+        {
+            "weight": 3,
+            "sender": "focus",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 1,
+            "sender": "focus",
+            "receiver": "geometry - misc"
+        },
+        {
+            "weight": 9,
+            "sender": "focus",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 2,
+            "sender": "focus",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 3,
+            "sender": "focus",
+            "receiver": "accessing - properties"
+        },
+        {
+            "weight": 7,
+            "sender": "focus",
+            "receiver": "structure"
+        },
+        {
+            "weight": 42,
+            "sender": "focus",
+            "receiver": "focus"
+        },
+        {
+            "weight": 1,
+            "sender": "focus",
+            "receiver": "focus handling"
+        },
+        {
+            "weight": 8,
+            "sender": "focus",
+            "receiver": "testing"
+        },
+        {
+            "weight": 2,
+            "sender": "focus",
+            "receiver": "user interface"
+        },
+        {
+            "weight": 7,
+            "sender": "focus",
+            "receiver": "top window"
+        },
+        {
+            "weight": 1,
+            "sender": "focus",
+            "receiver": "label"
+        },
+        {
+            "weight": 80,
+            "sender": "focus",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 4,
+            "sender": "focus",
+            "receiver": "*System-Preferences"
+        },
+        {
+            "weight": 2,
+            "sender": "focus",
+            "receiver": "copying"
+        },
+        {
+            "weight": 2,
+            "sender": "focus",
+            "receiver": "*Collections-SortFunctions-converting"
+        },
+        {
+            "weight": 1,
+            "sender": "focus",
+            "receiver": "misc"
+        },
+        {
+            "weight": 5,
+            "sender": "focus",
+            "receiver": "submorphs - enumerating"
+        },
+        {
+            "weight": 1,
+            "sender": "focus",
+            "receiver": "converting"
+        },
+        {
+            "weight": 3,
+            "sender": "instance creation",
+            "receiver": "layout properties"
+        },
+        {
+            "weight": 5280,
+            "sender": "instance creation",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 21198,
+            "sender": "instance creation",
+            "receiver": "private"
+        },
+        {
+            "weight": 1995,
+            "sender": "instance creation",
+            "receiver": "transformations"
+        },
+        {
+            "weight": 1241,
+            "sender": "instance creation",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 57,
+            "sender": "instance creation",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 1300,
+            "sender": "instance creation",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 1,
+            "sender": "instance creation",
+            "receiver": "toolbuilder"
+        },
+        {
+            "weight": 3,
+            "sender": "instance creation",
+            "receiver": "initailize-release"
+        },
+        {
+            "weight": 52,
+            "sender": "instance creation",
+            "receiver": "named colors"
+        },
+        {
+            "weight": 1,
+            "sender": "instance creation",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 2,
+            "sender": "instance creation",
+            "receiver": "constants"
+        },
+        {
+            "weight": 19,
+            "sender": "instance creation",
+            "receiver": "queries"
+        },
+        {
+            "weight": 162,
+            "sender": "instance creation",
+            "receiver": "initialize-release"
+        },
+        {
+            "weight": 2,
+            "sender": "instance creation",
+            "receiver": "class membership"
+        },
+        {
+            "weight": 1,
+            "sender": "instance creation",
+            "receiver": "adding"
+        },
+        {
+            "weight": 1027,
+            "sender": "instance creation",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 17,
+            "sender": "instance creation",
+            "receiver": "prefs - fonts"
+        },
+        {
+            "weight": 576,
+            "sender": "instance creation",
+            "receiver": "logical operations"
+        },
+        {
+            "weight": 4534,
+            "sender": "instance creation",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 131,
+            "sender": "instance creation",
+            "receiver": "initialize"
+        },
+        {
+            "weight": 19,
+            "sender": "geometry - misc",
+            "receiver": "menus"
+        },
+        {
+            "weight": 1,
+            "sender": "geometry - misc",
+            "receiver": "submorphs - enumerating"
+        },
+        {
+            "weight": 2,
+            "sender": "geometry - misc",
+            "receiver": "arithmetic"
+        },
+        {
+            "weight": 2,
+            "sender": "geometry - misc",
+            "receiver": "geometry"
+        },
+        {
+            "weight": 288,
+            "sender": "recording",
+            "receiver": "enumerating"
+        },
+        {
+            "weight": 522,
+            "sender": "recording",
+            "receiver": "comparing"
+        },
+        {
+            "weight": 261,
+            "sender": "recording",
+            "receiver": "private"
+        },
+        {
+            "weight": 2,
+            "sender": "recording",
+            "receiver": "instance creation"
+        },
+        {
+            "weight": 2,
+            "sender": "recording",
+            "receiver": "initialization"
+        },
+        {
+            "weight": 1018,
+            "sender": "recording",
+            "receiver": "rectangle functions"
+        },
+        {
+            "weight": 29,
+            "sender": "recording",
+            "receiver": "adding"
+        },
+        {
+            "weight": 1307,
+            "sender": "recording",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 27,
+            "sender": "recording",
+            "receiver": "converting to rectangle"
+        },
+        {
+            "weight": 576,
+            "sender": "recording",
+            "receiver": "truncation and round off"
+        },
+        {
+            "weight": 2,
+            "sender": "layout hints",
+            "receiver": "preferences"
+        },
+        {
+            "weight": 2,
+            "sender": "layout hints",
+            "receiver": "converting"
+        },
+        {
+            "weight": 2,
+            "sender": "layout hints",
+            "receiver": "display scale"
+        },
+        {
+            "weight": 4,
+            "sender": "layout hints",
+            "receiver": "prefs - fonts"
+        },
+        {
+            "weight": 50,
+            "sender": "layout hints",
+            "receiver": "layout hints"
+        },
+        {
+            "weight": 4,
+            "sender": "layout hints",
+            "receiver": "preferences - accessibility"
+        },
+        {
+            "weight": 4,
+            "sender": "layout hints",
+            "receiver": "constants"
+        },
+        {
+            "weight": 8,
+            "sender": "layout hints",
+            "receiver": "accessing"
+        },
+        {
+            "weight": 5,
+            "sender": "*Tools-optional panes",
+            "receiver": "standard queries"
+        }
+    ]
+}

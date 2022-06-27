@@ -1,0 +1,1446 @@
+{
+    "vertices": {
+        "PasteUpMorph classification": {
+            "id": "PasteUpMorph classification",
+            "color": "#DA0C0F",
+            "label": "PasteUpMorph classification"
+        },
+        "PasteUpMorph submorphs - add\/remove": {
+            "id": "PasteUpMorph submorphs - add\/remove",
+            "color": "#DA0C0F",
+            "label": "PasteUpMorph submorphs - add\/remove"
+        },
+        "HMCodeSnippetStorage scenarios": {
+            "id": "HMCodeSnippetStorage scenarios",
+            "color": "#B76396",
+            "label": "HMCodeSnippetStorage scenarios"
+        },
+        "Point converting to rectangle": {
+            "id": "Point converting to rectangle",
+            "color": "#C9CC8E",
+            "label": "Point converting to rectangle"
+        },
+        "PasteUpMorph structure": {
+            "id": "PasteUpMorph structure",
+            "color": "#DA0C0F",
+            "label": "PasteUpMorph structure"
+        },
+        "WriteStream positioning": {
+            "id": "WriteStream positioning",
+            "color": "#A88573",
+            "label": "WriteStream positioning"
+        },
+        "OrderedCollection adding": {
+            "id": "OrderedCollection adding",
+            "color": "#A88573",
+            "label": "OrderedCollection adding"
+        },
+        "Rectangle truncation and round off": {
+            "id": "Rectangle truncation and round off",
+            "color": "#C9CC8E",
+            "label": "Rectangle truncation and round off"
+        },
+        "IdentityDictionary private": {
+            "id": "IdentityDictionary private",
+            "color": "#A88573",
+            "label": "IdentityDictionary private"
+        },
+        "SequenceableCollection accessing": {
+            "id": "SequenceableCollection accessing",
+            "color": "#A88573",
+            "label": "SequenceableCollection accessing"
+        },
+        "Association instance creation": {
+            "id": "Association instance creation",
+            "color": "#A88573",
+            "label": "Association instance creation"
+        },
+        "SequenceableCollection enumerating": {
+            "id": "SequenceableCollection enumerating",
+            "color": "#A88573",
+            "label": "SequenceableCollection enumerating"
+        },
+        "Rectangle rectangle functions": {
+            "id": "Rectangle rectangle functions",
+            "color": "#C9CC8E",
+            "label": "Rectangle rectangle functions"
+        },
+        "BorderStyle accessing": {
+            "id": "BorderStyle accessing",
+            "color": "#DA0C0F",
+            "label": "BorderStyle accessing"
+        },
+        "Morph accessing - properties": {
+            "id": "Morph accessing - properties",
+            "color": "#DA0C0F",
+            "label": "Morph accessing - properties"
+        },
+        "PasteUpMorph project state": {
+            "id": "PasteUpMorph project state",
+            "color": "#DA0C0F",
+            "label": "PasteUpMorph project state"
+        },
+        "Dictionary testing": {
+            "id": "Dictionary testing",
+            "color": "#694F2C",
+            "label": "Dictionary testing"
+        },
+        "Behavior testing method dictionary": {
+            "id": "Behavior testing method dictionary",
+            "color": "#DA0C0F",
+            "label": "Behavior testing method dictionary"
+        },
+        "Behavior instance creation": {
+            "id": "Behavior instance creation",
+            "color": "#DA0C0F",
+            "label": "Behavior instance creation"
+        },
+        "WorldState canvas": {
+            "id": "WorldState canvas",
+            "color": "#DA0C0F",
+            "label": "WorldState canvas"
+        },
+        "ProcessorScheduler accessing": {
+            "id": "ProcessorScheduler accessing",
+            "color": "#694F2C",
+            "label": "ProcessorScheduler accessing"
+        },
+        "PositionableStream private": {
+            "id": "PositionableStream private",
+            "color": "#A88573",
+            "label": "PositionableStream private"
+        },
+        "BorderStyle instance creation": {
+            "id": "BorderStyle instance creation",
+            "color": "#DA0C0F",
+            "label": "BorderStyle instance creation"
+        },
+        "Morph geometry": {
+            "id": "Morph geometry",
+            "color": "#DA0C0F",
+            "label": "Morph geometry"
+        },
+        "PositionableStream instance creation": {
+            "id": "PositionableStream instance creation",
+            "color": "#A88573",
+            "label": "PositionableStream instance creation"
+        },
+        "Process accessing": {
+            "id": "Process accessing",
+            "color": "#694F2C",
+            "label": "Process accessing"
+        },
+        "Point point functions": {
+            "id": "Point point functions",
+            "color": "#C9CC8E",
+            "label": "Point point functions"
+        },
+        "WriteStream private": {
+            "id": "WriteStream private",
+            "color": "#A88573",
+            "label": "WriteStream private"
+        },
+        "MethodDictionary private": {
+            "id": "MethodDictionary private",
+            "color": "#694F2C",
+            "label": "MethodDictionary private"
+        },
+        "PasteUpMorph change reporting": {
+            "id": "PasteUpMorph change reporting",
+            "color": "#DA0C0F",
+            "label": "PasteUpMorph change reporting"
+        },
+        "PasteUpMorph layout": {
+            "id": "PasteUpMorph layout",
+            "color": "#DA0C0F",
+            "label": "PasteUpMorph layout"
+        },
+        "Number testing": {
+            "id": "Number testing",
+            "color": "#694F2C",
+            "label": "Number testing"
+        },
+        "Morph initialization": {
+            "id": "Morph initialization",
+            "color": "#DA0C0F",
+            "label": "Morph initialization"
+        },
+        "Morph layout": {
+            "id": "Morph layout",
+            "color": "#DA0C0F",
+            "label": "Morph layout"
+        },
+        "DockingBarMorph accessing": {
+            "id": "DockingBarMorph accessing",
+            "color": "#DA0C0F",
+            "label": "DockingBarMorph accessing"
+        },
+        "Point comparing": {
+            "id": "Point comparing",
+            "color": "#C9CC8E",
+            "label": "Point comparing"
+        },
+        "Morph accessing": {
+            "id": "Morph accessing",
+            "color": "#DA0C0F",
+            "label": "Morph accessing"
+        },
+        "Morph stepping and presenter": {
+            "id": "Morph stepping and presenter",
+            "color": "#DA0C0F",
+            "label": "Morph stepping and presenter"
+        },
+        "Object *Morphic-Kernel-accessing": {
+            "id": "Object *Morphic-Kernel-accessing",
+            "color": "#DA0C0F",
+            "label": "Object *Morphic-Kernel-accessing"
+        },
+        "Rectangle accessing": {
+            "id": "Rectangle accessing",
+            "color": "#C9CC8E",
+            "label": "Rectangle accessing"
+        },
+        "Rectangle testing": {
+            "id": "Rectangle testing",
+            "color": "#C9CC8E",
+            "label": "Rectangle testing"
+        },
+        "Dictionary accessing": {
+            "id": "Dictionary accessing",
+            "color": "#A88573",
+            "label": "Dictionary accessing"
+        },
+        "Morph parts bin": {
+            "id": "Morph parts bin",
+            "color": "#DA0C0F",
+            "label": "Morph parts bin"
+        },
+        "Morph submorphs - layers": {
+            "id": "Morph submorphs - layers",
+            "color": "#DA0C0F",
+            "label": "Morph submorphs - layers"
+        },
+        "Morph submorphs - enumerating": {
+            "id": "Morph submorphs - enumerating",
+            "color": "#DA0C0F",
+            "label": "Morph submorphs - enumerating"
+        },
+        "Magnitude testing": {
+            "id": "Magnitude testing",
+            "color": "#694F2C",
+            "label": "Magnitude testing"
+        },
+        "Exception exceptionSelector": {
+            "id": "Exception exceptionSelector",
+            "color": "#694F2C",
+            "label": "Exception exceptionSelector"
+        },
+        "WriteStream accessing": {
+            "id": "WriteStream accessing",
+            "color": "#A88573",
+            "label": "WriteStream accessing"
+        },
+        "Morph accessing - extension": {
+            "id": "Morph accessing - extension",
+            "color": "#DA0C0F",
+            "label": "Morph accessing - extension"
+        },
+        "HashedCollection private": {
+            "id": "HashedCollection private",
+            "color": "#A88573",
+            "label": "HashedCollection private"
+        },
+        "Rectangle instance creation": {
+            "id": "Rectangle instance creation",
+            "color": "#C9CC8E",
+            "label": "Rectangle instance creation"
+        },
+        "Collection testing": {
+            "id": "Collection testing",
+            "color": "#A88573",
+            "label": "Collection testing"
+        },
+        "ArrayedCollection testing": {
+            "id": "ArrayedCollection testing",
+            "color": "#A88573",
+            "label": "ArrayedCollection testing"
+        },
+        "MorphExtension accessing - layout properties": {
+            "id": "MorphExtension accessing - layout properties",
+            "color": "#DA0C0F",
+            "label": "MorphExtension accessing - layout properties"
+        },
+        "Process process specific": {
+            "id": "Process process specific",
+            "color": "#694F2C",
+            "label": "Process process specific"
+        },
+        "BlockClosure controlling": {
+            "id": "BlockClosure controlling",
+            "color": "#694F2C",
+            "label": "BlockClosure controlling"
+        },
+        "Morph private": {
+            "id": "Morph private",
+            "color": "#DA0C0F",
+            "label": "Morph private"
+        },
+        "DockingBarMorph private - accessing": {
+            "id": "DockingBarMorph private - accessing",
+            "color": "#DA0C0F",
+            "label": "DockingBarMorph private - accessing"
+        },
+        "Morph layer names": {
+            "id": "Morph layer names",
+            "color": "#DA0C0F",
+            "label": "Morph layer names"
+        },
+        "Morph structure": {
+            "id": "Morph structure",
+            "color": "#DA0C0F",
+            "label": "Morph structure"
+        },
+        "Number converting": {
+            "id": "Number converting",
+            "color": "#694F2C",
+            "label": "Number converting"
+        },
+        "Dictionary private": {
+            "id": "Dictionary private",
+            "color": "#A88573",
+            "label": "Dictionary private"
+        },
+        "Morph submorphs - callbacks": {
+            "id": "Morph submorphs - callbacks",
+            "color": "#DA0C0F",
+            "label": "Morph submorphs - callbacks"
+        },
+        "OrderedCollection enumerating": {
+            "id": "OrderedCollection enumerating",
+            "color": "#A88573",
+            "label": "OrderedCollection enumerating"
+        },
+        "MorphExtension initialization": {
+            "id": "MorphExtension initialization",
+            "color": "#DA0C0F",
+            "label": "MorphExtension initialization"
+        },
+        "Point arithmetic": {
+            "id": "Point arithmetic",
+            "color": "#C9CC8E",
+            "label": "Point arithmetic"
+        },
+        "Morph submorphs - misc": {
+            "id": "Morph submorphs - misc",
+            "color": "#DA0C0F",
+            "label": "Morph submorphs - misc"
+        },
+        "OrderedCollection instance creation": {
+            "id": "OrderedCollection instance creation",
+            "color": "#A88573",
+            "label": "OrderedCollection instance creation"
+        },
+        "HashedCollection instance creation": {
+            "id": "HashedCollection instance creation",
+            "color": "#A88573",
+            "label": "HashedCollection instance creation"
+        },
+        "Morph change reporting": {
+            "id": "Morph change reporting",
+            "color": "#DA0C0F",
+            "label": "Morph change reporting"
+        },
+        "Morph geometry - layout": {
+            "id": "Morph geometry - layout",
+            "color": "#DA0C0F",
+            "label": "Morph geometry - layout"
+        },
+        "Behavior accessing": {
+            "id": "Behavior accessing",
+            "color": "#DA0C0F",
+            "label": "Behavior accessing"
+        },
+        "Object comparing": {
+            "id": "Object comparing",
+            "color": "#DA0C0F",
+            "label": "Object comparing"
+        },
+        "Morph visual properties": {
+            "id": "Morph visual properties",
+            "color": "#DA0C0F",
+            "label": "Morph visual properties"
+        },
+        "Point truncation and round off": {
+            "id": "Point truncation and round off",
+            "color": "#C9CC8E",
+            "label": "Point truncation and round off"
+        },
+        "Rectangle transforming": {
+            "id": "Rectangle transforming",
+            "color": "#C9CC8E",
+            "label": "Rectangle transforming"
+        },
+        "Rectangle private": {
+            "id": "Rectangle private",
+            "color": "#C9CC8E",
+            "label": "Rectangle private"
+        },
+        "OrderedCollection removing": {
+            "id": "OrderedCollection removing",
+            "color": "#A88573",
+            "label": "OrderedCollection removing"
+        },
+        "OrderedCollection private": {
+            "id": "OrderedCollection private",
+            "color": "#A88573",
+            "label": "OrderedCollection private"
+        },
+        "Morph layout properties": {
+            "id": "Morph layout properties",
+            "color": "#DA0C0F",
+            "label": "Morph layout properties"
+        },
+        "Morph updating": {
+            "id": "Morph updating",
+            "color": "#DA0C0F",
+            "label": "Morph updating"
+        },
+        "ArrayedCollection instance creation": {
+            "id": "ArrayedCollection instance creation",
+            "color": "#A88573",
+            "label": "ArrayedCollection instance creation"
+        },
+        "PasteUpMorph world state": {
+            "id": "PasteUpMorph world state",
+            "color": "#DA0C0F",
+            "label": "PasteUpMorph world state"
+        },
+        "DockingBarMorph submorphs - layers": {
+            "id": "DockingBarMorph submorphs - layers",
+            "color": "#DA0C0F",
+            "label": "DockingBarMorph submorphs - layers"
+        },
+        "ExceptionSet exceptionSelector": {
+            "id": "ExceptionSet exceptionSelector",
+            "color": "#694F2C",
+            "label": "ExceptionSet exceptionSelector"
+        },
+        "Morph drawing": {
+            "id": "Morph drawing",
+            "color": "#DA0C0F",
+            "label": "Morph drawing"
+        },
+        "Association accessing": {
+            "id": "Association accessing",
+            "color": "#A88573",
+            "label": "Association accessing"
+        },
+        "Morph submorphs - testing": {
+            "id": "Morph submorphs - testing",
+            "color": "#DA0C0F",
+            "label": "Morph submorphs - testing"
+        },
+        "ProtoObject comparing": {
+            "id": "ProtoObject comparing",
+            "color": "#A88573",
+            "label": "ProtoObject comparing"
+        },
+        "SequenceableCollection copying": {
+            "id": "SequenceableCollection copying",
+            "color": "#A88573",
+            "label": "SequenceableCollection copying"
+        },
+        "Morph submorphs - add\/remove": {
+            "id": "Morph submorphs - add\/remove",
+            "color": "#DA0C0F",
+            "label": "Morph submorphs - add\/remove"
+        },
+        "Color named colors": {
+            "id": "Color named colors",
+            "color": "#C9CC8E",
+            "label": "Color named colors"
+        },
+        "ExceptionSet private": {
+            "id": "ExceptionSet private",
+            "color": "#694F2C",
+            "label": "ExceptionSet private"
+        },
+        "Morph drop shadows": {
+            "id": "Morph drop shadows",
+            "color": "#DA0C0F",
+            "label": "Morph drop shadows"
+        },
+        "Array instance creation": {
+            "id": "Array instance creation",
+            "color": "#A88573",
+            "label": "Array instance creation"
+        },
+        "Array private": {
+            "id": "Array private",
+            "color": "#A88573",
+            "label": "Array private"
+        },
+        "MorphExtension accessing - other properties": {
+            "id": "MorphExtension accessing - other properties",
+            "color": "#DA0C0F",
+            "label": "MorphExtension accessing - other properties"
+        },
+        "ProcessSpecificVariable accessing": {
+            "id": "ProcessSpecificVariable accessing",
+            "color": "#DA0C0F",
+            "label": "ProcessSpecificVariable accessing"
+        },
+        "BlockClosure exceptions": {
+            "id": "BlockClosure exceptions",
+            "color": "#694F2C",
+            "label": "BlockClosure exceptions"
+        },
+        "ProtoObject debugging": {
+            "id": "ProtoObject debugging",
+            "color": "#DA0C0F",
+            "label": "ProtoObject debugging"
+        },
+        "OrderedCollection accessing": {
+            "id": "OrderedCollection accessing",
+            "color": "#A88573",
+            "label": "OrderedCollection accessing"
+        },
+        "DamageRecorder recording": {
+            "id": "DamageRecorder recording",
+            "color": "#DA0C0F",
+            "label": "DamageRecorder recording"
+        }
+    },
+    "edges": [
+        {
+            "weight": 1,
+            "sender": "PasteUpMorph submorphs - add\/remove",
+            "receiver": "Morph submorphs - layers"
+        },
+        {
+            "weight": 1,
+            "sender": "HMCodeSnippetStorage scenarios",
+            "receiver": "Behavior instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "HMCodeSnippetStorage scenarios",
+            "receiver": "Morph initialization"
+        },
+        {
+            "weight": 2,
+            "sender": "Point converting to rectangle",
+            "receiver": "Rectangle instance creation"
+        },
+        {
+            "weight": 2,
+            "sender": "WriteStream positioning",
+            "receiver": "Magnitude testing"
+        },
+        {
+            "weight": 3,
+            "sender": "OrderedCollection adding",
+            "receiver": "OrderedCollection adding"
+        },
+        {
+            "weight": 18,
+            "sender": "IdentityDictionary private",
+            "receiver": "ProtoObject comparing"
+        },
+        {
+            "weight": 1,
+            "sender": "Association instance creation",
+            "receiver": "Association accessing"
+        },
+        {
+            "weight": 30,
+            "sender": "SequenceableCollection enumerating",
+            "receiver": "Morph submorphs - misc"
+        },
+        {
+            "weight": 2,
+            "sender": "SequenceableCollection enumerating",
+            "receiver": "Morph submorphs - layers"
+        },
+        {
+            "weight": 2,
+            "sender": "SequenceableCollection enumerating",
+            "receiver": "PositionableStream instance creation"
+        },
+        {
+            "weight": 2,
+            "sender": "SequenceableCollection enumerating",
+            "receiver": "Morph accessing"
+        },
+        {
+            "weight": 4,
+            "sender": "SequenceableCollection enumerating",
+            "receiver": "WriteStream accessing"
+        },
+        {
+            "weight": 6,
+            "sender": "Rectangle rectangle functions",
+            "receiver": "Rectangle instance creation"
+        },
+        {
+            "weight": 4,
+            "sender": "Rectangle rectangle functions",
+            "receiver": "Point arithmetic"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph accessing - properties",
+            "receiver": "Morph submorphs - layers"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph accessing - properties",
+            "receiver": "Morph visual properties"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph accessing - properties",
+            "receiver": "Morph accessing - extension"
+        },
+        {
+            "weight": 16,
+            "sender": "Morph accessing - properties",
+            "receiver": "MorphExtension accessing - other properties"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph accessing - properties",
+            "receiver": "Morph drop shadows"
+        },
+        {
+            "weight": 1,
+            "sender": "Dictionary testing",
+            "receiver": "MethodDictionary private"
+        },
+        {
+            "weight": 1,
+            "sender": "Behavior testing method dictionary",
+            "receiver": "Dictionary testing"
+        },
+        {
+            "weight": 1,
+            "sender": "Behavior testing method dictionary",
+            "receiver": "Behavior accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "Behavior instance creation",
+            "receiver": "ExceptionSet private"
+        },
+        {
+            "weight": 1,
+            "sender": "Behavior instance creation",
+            "receiver": "MorphExtension initialization"
+        },
+        {
+            "weight": 1,
+            "sender": "Behavior instance creation",
+            "receiver": "Morph initialization"
+        },
+        {
+            "weight": 1,
+            "sender": "WorldState canvas",
+            "receiver": "DamageRecorder recording"
+        },
+        {
+            "weight": 1,
+            "sender": "WorldState canvas",
+            "receiver": "Rectangle truncation and round off"
+        },
+        {
+            "weight": 1,
+            "sender": "ProcessorScheduler accessing",
+            "receiver": "Process accessing"
+        },
+        {
+            "weight": 2,
+            "sender": "PositionableStream private",
+            "receiver": "WriteStream positioning"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph geometry",
+            "receiver": "Point arithmetic"
+        },
+        {
+            "weight": 12,
+            "sender": "Morph geometry",
+            "receiver": "Rectangle accessing"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph geometry",
+            "receiver": "Morph change reporting"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph geometry",
+            "receiver": "Morph geometry - layout"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph geometry",
+            "receiver": "Rectangle transforming"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph geometry",
+            "receiver": "Morph private"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph geometry",
+            "receiver": "Point point functions"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph geometry",
+            "receiver": "Point truncation and round off"
+        },
+        {
+            "weight": 2,
+            "sender": "PositionableStream instance creation",
+            "receiver": "WriteStream private"
+        },
+        {
+            "weight": 2,
+            "sender": "WriteStream private",
+            "receiver": "PositionableStream private"
+        },
+        {
+            "weight": 1,
+            "sender": "PasteUpMorph layout",
+            "receiver": "Morph layout"
+        },
+        {
+            "weight": 1,
+            "sender": "PasteUpMorph layout",
+            "receiver": "Morph accessing - properties"
+        },
+        {
+            "weight": 1,
+            "sender": "PasteUpMorph change reporting",
+            "receiver": "WorldState canvas"
+        },
+        {
+            "weight": 1,
+            "sender": "PasteUpMorph change reporting",
+            "receiver": "PasteUpMorph classification"
+        },
+        {
+            "weight": 1,
+            "sender": "PasteUpMorph change reporting",
+            "receiver": "Morph change reporting"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph initialization",
+            "receiver": "Color named colors"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph initialization",
+            "receiver": "Morph submorphs - add\/remove"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph initialization",
+            "receiver": "Array instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph initialization",
+            "receiver": "Object *Morphic-Kernel-accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph initialization",
+            "receiver": "Point comparing"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph initialization",
+            "receiver": "Point converting to rectangle"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph initialization",
+            "receiver": "Morph geometry"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph initialization",
+            "receiver": "PasteUpMorph world state"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph initialization",
+            "receiver": "Object comparing"
+        },
+        {
+            "weight": 3,
+            "sender": "Morph initialization",
+            "receiver": "Morph initialization"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph initialization",
+            "receiver": "Morph accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph layout",
+            "receiver": "ExceptionSet exceptionSelector"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph layout",
+            "receiver": "Morph geometry - layout"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph layout",
+            "receiver": "Exception exceptionSelector"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph layout",
+            "receiver": "Morph layout properties"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph layout",
+            "receiver": "Morph submorphs - testing"
+        },
+        {
+            "weight": 3,
+            "sender": "Morph layout",
+            "receiver": "Morph layout"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph layout",
+            "receiver": "BlockClosure exceptions"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph layout",
+            "receiver": "BlockClosure controlling"
+        },
+        {
+            "weight": 8,
+            "sender": "DockingBarMorph accessing",
+            "receiver": "DockingBarMorph private - accessing"
+        },
+        {
+            "weight": 2,
+            "sender": "Point comparing",
+            "receiver": "Object comparing"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph accessing",
+            "receiver": "Morph accessing"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph accessing",
+            "receiver": "Morph accessing - properties"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph accessing",
+            "receiver": "Morph submorphs - misc"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph accessing",
+            "receiver": "Rectangle instance creation"
+        },
+        {
+            "weight": 8,
+            "sender": "Morph accessing",
+            "receiver": "DockingBarMorph accessing"
+        },
+        {
+            "weight": 12,
+            "sender": "Morph accessing",
+            "receiver": "Morph geometry"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph accessing",
+            "receiver": "Rectangle rectangle functions"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph accessing",
+            "receiver": "SequenceableCollection enumerating"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph accessing",
+            "receiver": "PasteUpMorph project state"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph accessing",
+            "receiver": "BorderStyle instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph stepping and presenter",
+            "receiver": "Morph parts bin"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph stepping and presenter",
+            "receiver": "Behavior testing method dictionary"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph stepping and presenter",
+            "receiver": "Morph accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph stepping and presenter",
+            "receiver": "Object comparing"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph stepping and presenter",
+            "receiver": "Morph structure"
+        },
+        {
+            "weight": 1,
+            "sender": "Object *Morphic-Kernel-accessing",
+            "receiver": "ProcessSpecificVariable accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "Rectangle accessing",
+            "receiver": "Rectangle accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "Dictionary accessing",
+            "receiver": "Dictionary private"
+        },
+        {
+            "weight": 1,
+            "sender": "Dictionary accessing",
+            "receiver": "DockingBarMorph submorphs - layers"
+        },
+        {
+            "weight": 1,
+            "sender": "Dictionary accessing",
+            "receiver": "Morph accessing"
+        },
+        {
+            "weight": 18,
+            "sender": "Dictionary accessing",
+            "receiver": "IdentityDictionary private"
+        },
+        {
+            "weight": 2,
+            "sender": "Dictionary accessing",
+            "receiver": "Morph drop shadows"
+        },
+        {
+            "weight": 1,
+            "sender": "Dictionary accessing",
+            "receiver": "Association instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "Dictionary accessing",
+            "receiver": "HashedCollection private"
+        },
+        {
+            "weight": 5,
+            "sender": "Dictionary accessing",
+            "receiver": "Dictionary accessing"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph submorphs - layers",
+            "receiver": "Morph submorphs - layers"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph submorphs - layers",
+            "receiver": "Morph accessing - properties"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph submorphs - layers",
+            "receiver": "DockingBarMorph submorphs - layers"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph submorphs - layers",
+            "receiver": "Morph layer names"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph submorphs - layers",
+            "receiver": "Morph private"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph submorphs - layers",
+            "receiver": "SequenceableCollection enumerating"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph submorphs - layers",
+            "receiver": "Morph structure"
+        },
+        {
+            "weight": 2,
+            "sender": "Exception exceptionSelector",
+            "receiver": "ExceptionSet private"
+        },
+        {
+            "weight": 1,
+            "sender": "Exception exceptionSelector",
+            "receiver": "Behavior instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph submorphs - enumerating",
+            "receiver": "SequenceableCollection enumerating"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph accessing - extension",
+            "receiver": "Behavior instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph accessing - extension",
+            "receiver": "Morph accessing - extension"
+        },
+        {
+            "weight": 2,
+            "sender": "WriteStream accessing",
+            "receiver": "SequenceableCollection copying"
+        },
+        {
+            "weight": 2,
+            "sender": "WriteStream accessing",
+            "receiver": "Magnitude testing"
+        },
+        {
+            "weight": 1,
+            "sender": "HashedCollection private",
+            "receiver": "HashedCollection private"
+        },
+        {
+            "weight": 12,
+            "sender": "Rectangle instance creation",
+            "receiver": "Rectangle private"
+        },
+        {
+            "weight": 1,
+            "sender": "Collection testing",
+            "receiver": "ArrayedCollection testing"
+        },
+        {
+            "weight": 1,
+            "sender": "MorphExtension accessing - layout properties",
+            "receiver": "MorphExtension accessing - other properties"
+        },
+        {
+            "weight": 4,
+            "sender": "Number converting",
+            "receiver": "Point arithmetic"
+        },
+        {
+            "weight": 1,
+            "sender": "Process process specific",
+            "receiver": "Dictionary accessing"
+        },
+        {
+            "weight": 3,
+            "sender": "BlockClosure controlling",
+            "receiver": "Morph layout"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph private",
+            "receiver": "Morph private"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph private",
+            "receiver": "Morph change reporting"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph private",
+            "receiver": "PasteUpMorph structure"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph private",
+            "receiver": "Morph submorphs - callbacks"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph private",
+            "receiver": "Morph structure"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph private",
+            "receiver": "PasteUpMorph layout"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph private",
+            "receiver": "Rectangle transforming"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph private",
+            "receiver": "Morph visual properties"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph private",
+            "receiver": "ArrayedCollection instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph private",
+            "receiver": "SequenceableCollection copying"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph private",
+            "receiver": "Morph accessing"
+        },
+        {
+            "weight": 4,
+            "sender": "Morph layer names",
+            "receiver": "Morph layer names"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph structure",
+            "receiver": "Morph structure"
+        },
+        {
+            "weight": 8,
+            "sender": "DockingBarMorph private - accessing",
+            "receiver": "Morph accessing - properties"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph submorphs - callbacks",
+            "receiver": "Morph submorphs - enumerating"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph submorphs - callbacks",
+            "receiver": "Morph stepping and presenter"
+        },
+        {
+            "weight": 1,
+            "sender": "Dictionary private",
+            "receiver": "Object comparing"
+        },
+        {
+            "weight": 1,
+            "sender": "Dictionary private",
+            "receiver": "ProcessSpecificVariable accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "OrderedCollection enumerating",
+            "receiver": "DamageRecorder recording"
+        },
+        {
+            "weight": 4,
+            "sender": "Point arithmetic",
+            "receiver": "Number converting"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph submorphs - misc",
+            "receiver": "SequenceableCollection enumerating"
+        },
+        {
+            "weight": 1,
+            "sender": "OrderedCollection instance creation",
+            "receiver": "OrderedCollection instance creation"
+        },
+        {
+            "weight": 2,
+            "sender": "OrderedCollection instance creation",
+            "receiver": "OrderedCollection private"
+        },
+        {
+            "weight": 1,
+            "sender": "HashedCollection instance creation",
+            "receiver": "HashedCollection private"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph change reporting",
+            "receiver": "Morph updating"
+        },
+        {
+            "weight": 6,
+            "sender": "Morph change reporting",
+            "receiver": "Morph drawing"
+        },
+        {
+            "weight": 4,
+            "sender": "Morph change reporting",
+            "receiver": "Rectangle testing"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph change reporting",
+            "receiver": "Morph layout"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph change reporting",
+            "receiver": "PasteUpMorph change reporting"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph change reporting",
+            "receiver": "Rectangle rectangle functions"
+        },
+        {
+            "weight": 3,
+            "sender": "Morph change reporting",
+            "receiver": "Morph change reporting"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph geometry - layout",
+            "receiver": "BorderStyle accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph geometry - layout",
+            "receiver": "Morph geometry - layout"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph geometry - layout",
+            "receiver": "Morph layout properties"
+        },
+        {
+            "weight": 4,
+            "sender": "Morph geometry - layout",
+            "receiver": "Morph drop shadows"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph geometry - layout",
+            "receiver": "Morph accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph geometry - layout",
+            "receiver": "Number testing"
+        },
+        {
+            "weight": 2,
+            "sender": "Morph geometry - layout",
+            "receiver": "Rectangle rectangle functions"
+        },
+        {
+            "weight": 1,
+            "sender": "Object comparing",
+            "receiver": "Object comparing"
+        },
+        {
+            "weight": 1,
+            "sender": "Object comparing",
+            "receiver": "Point comparing"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph visual properties",
+            "receiver": "Morph accessing - properties"
+        },
+        {
+            "weight": 2,
+            "sender": "Rectangle transforming",
+            "receiver": "Rectangle instance creation"
+        },
+        {
+            "weight": 4,
+            "sender": "Rectangle transforming",
+            "receiver": "Point arithmetic"
+        },
+        {
+            "weight": 1,
+            "sender": "OrderedCollection removing",
+            "receiver": "OrderedCollection removing"
+        },
+        {
+            "weight": 1,
+            "sender": "OrderedCollection private",
+            "receiver": "OrderedCollection removing"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph layout properties",
+            "receiver": "Morph layout properties"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph layout properties",
+            "receiver": "MorphExtension accessing - layout properties"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph updating",
+            "receiver": "Morph change reporting"
+        },
+        {
+            "weight": 1,
+            "sender": "PasteUpMorph world state",
+            "receiver": "ProtoObject debugging"
+        },
+        {
+            "weight": 1,
+            "sender": "DockingBarMorph submorphs - layers",
+            "receiver": "Morph accessing - properties"
+        },
+        {
+            "weight": 1,
+            "sender": "DockingBarMorph submorphs - layers",
+            "receiver": "Morph layer names"
+        },
+        {
+            "weight": 1,
+            "sender": "ExceptionSet exceptionSelector",
+            "receiver": "ExceptionSet private"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph drawing",
+            "receiver": "Morph geometry - layout"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph drawing",
+            "receiver": "Morph accessing - properties"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph submorphs - testing",
+            "receiver": "Collection testing"
+        },
+        {
+            "weight": 5,
+            "sender": "SequenceableCollection copying",
+            "receiver": "Array private"
+        },
+        {
+            "weight": 1,
+            "sender": "Morph submorphs - add\/remove",
+            "receiver": "PasteUpMorph submorphs - add\/remove"
+        },
+        {
+            "weight": 1,
+            "sender": "ExceptionSet private",
+            "receiver": "OrderedCollection instance creation"
+        },
+        {
+            "weight": 3,
+            "sender": "ExceptionSet private",
+            "receiver": "OrderedCollection adding"
+        },
+        {
+            "weight": 4,
+            "sender": "Morph drop shadows",
+            "receiver": "Morph accessing - properties"
+        },
+        {
+            "weight": 5,
+            "sender": "Array private",
+            "receiver": "SequenceableCollection accessing"
+        },
+        {
+            "weight": 3,
+            "sender": "MorphExtension accessing - other properties",
+            "receiver": "MorphExtension accessing - other properties"
+        },
+        {
+            "weight": 17,
+            "sender": "MorphExtension accessing - other properties",
+            "receiver": "Dictionary accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "MorphExtension accessing - other properties",
+            "receiver": "HashedCollection instance creation"
+        },
+        {
+            "weight": 1,
+            "sender": "ProcessSpecificVariable accessing",
+            "receiver": "ProcessorScheduler accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "ProcessSpecificVariable accessing",
+            "receiver": "Process process specific"
+        },
+        {
+            "weight": 1,
+            "sender": "BlockClosure exceptions",
+            "receiver": "Morph layout"
+        },
+        {
+            "weight": 1,
+            "sender": "DamageRecorder recording",
+            "receiver": "Point converting to rectangle"
+        },
+        {
+            "weight": 1,
+            "sender": "DamageRecorder recording",
+            "receiver": "Rectangle accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "DamageRecorder recording",
+            "receiver": "OrderedCollection accessing"
+        },
+        {
+            "weight": 1,
+            "sender": "DamageRecorder recording",
+            "receiver": "OrderedCollection adding"
+        },
+        {
+            "weight": 1,
+            "sender": "DamageRecorder recording",
+            "receiver": "OrderedCollection enumerating"
+        },
+        {
+            "weight": 1,
+            "sender": "DamageRecorder recording",
+            "receiver": "Rectangle rectangle functions"
+        },
+        {
+            "weight": 2,
+            "sender": "DamageRecorder recording",
+            "receiver": "Point truncation and round off"
+        }
+    ]
+}
