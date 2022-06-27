@@ -6,6 +6,6 @@ communicatorMethodCategoryGraphFromCursor: aTDBCursor
 	parser := self 
 		newWithIdExtractionBlock: self communicatorClassAndMethodCategoryExtractionBlock 
 		labelExtractionBlock: self communicatorClassAndMethodCategoryExtractionBlock
-		colorLabelExtractionBlock: self packageExtractionBlock.
+		colorLabelExtractionBlock: self methodPackageExtractionBlock.
 
 	^ parser methodBasedGraphFromCursor: aTDBCursor

@@ -1,13 +1,15 @@
 scenarios
 doAllTraces
-
+	
 	| traceMethods |
-
+	
 	traceMethods := self class methodDict values
 				select: [:method | method hasPragma: #scenario].
-
+	
 	traceMethods
-		do: [:traceMethod | | cursor |
+		do: [:traceMethod | 
+			| cursor |
+			
 			cursor := traceMethod valueWithReceiver: self arguments: {}.
 			
 			(HMTraceParser communicatorGraphFromCursor: cursor)
