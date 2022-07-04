@@ -29,6 +29,11 @@
 
     <br />
 
+    <label for="checkbox_count_self_sends">Use self sends as edges:</label>
+    <input id="checkbox_count_self_sends" name="checkbox_count_self_sends" type="checkbox">
+
+    <br />
+
     <label for="checkbox_show_edges">Show graph edges:</label>
     <input id="checkbox_show_edges" name="checkbox_show_edges" type="checkbox">
 
@@ -71,6 +76,7 @@
 
         function runSimulationWithData(
             data,
+            count_self_sends = false,
             show_edges = false,
             node_size_calculation_method,
             onSimulationFinished = () => { }) 
@@ -87,7 +93,7 @@
                 .append("g")
 
             const { nodes, nodeMap } = createNodes(data);
-            const links = createLinks(nodeMap, data);
+            const links = createLinks(nodeMap, data, count_self_sends);
             
             setSizeByEdges(nodes, links, node_size_calculation_method)
 
@@ -147,15 +153,17 @@
             }
         }
 
-        function createLinks(nodeMap, data) {
+        function createLinks(nodeMap, data, count_self_sends) {
             const links = []
 
             data.edges.forEach(edge => {
-                links.push({
-                    source: nodeMap[edge['sender']]['index'],
-                    target: nodeMap[edge['receiver']]['index'],
-                    strength: edge['weight']
-                })
+                if (count_self_sends || edge['sender'] !== edge['receiver']) {
+                    links.push({
+                        source: nodeMap[edge['sender']]['index'],
+                        target: nodeMap[edge['receiver']]['index'],
+                        strength: edge['weight']
+                    })
+                }
             })
 
             return links
@@ -247,11 +255,12 @@
         const container = document.getElementById("container");
 
         const dataset_file_input = document.getElementById("input-file-dataset");
+        const count_self_sends_checkbox = document.getElementById("checkbox_count_self_sends");
         const edge_checkbox = document.getElementById("checkbox_show_edges");
         const select_node_size_calculation = document.getElementById("select_node_size_calculation");
         const button = document.getElementById("button-confirm");
 
-        const ui_elements = [dataset_file_input, edge_checkbox, select_node_size_calculation, button];
+        const ui_elements = [dataset_file_input, count_self_sends_checkbox, edge_checkbox, select_node_size_calculation, button];
 
 
         button.addEventListener("click", async () => {
@@ -271,6 +280,7 @@
                 ui_elements.forEach(element => element.disabled = true);
                 runSimulationWithData(
                     await load_json(dataset_file_input.files[0]),
+                    count_self_sends_checkbox.checked,
                     edge_checkbox.checked,
                     node_size_calculation_method,
                     () => { ui_elements.forEach(element => element.disabled = false); }
