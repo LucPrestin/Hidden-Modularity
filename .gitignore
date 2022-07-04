@@ -31,3 +31,4 @@ SqueakDebug.log
 github-*.zip
 
 /visualizations/node_modules
+/visualizations/assets/css/dist
