@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Visualization of Message Graphs using a Force Simulation</title>
+        <link rel="stylesheet" type="text/css" href="/assets/css/dist/main.css" />
+    </head>
+
+    <body>
+        <h1>Visualization of Message Graphs using a Force Simulation</h1>
+
+        <label for="input-file-dataset">Choose a dataset:</label>
+        <input type="file" id="input-file-dataset" , name="select-dataset" accept=".json" />
+
+        <br />
+
+        <label for="checkbox_count_self_sends">Use self sends as edges:</label>
+        <input id="checkbox_count_self_sends" name="checkbox_count_self_sends" type="checkbox" />
+
+        <br />
+
+        <label for="checkbox_show_edges">Show graph edges:</label>
+        <input id="checkbox_show_edges" name="checkbox_show_edges" type="checkbox" />
+
+        <br />
+
+        <label for="select_node_size_calculation">Calculate node size by:</label>
+        <select id="select_node_size_calculation">
+            <option disabled selected>-- select a calculation methode --</option>
+            <option value="None">Don't differ node sizes</option>
+            <option value="incoming edges">Incoming edges</option>
+            <option value="outgoing edges">Outgoing edges</option>
+            <option value="all edges">All edges</option>
+        </select>
+
+        <br />
+
+        <button id="button-confirm">Confirm</button>
+
+        <div id="container" class="svg-container"></div>
+
+        <script type="module" src="/assets/js/messageGraph.js"></script>
+    </body>
+</html>

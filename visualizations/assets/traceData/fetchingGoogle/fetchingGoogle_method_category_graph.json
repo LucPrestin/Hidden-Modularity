@@ -195,10 +195,10 @@
             "color": "#694F2C",
             "label": "lookups"
         },
-        "connection open\/close": {
-            "id": "connection open\/close",
+        "connection open/close": {
+            "id": "connection open/close",
             "color": "#694F2C",
-            "label": "connection open\/close"
+            "label": "connection open/close"
         },
         "private-compat": {
             "id": "private-compat",
@@ -760,7 +760,7 @@
         {
             "weight": 2,
             "sender": "instance creation",
-            "receiver": "connection open\/close"
+            "receiver": "connection open/close"
         },
         {
             "weight": 248,
@@ -1534,32 +1534,32 @@
         },
         {
             "weight": 4,
-            "sender": "connection open\/close",
+            "sender": "connection open/close",
             "receiver": "initialize-destroy"
         },
         {
             "weight": 4,
-            "sender": "connection open\/close",
+            "sender": "connection open/close",
             "receiver": "private"
         },
         {
             "weight": 6,
-            "sender": "connection open\/close",
-            "receiver": "connection open\/close"
+            "sender": "connection open/close",
+            "receiver": "connection open/close"
         },
         {
             "weight": 4,
-            "sender": "connection open\/close",
+            "sender": "connection open/close",
             "receiver": "waiting"
         },
         {
             "weight": 2,
-            "sender": "connection open\/close",
+            "sender": "connection open/close",
             "receiver": "utilities"
         },
         {
             "weight": 2,
-            "sender": "connection open\/close",
+            "sender": "connection open/close",
             "receiver": "queries"
         },
         {
@@ -2820,7 +2820,7 @@
         {
             "weight": 2,
             "sender": "control",
-            "receiver": "connection open\/close"
+            "receiver": "connection open/close"
         },
         {
             "weight": 90,

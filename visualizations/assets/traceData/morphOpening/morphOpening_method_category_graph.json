@@ -100,10 +100,10 @@
             "color": "#694F2C",
             "label": "layout properties"
         },
-        "submorphs - add\/remove": {
-            "id": "submorphs - add\/remove",
+        "submorphs - add/remove": {
+            "id": "submorphs - add/remove",
             "color": "#694F2C",
-            "label": "submorphs - add\/remove"
+            "label": "submorphs - add/remove"
         },
         "canvas": {
             "id": "canvas",
@@ -634,13 +634,13 @@
         },
         {
             "weight": 1,
-            "sender": "submorphs - add\/remove",
+            "sender": "submorphs - add/remove",
             "receiver": "submorphs - layers"
         },
         {
             "weight": 1,
-            "sender": "submorphs - add\/remove",
-            "receiver": "submorphs - add\/remove"
+            "sender": "submorphs - add/remove",
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 1,
@@ -675,7 +675,7 @@
         {
             "weight": 1,
             "sender": "initialization",
-            "receiver": "submorphs - add\/remove"
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 3,

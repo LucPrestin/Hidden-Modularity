@@ -5,10 +5,10 @@
             "color": "#DA0C0F",
             "label": "PasteUpMorph classification"
         },
-        "PasteUpMorph submorphs - add\/remove": {
-            "id": "PasteUpMorph submorphs - add\/remove",
+        "PasteUpMorph submorphs - add/remove": {
+            "id": "PasteUpMorph submorphs - add/remove",
             "color": "#DA0C0F",
-            "label": "PasteUpMorph submorphs - add\/remove"
+            "label": "PasteUpMorph submorphs - add/remove"
         },
         "HMCodeSnippetStorage scenarios": {
             "id": "HMCodeSnippetStorage scenarios",
@@ -450,10 +450,10 @@
             "color": "#A88573",
             "label": "SequenceableCollection copying"
         },
-        "Morph submorphs - add\/remove": {
-            "id": "Morph submorphs - add\/remove",
+        "Morph submorphs - add/remove": {
+            "id": "Morph submorphs - add/remove",
             "color": "#DA0C0F",
-            "label": "Morph submorphs - add\/remove"
+            "label": "Morph submorphs - add/remove"
         },
         "Color named colors": {
             "id": "Color named colors",
@@ -514,7 +514,7 @@
     "edges": [
         {
             "weight": 1,
-            "sender": "PasteUpMorph submorphs - add\/remove",
+            "sender": "PasteUpMorph submorphs - add/remove",
             "receiver": "Morph submorphs - layers"
         },
         {
@@ -745,7 +745,7 @@
         {
             "weight": 1,
             "sender": "Morph initialization",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 1,
@@ -1354,8 +1354,8 @@
         },
         {
             "weight": 1,
-            "sender": "Morph submorphs - add\/remove",
-            "receiver": "PasteUpMorph submorphs - add\/remove"
+            "sender": "Morph submorphs - add/remove",
+            "receiver": "PasteUpMorph submorphs - add/remove"
         },
         {
             "weight": 1,

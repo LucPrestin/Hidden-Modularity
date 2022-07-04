@@ -565,10 +565,10 @@
             "color": "#A88573",
             "label": "ReadStream private"
         },
-        "Socket connection open\/close": {
-            "id": "Socket connection open\/close",
+        "Socket connection open/close": {
+            "id": "Socket connection open/close",
             "color": "#647525",
-            "label": "Socket connection open\/close"
+            "label": "Socket connection open/close"
         },
         "WebClient initialize": {
             "id": "WebClient initialize",
@@ -1790,7 +1790,7 @@
         {
             "weight": 2,
             "sender": "SocketStream control",
-            "receiver": "Socket connection open\/close"
+            "receiver": "Socket connection open/close"
         },
         {
             "weight": 2,
@@ -3039,32 +3039,32 @@
         },
         {
             "weight": 4,
-            "sender": "Socket connection open\/close",
+            "sender": "Socket connection open/close",
             "receiver": "Socket waiting"
         },
         {
             "weight": 4,
-            "sender": "Socket connection open\/close",
+            "sender": "Socket connection open/close",
             "receiver": "NetNameResolver private"
         },
         {
             "weight": 2,
-            "sender": "Socket connection open\/close",
+            "sender": "Socket connection open/close",
             "receiver": "Socket utilities"
         },
         {
             "weight": 6,
-            "sender": "Socket connection open\/close",
-            "receiver": "Socket connection open\/close"
+            "sender": "Socket connection open/close",
+            "receiver": "Socket connection open/close"
         },
         {
             "weight": 2,
-            "sender": "Socket connection open\/close",
+            "sender": "Socket connection open/close",
             "receiver": "Socket queries"
         },
         {
             "weight": 4,
-            "sender": "Socket connection open\/close",
+            "sender": "Socket connection open/close",
             "receiver": "Socket initialize-destroy"
         },
         {
@@ -4195,7 +4195,7 @@
         {
             "weight": 2,
             "sender": "SocketStream instance creation",
-            "receiver": "Socket connection open\/close"
+            "receiver": "Socket connection open/close"
         },
         {
             "weight": 2,

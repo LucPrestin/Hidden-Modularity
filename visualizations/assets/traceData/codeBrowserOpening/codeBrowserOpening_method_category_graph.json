@@ -95,10 +95,10 @@
             "color": "#694F2C",
             "label": "colors"
         },
-        "submorphs - add\/remove": {
-            "id": "submorphs - add\/remove",
+        "submorphs - add/remove": {
+            "id": "submorphs - add/remove",
             "color": "#694F2C",
-            "label": "submorphs - add\/remove"
+            "label": "submorphs - add/remove"
         },
         "layout": {
             "id": "layout",
@@ -175,10 +175,10 @@
             "color": "#694F2C",
             "label": "point functions"
         },
-        "dropping\/grabbing": {
-            "id": "dropping\/grabbing",
+        "dropping/grabbing": {
+            "id": "dropping/grabbing",
             "color": "#694F2C",
-            "label": "dropping\/grabbing"
+            "label": "dropping/grabbing"
         },
         "transforming points": {
             "id": "transforming points",
@@ -410,10 +410,10 @@
             "color": "#694F2C",
             "label": "event handling"
         },
-        "open\/close": {
-            "id": "open\/close",
+        "open/close": {
+            "id": "open/close",
             "color": "#694F2C",
-            "label": "open\/close"
+            "label": "open/close"
         },
         "top window": {
             "id": "top window",
@@ -590,10 +590,10 @@
             "color": "#694F2C",
             "label": "text attributes"
         },
-        "get\/set - flags": {
-            "id": "get\/set - flags",
+        "get/set - flags": {
+            "id": "get/set - flags",
             "color": "#694F2C",
-            "label": "get\/set - flags"
+            "label": "get/set - flags"
         },
         "prefs - fonts": {
             "id": "prefs - fonts",
@@ -695,10 +695,10 @@
             "color": "#694F2C",
             "label": "organization"
         },
-        "accept\/cancel": {
-            "id": "accept\/cancel",
+        "accept/cancel": {
+            "id": "accept/cancel",
             "color": "#694F2C",
-            "label": "accept\/cancel"
+            "label": "accept/cancel"
         },
         "private": {
             "id": "private",
@@ -970,10 +970,10 @@
             "color": "#694F2C",
             "label": "error handling"
         },
-        "fileIn\/Out": {
-            "id": "fileIn\/Out",
+        "fileIn/Out": {
+            "id": "fileIn/Out",
             "color": "#694F2C",
-            "label": "fileIn\/Out"
+            "label": "fileIn/Out"
         },
         "sizing": {
             "id": "sizing",
@@ -985,10 +985,10 @@
             "color": "#694F2C",
             "label": "comparing"
         },
-        "get\/set": {
-            "id": "get\/set",
+        "get/set": {
+            "id": "get/set",
             "color": "#694F2C",
-            "label": "get\/set"
+            "label": "get/set"
         },
         "geometry": {
             "id": "geometry",
@@ -1245,7 +1245,7 @@
         {
             "weight": 1638,
             "sender": "enumerating",
-            "receiver": "submorphs - add\/remove"
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 62,
@@ -1365,7 +1365,7 @@
         {
             "weight": 28,
             "sender": "resize handling",
-            "receiver": "submorphs - add\/remove"
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 21,
@@ -1739,72 +1739,72 @@
         },
         {
             "weight": 1718,
-            "sender": "submorphs - add\/remove",
+            "sender": "submorphs - add/remove",
             "receiver": "enumerating"
         },
         {
             "weight": 1873,
-            "sender": "submorphs - add\/remove",
+            "sender": "submorphs - add/remove",
             "receiver": "private"
         },
         {
             "weight": 857,
-            "sender": "submorphs - add\/remove",
+            "sender": "submorphs - add/remove",
             "receiver": "instance creation"
         },
         {
             "weight": 80,
-            "sender": "submorphs - add\/remove",
-            "receiver": "submorphs - add\/remove"
+            "sender": "submorphs - add/remove",
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 12,
-            "sender": "submorphs - add\/remove",
+            "sender": "submorphs - add/remove",
             "receiver": "halos and balloon help"
         },
         {
             "weight": 893,
-            "sender": "submorphs - add\/remove",
+            "sender": "submorphs - add/remove",
             "receiver": "structure"
         },
         {
             "weight": 873,
-            "sender": "submorphs - add\/remove",
+            "sender": "submorphs - add/remove",
             "receiver": "submorphs - callbacks"
         },
         {
             "weight": 2,
-            "sender": "submorphs - add\/remove",
+            "sender": "submorphs - add/remove",
             "receiver": "submorphs - layers"
         },
         {
             "weight": 1,
-            "sender": "submorphs - add\/remove",
+            "sender": "submorphs - add/remove",
             "receiver": "event handling"
         },
         {
             "weight": 12,
-            "sender": "submorphs - add\/remove",
+            "sender": "submorphs - add/remove",
             "receiver": "accessing"
         },
         {
             "weight": 906,
-            "sender": "submorphs - add\/remove",
+            "sender": "submorphs - add/remove",
             "receiver": "layout"
         },
         {
             "weight": 1,
-            "sender": "submorphs - add\/remove",
+            "sender": "submorphs - add/remove",
             "receiver": "submorphs - accessing"
         },
         {
             "weight": 1,
-            "sender": "submorphs - add\/remove",
+            "sender": "submorphs - add/remove",
             "receiver": "submorphs - testing"
         },
         {
             "weight": 56,
-            "sender": "submorphs - add\/remove",
+            "sender": "submorphs - add/remove",
             "receiver": "change reporting"
         },
         {
@@ -2235,7 +2235,7 @@
         {
             "weight": 11,
             "sender": "layout - visibility",
-            "receiver": "submorphs - add\/remove"
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 73,
@@ -2254,12 +2254,12 @@
         },
         {
             "weight": 8,
-            "sender": "dropping\/grabbing",
-            "receiver": "dropping\/grabbing"
+            "sender": "dropping/grabbing",
+            "receiver": "dropping/grabbing"
         },
         {
             "weight": 8,
-            "sender": "dropping\/grabbing",
+            "sender": "dropping/grabbing",
             "receiver": "accessing - properties"
         },
         {
@@ -2350,7 +2350,7 @@
         {
             "weight": 1,
             "sender": "widgets required",
-            "receiver": "open\/close"
+            "receiver": "open/close"
         },
         {
             "weight": 5,
@@ -2630,7 +2630,7 @@
         {
             "weight": 45,
             "sender": "standard queries",
-            "receiver": "get\/set - flags"
+            "receiver": "get/set - flags"
         },
         {
             "weight": 6,
@@ -2765,7 +2765,7 @@
         {
             "weight": 48,
             "sender": "initialize",
-            "receiver": "submorphs - add\/remove"
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 32,
@@ -2915,7 +2915,7 @@
         {
             "weight": 4,
             "sender": "converting",
-            "receiver": "fileIn\/Out"
+            "receiver": "fileIn/Out"
         },
         {
             "weight": 1787,
@@ -3060,7 +3060,7 @@
         {
             "weight": 855,
             "sender": "updating",
-            "receiver": "submorphs - add\/remove"
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 9,
@@ -3530,7 +3530,7 @@
         {
             "weight": 858,
             "sender": "submorphs - misc",
-            "receiver": "submorphs - add\/remove"
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 1710,
@@ -3570,7 +3570,7 @@
         {
             "weight": 1,
             "sender": "*ToolBuilder-Morphic-opening",
-            "receiver": "open\/close"
+            "receiver": "open/close"
         },
         {
             "weight": 1,
@@ -3714,57 +3714,57 @@
         },
         {
             "weight": 1,
-            "sender": "open\/close",
+            "sender": "open/close",
             "receiver": "instance creation"
         },
         {
             "weight": 1,
-            "sender": "open\/close",
-            "receiver": "submorphs - add\/remove"
+            "sender": "open/close",
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 1,
-            "sender": "open\/close",
+            "sender": "open/close",
             "receiver": "preferences"
         },
         {
             "weight": 1,
-            "sender": "open\/close",
+            "sender": "open/close",
             "receiver": "testing"
         },
         {
             "weight": 1,
-            "sender": "open\/close",
+            "sender": "open/close",
             "receiver": "*Morphic-Kernel-accessing"
         },
         {
             "weight": 2,
-            "sender": "open\/close",
+            "sender": "open/close",
             "receiver": "geometry"
         },
         {
             "weight": 1,
-            "sender": "open\/close",
+            "sender": "open/close",
             "receiver": "top window"
         },
         {
             "weight": 1,
-            "sender": "open\/close",
+            "sender": "open/close",
             "receiver": "world state"
         },
         {
             "weight": 3,
-            "sender": "open\/close",
-            "receiver": "open\/close"
+            "sender": "open/close",
+            "receiver": "open/close"
         },
         {
             "weight": 1,
-            "sender": "open\/close",
+            "sender": "open/close",
             "receiver": "framing"
         },
         {
             "weight": 1,
-            "sender": "open\/close",
+            "sender": "open/close",
             "receiver": "*System-Support-user interface"
         },
         {
@@ -3785,7 +3785,7 @@
         {
             "weight": 1,
             "sender": "top window",
-            "receiver": "submorphs - add\/remove"
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 2,
@@ -4389,13 +4389,13 @@
         },
         {
             "weight": 51,
-            "sender": "get\/set - flags",
-            "receiver": "get\/set"
+            "sender": "get/set - flags",
+            "receiver": "get/set"
         },
         {
             "weight": 6,
-            "sender": "get\/set - flags",
-            "receiver": "get\/set - flags"
+            "sender": "get/set - flags",
+            "receiver": "get/set - flags"
         },
         {
             "weight": 73,
@@ -4840,7 +4840,7 @@
         {
             "weight": 4,
             "sender": "accessing",
-            "receiver": "dropping\/grabbing"
+            "receiver": "dropping/grabbing"
         },
         {
             "weight": 37,
@@ -4885,7 +4885,7 @@
         {
             "weight": 2,
             "sender": "accessing",
-            "receiver": "submorphs - add\/remove"
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 389,
@@ -5285,7 +5285,7 @@
         {
             "weight": 13,
             "sender": "private",
-            "receiver": "submorphs - add\/remove"
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 4,
@@ -5780,7 +5780,7 @@
         {
             "weight": 1,
             "sender": "testing",
-            "receiver": "open\/close"
+            "receiver": "open/close"
         },
         {
             "weight": 992,
@@ -5835,7 +5835,7 @@
         {
             "weight": 14,
             "sender": "label",
-            "receiver": "submorphs - add\/remove"
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 1,
@@ -6205,7 +6205,7 @@
         {
             "weight": 3,
             "sender": "initialization",
-            "receiver": "accept\/cancel"
+            "receiver": "accept/cancel"
         },
         {
             "weight": 4,
@@ -6220,7 +6220,7 @@
         {
             "weight": 6,
             "sender": "initialization",
-            "receiver": "get\/set - flags"
+            "receiver": "get/set - flags"
         },
         {
             "weight": 1,
@@ -6255,7 +6255,7 @@
         {
             "weight": 54,
             "sender": "initialization",
-            "receiver": "submorphs - add\/remove"
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 8,
@@ -6340,7 +6340,7 @@
         {
             "weight": 4,
             "sender": "initialization",
-            "receiver": "dropping\/grabbing"
+            "receiver": "dropping/grabbing"
         },
         {
             "weight": 16,
@@ -6759,7 +6759,7 @@
         },
         {
             "weight": 4,
-            "sender": "fileIn\/Out",
+            "sender": "fileIn/Out",
             "receiver": "class membership"
         },
         {
@@ -6799,7 +6799,7 @@
         },
         {
             "weight": 51,
-            "sender": "get\/set",
+            "sender": "get/set",
             "receiver": "accessing"
         },
         {
@@ -7030,7 +7030,7 @@
         {
             "weight": 6,
             "sender": "panes",
-            "receiver": "submorphs - add\/remove"
+            "receiver": "submorphs - add/remove"
         },
         {
             "weight": 18,

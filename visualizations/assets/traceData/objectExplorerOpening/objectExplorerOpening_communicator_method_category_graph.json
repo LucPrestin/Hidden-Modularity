@@ -410,10 +410,10 @@
             "color": "#DA0C0F",
             "label": "ProportionalLayout layout"
         },
-        "SimpleButtonMorph submorphs - add\/remove": {
-            "id": "SimpleButtonMorph submorphs - add\/remove",
+        "SimpleButtonMorph submorphs - add/remove": {
+            "id": "SimpleButtonMorph submorphs - add/remove",
             "color": "#DA0C0F",
-            "label": "SimpleButtonMorph submorphs - add\/remove"
+            "label": "SimpleButtonMorph submorphs - add/remove"
         },
         "Rectangle transforming": {
             "id": "Rectangle transforming",
@@ -1340,10 +1340,10 @@
             "color": "#507928",
             "label": "PluggableButtonMorph instance creation"
         },
-        "PasteUpMorph submorphs - add\/remove": {
-            "id": "PasteUpMorph submorphs - add\/remove",
+        "PasteUpMorph submorphs - add/remove": {
+            "id": "PasteUpMorph submorphs - add/remove",
             "color": "#DA0C0F",
-            "label": "PasteUpMorph submorphs - add\/remove"
+            "label": "PasteUpMorph submorphs - add/remove"
         },
         "TextMorphForEditView event handling": {
             "id": "TextMorphForEditView event handling",
@@ -1985,10 +1985,10 @@
             "color": "#DA0C0F",
             "label": "ImageMorph accessing"
         },
-        "Preferences get\/set - flags": {
-            "id": "Preferences get\/set - flags",
+        "Preferences get/set - flags": {
+            "id": "Preferences get/set - flags",
             "color": "#648490",
-            "label": "Preferences get\/set - flags"
+            "label": "Preferences get/set - flags"
         },
         "UserInterfaceThemeRequest lookup": {
             "id": "UserInterfaceThemeRequest lookup",
@@ -2285,10 +2285,10 @@
             "color": "#A88573",
             "label": "ArrayedCollection testing"
         },
-        "TextMorphForEditView accept\/cancel": {
-            "id": "TextMorphForEditView accept\/cancel",
+        "TextMorphForEditView accept/cancel": {
+            "id": "TextMorphForEditView accept/cancel",
             "color": "#DA0C0F",
-            "label": "TextMorphForEditView accept\/cancel"
+            "label": "TextMorphForEditView accept/cancel"
         },
         "Morph rotate scale and flex": {
             "id": "Morph rotate scale and flex",
@@ -2495,10 +2495,10 @@
             "color": "#C9CC8E",
             "label": "Point transforming"
         },
-        "Morph dropping\/grabbing": {
-            "id": "Morph dropping\/grabbing",
+        "Morph dropping/grabbing": {
+            "id": "Morph dropping/grabbing",
             "color": "#DA0C0F",
-            "label": "Morph dropping\/grabbing"
+            "label": "Morph dropping/grabbing"
         },
         "CompositionScanner text attributes": {
             "id": "CompositionScanner text attributes",
@@ -2565,10 +2565,10 @@
             "color": "#DA0C0F",
             "label": "Slider accessing - ui"
         },
-        "Preferences get\/set": {
-            "id": "Preferences get\/set",
+        "Preferences get/set": {
+            "id": "Preferences get/set",
             "color": "#648490",
-            "label": "Preferences get\/set"
+            "label": "Preferences get/set"
         },
         "PasteUpMorph world state": {
             "id": "PasteUpMorph world state",
@@ -2835,10 +2835,10 @@
             "color": "#DA0C0F",
             "label": "TextMorph layout"
         },
-        "Form fileIn\/Out": {
-            "id": "Form fileIn\/Out",
+        "Form fileIn/Out": {
+            "id": "Form fileIn/Out",
             "color": "#C9CC8E",
-            "label": "Form fileIn\/Out"
+            "label": "Form fileIn/Out"
         },
         "SmalltalkImage snapshot and quit": {
             "id": "SmalltalkImage snapshot and quit",
@@ -3255,10 +3255,10 @@
             "color": "#DA0C0F",
             "label": "Editor accessing"
         },
-        "SystemWindow open\/close": {
-            "id": "SystemWindow open\/close",
+        "SystemWindow open/close": {
+            "id": "SystemWindow open/close",
             "color": "#507928",
-            "label": "SystemWindow open\/close"
+            "label": "SystemWindow open/close"
         },
         "SimpleHierarchicalListMorph initialization": {
             "id": "SimpleHierarchicalListMorph initialization",
@@ -3280,10 +3280,10 @@
             "color": "#C9CC8E",
             "label": "MorphicTransform instance creation"
         },
-        "Morph submorphs - add\/remove": {
-            "id": "Morph submorphs - add\/remove",
+        "Morph submorphs - add/remove": {
+            "id": "Morph submorphs - add/remove",
             "color": "#DA0C0F",
-            "label": "Morph submorphs - add\/remove"
+            "label": "Morph submorphs - add/remove"
         },
         "Object user interface": {
             "id": "Object user interface",
@@ -3910,7 +3910,7 @@
         {
             "weight": 1,
             "sender": "SystemWindow *ToolBuilder-Morphic-opening",
-            "receiver": "SystemWindow open\/close"
+            "receiver": "SystemWindow open/close"
         },
         {
             "weight": 6,
@@ -4595,7 +4595,7 @@
         {
             "weight": 4,
             "sender": "ScrollPane layout - visibility",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 4,
@@ -4729,7 +4729,7 @@
         },
         {
             "weight": 1,
-            "sender": "SimpleButtonMorph submorphs - add\/remove",
+            "sender": "SimpleButtonMorph submorphs - add/remove",
             "receiver": "Morph event handling"
         },
         {
@@ -5260,7 +5260,7 @@
         {
             "weight": 408,
             "sender": "SequenceableCollection enumerating",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 1,
@@ -5715,12 +5715,12 @@
         {
             "weight": 2,
             "sender": "TextMorphForEditView initialization",
-            "receiver": "Morph dropping\/grabbing"
+            "receiver": "Morph dropping/grabbing"
         },
         {
             "weight": 1,
             "sender": "TextMorphForEditView initialization",
-            "receiver": "TextMorphForEditView accept\/cancel"
+            "receiver": "TextMorphForEditView accept/cancel"
         },
         {
             "weight": 2,
@@ -5940,7 +5940,7 @@
         {
             "weight": 1,
             "sender": "PluggableTreeMorph accessing",
-            "receiver": "Morph dropping\/grabbing"
+            "receiver": "Morph dropping/grabbing"
         },
         {
             "weight": 3,
@@ -6090,7 +6090,7 @@
         {
             "weight": 2,
             "sender": "SimpleHierarchicalListMorph private",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 2,
@@ -6835,12 +6835,12 @@
         {
             "weight": 6,
             "sender": "ScrollPane initialization",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 2,
             "sender": "ScrollPane initialization",
-            "receiver": "Preferences get\/set - flags"
+            "receiver": "Preferences get/set - flags"
         },
         {
             "weight": 2,
@@ -7330,7 +7330,7 @@
         {
             "weight": 1,
             "sender": "PluggableTextMorph initialization",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 2,
@@ -8359,7 +8359,7 @@
         },
         {
             "weight": 2,
-            "sender": "PasteUpMorph submorphs - add\/remove",
+            "sender": "PasteUpMorph submorphs - add/remove",
             "receiver": "Morph submorphs - layers"
         },
         {
@@ -8790,7 +8790,7 @@
         {
             "weight": 1,
             "sender": "SystemWindow top window",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 13,
@@ -9640,7 +9640,7 @@
         {
             "weight": 12,
             "sender": "IconicButton label",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 24,
@@ -9910,7 +9910,7 @@
         {
             "weight": 28,
             "sender": "Preferences standard queries",
-            "receiver": "Preferences get\/set - flags"
+            "receiver": "Preferences get/set - flags"
         },
         {
             "weight": 2,
@@ -10255,7 +10255,7 @@
         {
             "weight": 5,
             "sender": "SystemWindow initialization",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 1,
@@ -10310,7 +10310,7 @@
         {
             "weight": 1,
             "sender": "SystemWindow initialization",
-            "receiver": "SimpleButtonMorph submorphs - add\/remove"
+            "receiver": "SimpleButtonMorph submorphs - add/remove"
         },
         {
             "weight": 4,
@@ -10704,13 +10704,13 @@
         },
         {
             "weight": 30,
-            "sender": "Preferences get\/set - flags",
-            "receiver": "Preferences get\/set"
+            "sender": "Preferences get/set - flags",
+            "receiver": "Preferences get/set"
         },
         {
             "weight": 2,
-            "sender": "Preferences get\/set - flags",
-            "receiver": "Preferences get\/set - flags"
+            "sender": "Preferences get/set - flags",
+            "receiver": "Preferences get/set - flags"
         },
         {
             "weight": 377,
@@ -10775,7 +10775,7 @@
         {
             "weight": 216,
             "sender": "Morph submorphs - misc",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 3,
@@ -10865,7 +10865,7 @@
         {
             "weight": 1,
             "sender": "Collection testing",
-            "receiver": "SystemWindow open\/close"
+            "receiver": "SystemWindow open/close"
         },
         {
             "weight": 2,
@@ -12335,7 +12335,7 @@
         {
             "weight": 216,
             "sender": "ScrollBar updating",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 36,
@@ -12545,7 +12545,7 @@
         {
             "weight": 16,
             "sender": "ScrollBar initialize",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 8,
@@ -12619,12 +12619,12 @@
         },
         {
             "weight": 3,
-            "sender": "Morph dropping\/grabbing",
-            "receiver": "Morph dropping\/grabbing"
+            "sender": "Morph dropping/grabbing",
+            "receiver": "Morph dropping/grabbing"
         },
         {
             "weight": 3,
-            "sender": "Morph dropping\/grabbing",
+            "sender": "Morph dropping/grabbing",
             "receiver": "Morph accessing - properties"
         },
         {
@@ -12844,7 +12844,7 @@
         },
         {
             "weight": 30,
-            "sender": "Preferences get\/set",
+            "sender": "Preferences get/set",
             "receiver": "Preferences accessing"
         },
         {
@@ -13180,7 +13180,7 @@
         {
             "weight": 8,
             "sender": "Slider initialization",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 8,
@@ -13649,7 +13649,7 @@
         },
         {
             "weight": 4,
-            "sender": "Form fileIn\/Out",
+            "sender": "Form fileIn/Out",
             "receiver": "Object class membership"
         },
         {
@@ -13775,7 +13775,7 @@
         {
             "weight": 1,
             "sender": "TextMorph accessing",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 1,
@@ -14480,7 +14480,7 @@
         {
             "weight": 2,
             "sender": "SystemWindow label",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 1,
@@ -14880,7 +14880,7 @@
         {
             "weight": 3,
             "sender": "SystemWindow panes",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 9,
@@ -15014,52 +15014,52 @@
         },
         {
             "weight": 1,
-            "sender": "SystemWindow open\/close",
-            "receiver": "Morph submorphs - add\/remove"
+            "sender": "SystemWindow open/close",
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 2,
-            "sender": "SystemWindow open\/close",
+            "sender": "SystemWindow open/close",
             "receiver": "SystemWindow geometry"
         },
         {
             "weight": 1,
-            "sender": "SystemWindow open\/close",
+            "sender": "SystemWindow open/close",
             "receiver": "SystemWindow top window"
         },
         {
             "weight": 1,
-            "sender": "SystemWindow open\/close",
+            "sender": "SystemWindow open/close",
             "receiver": "SystemWindow preferences"
         },
         {
             "weight": 1,
-            "sender": "SystemWindow open\/close",
+            "sender": "SystemWindow open/close",
             "receiver": "Collection testing"
         },
         {
             "weight": 3,
-            "sender": "SystemWindow open\/close",
-            "receiver": "SystemWindow open\/close"
+            "sender": "SystemWindow open/close",
+            "receiver": "SystemWindow open/close"
         },
         {
             "weight": 1,
-            "sender": "SystemWindow open\/close",
+            "sender": "SystemWindow open/close",
             "receiver": "Array instance creation"
         },
         {
             "weight": 1,
-            "sender": "SystemWindow open\/close",
+            "sender": "SystemWindow open/close",
             "receiver": "Object *Morphic-Kernel-accessing"
         },
         {
             "weight": 1,
-            "sender": "SystemWindow open\/close",
+            "sender": "SystemWindow open/close",
             "receiver": "PasteUpMorph world state"
         },
         {
             "weight": 1,
-            "sender": "SystemWindow open\/close",
+            "sender": "SystemWindow open/close",
             "receiver": "RealEstateAgent framing"
         },
         {
@@ -15070,7 +15070,7 @@
         {
             "weight": 1,
             "sender": "SimpleHierarchicalListMorph initialization",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 1,
@@ -15189,92 +15189,92 @@
         },
         {
             "weight": 49,
-            "sender": "Morph submorphs - add\/remove",
-            "receiver": "Morph submorphs - add\/remove"
+            "sender": "Morph submorphs - add/remove",
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 12,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "Morph halos and balloon help"
         },
         {
             "weight": 520,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "Morph private"
         },
         {
             "weight": 2,
-            "sender": "Morph submorphs - add\/remove",
-            "receiver": "PasteUpMorph submorphs - add\/remove"
+            "sender": "Morph submorphs - add/remove",
+            "receiver": "PasteUpMorph submorphs - add/remove"
         },
         {
             "weight": 216,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "Morph layout"
         },
         {
             "weight": 217,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "Array instance creation"
         },
         {
             "weight": 220,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "Morph submorphs - callbacks"
         },
         {
             "weight": 247,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "Morph structure"
         },
         {
             "weight": 1,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "TransformMorph layout"
         },
         {
             "weight": 1,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "Collection enumerating"
         },
         {
             "weight": 1,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "Morph submorphs - accessing"
         },
         {
             "weight": 1,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "TextMorph layout"
         },
         {
             "weight": 3,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "Set enumerating"
         },
         {
             "weight": 1,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "Morph submorphs - testing"
         },
         {
             "weight": 1,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "HashedCollection instance creation"
         },
         {
             "weight": 434,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "SequenceableCollection enumerating"
         },
         {
             "weight": 1,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "SequenceableCollection accessing"
         },
         {
             "weight": 12,
-            "sender": "Morph submorphs - add\/remove",
+            "sender": "Morph submorphs - add/remove",
             "receiver": "Morph accessing"
         },
         {
@@ -15330,7 +15330,7 @@
         {
             "weight": 25,
             "sender": "BorderedMorph resize handling",
-            "receiver": "Morph submorphs - add\/remove"
+            "receiver": "Morph submorphs - add/remove"
         },
         {
             "weight": 28,
@@ -15755,7 +15755,7 @@
         {
             "weight": 4,
             "sender": "Form converting",
-            "receiver": "Form fileIn\/Out"
+            "receiver": "Form fileIn/Out"
         },
         {
             "weight": 384,
