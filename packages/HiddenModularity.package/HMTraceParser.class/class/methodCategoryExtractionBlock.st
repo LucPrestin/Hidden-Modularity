@@ -6,4 +6,4 @@ methodCategoryExtractionBlock
 		anObject isCompiledMethod
 			ifTrue: [result := anObject methodReference category asString]
 			ifFalse: [result := anObject method methodReference category asString].
-		result]
+		self aggregatedCategoryNameFor: result]
