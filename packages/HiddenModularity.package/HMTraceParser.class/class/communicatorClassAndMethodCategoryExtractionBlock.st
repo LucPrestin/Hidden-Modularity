@@ -3,4 +3,4 @@ communicatorClassAndMethodCategoryExtractionBlock
 
 	^ [:anObject | | reference |
 		reference := anObject method methodReference.
-		reference classSymbol asString , ' ' , reference category asString]
+		reference classSymbol asString , ' ' , (self methodCategoryExtractionBlock value: anObject)]
