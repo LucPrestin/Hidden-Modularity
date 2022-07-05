@@ -14,43 +14,62 @@
         }
 
         .svg-container {
-            height: 90%;
+            height: 100%;
             width: 100%;
+        }
+
+        .control-container {
+            position: absolute;
+            height: 300px;
+            width: 400px;
+            top: 0px;
+            left: 0px;
+            z-index: 1;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            padding: 5px 5px 5px 5px;
+            background-color: white;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>Visualization of Message Graphs using a Force Simulation</h1>
+    <div class="control-container">
+        <h1>Visualization of Message Graphs using a Force Simulation</h1>
 
-    <label for="input-file-dataset">Choose a dataset:</label>
-    <input type="file" id="input-file-dataset" , name="select-dataset" accept=".json">
+        <label for="input-file-dataset">Choose a dataset:</label>
+        <input type="file" id="input-file-dataset" , name="select-dataset" accept=".json">
 
-    <br />
+        <br />
 
-    <label for="checkbox_count_self_sends">Use self sends as edges:</label>
-    <input id="checkbox_count_self_sends" name="checkbox_count_self_sends" type="checkbox">
+        <label for="checkbox_count_self_sends">Use self sends as edges:</label>
+        <input id="checkbox_count_self_sends" name="checkbox_count_self_sends" type="checkbox">
 
-    <br />
+        <br />
 
-    <label for="checkbox_show_edges">Show graph edges:</label>
-    <input id="checkbox_show_edges" name="checkbox_show_edges" type="checkbox">
+        <label for="checkbox_show_edges">Show graph edges:</label>
+        <input id="checkbox_show_edges" name="checkbox_show_edges" type="checkbox">
 
-    <br />
+        <br />
 
-    <label for="select_node_size_calculation">Calculate node size by:</label>
-    <select id="select_node_size_calculation">
-        <option disabled selected>-- select a calculation methode --</option>
-        <option value="None">Don't differ node sizes</option>
-        <option value="incoming edges">Incoming edges</option>
-        <option value="outgoing edges">Outgoing edges</option>
-        <option value="all edges">All edges</option>
-    </select>
+        <label for="select_node_size_calculation">Calculate node size by:</label>
+        <select id="select_node_size_calculation">
+            <option disabled selected>-- select a calculation methode --</option>
+            <option value="None">Don't differ node sizes</option>
+            <option value="incoming edges">Incoming edges</option>
+            <option value="outgoing edges">Outgoing edges</option>
+            <option value="all edges">All edges</option>
+        </select>
 
-    <br />
+        <br />
 
-    <button id="button-confirm">Confirm</button>
+        <label for="checkbox_edge_weight_for_node_size">Use edge weights for node size calculation:</label>
+        <input id="checkbox_edge_weight_for_node_size" name="checkbox_edge_weight_for_node_size" type="checkbox">
+
+        <br />
+
+        <button id="button-confirm">Confirm</button>
+    </div>
 
     <div id="container" class="svg-container"></div>
 
@@ -79,8 +98,8 @@
             count_self_sends = false,
             show_edges = false,
             node_size_calculation_method,
-            onSimulationFinished = () => { }) 
-        {
+            use_edge_weights_for_node_size_calculation,
+            onSimulationFinished = () => { }) {
             console.log("Simulation started.")
 
             let svg = d3.select(container)
@@ -94,8 +113,8 @@
 
             const { nodes, nodeMap } = createNodes(data);
             const links = createLinks(nodeMap, data, count_self_sends);
-            
-            setSizeByEdges(nodes, links, node_size_calculation_method)
+
+            setSizeByEdges(nodes, links, node_size_calculation_method, use_edge_weights_for_node_size_calculation)
 
             const averageLinkForce = links.reduce((sum, link) => sum + link.strength, 0) / links.length
 
@@ -133,7 +152,7 @@
                 nodes.push(nodeMap[nodeName])
             });
 
-            return  { nodes, nodeMap }
+            return { nodes, nodeMap }
         }
 
         function newNode(vertex) {
@@ -169,15 +188,15 @@
             return links
         }
 
-        function setSizeByEdges(nodes, links, node_size_calculation_method) {
+        function setSizeByEdges(nodes, links, node_size_calculation_method, use_edge_weights_for_node_size_calculation) {
             if (node_size_calculation_method === "incoming edges" || node_size_calculation_method === "all edges") {
                 links.forEach(link => {
-                    nodes[link.target].radius += radiusIncrement
+                    nodes[link.target].radius += (use_edge_weights_for_node_size_calculation ? radiusIncrement * link.strength : radiusIncrement)
                 })
             }
             if (node_size_calculation_method === "outgoing edges" || node_size_calculation_method === "all edges") {
                 links.forEach(link => {
-                    nodes[link.target].radius += radiusIncrement
+                    nodes[link.target].radius += (use_edge_weights_for_node_size_calculation ? radiusIncrement * link.strength : radiusIncrement)
                 })
             }
         }
@@ -258,16 +277,24 @@
         const count_self_sends_checkbox = document.getElementById("checkbox_count_self_sends");
         const edge_checkbox = document.getElementById("checkbox_show_edges");
         const select_node_size_calculation = document.getElementById("select_node_size_calculation");
+        const edge_weight_for_node_size_checkbox = document.getElementById("checkbox_edge_weight_for_node_size");
         const button = document.getElementById("button-confirm");
 
-        const ui_elements = [dataset_file_input, count_self_sends_checkbox, edge_checkbox, select_node_size_calculation, button];
+        const ui_elements = [
+            dataset_file_input,
+            count_self_sends_checkbox,
+            edge_checkbox,
+            select_node_size_calculation,
+            edge_weight_for_node_size_checkbox,
+            button
+        ];
 
 
         button.addEventListener("click", async () => {
 
             let errorMessage = "";
             const node_size_calculation_method = select_node_size_calculation.options[select_node_size_calculation.selectedIndex].value;
-            
+
             if (!dataset_file_input.files.length > 0) {
                 errorMessage += "Please select a dataset\n"
             }
@@ -283,6 +310,7 @@
                     count_self_sends_checkbox.checked,
                     edge_checkbox.checked,
                     node_size_calculation_method,
+                    edge_weight_for_node_size_checkbox.checked,
                     () => { ui_elements.forEach(element => element.disabled = false); }
                 );
             } else {
