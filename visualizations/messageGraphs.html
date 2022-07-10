@@ -69,6 +69,7 @@
         <br />
 
         <button id="button-confirm">Confirm</button>
+        <button id="button_run_more_simulation" disabled>Simulate more!!!</button>
     </div>
 
     <div id="container" class="svg-container"></div>
@@ -126,11 +127,7 @@
                 }))
                 .on("tick", () => ticked(nodes, links, show_edges));
 
-            setTimeout(function () {
-                simulation.stop();
-                onSimulationFinished();
-                console.log("Simulation finished")
-            }, 8000);
+            return simulation;
         }
 
         const minNodeRadius = 30;
@@ -279,6 +276,9 @@
         const select_node_size_calculation = document.getElementById("select_node_size_calculation");
         const edge_weight_for_node_size_checkbox = document.getElementById("checkbox_edge_weight_for_node_size");
         const button = document.getElementById("button-confirm");
+        const button_run_more_simulation = document.getElementById("button_run_more_simulation");
+
+        let simulation = {};
 
         const ui_elements = [
             dataset_file_input,
@@ -286,9 +286,20 @@
             edge_checkbox,
             select_node_size_calculation,
             edge_weight_for_node_size_checkbox,
-            button
+            button,
+            button_run_more_simulation
         ];
 
+        button_run_more_simulation.addEventListener('click', () => {
+            ui_elements.forEach(element => element.disabled = true);
+            simulation.restart();
+            console.log("Simulation restarted")
+            setTimeout(function () {
+                simulation.stop();
+                ui_elements.forEach(element => element.disabled = false);
+                console.log("Simulation finished")
+            }, 3000);
+        })
 
         button.addEventListener("click", async () => {
 
@@ -305,7 +316,7 @@
             if (errorMessage === "") {
                 removeChildren(container);
                 ui_elements.forEach(element => element.disabled = true);
-                runSimulationWithData(
+                simulation = runSimulationWithData(
                     await load_json(dataset_file_input.files[0]),
                     count_self_sends_checkbox.checked,
                     edge_checkbox.checked,
@@ -313,6 +324,12 @@
                     edge_weight_for_node_size_checkbox.checked,
                     () => { ui_elements.forEach(element => element.disabled = false); }
                 );
+
+                setTimeout(function () {
+                    simulation.stop();
+                    ui_elements.forEach(element => element.disabled = false);
+                    console.log("Simulation finished")
+                }, 3000);
             } else {
                 alert(errorMessage);
             }
