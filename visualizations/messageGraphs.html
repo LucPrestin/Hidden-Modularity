@@ -233,6 +233,11 @@
                 .text(function (d) {
                     return d.label
                 })
+                .attr('font-size', function (d) {
+                    return d.radius / 2 + 'px'
+                })
+                .attr('text-anchor', 'middle')
+                .attr('alignment-baseline', 'central')
                 .attr('x', function (d) {
                     return d.x
                 })
