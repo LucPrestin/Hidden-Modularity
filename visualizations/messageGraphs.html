@@ -19,15 +19,32 @@
         }
 
         .control-container {
-            position: absolute;
-            height: 300px;
-            width: 400px;
+            position:absolute;
             top: 0px;
             left: 0px;
+            width: 500px;
+            height: 300px;
             z-index: 1;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
             padding: 5px 5px 5px 5px;
             background-color: white;
+        }
+
+        .legend-container {
+            position:absolute;
+            top: 0px;
+            right: 0px;
+            width: 400px;
+            height: 170px;
+            z-index: 1;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+            padding: 5px 5px 5px 5px;
+            background-color: white;
+        }
+
+        td, th {
+            text-align: left;
+            vertical-align: top;
         }
     </style>
 </head>
@@ -37,39 +54,61 @@
     <div class="control-container">
         <h1>Visualization of Message Graphs using a Force Simulation</h1>
 
-        <label for="input-file-dataset">Choose a dataset:</label>
-        <input type="file" id="input-file-dataset" , name="select-dataset" accept=".json">
+        <table>
+            <tr>
+                <td><label for="input-file-dataset">Choose a dataset:</label></td>
+                <td><input type="file" id="input-file-dataset" , name="select-dataset" accept=".json"></td>
+            </tr>
+            <tr>
+                <td><label for="checkbox_count_self_sends">Use self sends as edges:</label></td>
+                <td><input id="checkbox_count_self_sends" name="checkbox_count_self_sends" type="checkbox"></td>
+            </tr>
+            <tr>
+                <td><label for="checkbox_show_edges">Show graph edges:</label></td>
+                <td><input id="checkbox_show_edges" name="checkbox_show_edges" type="checkbox"></td>
+            </tr>
+            <tr>
+                <td><label for="select_node_size_calculation">Calculate node size by:</label></td>
+                <td>
+                    <select id="select_node_size_calculation">
+                        <option value="None" selected>Don't differ node sizes</option>
+                        <option value="incoming edges">Incoming edges</option>
+                        <option value="outgoing edges">Outgoing edges</option>
+                        <option value="all edges">All edges</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="checkbox_edge_weight_for_node_size">Use edge weights for node size calculation:</label></td>
+                <td><input id="checkbox_edge_weight_for_node_size" name="checkbox_edge_weight_for_node_size" type="checkbox"></td>
+            </tr>
+        </table>
 
-        <br />
-
-        <label for="checkbox_count_self_sends">Use self sends as edges:</label>
-        <input id="checkbox_count_self_sends" name="checkbox_count_self_sends" type="checkbox">
-
-        <br />
-
-        <label for="checkbox_show_edges">Show graph edges:</label>
-        <input id="checkbox_show_edges" name="checkbox_show_edges" type="checkbox">
-
-        <br />
-
-        <label for="select_node_size_calculation">Calculate node size by:</label>
-        <select id="select_node_size_calculation">
-            <option disabled selected>-- select a calculation methode --</option>
-            <option value="None">Don't differ node sizes</option>
-            <option value="incoming edges">Incoming edges</option>
-            <option value="outgoing edges">Outgoing edges</option>
-            <option value="all edges">All edges</option>
-        </select>
-
-        <br />
-
-        <label for="checkbox_edge_weight_for_node_size">Use edge weights for node size calculation:</label>
-        <input id="checkbox_edge_weight_for_node_size" name="checkbox_edge_weight_for_node_size" type="checkbox">
-
-        <br />
+        <br/>
 
         <button id="button-confirm">Confirm</button>
         <button id="button_run_more_simulation" disabled>Simulate more!!!</button>
+    </div>
+
+    <div class="legend-container">
+        <table>
+            <tr>
+                <th>Visual Parameter</th>
+                <th>Data Parameter</th>
+            </tr>
+            <tr>
+                <td>Node Color</td>
+                <td>Package (except for message category graphs)</td>
+            </tr>
+            <tr>
+                <td>Node Size</td>
+                <td>Amount of incoming or outgoing message calls (if selected)</td>
+            </tr>
+            <tr>
+                <td>Node Distances</td>
+                <td>Relative amount of communication between two nodes</td>
+            </tr>
+        </table>
     </div>
 
     <div id="container" class="svg-container"></div>
