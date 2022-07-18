@@ -3,8 +3,8 @@ uniqueColorWithCurrentColors: existingColors
 
 	| color |
 	
-	color := Color random.
+	color := self colorCalculationBlock value.
 	
-	[existingColors includes: color] whileTrue: [color := Color random].
+	[existingColors includes: color] whileTrue: [color := self colorCalculationBlock value].
 
 	^ color
