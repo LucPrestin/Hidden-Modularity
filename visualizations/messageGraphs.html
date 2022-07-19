@@ -119,6 +119,8 @@
 
         // begin utils //
 
+        const center = {x: 400, y: 400}
+
         function deepCopy(obj) {
             return JSON.parse(JSON.stringify(obj))
         }
@@ -160,9 +162,9 @@
 
             const simulation = forceSimulation(nodes)
                 .force("link", forceLink(links))
-                .force("charge", forceManyBody().strength(averageLinkForce * (-1)))
+                .force("charge", forceManyBody().strength(averageLinkForce * (-1) * 3))
                 .force("collision", forceCollide().radius(function (d) {
-                    return d.radius;
+                    return d.radius * 1.1;
                 }))
                 .on("tick", () => ticked(nodes, links, show_edges));
 
@@ -197,8 +199,8 @@
                 id: vertex['id'],
                 color: vertex['color'] ? vertex['color'] : "white",
                 index: null,
-                x: 400,
-                y: 400,
+                x: deepCopy(center.x),
+                y: deepCopy(center.y),
                 vx: 0,
                 vy: 0,
                 // each node has at least one edge, so it will be incremented at least one time.
