@@ -6,6 +6,7 @@ communicatorGraphFromCursor: aTDBCursor
 	parser := self 
 		newWithIdExtractionBlock: self classExtractionBlock 
 		labelExtractionBlock: self classExtractionBlock
-		colorLabelExtractionBlock: self packageExtractionBlock.
+		colorLabelExtractionBlock: self packageExtractionBlock
+		andGraphType: HMUtils communicatorGraphType.
 
 	^ parser communicatorBasedGraphFromCursor: aTDBCursor

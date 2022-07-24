@@ -10,7 +10,8 @@
 		"labelExtractionBlock",
 		"colorLabelExtractionBlock",
 		"colors",
-		"blacklist" ],
+		"blacklist",
+		"graphType" ],
 	"name" : "HMTraceParser",
 	"pools" : [
 		 ],
