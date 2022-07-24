@@ -50,6 +50,84 @@
 </head>
 
 <body>
+    <template id="template-communicator-graph-legend">
+            <table>
+                <tr>
+                    <th>Visual Parameter</th>
+                    <th>Data Parameter</th>
+                </tr>
+                <tr>
+                    <td>Node Labels / Aggregation</td>
+                    <td>Communicator Class</td>
+                </tr>
+                <tr>
+                    <td>Node Color</td>
+                    <td>Communicator Package</td>
+                </tr>
+                <tr>
+                    <td>Node Size</td>
+                    <td>Amount of incoming or outgoing message calls</td>
+                </tr>
+                <tr>
+                    <td>Node Distances</td>
+                    <td>Amount of communication between two nodes</td>
+                </tr>
+            </table>
+    </template>
+
+    <template id="template-method-category-graph-legend">
+            <table>
+                <tr>
+                    <th>Visual Parameter</th>
+                    <th>Data Parameter</th>
+                </tr>
+                <tr>
+                    <td>Node Labels / Aggregation</td>
+                    <td>Method Category (normalized)</td>
+                </tr>
+                <tr>
+                    <td>Node Color</td>
+                    <td>None</td>
+                </tr>
+                <tr>
+                    <td>Node Size</td>
+                    <td>Amount of incoming or outgoing message calls</td>
+                </tr>
+                <tr>
+                    <td>Node Distances</td>
+                    <td>Amount of communication between two nodes</td>
+                </tr>
+            </table>
+    </template>
+
+    <template id="template-communicator-method-category-graph-legend">
+            <table>
+                <tr>
+                    <th>Visual Parameter</th>
+                    <th>Data Parameter</th>
+                </tr>
+                <tr>
+                    <td>Node Labels / Aggregation</td>
+                    <td>Communicator Class x Method Category</td>
+                </tr>
+                <tr>
+                    <td>Node Color</td>
+                    <td>Communicator Package</td>
+                </tr>
+                <tr>
+                    <td>Node Size</td>
+                    <td>Amount of incoming or outgoing message calls</td>
+                </tr>
+                <tr>
+                    <td>Node Distances</td>
+                    <td>Amount of communication between two nodes</td>
+                </tr>
+            </table>
+    </template>
+
+    <template id="template-unknown-graph-legend">
+        <p>The graph type is unknown and thus the mapping cannot be displayed</p>
+    </template>
 
     <div class="control-container">
         <h1>Visualization of Message Graphs using a Force Simulation</h1>
@@ -90,27 +168,7 @@
         <button id="button_run_more_simulation" disabled>Simulate more!!!</button>
     </div>
 
-    <div class="legend-container">
-        <table>
-            <tr>
-                <th>Visual Parameter</th>
-                <th>Data Parameter</th>
-            </tr>
-            <tr>
-                <td>Node Color</td>
-                <td>Package (except for message category graphs)</td>
-            </tr>
-            <tr>
-                <td>Node Size</td>
-                <td>Amount of incoming or outgoing message calls (if selected)</td>
-            </tr>
-            <tr>
-                <td>Node Distances</td>
-                <td>Relative amount of communication between two nodes</td>
-            </tr>
-        </table>
-    </div>
-
+    <div id="legend-container" class="legend-container"></div>
     <div id="container" class="svg-container"></div>
 
     <script type="module">
@@ -314,7 +372,33 @@
 
         // begin UI/UX code //
 
+        function setLegendByGraphType(container, graphType) {
+            debugger
+            let legend_template;
+
+            switch (graphType) {
+                case 'CommunicatorGraph':
+                    legend_template = document.getElementById('template-communicator-graph-legend');
+                    break;
+                case 'CommunicatorMethodCategoryGraph':
+                    legend_template = document.getElementById('template-communicator-method-category-graph-legend');
+                    break;
+                case 'MethodCategoryGraph':
+                    legend_template = document.getElementById('template-method-category-graph-legend');
+                    break;
+                default:
+                    legend_template = document.getElementById('template-unknown-graph-legend');
+                    break
+
+            }
+
+            removeChildren(container);
+            const legend = legend_template.content.cloneNode(true)
+            container.append(legend)
+        }
+
         const container = document.getElementById("container");
+        const legend_container = document.getElementById("legend-container")
 
         const dataset_file_input = document.getElementById("input-file-dataset");
         const count_self_sends_checkbox = document.getElementById("checkbox_count_self_sends");
@@ -360,10 +444,14 @@
             }
 
             if (errorMessage === "") {
-                removeChildren(container);
                 ui_elements.forEach(element => element.disabled = true);
+
+                const data = await load_json(dataset_file_input.files[0])
+                debugger
+                setLegendByGraphType(legend_container, data['type']);
+                removeChildren(container);
                 simulation = runSimulationWithData(
-                    await load_json(dataset_file_input.files[0]),
+                    data,
                     count_self_sends_checkbox.checked,
                     edge_checkbox.checked,
                     node_size_calculation_method,
