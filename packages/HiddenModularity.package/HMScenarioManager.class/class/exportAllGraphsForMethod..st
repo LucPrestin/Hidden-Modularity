@@ -1,5 +1,5 @@
 tracing
-exportTraceForMethod: traceMethod 
+exportAllGraphsForMethod: traceMethod 
 
 	| cursor |
 

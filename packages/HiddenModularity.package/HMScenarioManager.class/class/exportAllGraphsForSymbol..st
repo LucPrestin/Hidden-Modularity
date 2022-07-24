@@ -1,7 +1,7 @@
 tracing
-exportTraceForSymbol: traceSymbol 
+exportAllGraphsForSymbol: traceSymbol 
 
 	| traceMethod |
 	
 	traceMethod := self class methodDict at: traceSymbol.
-	self exportTraceForMethod: traceMethod
+	self exportAllGraphsForMethod: traceMethod
