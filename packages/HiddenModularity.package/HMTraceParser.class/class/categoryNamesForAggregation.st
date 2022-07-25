@@ -1,4 +1,4 @@
 information retrieving
 categoryNamesForAggregation
 
-	^ {'access' . 'layout' . 'testing' . 'submorph', 'geometry'}
+	^ {'access' . 'layout' . 'testing' . 'submorph' . 'geometry'}
