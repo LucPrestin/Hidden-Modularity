@@ -1,0 +1,5 @@
+fileIn/Out
+exportCommunicatorMethodCategoryGraphFromCursor: aTDBCursor withScenarioName: scenarioName
+
+	(HMTraceParser communicatorMethodCategoryGraphFromCursor: aTDBCursor withScenarioName: scenarioName) exportToFile
+
