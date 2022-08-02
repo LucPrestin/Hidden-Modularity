@@ -1,4 +1,4 @@
-as yet unclassified
+graph construction
 methodCategoryGraphFromCursor: aTDBCursor andScenarioName: aString
 
 	| parser |

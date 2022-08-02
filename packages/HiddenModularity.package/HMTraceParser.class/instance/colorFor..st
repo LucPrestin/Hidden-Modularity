@@ -1,4 +1,4 @@
-as yet unclassified
+information retrieving
 colorFor: anId
 
 	| color |

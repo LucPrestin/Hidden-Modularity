@@ -1,4 +1,4 @@
-as yet unclassified
+information retrieving
 methodReferenceExtractionBlock
 
 	^ [:anObject | anObject methodReference asString]

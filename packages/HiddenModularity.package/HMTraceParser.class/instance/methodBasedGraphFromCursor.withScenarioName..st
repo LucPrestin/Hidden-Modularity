@@ -1,4 +1,4 @@
-as yet unclassified
+graph construction
 methodBasedGraphFromCursor: aTDBCursor withScenarioName: aString
 	
 	| contexts cleanedContexts |

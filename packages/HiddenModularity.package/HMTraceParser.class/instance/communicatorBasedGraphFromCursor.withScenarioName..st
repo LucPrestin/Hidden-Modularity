@@ -1,4 +1,4 @@
-as yet unclassified
+graph construction
 communicatorBasedGraphFromCursor: aTDBCursor withScenarioName: aString
 
 	| contexts communicators |

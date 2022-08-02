@@ -1,4 +1,4 @@
-as yet unclassified
+fileIn/Out
 writeToFileNamed: fileName
 
 	FileStream

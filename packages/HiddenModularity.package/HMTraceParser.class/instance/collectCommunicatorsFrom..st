@@ -1,4 +1,4 @@
-as yet unclassified
+information retrieving
 collectCommunicatorsFrom: contexts 
 
 	^ contexts collect: [:contextPair | {

@@ -1,4 +1,4 @@
-as yet unclassified
+information retrieving
 collectValidContextPairsFrom: contexts 
 
 	| result |

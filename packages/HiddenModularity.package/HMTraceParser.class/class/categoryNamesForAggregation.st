@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 categoryNamesForAggregation
 
 	^ {'access' . 'layout' . 'testing' . 'submorph' . 'geometry'}

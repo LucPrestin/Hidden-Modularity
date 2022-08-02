@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 colors
 
 	^ Colors ifNil: [Colors := Dictionary new]

@@ -1,4 +1,4 @@
-as yet unclassified
+graph construction
 communicatorGraphFromCursor: aTDBCursor
 
 	^ self communicatorGraphFromCursor: aTDBCursor withScenarioName: self defaultScenarioName

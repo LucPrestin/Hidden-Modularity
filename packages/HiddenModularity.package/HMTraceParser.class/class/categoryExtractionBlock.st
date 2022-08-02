@@ -1,4 +1,4 @@
-as yet unclassified
+information retrieving
 categoryExtractionBlock
 
 	^ [:anObject | anObject class category asString]

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newWithIdExtractionBlock: idBlock labelExtractionBlock: labelBlock colorLabelExtractionBlock: colorLabelBlock andGraphType: aString
 
 	| parser |

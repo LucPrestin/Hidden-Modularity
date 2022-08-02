@@ -1,4 +1,4 @@
-as yet unclassified
+graph construction
 allGraphsFromCursor: aTdbCursor withScenarioName: scenarioName
 
 	| graphs |

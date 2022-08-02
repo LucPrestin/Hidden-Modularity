@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 traceCounter: anInteger
 
 	traceCounter := anInteger

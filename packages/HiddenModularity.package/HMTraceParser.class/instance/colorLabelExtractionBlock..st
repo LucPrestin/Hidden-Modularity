@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 colorLabelExtractionBlock: aBlock
 
 	colorLabelExtractionBlock := aBlock

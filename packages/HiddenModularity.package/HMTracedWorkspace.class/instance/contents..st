@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 contents: aTextOrString 
 
 	| aTdbCursor scenarioName |
@@ -9,6 +9,6 @@ contents: aTextOrString
 				traceForBlock: [super contents: aTextOrString].
 
 	(HMTraceParser allGraphsFromCursor: aTdbCursor withScenarioName: scenarioName)
-		do: [:graph | graph explore; export].
+		do: [:graph | graph explore; exportToFile].
 
 	self traceCounter: self traceCounter + 1

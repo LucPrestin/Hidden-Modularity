@@ -1,4 +1,4 @@
-as yet unclassified
+information retrieving
 nameExtractionBlock
 
 	^ [:anObject | anObject name]

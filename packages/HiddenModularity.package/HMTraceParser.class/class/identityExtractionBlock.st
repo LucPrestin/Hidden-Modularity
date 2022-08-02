@@ -1,4 +1,4 @@
-as yet unclassified
+information retrieving
 identityExtractionBlock
 
 	^ [:anObject | anObject identityHash asString]

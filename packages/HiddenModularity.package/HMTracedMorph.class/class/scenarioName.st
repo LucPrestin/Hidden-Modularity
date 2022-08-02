@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 scenarioName
 
 	^ 'morph_draw_on'
