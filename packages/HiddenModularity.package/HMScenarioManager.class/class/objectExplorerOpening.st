@@ -1,4 +1,4 @@
-as yet unclassified
+scenario
 objectExplorerOpening
 	<scenario>
 
