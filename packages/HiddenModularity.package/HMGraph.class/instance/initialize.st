@@ -5,4 +5,5 @@ initialize
 
 	self edges: Dictionary new;
 		vertices: Dictionary new;
-		graphType: ''
+		graphType: '';
+		scenarioName: ''
