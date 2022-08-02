@@ -1,4 +1,4 @@
-scenarios
+as yet unclassified
 morphOpening
 	<scenario>
 

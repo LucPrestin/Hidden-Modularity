@@ -8,7 +8,8 @@
 	"instvars" : [
 		"vertices",
 		"edges",
-		"graphType" ],
+		"graphType",
+		"scenarioName" ],
 	"name" : "HMGraph",
 	"pools" : [
 		 ],

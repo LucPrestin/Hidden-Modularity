@@ -1,12 +1,4 @@
-graph construction
+as yet unclassified
 communicatorGraphFromCursor: aTDBCursor
 
-	| parser |
-	
-	parser := self 
-		newWithIdExtractionBlock: self classExtractionBlock 
-		labelExtractionBlock: self classExtractionBlock
-		colorLabelExtractionBlock: self packageExtractionBlock
-		andGraphType: HMUtils communicatorGraphType.
-
-	^ parser communicatorBasedGraphFromCursor: aTDBCursor
+	^ self communicatorGraphFromCursor: aTDBCursor withScenarioName: self defaultScenarioName

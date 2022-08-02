@@ -1,0 +1,13 @@
+as yet unclassified
+communicatorMethodCategoryGraphFromCursor: aTDBCursor withScenarioName: aString
+
+	| parser |
+	
+	parser := self 
+		newWithIdExtractionBlock: self communicatorClassAndMethodCategoryExtractionBlock 
+		labelExtractionBlock: self communicatorClassAndMethodCategoryExtractionBlock
+		colorLabelExtractionBlock: self methodPackageExtractionBlock
+		andGraphType: HMGraph communicatorMethodCategoryGraphType
+		andScenarioName: aString.
+
+	^ parser methodBasedGraphFromCursor: aTDBCursor

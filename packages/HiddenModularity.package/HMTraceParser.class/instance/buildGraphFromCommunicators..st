@@ -1,12 +1,4 @@
-graph construction
+as yet unclassified
 buildGraphFromCommunicators: communicators
-	
-	| graph |
 
-	graph := HMGraph new.
-	graph graphType: self graphType.
-	
-	self addVerticesFromCommunicators: communicators toGraph: graph.
-	self addEdgesFromCommunicators: communicators toGraph: graph.
-	
-	^ graph
+	^ self buildGraphFromCommunicators: communicators withScenarioName: self class defaultScenarioName

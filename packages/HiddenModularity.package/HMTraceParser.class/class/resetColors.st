@@ -1,4 +1,4 @@
-information retrieving
+as yet unclassified
 resetColors
 
 	Colors := nil

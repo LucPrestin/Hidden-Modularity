@@ -1,6 +1,8 @@
 {
 	"class" : {
-		 },
+		"communicatorGraphType" : "lpr 8/2/2022 15:44",
+		"communicatorMethodCategoryGraphType" : "lpr 8/2/2022 15:45",
+		"methodCategoryGraphType" : "lpr 8/2/2022 15:46" },
 	"instance" : {
 		"addEdgeBetween:and:" : "lpr 6/14/2022 10:56",
 		"addEdgeBetween:and:withWeight:" : "lpr 6/14/2022 10:58",
@@ -10,10 +12,13 @@
 		"edges" : "lpr 6/14/2022 10:50",
 		"edges:" : "lpr 6/14/2022 10:51",
 		"edgesForJsonExport" : "lpr 6/14/2022 11:36",
+		"export" : "lpr 8/2/2022 16:11",
 		"graphType" : "lpr 7/24/2022 23:12",
 		"graphType:" : "lpr 7/24/2022 23:12",
 		"initialize" : "lpr 7/24/2022 23:15",
 		"jsonWriteOn:" : "lpr 7/24/2022 23:13",
+		"scenarioName" : "lpr 8/2/2022 16:05",
+		"scenarioName:" : "lpr 8/2/2022 16:05",
 		"vertices" : "lpr 6/14/2022 10:51",
 		"vertices:" : "lpr 6/14/2022 10:51",
 		"verticesForJsonExport" : "lpr 6/14/2022 11:41",

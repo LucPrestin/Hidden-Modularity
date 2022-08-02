@@ -1,4 +1,4 @@
-initialization
+as yet unclassified
 colorFor: anId
 
 	| color |

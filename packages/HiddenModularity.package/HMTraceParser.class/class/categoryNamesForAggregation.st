@@ -1,4 +1,4 @@
-information retrieving
+as yet unclassified
 categoryNamesForAggregation
 
 	^ {'access' . 'layout' . 'testing' . 'submorph' . 'geometry'}

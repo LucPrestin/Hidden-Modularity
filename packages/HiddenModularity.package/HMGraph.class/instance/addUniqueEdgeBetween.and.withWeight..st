@@ -1,4 +1,4 @@
-graph construction
+as yet unclassified
 addUniqueEdgeBetween: senderId and: receiverId withWeight: weight
 
 	(self edges includesKey: senderId) ifFalse: [self edges at: senderId put: Dictionary new].

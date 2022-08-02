@@ -1,4 +1,4 @@
-information retrieving
+as yet unclassified
 collectContextsFrom: aTDBCursor startingAt: aContextProxy
 
 	| childContexts contexts |

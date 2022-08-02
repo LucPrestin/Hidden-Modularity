@@ -1,4 +1,4 @@
-graph construction
+as yet unclassified
 addVerticesFromCommunicators: communicators toGraph: graph 
 
 	communicators

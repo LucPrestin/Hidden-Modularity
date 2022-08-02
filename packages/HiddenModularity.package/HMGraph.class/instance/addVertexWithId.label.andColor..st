@@ -1,4 +1,4 @@
-graph construction
+as yet unclassified
 addVertexWithId: id label: label andColor: color
 
 	| vertex |

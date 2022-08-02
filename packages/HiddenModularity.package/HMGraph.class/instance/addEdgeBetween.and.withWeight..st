@@ -1,4 +1,4 @@
-graph construction
+as yet unclassified
 addEdgeBetween: senderId and: receiverId withWeight: weight
 
 	| currentWeight |

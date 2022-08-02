@@ -1,4 +1,4 @@
-information retrieving
+as yet unclassified
 aggregatedCategoryNameFor: categoryName
 
 	self categoryNamesForAggregation do: [:name |

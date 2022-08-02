@@ -1,4 +1,4 @@
-fileIn/Out
+as yet unclassified
 jsonWriteOn: aStream
 
 	aStream nextPutAll: '{ "type": '.

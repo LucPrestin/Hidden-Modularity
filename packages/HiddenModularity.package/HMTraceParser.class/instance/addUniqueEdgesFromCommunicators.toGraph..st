@@ -1,4 +1,4 @@
-graph construction
+as yet unclassified
 addUniqueEdgesFromCommunicators: communicators toGraph: graph 
 	
 	communicators
