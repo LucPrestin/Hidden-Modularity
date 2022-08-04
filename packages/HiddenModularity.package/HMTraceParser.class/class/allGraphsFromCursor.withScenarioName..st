@@ -1,13 +1,13 @@
 graph construction
-allGraphsFromCursor: aTdbCursor withScenarioName: scenarioName
+allGraphsFromCursor: aTDBCursor withScenarioName: scenarioName
 
 	| graphs |
 	
 	graphs := OrderedCollection new.
 	
 	graphs 
-		add: (self communicatorGraphFromCursor: aTdbCursor withScenarioName: scenarioName);
-		add: (self communicatorMethodCategoryGraphFromCursor: aTdbCursor withScenarioName: scenarioName);
-		add: (self methodCategoryGraphFromCursor: aTdbCursor withScenarioName: scenarioName).
+		add: (self communicatorGraphFromCursor: aTDBCursor withScenarioName: scenarioName);
+		add: (self communicatorMethodCategoryGraphFromCursor: aTDBCursor withScenarioName: scenarioName);
+		add: (self methodCategoryGraphFromCursor: aTDBCursor withScenarioName: scenarioName).
 
 	^ graphs

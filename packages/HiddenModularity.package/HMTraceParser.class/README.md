@@ -3,10 +3,10 @@ An HMTraceParser extracts different types of communication based graphs off of T
 Instance Variables
 	blacklist:		<Array>
 	colorLabelExtractionBlock:		<BlockClosure>
-	graphType:		<Object>
-	idExtractionBlock:		<Object>
-	labelExtractionBlock:		<Object>
-
+	graphType:		<String>
+	idExtractionBlock:		<BlockClosure>
+	labelExtractionBlock:		<BlockClosure>
+	
 Class Variables
 	Colors:		<Dictionary>
 
@@ -30,3 +30,4 @@ labelExtractionBlock
 	- Returns a string for a Context object
 	- Results in the label of a vertex in the graph
 	- This should be of the same granularity as the idExtractionBlock as it is the one way to denote what elements were aggregated
+

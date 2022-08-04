@@ -1,6 +1,5 @@
 instance creation
-newWithIdExtractionBlock: idBlock labelExtractionBlock: labelBlock colorLabelExtractionBlock: colorLabelBlock andGraphType: aString
-
+newWithIdExtractionBlock: idBlock labelExtractionBlock: labelBlock colorLabelExtractionBlock: colorLabelBlock andGraphType: graphTypeString
 	| parser |
 	
 	parser := self new.
@@ -9,6 +8,6 @@ newWithIdExtractionBlock: idBlock labelExtractionBlock: labelBlock colorLabelExt
 		idExtractionBlock: idBlock;
 		labelExtractionBlock: labelBlock;
 		colorLabelExtractionBlock: colorLabelBlock;
-		graphType: aString.
+		graphType: graphTypeString.
 		
 	^ parser

@@ -7,7 +7,6 @@ communicatorGraphFromCursor: aTDBCursor withScenarioName: aString
 		newWithIdExtractionBlock: self classExtractionBlock 
 		labelExtractionBlock: self classExtractionBlock
 		colorLabelExtractionBlock: self packageExtractionBlock
-		andGraphType: HMGraph communicatorGraphType
-		andScenarioName: aString.
+		andGraphType: HMGraph communicatorGraphType.
 
-	^ parser communicatorBasedGraphFromCursor: aTDBCursor
+	^ parser communicatorBasedGraphFromCursor: aTDBCursor withScenarioName: aString

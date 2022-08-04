@@ -7,7 +7,6 @@ communicatorMethodCategoryGraphFromCursor: aTDBCursor withScenarioName: aString
 		newWithIdExtractionBlock: self communicatorClassAndMethodCategoryExtractionBlock 
 		labelExtractionBlock: self communicatorClassAndMethodCategoryExtractionBlock
 		colorLabelExtractionBlock: self methodPackageExtractionBlock
-		andGraphType: HMGraph communicatorMethodCategoryGraphType
-		andScenarioName: aString.
+		andGraphType: HMGraph communicatorMethodCategoryGraphType.
 
 	^ parser methodBasedGraphFromCursor: aTDBCursor

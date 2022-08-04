@@ -1,4 +1,4 @@
 graph construction
-communicatorBasedGraphFromCursor: aTDBCursor
-
+communicatorBasedGraphFromCursor: aTDBCursor 
+	
 	^ self communicatorBasedGraphFromCursor: aTDBCursor withScenarioName: self class defaultScenarioName
