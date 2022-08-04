@@ -1,21 +1,12 @@
 # Hidden-Modularity
 
-This repo contains code snippes that were used to work towards the research goal below. For the gained insights and further information, have a look at the [wiki](https://github.com/LucPrestin/Hidden-Modularity/wiki).
+This project aims at helping to understand Squeak/Smalltalk by utilizing traces of run-time communication.
 
-For the visualizations made with JavaScript, have a look at the files in the [visualization folder](https://github.com/LucPrestin/Hidden-Modularity/tree/main/visualizations).
+Objects and the messages they send to each other are the basis of any object-oriented program. As the size of a program growths, it gets less and less comprehensible. The static structure like the inheritance tree or protocol definitions can only poorly, if at all, capture the dynamic behavior of a living object-oriented system. Which objects communicate with one another is hidden. We want to make these hidden modules explicit.
 
-## Installation
+For information on how we did that, have a look at the [wiki](https://github.com/LucPrestin/Hidden-Modularity/wiki). There you can also find an extended version of the background and research goal mentioned below. Our gained insights are also documented in the wiki.
 
-```Smalltalk
-Metacello new
-  baseline: 'HiddenModularity';
-  repository: 'github://LucPrestin/Hidden-Modularity:master/packages';
-  load: #default.
-```
-
-## Background
-
-Objects and the messages they send to each other are the basis of any object-oriented program. As the size of a program growths, the structure gets less and less comprehensible. The static structure like the inheritance tree or protocol definitions can only poorly, if at all, capture the dynamic behavior of a living object-oriented system. Which objects communicate with one another is hidden.
+For the visualizations we created, have a look at the [GitHub-Pages](https://lucprestin.github.io/Hidden-Modularity/). The traces to use with the visualization can be found in the corresponding [asset folder](https://github.com/LucPrestin/Hidden-Modularity/tree/main/visualizations/assets/traceData).
 
 ## Research Goal
 
@@ -24,10 +15,21 @@ This project aims at exploring and documenting the main features of Squeak/Small
 - User Input
 - Graphics Output
 - Network Access
+- Exception Handling
+- Event Handling
 
 Furthermore, we want to reveal the modular structure that cross cuts the static structure such as the inheritance tree or protocol definitions.
 
-This information is then used to sketch new ideas for new exploratory programming tools
+This information is then used to sketch out ideas for new exploratory programming tools.
+
+## Installation
+
+```Smalltalk
+Metacello new
+  baseline: 'HiddenModularity';
+  repository: 'github://LucPrestin/Hidden-Modularity:main/packages';
+  load: #default.
+```
 
 ## Related Work
 
