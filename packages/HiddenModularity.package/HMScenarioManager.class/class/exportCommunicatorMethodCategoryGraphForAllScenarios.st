@@ -1,5 +1,5 @@
 fileIn/Out
-exportAllCommunicatorMethodCategoryGraphs
+exportCommunicatorMethodCategoryGraphForAllScenarios
 	
 	| scenarioMethods |
 	

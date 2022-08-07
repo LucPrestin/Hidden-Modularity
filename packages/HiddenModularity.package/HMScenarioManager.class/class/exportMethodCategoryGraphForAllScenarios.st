@@ -1,5 +1,5 @@
 fileIn/Out
-exportAllMethodCategoryGraphs
+exportMethodCategoryGraphForAllScenarios
 	
 	| scenarioMethods |
 	
