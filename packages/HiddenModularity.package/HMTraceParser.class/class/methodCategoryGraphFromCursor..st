@@ -1,4 +1,4 @@
 graph construction
 methodCategoryGraphFromCursor: aTDBCursor
 
-	^ self methodCategoryGraphFromCursor: aTDBCursor andScenarioName: self defaultScenarioName
+	^ self methodCategoryGraphFromCursor: aTDBCursor withScenarioName: self defaultScenarioName

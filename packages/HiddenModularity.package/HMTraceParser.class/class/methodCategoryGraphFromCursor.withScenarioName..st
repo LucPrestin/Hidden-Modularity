@@ -1,5 +1,5 @@
 graph construction
-methodCategoryGraphFromCursor: aTDBCursor andScenarioName: aString
+methodCategoryGraphFromCursor: aTDBCursor withScenarioName: aString
 
 	| parser |
 	
@@ -9,4 +9,4 @@ methodCategoryGraphFromCursor: aTDBCursor andScenarioName: aString
 		colorLabelExtractionBlock: self packageExtractionBlock
 		andGraphType: HMGraph methodCategoryGraphType.
 
-	^ parser methodBasedGraphFromCursor: aTDBCursor
+	^ parser methodBasedGraphFromCursor: aTDBCursor withScenarioName: aString

@@ -9,4 +9,4 @@ communicatorMethodCategoryGraphFromCursor: aTDBCursor withScenarioName: aString
 		colorLabelExtractionBlock: self methodPackageExtractionBlock
 		andGraphType: HMGraph communicatorMethodCategoryGraphType.
 
-	^ parser methodBasedGraphFromCursor: aTDBCursor
+	^ parser methodBasedGraphFromCursor: aTDBCursor withScenarioName: aString
