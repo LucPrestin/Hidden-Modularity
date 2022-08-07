@@ -8,9 +8,7 @@ baseline: spec
 			"dependencies"
 			spec
 				package: 'TraceDebugger'
-				with: [spec 
-						repository: 'github://hpi-swa-lab/squeak-tracedebugger:main/packages';
-						loads: 'default'].
+				with: [spec repository: 'github://hpi-swa-lab/squeak-tracedebugger:main/packages'].
 			
 			"packages"
 			spec				
