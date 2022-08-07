@@ -4,10 +4,18 @@ baseline: spec
 
 	spec
 		for: #common
-		do: [spec
+		do: [
+			"dependencies"
+			spec
 				package: 'TraceDebugger'
-				with: [spec repository: 'github://hpi-swa-lab/squeak-tracedebugger:master/packages'];
-				
+				with: [spec 
+						repository: 'github://hpi-swa-lab/squeak-tracedebugger:main/packages';
+						loads: 'default'].
+			
+			"packages"
+			spec				
 				package: 'HiddenModularity'
 				with: [spec requires: #('TraceDebugger')].
-			spec group: 'default' with: #('HiddenModularity')]
+			
+			"groups"
+			spec group: #default with: #('HiddenModularity')]
