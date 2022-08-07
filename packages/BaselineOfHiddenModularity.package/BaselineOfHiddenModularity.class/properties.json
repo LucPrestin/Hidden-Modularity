@@ -10,5 +10,5 @@
 	"name" : "BaselineOfHiddenModularity",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BaselineOf",
 	"type" : "normal" }
