@@ -3,7 +3,7 @@ jsonWriteOn: aStream
 
 	aStream nextPutAll: '{ "type": '.
 	self graphType jsonWriteOn: aStream.
-	aStream nextPutAll: ', "scenarioName: "'.
+	aStream nextPutAll: ', "scenarioName": '.
 	self scenarioName jsonWriteOn: aStream.
 	aStream nextPutAll: ', "vertices": '.
 	self verticesForJsonExport jsonWriteOn: aStream.
