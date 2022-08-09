@@ -1,4 +1,4 @@
-accessing
+information retrieving
 associatedVerticesByEdgeWeightForNode: nodeId
 
 	| incoming outgoing associationSortingBlock result |
