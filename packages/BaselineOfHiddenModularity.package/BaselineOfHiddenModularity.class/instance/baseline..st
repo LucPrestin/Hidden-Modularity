@@ -7,7 +7,7 @@ baseline: spec
 		do: [
 			"dependencies"
 			spec
-				package: 'TraceDebugger'
+				baseline: 'TraceDebugger'
 				with: [spec repository: 'github://hpi-swa-lab/squeak-tracedebugger:main/packages'].
 			
 			"packages"
