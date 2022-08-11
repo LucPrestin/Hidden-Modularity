@@ -1,0 +1,4 @@
+accessing
+resetColors
+
+	Colors := nil

@@ -1,9 +1,4 @@
 graph construction
-communicatorBasedGraphFromCursor: aTDBCursor
-
-	| contexts communicators |
+communicatorBasedGraphFromCursor: aTDBCursor 
 	
-	contexts := self collectContextsFrom: aTDBCursor.
-	communicators := self collectCommunicatorsFrom: contexts.
-	
-	^ self buildGraphFromCommunicators: communicators
+	^ self communicatorBasedGraphFromCursor: aTDBCursor withScenarioName: self class defaultScenarioName

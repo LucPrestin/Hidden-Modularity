@@ -1,4 +1,4 @@
-information retrieving
+constants
 categoryNamesForAggregation
 
-	^ {'access' . 'layout' . 'testing'}
+	^ {'access' . 'layout' . 'testing' . 'submorph' . 'geometry'}

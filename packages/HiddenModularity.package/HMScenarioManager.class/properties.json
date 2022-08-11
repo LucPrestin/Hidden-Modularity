@@ -1,0 +1,14 @@
+{
+	"category" : "HiddenModularity",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lpr 8/2/2022 16:55",
+	"instvars" : [
+		 ],
+	"name" : "HMScenarioManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

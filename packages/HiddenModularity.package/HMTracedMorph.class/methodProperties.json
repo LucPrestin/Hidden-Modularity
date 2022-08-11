@@ -1,5 +1,8 @@
 {
 	"class" : {
-		 },
+		"scenarioName" : "lpr 8/2/2022 16:20" },
 	"instance" : {
-		"drawOn:" : "lpr 5/27/2022 18:15" } }
+		"drawOn:" : "lpr 8/2/2022 17:50",
+		"initialize" : "lpr 8/2/2022 16:16",
+		"traceCounter" : "lpr 8/2/2022 16:17",
+		"traceCounter:" : "lpr 8/2/2022 16:17" } }

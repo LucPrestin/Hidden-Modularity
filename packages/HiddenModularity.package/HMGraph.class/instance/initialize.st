@@ -4,4 +4,6 @@ initialize
 	super initialize.
 
 	self edges: Dictionary new;
-		vertices: Dictionary new
+		vertices: Dictionary new;
+		graphType: '';
+		scenarioName: ''

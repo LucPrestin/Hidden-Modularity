@@ -4,13 +4,13 @@
 		 ],
 	"classvars" : [
 		"Colors" ],
-	"commentStamp" : "",
+	"commentStamp" : "lpr 8/4/2022 09:13",
 	"instvars" : [
 		"idExtractionBlock",
 		"labelExtractionBlock",
 		"colorLabelExtractionBlock",
-		"colors",
-		"blacklist" ],
+		"blacklist",
+		"graphType" ],
 	"name" : "HMTraceParser",
 	"pools" : [
 		 ],

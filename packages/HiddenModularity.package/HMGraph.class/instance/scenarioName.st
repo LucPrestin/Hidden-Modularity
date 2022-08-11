@@ -1,0 +1,4 @@
+accessing
+scenarioName
+
+	^ scenarioName

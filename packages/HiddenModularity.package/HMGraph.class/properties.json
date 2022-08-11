@@ -4,10 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "lpr 8/2/2022 16:52",
 	"instvars" : [
 		"vertices",
-		"edges" ],
+		"edges",
+		"graphType",
+		"scenarioName" ],
 	"name" : "HMGraph",
 	"pools" : [
 		 ],

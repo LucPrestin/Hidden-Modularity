@@ -1,0 +1,4 @@
+fileIn/Out
+exportMethodCategoryGraphForScenariosWithSymbols: aCollectionOfScenarioSymbols 
+
+	aCollectionOfScenarioSymbols do: [:scenarioSymbol | self exportMethodCategoryGraphForScenarioWithSymbol: scenarioSymbol]

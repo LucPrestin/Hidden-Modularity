@@ -1,10 +1,15 @@
 information retrieving
 collectContextsFrom: aTDBCursor
 
-	| contexts |
+	| contexts initialContexts |
 	
 	contexts := OrderedCollection new.
-	contexts add: {nil . aTDBCursor context tdbproxyYourself}.
-	contexts addAll: (self collectContextsFrom: aTDBCursor startingAt: aTDBCursor context).
+	
+	"ignore the scenario method"
+	initialContexts := aTDBCursor childContextsFor: aTDBCursor context.
+	
+	initialContexts do: [:contextProxy |
+		contexts add: {nil . contextProxy tdbproxyYourself}.
+		contexts addAll: (self collectContextsFrom: aTDBCursor startingAt: contextProxy)].
 	
 	^ contexts

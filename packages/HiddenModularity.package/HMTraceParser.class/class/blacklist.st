@@ -1,4 +1,4 @@
-information retrieving
+constants
 blacklist
 
 	^ {'Array'}

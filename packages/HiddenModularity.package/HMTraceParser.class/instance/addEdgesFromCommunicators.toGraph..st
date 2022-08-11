@@ -9,5 +9,5 @@ addEdgesFromCommunicators: communicators toGraph: graph
 			((self blacklist includes: senderId)
 					or: (self blacklist includes: receiverId))
 				ifFalse: [graph
-						addEdgeBetween: (self idExtractionBlock value: contextPair first)
-						and: (self idExtractionBlock value: contextPair second)]]
+						addEdgeBetween: senderId
+						and: receiverId]]

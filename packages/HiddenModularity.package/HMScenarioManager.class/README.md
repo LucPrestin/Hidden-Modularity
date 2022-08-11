@@ -1,0 +1,1 @@
+A HMScenarioManager is two things in one. Firstly, it is the place where all scenarios are stored as class methods (see category 'scenario'). Secondly, it has some helper methods that make it easier to export the trace graphss from the scenarios to corresponding files (see category 'fileIn/Out)'.

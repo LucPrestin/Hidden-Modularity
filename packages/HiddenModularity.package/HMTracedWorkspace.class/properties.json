@@ -4,9 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "lpr 8/2/2022 16:22",
 	"instvars" : [
-		 ],
+		"traceCounter" ],
 	"name" : "HMTracedWorkspace",
 	"pools" : [
 		 ],
