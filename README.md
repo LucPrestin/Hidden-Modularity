@@ -28,7 +28,8 @@ This information is then used to sketch out ideas for new exploratory programmin
 Metacello new
   baseline: 'HiddenModularity';
   repository: 'github://LucPrestin/Hidden-Modularity:main/packages';
-  load: #default.
+  get;
+  load.
 ```
 
 ## Related Work
